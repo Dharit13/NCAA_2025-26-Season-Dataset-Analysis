@@ -319,7 +319,7 @@ PII-audited, unpublished.
 with a **citation request** (not a legal condition). Rationale: the contents are facts,
 which are uncopyrightable in the US (*Feist v. Rural*), so attribution licenses over the
 data would likely be unenforceable; CC0 is the norm at Dryad/Figshare/Dataverse and
-satisfies FAIR R1.1. Citation: Shah, D. (2026). *NCAA All Sports Rosters 2025-26: An
+satisfies FAIR R1.1. Citation: Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An
 Individual-Level Dataset Across All Divisions.* [Data set].
 
 **Have any third parties imposed IP-based or other restrictions on the data?** No. The

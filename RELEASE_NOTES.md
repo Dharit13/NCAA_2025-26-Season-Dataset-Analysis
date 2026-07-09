@@ -27,5 +27,5 @@ CC0-1.0 (public domain). Roster facts are not copyrightable (Feist v. Rural). Pl
 attempt re-identification. Per-record removal honored on request: dharits3@gmail.com.
 
 ## Citation
-Shah, D. (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
+Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
 Divisions* (Version 2.0) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512
