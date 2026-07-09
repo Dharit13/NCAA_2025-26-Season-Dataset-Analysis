@@ -1,0 +1,29 @@
+# Citation metadata (CFF 1.2.0). Citation is REQUESTED, not legally required —
+# the data are CC0 (see dataset_release/all/LICENSE).
+# At release (RELEASE_CHECKLIST.md Gate 4): fill `doi`, `date-released`, and bump
+# `version` to match the final build.
+cff-version: 1.2.0
+message: "If you use this dataset or its build pipeline, please cite it as below."
+type: dataset
+title: "NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All Divisions"
+authors:
+  - family-names: "Shah"
+    given-names: "Dharit"
+    email: "dharits3@gmail.com"
+abstract: >-
+  Individual-level roster data for all 28 NCAA championship and emerging sports,
+  all three divisions, both genders, for the single 2025-26 athletic year —
+  de-identified (no names, no per-athlete demographic predictions), with hometown,
+  high school, position, and class fields as published on official school athletics
+  sites, validated against the NCAA's official sponsor lists.
+keywords:
+  - NCAA
+  - college athletics
+  - sports rosters
+  - participation
+  - social science
+license: CC0-1.0
+url: "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
+version: "2.0"
+doi: "10.57967/hf/9512"
+date-released: "2026-07-08"

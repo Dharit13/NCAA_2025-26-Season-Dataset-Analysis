@@ -1,0 +1,148 @@
+basketball bbk_44965d138fa9 Stanford                 hs->'Notre Dame Preparatory'
+basketball bbk_175112c9ce1d Stanford                 hs->'Brewster Academy'
+basketball bbk_d5d0974c4554 Stanford                 hs->'Link Academy (Mo.)'
+basketball bbk_5a8bdcdead8e Stanford                 hs->'West Park'
+basketball bbk_6bdb601f8260 Stanford                 hs->'Rolling Hills Prep'
+basketball bbk_f0dadddf8acd Stanford                 hs->'Modesto Christian'
+basketball bbk_eead32f2dcd6 Stanford                 hs->'Coppell'
+basketball bbk_aa0bb923e6e5 Stanford                 hs->'Riga State Gymnasium No. 2'
+basketball bbk_43cd5618eef9 Stanford                 hs->'Gunn'
+basketball bbk_6e308578c8ad Stanford                 hs->'Topsportschool Antwerp'
+basketball bbk_c6002b9279d3 Stanford                 hs->'St. Edward'
+basketball bbk_5f091cb5c590 Stanford                 hs->'Southern California Academy'
+basketball bbk_89e4e9816cdc Stanford                 hs->'Cheney'
+basketball bbk_ae885c28d5b8 Stanford                 hs->'Brewster Academy (N.H.)'
+basketball bbk_156248c85bc5 Virginia                 hs->"St. Anne's-Belfield"
+basketball bbk_e70e613233fd Virginia                 hs->'Hudson Catholic Regional'
+basketball bbk_35016099e5ee Virginia                 hs->"St. Anne's-Belfield"
+basketball bbk_536d8ad6e68d Virginia                 hs->'Woodside'
+basketball bbk_afea95145b2c Virginia                 hs->'Collegiate School'
+basketball bbk_37486b065311 Virginia                 hs->'Gitok Kalmthout'
+basketball bbk_804500a9b9a8 Wake Forest              hs->blank
+basketball bbk_ee35958fb34b FGCU                     hs->blank
+basketball bbk_edf7acb1b426 Cincinnati               hs->blank
+basketball bbk_963593a32652 Cincinnati               hs->blank
+basketball bbk_9b45bfeef735 UCF                      hs->'IV Greatness Academy'
+basketball bbk_1838918e81d7 UCF                      hs->'IMG Academy'
+basketball bbk_ad0bb2cbc1e1 UCF                      hs->'Montverde Academy'
+basketball bbk_931b96e4bf5c Northern Ariz.           hs->blank
+basketball bbk_b4abd4c1adba Iowa                     hs->'Staley'
+basketball bbk_aff8524af15b Iowa                     hs->'Waukee Northwest (Iowa)'
+basketball bbk_c3407fc4d466 Iowa                     hs->'Minnesota Prep'
+basketball bbk_66ae1bf63de1 Iowa                     hs->'DME Academy (Fla.)'
+basketball bbk_ffeaf39c9ff4 Iowa                     hs->'Metamora Township'
+basketball bbk_bec782ccf747 Iowa                     hs->'Iowa City West'
+basketball bbk_e0907ceb7990 Iowa                     hs->'Nixa'
+basketball bbk_2b598098328f Iowa                     hs->'Liberty'
+basketball bbk_b10357784dc1 Iowa                     hs->'Amarillo'
+basketball bbk_da742e47dda3 Iowa                     hs->'Greeneville'
+basketball bbk_7a119ddf40e9 Iowa                     hs->'Plattsburg'
+basketball bbk_9d5a31e5df17 Iowa                     hs->'Weatherford'
+basketball bbk_77f70f6dd3ed Iowa                     hs->'Valley'
+basketball bbk_e88c4a66dc68 Iowa                     hs->'Blue Valley Northwest'
+basketball bbk_58635b0e7242 Penn St.                 hs->'New Hampton Prep School (N.H.)'
+basketball bbk_ddaedc56a7c5 CSU Bakersfield          hs->blank
+basketball bbk_22814bdee3db Sam Houston              hs->blank
+basketball bbk_272cf0d46451 Sam Houston              hs->blank
+basketball bbk_c3917d37e1d4 Sam Houston              hs->blank
+basketball bbk_3227a9b659fb Sam Houston              hs->blank
+basketball bbk_8f67bfda5dac Sam Houston              hs->blank
+basketball bbk_b095e11e39f4 Sam Houston              hs->blank
+basketball bbk_bd4e586209aa Sam Houston              hs->blank
+basketball bbk_abceb7ff3c3a Merrimack                hs->blank
+basketball bbk_fcf1a5577af9 Merrimack                hs->blank
+basketball bbk_a4f85ad614d8 Merrimack                hs->blank
+basketball bbk_2735b0436d78 Merrimack                hs->blank
+basketball bbk_1c27887e0eac Merrimack                hs->blank
+basketball bbk_2e1f44107410 South Carolina St.       hs->blank
+basketball bbk_4ed426131984 South Carolina St.       hs->blank
+basketball bbk_010462d40c7c South Carolina St.       hs->blank
+basketball bbk_9fc25fc9e5dd South Carolina St.       hs->blank
+basketball bbk_002e8c6ae8b4 South Carolina St.       hs->blank
+basketball bbk_e37f7b340f95 San Diego St.            hs->blank
+basketball bbk_cca2a06ef062 San Diego St.            hs->blank
+basketball bbk_013bb71118f6 San Jose St.             hs->'La Lumiere HS'
+basketball bbk_8ec4a0397bf9 San Jose St.             hs->'Valley Christian HS'
+basketball bbk_03d52794ec1c San Jose St.             hs->'Dublin High School'
+basketball bbk_106f4dae7321 San Jose St.             hs->'Bella Vista Prep'
+basketball bbk_204e1b0c6d46 San Jose St.             hs->'Rancho Verde HS'
+basketball bbk_d904f016b9c4 San Jose St.             hs->'Özel Sisli Bilim Doga Anadolu Lisesi'
+basketball bbk_158087466308 San Jose St.             hs->'Archbishop Riordan HS'
+basketball bbk_ddd96a7bdf3c San Jose St.             hs->'Lycée Louis Pasteur'
+basketball bbk_a095b792cc0a San Jose St.             hs->'St. Pius X-St. Matthias Academy'
+basketball bbk_4739a35d1c02 Tennessee St.            hs->blank
+basketball bbk_23eb48e79b8e Tennessee Tech           hometown->'Grovetown, Ga.'+city->'Grovetown'
+basketball bbk_5c52dee95507 Tennessee Tech           hometown->'Atlanta, Ga.'+city->'Atlanta'
+basketball bbk_02b946973bf9 Tennessee Tech           hometown->'Birmingham, Ala.'+city->'Birmingham'
+basketball bbk_f2c9a2525a59 Tennessee Tech           hometown->'Atlanta, Ga.'+city->'Atlanta'
+basketball bbk_816d93a0a6b2 Tennessee Tech           hometown->'Atlanta, Ga.'+city->'Atlanta'
+basketball bbk_eaec9b21f2de Tennessee Tech           hometown->'Atlanta, Ga.'+city->'Atlanta'
+basketball bbk_924646965c48 Tennessee Tech           hometown->'Calgary, Alberta'+city->'Calgary'
+basketball bbk_268768a9462e Tennessee Tech           hometown->'Scranton, Pa.'+city->'Scranton'
+basketball bbk_d72d6b4ee7a6 Tennessee Tech           hometown->'Port St. Lucie, Fla.'+city->'Port St. Lucie'
+basketball bbk_74163f9be1e1 Tennessee Tech           hometown->'Sparta, Tenn.'+city->'Sparta'
+basketball bbk_28370e5944b7 Tennessee Tech           hometown->'Atlanta, Ga.'+city->'Atlanta'
+basketball bbk_1fa080516ea3 Tennessee Tech           hometown->'Lexington,Ky.'+city->'Lexington'
+basketball bbk_c8cddc23c1db Tennessee Tech           hometown->'Virginia Beach, Va.'+city->'Virginia Beach'
+basketball bbk_eef290485084 Tennessee Tech           hometown->'Hilham, Tenn.'+city->'Hilham'
+basketball bbk_bec7fd6f7378 Tennessee Tech           hometown->'Muskegon, Mich.'+city->'Muskegon'
+basketball bbk_927819e9b416 Tennessee Tech           hometown->'Cleveland, Tenn.'+city->'Cleveland'
+basketball bbk_437ff24e0e4a Arkansas                 hs->blank
+basketball bbk_2cb154dfd810 Arkansas                 hs->blank
+basketball bbk_1606773e4c6a Arkansas                 hs->blank
+basketball bbk_5848999ee41b Arkansas                 hs->blank
+basketball bbk_76293d0fe09f Arkansas                 hs->blank
+basketball bbk_504623835598 Auburn                   hs->'Hudson Catholic Regional'
+basketball bbk_dc90903b3b9f Auburn                   hs->'Combine Academy (N.C.)'
+basketball bbk_9d282a35028d Auburn                   hs->'Huntsville'
+basketball bbk_eeecf59fab28 Auburn                   hs->'Mount Tabor'
+basketball bbk_7c94366965b5 Auburn                   hs->'Evans'
+basketball bbk_69184d2c85a7 Auburn                   hs->'Wilson (Ga.) Academy'
+basketball bbk_daabaefd31a1 Auburn                   hs->'Trinity Christian Academy'
+basketball bbk_ad73e7f4574b Auburn                   hs->"St. John's"
+basketball bbk_7435f7c6cd1f Auburn                   hometown->'Bijeljina, Bosnia and Herzegovina'
+basketball bbk_e48ea372501c Mississippi St.          hs->blank
+basketball bbk_2e3143fca016 Mississippi St.          hs->blank
+basketball bbk_c7085480ba60 Mississippi St.          hs->blank
+basketball bbk_c468cabbaa46 Mississippi St.          hs->blank
+basketball bbk_523da463c151 Mississippi St.          hs->blank
+basketball bbk_3d685e71427f Mississippi St.          hs->blank
+basketball bbk_fda9b7d1da80 Mississippi St.          hs->blank
+basketball bbk_23aa621ffb30 Mississippi St.          hs->blank
+basketball bbk_46aec05225f7 Mississippi St.          hs->blank
+basketball bbk_2735dd51ce07 Mississippi St.          hs->blank
+basketball bbk_343ce86fd932 Mississippi St.          hs->blank
+basketball bbk_79a4fca495ae Mississippi St.          hs->blank
+basketball bbk_7d0e58a61e49 Mississippi St.          hs->blank
+basketball bbk_ca60c2848b21 Mississippi St.          hs->blank
+basketball bbk_9bfa51bce348 Seattle U                hs->blank
+basketball bbk_27bdf75c5478 Seattle U                hs->blank
+basketball bbk_cad4d4b4a534 Oregon St.               hs->blank
+basketball bbk_a010220db9b2 Oregon St.               hs->blank
+basketball bbk_133600ae11d8 Oregon St.               hs->blank
+basketball bbk_ea31ee92fc67 Oregon St.               hs->blank
+basketball bbk_aac717ff7701 Goucher                  position->blank
+basketball bbk_ef2126452c92 Syracuse                 hs->blank
+basketball bbk_091f2c9fe9ed Stanford                 hs->'Holy Innocents’ Episcopal'
+basketball bbk_9d856b23214a Stanford                 hs->'Peak to Peak'
+basketball bbk_8ac2f11dbb65 Stanford                 hs->'Desert Vista'
+basketball bbk_d6db4f79d0c8 Stanford                 hs->'Lyons Township'
+basketball bbk_bfc7420aea68 Stanford                 hs->'McDonogh'
+basketball bbk_e6ea5cf88644 BYU                      hs->blank
+basketball bbk_996c475103d6 Purdue                   hs->blank
+basketball bbk_2e139d0dc28a San Jose St.             hs->'Crestwood Preparatory College'
+basketball bbk_87c43e9df662 San Jose St.             hs->'Centennial HS'
+basketball bbk_a18c2aca58d8 Tennessee                hs->blank
+basketball bbk_0e3c1981c01f Arkansas                 hs->blank
+basketball bbk_59c41da25c00 Arkansas                 hs->blank
+basketball bbk_b7c2e3a107ce ETSU                     hs->blank
+basketball bbk_9c00d49f98dd ETSU                     hs->blank
+basketball bbk_90bf71ce6cf7 ETSU                     hs->blank
+basketball bbk_abf1fb82fb6c ETSU                     hs->blank
+basketball bbk_3705c64ba5c9 Virginia                 hs->'IMG Academy'
+basketball bbk_6c92400b8134 Virginia                 hs->'Florida State'
+basketball bbk_8c25b592c577 Virginia                 hs->'Seaforth'
+basketball bbk_0413f0c0bbb8 Virginia                 hs->"St. Anne's-Belfield"
+basketball bbk_ebcc565358f6 Virginia                 hs->'West Virginia'
+basketball bbk_2e0bf32365ce Virginia                 hs->'Waynesville HS'
+basketball bbk_a92ab373a6c0 Transylvania             hs->blank

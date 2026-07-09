@@ -1,0 +1,242 @@
+{
+  "built_utc": "2026-07-08T13:23:54.716598+00:00",
+  "git_head": "4ba3f3a",
+  "athletic_year": "2025-26",
+  "sports": {
+    "acro_tumbling": {
+      "rows": 1102,
+      "season": "2026"
+    },
+    "baseball": {
+      "rows": 38168,
+      "season": "2026"
+    },
+    "basketball": {
+      "rows": 32706,
+      "season": "2025-26"
+    },
+    "beach_volleyball": {
+      "rows": 1678,
+      "season": "2026"
+    },
+    "bowling": {
+      "rows": 823,
+      "season": "2025-26"
+    },
+    "cross_country": {
+      "rows": 28290,
+      "season": "2025"
+    },
+    "equestrian": {
+      "rows": 1037,
+      "season": "2025-26"
+    },
+    "fencing": {
+      "rows": 1214,
+      "season": "2025-26"
+    },
+    "field_hockey": {
+      "rows": 6305,
+      "season": "2025"
+    },
+    "football": {
+      "rows": 72718,
+      "season": "2025"
+    },
+    "golf": {
+      "rows": 13666,
+      "season": "2026"
+    },
+    "gymnastics": {
+      "rows": 2042,
+      "season": "2025-26"
+    },
+    "ice_hockey": {
+      "rows": 7535,
+      "season": "2025-26"
+    },
+    "lacrosse": {
+      "rows": 29236,
+      "season": "2026"
+    },
+    "rowing": {
+      "rows": 5802,
+      "season": "2025-26"
+    },
+    "rugby": {
+      "rows": 858,
+      "season": "2025"
+    },
+    "skiing": {
+      "rows": 519,
+      "season": "2025-26"
+    },
+    "soccer": {
+      "rows": 54677,
+      "season": "2025"
+    },
+    "softball": {
+      "rows": 20717,
+      "season": "2026"
+    },
+    "stunt": {
+      "rows": 1046,
+      "season": "2026"
+    },
+    "swimming": {
+      "rows": 20880,
+      "season": "2025-26"
+    },
+    "tennis": {
+      "rows": 14228,
+      "season": "2026"
+    },
+    "track_indoor": {
+      "rows": 60912,
+      "season": "2025-26"
+    },
+    "track_outdoor": {
+      "rows": 64362,
+      "season": "2025-26"
+    },
+    "triathlon": {
+      "rows": 331,
+      "season": "2025"
+    },
+    "volleyball": {
+      "rows": 21456,
+      "season": "2025"
+    },
+    "water_polo": {
+      "rows": 2335,
+      "season": "2025"
+    },
+    "wrestling": {
+      "rows": 10750,
+      "season": "2025-26"
+    }
+  },
+  "total_athletes": 515393,
+  "unique_schools": 1089,
+  "track_team_overlap": 1639,
+  "data_columns": [
+    "athlete_id",
+    "sport",
+    "athletic_year",
+    "season",
+    "division",
+    "gender",
+    "conference",
+    "school",
+    "position_raw",
+    "position_group",
+    "class_year_raw",
+    "class_standing",
+    "hometown_raw",
+    "hometown_city",
+    "hometown_state",
+    "origin",
+    "high_school",
+    "high_school_is_academy",
+    "source_url"
+  ],
+  "analysis_columns": [
+    "athlete_id",
+    "sport_key",
+    "athletic_year",
+    "league",
+    "gender",
+    "d2",
+    "conference",
+    "school_name",
+    "sport",
+    "position",
+    "class_year",
+    "hometown",
+    "hometown_city",
+    "hometown_state",
+    "high_school",
+    "source_url",
+    "origin",
+    "us_state",
+    "intl_region",
+    "position_std",
+    "class_std",
+    "is_academy",
+    "division",
+    "hometown_median_household_income",
+    "hometown_population",
+    "school_pct_pell",
+    "school_net_price",
+    "school_cost",
+    "school_adm_rate",
+    "school_tuition_out",
+    "school_med_faminc",
+    "school_med_earnings",
+    "mrc_par_median",
+    "mrc_par_q1",
+    "mrc_par_top10",
+    "mrc_mobility_kq5pq1",
+    "mrc_tier",
+    "conf_high_major",
+    "school_state",
+    "in_state",
+    "dist_mi",
+    "income",
+    "income_band",
+    "hs_category",
+    "hs_category_detailed",
+    "hs_religious_affiliation",
+    "hs_type_confidence",
+    "hs_match_source",
+    "hs_match_score",
+    "town_census_income",
+    "town_census_population",
+    "town_census_place",
+    "town_income_match_type",
+    "town_athletes_per_10k"
+  ],
+  "pii_pattern_hits": 0,
+  "dataset_version": "2.0",
+  "version_note": "v2.0 adds high-school public/private/religious classification (NCES CCD+PSS) and Census-validated town income/population (ACS 2022), replacing mis-scaled hometown_population.",
+  "enrichment_provenance": {
+    "high_school_classification": {
+      "sources": [
+        "NCES CCD 2021 (public)",
+        "NCES PSS 2021-22 (private, w/ religious affiliation)"
+      ],
+      "method": "fuzzy (name,state) match, distinctive-token guard, threshold>=85; validated 49/50 ~98% precision",
+      "columns": [
+        "hs_category",
+        "hs_category_detailed",
+        "hs_religious_affiliation",
+        "hs_type_confidence",
+        "hs_match_source",
+        "hs_match_score"
+      ],
+      "resolved_to_school_type": 394447,
+      "resolved_pct": 76.5
+    },
+    "town_income": {
+      "source": "US Census ACS 2022 5-year (B19013 income, B01003 population); place + NE county-subdivision level",
+      "method": "exact+fuzzy town-name match; 16,430 hometowns (10,053 Census places) / 407,664 athletes; r=0.97 vs original income; validated 98-100% of ZIP-variance for <50k towns",
+      "columns": [
+        "town_census_income",
+        "town_census_population",
+        "town_census_place",
+        "town_income_match_type",
+        "town_athletes_per_10k"
+      ],
+      "athletes_matched": 407664,
+      "coverage_pct": 79.1
+    }
+  },
+  "checksums_md5": {
+    "data/ncaa_all_sports_rosters_2025-26.csv": "b4e3fa160489b7c76d12253e041145bb",
+    "data/ncaa_all_sports_rosters_2025-26.parquet": "ba99a096bffac9b5b2d4a4ac43bfbbcb",
+    "analysis/ncaa_all_sports_analysis_dataset.csv": "f22be3ddb0a8d9ff069fb0d128e0611a",
+    "analysis/ncaa_all_sports_analysis_dataset.parquet": "b2e5e248d3675ae583897a23a96ba8cd"
+  },
+  "n_analysis_columns": 54,
+  "n_public_columns": 19
+}

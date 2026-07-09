@@ -1,0 +1,634 @@
+sport,gender,division,official_name,matched_school
+acro_tumbling,Women,D3,Adrian College,Adrian
+acro_tumbling,Women,D2,Coker University,Coker
+acro_tumbling,Women,D2,D'Youville University,DYouville
+acro_tumbling,Women,D2,Emmanuel University (Georgia),Emmanuel GA
+acro_tumbling,Women,D2,Hawaii Pacific University,Hawaii Pacific
+acro_tumbling,Women,D2,Mars Hill University,Mars Hill
+acro_tumbling,Women,D2,Newberry College,Newberry
+baseball,Men,D3,Austin College,Austin College
+baseball,Men,D2,Carson-Newman University,Carson-Newman
+baseball,Men,D2,University of Indianapolis,
+baseball,Men,D3,Maranatha Baptist University,Maranatha Baptist
+baseball,Men,D3,New Jersey City University,New Jersey City
+basketball,Men,D2,Carson-Newman University,Carson-Newman
+basketball,Men,D2,University of Indianapolis,
+basketball,Men,D2,"University of Puerto Rico, Bayamon",
+basketball,Men,D2,"University of Puerto Rico, Mayaguez",
+basketball,Men,D2,"University of Puerto Rico, Rio Piedras",
+basketball,Women,D2,University of Indianapolis,
+basketball,Women,D2,"University of Puerto Rico, Bayamon",
+basketball,Women,D2,"University of Puerto Rico, Mayaguez",
+basketball,Women,D2,"University of Puerto Rico, Rio Piedras",
+basketball,Women,D3,Trinity Washington University,
+beach_volleyball,Women,D2,Carson-Newman University,Carson-Newman
+beach_volleyball,Women,D3,Huntingdon College,Huntingdon
+beach_volleyball,Women,D1,University of San Diego,San Diego
+beach_volleyball,Women,D3,Schreiner University,Schreiner
+beach_volleyball,Women,D2,University of Tampa,Tampa
+beach_volleyball,Women,D1,Tennessee Technological University,Tennessee Tech
+beach_volleyball,Women,D1,University of Texas at Austin,Texas
+beach_volleyball,Women,D1,University of Texas at El Paso,UTEP
+beach_volleyball,Women,D2,Tusculum University,Tusculum
+bowling,Women,D1,Alabama A&M University,Alabama A&M
+bowling,Women,D3,Baldwin Wallace University,Baldwin Wallace
+bowling,Women,D2,University of Indianapolis,
+bowling,Women,D3,Lakeland University,Lakeland
+bowling,Women,D3,"Pennsylvania State Univ. Erie, the Behrend College",Penn State Behrend
+cross_country,Women,D1,University of Alabama,Alabama
+cross_country,Women,D1,"University of Arkansas, Fayetteville",Arkansas
+cross_country,Women,D3,Bard College,Bard
+cross_country,Women,D2,Carson-Newman University,Carson-Newman
+cross_country,Women,D3,Centenary College (Louisiana),Centenary Louisiana
+cross_country,Women,D3,Centenary University (New Jersey),Centenary NJ
+cross_country,Women,D3,Edgewood University,Edgewood
+cross_country,Women,D3,Elms College,Elms
+cross_country,Women,D3,Eureka College,Eureka
+cross_country,Women,D1,Florida Atlantic University,Fla. Atlantic
+cross_country,Women,D1,Florida International University,FIU
+cross_country,Women,D2,Fort Valley State University,Fort Valley State
+cross_country,Women,D1,Furman University,Furman
+cross_country,Women,D1,Georgetown University,Georgetown
+cross_country,Women,D3,Greensboro College,Greensboro
+cross_country,Women,D2,University of Indianapolis,
+cross_country,Women,D1,Iona University,Iona
+cross_country,Women,D1,University of Kentucky,Kentucky
+cross_country,Women,D3,Keystone College,Keystone
+cross_country,Women,D3,LaGrange College,LaGrange
+cross_country,Women,D1,University of Massachusetts Lowell,UMass Lowell
+cross_country,Women,D1,Miami University (Ohio),Miami (OH)
+cross_country,Women,D1,Middle Tennessee State University,Middle Tenn.
+cross_country,Women,D3,Mitchell College,Mitchell
+cross_country,Women,D3,New England College,New England College
+cross_country,Women,D3,Nichols College,Nichols
+cross_country,Women,D3,North Carolina Wesleyan University,North Carolina Wesleyan
+cross_country,Women,D1,University of North Texas,North Texas
+cross_country,Women,D2,Northwood University,Northwood
+cross_country,Women,D1,Oklahoma State University,Oklahoma St.
+cross_country,Women,D1,Pennsylvania State University,Penn St.
+cross_country,Women,D2,"University of Puerto Rico, Bayamon",
+cross_country,Women,D2,"University of Puerto Rico, Rio Piedras",
+cross_country,Women,D2,Saginaw Valley State University,Saginaw Valley State
+cross_country,Women,D2,Shorter University,Shorter
+cross_country,Women,D1,The University of Southern Mississippi,Southern Miss.
+cross_country,Women,D2,St. Thomas Aquinas College,St Thomas Aquinas
+cross_country,Women,D1,Tarleton State University,Tarleton St.
+cross_country,Women,D1,University of Texas at Austin,Texas
+cross_country,Women,D3,Thiel College,Thiel
+cross_country,Women,D2,Tusculum University,Tusculum
+cross_country,Women,D3,Vermont State University Castleton,Vermont State Castleton
+cross_country,Women,D2,Virginia Union University,Virginia Union
+cross_country,Women,D1,University of West Georgia,West Ga.
+cross_country,Women,D3,William Peace University,William Peace
+cross_country,Women,D2,Wilmington University (Delaware),Wilmington DE
+cross_country,Men,D1,University of Alabama,Alabama
+cross_country,Men,D1,"University of Arkansas, Fayetteville",Arkansas
+cross_country,Men,D3,Bard College,Bard
+cross_country,Men,D3,Bluffton University,Bluffton University
+cross_country,Men,D2,Carson-Newman University,Carson-Newman
+cross_country,Men,D3,Centenary University (New Jersey),Centenary NJ
+cross_country,Men,D3,Chatham University,Chatham
+cross_country,Men,D3,Edgewood University,Edgewood
+cross_country,Men,D3,Elms College,Elms
+cross_country,Men,D3,Eureka College,Eureka
+cross_country,Men,D2,Fort Valley State University,Fort Valley State
+cross_country,Men,D1,Furman University,Furman
+cross_country,Men,D1,Georgetown University,Georgetown
+cross_country,Men,D3,Greensboro College,Greensboro
+cross_country,Men,D3,Hilbert College,Hilbert
+cross_country,Men,D2,University of Indianapolis,
+cross_country,Men,D1,Iona University,Iona
+cross_country,Men,D1,University of Kentucky,Kentucky
+cross_country,Men,D1,University of Massachusetts Lowell,UMass Lowell
+cross_country,Men,D1,Miami University (Ohio),Miami (OH)
+cross_country,Men,D1,Middle Tennessee State University,Middle Tenn.
+cross_country,Men,D2,Miles College,Miles
+cross_country,Men,D3,Mitchell College,Mitchell
+cross_country,Men,D3,Mount Aloysius College,Mount Aloysius
+cross_country,Men,D3,New England College,New England College
+cross_country,Men,D3,North Carolina Wesleyan University,North Carolina Wesleyan
+cross_country,Men,D1,University of North Texas,North Texas
+cross_country,Men,D2,Northwood University,Northwood
+cross_country,Men,D3,Notre Dame of Maryland University,Notre Dame of Maryland
+cross_country,Men,D2,Ohio Dominican University,Ohio Dominican
+cross_country,Men,D1,Oklahoma State University,Oklahoma St.
+cross_country,Men,D1,Pennsylvania State University,Penn St.
+cross_country,Men,D2,Post University,Post
+cross_country,Men,D2,"University of Puerto Rico, Bayamon",
+cross_country,Men,D2,"University of Puerto Rico, Rio Piedras",
+cross_country,Men,D2,Saginaw Valley State University,Saginaw Valley State
+cross_country,Men,D2,St. Thomas Aquinas College,St Thomas Aquinas
+cross_country,Men,D1,Tarleton State University,Tarleton St.
+cross_country,Men,D1,University of Texas at Austin,Texas
+cross_country,Men,D2,Tusculum University,Tusculum
+cross_country,Men,D3,Vermont State University Castleton,Vermont State Castleton
+cross_country,Men,D2,Virginia Union University,Virginia Union
+cross_country,Men,D1,University of West Georgia,West Ga.
+cross_country,Men,D2,Wilmington University (Delaware),Wilmington DE
+equestrian,Women,D3,Wilmington College (Ohio),Wilmington College
+fencing,Women,D3,The City College of New York,CCNY
+fencing,Women,D1,University of Notre Dame,Notre Dame
+fencing,Women,D1,The Ohio State University,Ohio St.
+fencing,Women,D1,U.S. Air Force Academy,Air Force
+fencing,Women,D3,Wheaton College (Massachusetts),Wheaton Massachusetts
+fencing,Men,D1,University of Notre Dame,Notre Dame
+fencing,Men,D1,The Ohio State University,Ohio St.
+field_hockey,Women,D3,Anna Maria College,
+field_hockey,Women,D2,Dominican University New York,Dominican NY
+field_hockey,Women,D2,University of Mount Olive,Mount Olive
+field_hockey,Women,D3,University of New England,New England
+football,Men,D3,Austin College,Austin College
+football,Men,D3,Azusa Pacific University,Azusa Pacific
+football,Men,D2,Carson-Newman University,Carson-Newman
+football,Men,D2,Fort Valley State University,Fort Valley State
+football,Men,D2,University of Indianapolis,
+football,Men,D3,Pacific University (Oregon),Pacific University (Oregon)
+football,Men,D2,Virginia Union University,Virginia Union
+football,Men,D1,University of West Georgia,West Ga.
+golf,Men,D2,Bowie State University,Bowie State
+golf,Men,D2,Christian Brothers University,Christian Brothers
+golf,Men,D3,Crown College (Minnesota),Crown
+golf,Men,D3,DeSales University,DeSales
+golf,Men,D2,Dominican University New York,Dominican NY
+golf,Men,D3,Eureka College,Eureka
+golf,Men,D1,Georgia Institute of Technology,Georgia Tech
+golf,Men,D3,Hilbert College,Hilbert
+golf,Men,D2,University of Indianapolis,
+golf,Men,D3,Keystone College,Keystone
+golf,Men,D3,Lasell University,Lasell
+golf,Men,D3,"University of Maine, Farmington",Maine Farmington
+golf,Men,D3,University of Maine at Presque Isle,Maine Presque Isle
+golf,Men,D3,McMurry University,McMurry
+golf,Men,D2,Miles College,Miles
+golf,Men,D2,Morehouse College,Morehouse
+golf,Men,D3,University of Mount Saint Vincent,Mount Saint Vincent
+golf,Men,D3,New England College,New England College
+golf,Men,D1,University of New Haven,New Haven
+golf,Men,D3,Norwich University,Norwich
+golf,Men,D3,"University of Pittsburgh, Greensburg",Pitt-Greensburg
+golf,Men,D3,State University of New York Polytechnic Institute,SUNY Poly
+golf,Men,D3,"Purchase College, State University of New York",SUNY Purchase
+golf,Men,D2,Southwest Baptist University,Southwest Baptist
+golf,Men,D1,St. Bonaventure University,St. Bonaventure
+golf,Men,D2,St. Cloud State University,St Cloud State
+golf,Men,D2,St. Thomas Aquinas College,St Thomas Aquinas
+golf,Men,D1,University of Tennessee at Chattanooga,Chattanooga
+golf,Men,D1,The University of Tulsa,Tulsa
+golf,Men,D3,Virginia Wesleyan University,Virginia Wesleyan
+golf,Men,D2,Wilmington University (Delaware),Wilmington DE
+golf,Men,D3,Wilmington College (Ohio),Wilmington College
+golf,Women,D2,Angelo State University,Angelo State
+golf,Women,D3,Augsburg University,Augsburg
+golf,Women,D3,Blackburn College,Blackburn College
+golf,Women,D2,Bluefield State University,Bluefield State
+golf,Women,D3,State University of New York at Canton,SUNY Canton
+golf,Women,D2,Carson-Newman University,Carson-Newman
+golf,Women,D2,Christian Brothers University,Christian Brothers
+golf,Women,D2,Clark Atlanta University,Clark Atlanta
+golf,Women,D3,Crown College (Minnesota),Crown
+golf,Women,D3,State University of New York at Delhi,SUNY Delhi
+golf,Women,D3,Endicott College,Endicott
+golf,Women,D3,Franklin College,Franklin
+golf,Women,D3,Hilbert College,Hilbert
+golf,Women,D3,Howard Payne University,Howard Payne
+golf,Women,D2,University of Illinois Springfield,Illinois Springfield
+golf,Women,D2,University of Indianapolis,
+golf,Women,D1,University of Kentucky,Kentucky
+golf,Women,D3,Knox College,Knox
+golf,Women,D3,Lasell University,Lasell
+golf,Women,D3,Manhattanville University,Manhattanville
+golf,Women,D3,McMurry University,McMurry
+golf,Women,D3,Millsaps College,Millsaps
+golf,Women,D3,Mount Aloysius College,Mount Aloysius
+golf,Women,D1,Norfolk State University,Norfolk St.
+golf,Women,D3,"Pennsylvania State Univ. Erie, the Behrend College",Penn State Behrend
+golf,Women,D3,"University of Pittsburgh, Greensburg",Pitt-Greensburg
+golf,Women,D2,Point Park University,Point Park
+golf,Women,D2,Post University,Post
+golf,Women,D3,Russell Sage College,Russell Sage
+golf,Women,D2,Seattle Pacific University,Seattle Pacific
+golf,Women,D1,South Carolina State University,South Carolina St.
+golf,Women,D3,Spalding University,Spalding
+golf,Women,D1,St. Bonaventure University,St. Bonaventure
+golf,Women,D2,St. Cloud State University,St Cloud State
+golf,Women,D1,Saint Peter's University,Saint Peter's
+golf,Women,D1,University of Tennessee at Chattanooga,Chattanooga
+golf,Women,D1,Texas Southern University,Texas Southern
+golf,Women,D3,Ursinus College,Ursinus
+golf,Women,D3,Washington College (Maryland),Washington College
+golf,Women,D1,University of West Georgia,West Ga.
+golf,Women,D3,Willamette University,Willamette
+golf,Women,D3,William Peace University,William Peace
+golf,Women,D3,Wilmington College (Ohio),Wilmington College
+ice_hockey,Men,D3,Anna Maria College,
+ice_hockey,Men,D3,University of New England,New England
+ice_hockey,Women,D3,Anna Maria College,
+ice_hockey,Women,D3,University of New England,New England
+lacrosse,Men,D3,Albertus Magnus College,Albertus Magnus
+lacrosse,Men,D2,Barry University,Barry
+lacrosse,Men,D3,The City College of New York,CCNY
+lacrosse,Men,D3,Elms College,Elms
+lacrosse,Men,D3,Fitchburg State University,Fitchburg State
+lacrosse,Men,D2,University of Indianapolis,
+lacrosse,Men,D3,La Roche University,La Roche
+lacrosse,Men,D3,Massachusetts College of Liberal Arts,MCLA
+lacrosse,Men,D3,"University of Massachusetts, Dartmouth",UMass Dartmouth
+lacrosse,Men,D3,Mitchell College,Mitchell
+lacrosse,Men,D3,Notre Dame of Maryland University,Notre Dame of Maryland
+lacrosse,Men,D3,Penn State Harrisburg,Penn State Harrisburg
+lacrosse,Men,D3,Regis College (Massachusetts),Regis College
+lacrosse,Women,D3,Albertus Magnus College,Albertus Magnus
+lacrosse,Women,D2,Barry University,Barry
+lacrosse,Women,D2,University of Bridgeport,University of Bridgeport
+lacrosse,Women,D3,Cedar Crest College,Cedar Crest
+lacrosse,Women,D2,Chowan University,Chowan
+lacrosse,Women,D2,University of the District of Columbia,District of Columbia
+lacrosse,Women,D3,Elms College,Elms
+lacrosse,Women,D2,Emory & Henry University,Emory and Henry
+lacrosse,Women,D3,Huntingdon College,Huntingdon
+lacrosse,Women,D2,University of Indianapolis,
+lacrosse,Women,D3,La Roche University,La Roche
+lacrosse,Women,D3,Linfield University,Linfield
+lacrosse,Women,D3,Meredith College,Meredith
+lacrosse,Women,D3,Mitchell College,Mitchell
+lacrosse,Women,D3,Muskingum University,Muskingum
+lacrosse,Women,D2,Nova Southeastern University,Nova Southeastern
+lacrosse,Women,D3,Pacific University (Oregon),Pacific University (Oregon)
+lacrosse,Women,D3,Russell Sage College,Russell Sage
+lacrosse,Women,D3,Simmons University,
+lacrosse,Women,D2,St. Thomas Aquinas College,St Thomas Aquinas
+lacrosse,Women,D3,Sweet Briar College,
+lacrosse,Women,D3,Trinity Washington University,
+lacrosse,Women,D3,Virginia Wesleyan University,Virginia Wesleyan
+lacrosse,Women,D3,Whittier College,Whittier
+lacrosse,Women,D3,University of Wisconsin-Superior,UW-Superior
+rowing,Women,D2,University of Bridgeport,University of Bridgeport
+rowing,Women,D2,Dominican University New York,Dominican NY
+rowing,Women,D3,Massachusetts Maritime Academy,
+rowing,Women,D3,Pacific University (Oregon),Pacific University (Oregon)
+rowing,Women,D2,Seattle Pacific University,Seattle Pacific
+rowing,Women,D2,University of Tampa,Tampa
+rugby,Women,D3,University of New England,New England
+rugby,Women,D3,Vermont State University Castleton,Vermont State Castleton
+skiing,Women,D3,Bowdoin College,Bowdoin
+skiing,Women,D1,University of Colorado Boulder,Colorado
+skiing,Women,D1,Harvard University,Harvard
+skiing,Women,D3,Middlebury College,Middlebury
+skiing,Women,D3,New England College,New England College
+skiing,Women,D3,Saint Joseph's College (Maine),Saint Josephs Maine
+skiing,Women,D2,St. Cloud State University,St Cloud State
+skiing,Women,D2,Saint Michael's College,Saint Michaels
+skiing,Women,D1,University of Utah,Utah
+skiing,Women,D1,University of Vermont,Vermont
+skiing,Women,D2,Westminster University (Utah),Westminster UT
+skiing,Women,D3,Williams College,Williams
+skiing,Men,D3,Bowdoin College,Bowdoin
+skiing,Men,D1,University of Colorado Boulder,Colorado
+skiing,Men,D1,Harvard University,Harvard
+skiing,Men,D3,Hobart and William Smith Colleges,Hobart
+skiing,Men,D3,Middlebury College,Middlebury
+skiing,Men,D3,Saint Joseph's College (Maine),Saint Josephs Maine
+skiing,Men,D2,Saint Michael's College,Saint Michaels
+skiing,Men,D1,University of Utah,Utah
+skiing,Men,D1,University of Vermont,Vermont
+skiing,Men,D3,Williams College,Williams
+soccer,Men,D2,Carson-Newman University,Carson-Newman
+soccer,Men,D2,University of Illinois Springfield,Illinois Springfield
+soccer,Men,D2,University of Indianapolis,
+soccer,Men,D2,"University of Puerto Rico, Bayamon",
+soccer,Men,D2,Tuskegee University,Tuskegee
+soccer,Women,D3,Alverno College,Alverno
+soccer,Women,D1,"University of Arkansas, Fayetteville",Arkansas
+soccer,Women,D2,Carson-Newman University,Carson-Newman
+soccer,Women,D2,University of Indianapolis,
+soccer,Women,D1,Louisiana State University,LSU
+soccer,Women,D2,"University of Puerto Rico, Bayamon",
+soccer,Women,D3,Trinity Washington University,
+soccer,Women,D2,Tuskegee University,Tuskegee
+soccer,Women,D2,Wayne State University (Michigan),Wayne State Michigan
+soccer,Women,D1,University of West Georgia,West Ga.
+softball,Women,D3,Alverno College,Alverno
+softball,Women,D3,Anna Maria College,
+softball,Women,D2,University of Bridgeport,University of Bridgeport
+softball,Women,D2,Carson-Newman University,Carson-Newman
+softball,Women,D2,Ferris State University,Ferris State
+softball,Women,D2,Fort Valley State University,Fort Valley State
+softball,Women,D2,Georgian Court University,Georgian Court
+softball,Women,D2,University of Illinois Springfield,Illinois Springfield
+softball,Women,D2,University of Indianapolis,
+softball,Women,D2,Johnson C. Smith University,Johnson C Smith
+softball,Women,D3,Juniata College,Juniata
+softball,Women,D3,Keystone College,Keystone
+softball,Women,D3,University of Maine at Presque Isle,Maine Presque Isle
+softball,Women,D3,University of New England,New England
+softball,Women,D3,New Jersey City University,New Jersey City
+softball,Women,D3,"University of Pittsburgh, Bradford",Pitt-Bradford
+softball,Women,D3,Pomona-Pitzer Colleges,Pomona-Pitzer
+softball,Women,D3,Salem College (North Carolina),Salem College
+softball,Women,D3,Schreiner University,Schreiner
+softball,Women,D2,St. Mary's University (Texas),St Marys TX
+softball,Women,D3,Vermont State University-Johnson,Vermont State Johnson
+softball,Women,D3,Virginia Wesleyan University,Virginia Wesleyan
+softball,Women,D3,Wesleyan University (Connecticut),
+softball,Women,D3,Westfield State University,Westfield State
+stunt,Women,D3,Baldwin Wallace University,Baldwin Wallace
+stunt,Women,D3,Centenary College (Louisiana),Centenary Louisiana
+stunt,Women,D3,Concordia University Chicago,Concordia Chicago
+stunt,Women,D2,Concordia University Irvine,Concordia Irvine
+stunt,Women,D2,Davenport University,Davenport
+stunt,Women,D2,Eastern New Mexico University,Eastern New Mexico
+stunt,Women,D2,Ferris State University,Ferris State
+stunt,Women,D3,Hiram College,Hiram
+stunt,Women,D2,Lake Erie College,Lake Erie
+stunt,Women,D2,Northwest Nazarene University,Northwest Nazarene
+stunt,Women,D2,Quincy University,Quincy
+stunt,Women,D3,Saint Elizabeth University,Saint Elizabeth
+stunt,Women,D2,Southwest Baptist University,Southwest Baptist
+stunt,Women,D3,Saint Mary's College (Indiana),Saint Marys Indiana
+stunt,Women,D3,St. Norbert College,St Norbert
+stunt,Women,D2,Tiffin University,Tiffin
+stunt,Women,D2,Westmont College,Westmont
+swimming,Men,D3,Albertus Magnus College,Albertus Magnus
+swimming,Men,D3,Alfred State College,Alfred State
+swimming,Men,D3,Bard College,Bard
+swimming,Men,D3,Bluffton University,Bluffton University
+swimming,Men,D2,Carson-Newman University,Carson-Newman
+swimming,Men,D3,Centre College,Centre
+swimming,Men,D3,Chapman University,Chapman
+swimming,Men,D3,Elms College,Elms
+swimming,Men,D1,Georgia Institute of Technology,Georgia Tech
+swimming,Men,D2,University of Indianapolis,
+swimming,Men,D1,University of Miami (Florida),Miami (FL)
+swimming,Men,D3,Moravian University,Moravian
+swimming,Men,D1,"University of Nevada, Las Vegas",UNLV
+swimming,Men,D3,The University of Olivet ,Olivet
+swimming,Men,D3,University of the Ozarks (Arkansas),Ozarks
+swimming,Men,D2,"University of Pittsburgh, Johnstown",Pitt-Johnstown
+swimming,Men,D2,"University of Puerto Rico, Mayaguez",
+swimming,Men,D3,Regis College (Massachusetts),Regis College
+swimming,Men,D2,Saginaw Valley State University,Saginaw Valley State
+swimming,Men,D3,Saint Joseph's College (Maine),Saint Josephs Maine
+swimming,Men,D2,Simon Fraser University,Simon Fraser
+swimming,Women,D3,Albertus Magnus College,Albertus Magnus
+swimming,Women,D3,Alfred State College,Alfred State
+swimming,Women,D3,Bard College,Bard
+swimming,Women,D3,Bluffton University,Bluffton University
+swimming,Women,D2,Carson-Newman University,Carson-Newman
+swimming,Women,D3,Centenary College (Louisiana),Centenary Louisiana
+swimming,Women,D3,Centre College,Centre
+swimming,Women,D3,State University of New York at Delhi,SUNY Delhi
+swimming,Women,D3,Elms College,Elms
+swimming,Women,D2,University of Indianapolis,
+swimming,Women,D2,Lake Superior State University,Lake Superior State
+swimming,Women,D1,University of Miami (Florida),Miami (FL)
+swimming,Women,D3,Millsaps College,Millsaps
+swimming,Women,D3,Moravian University,Moravian
+swimming,Women,D1,"University of Nevada, Las Vegas",UNLV
+swimming,Women,D3,The University of Olivet ,Olivet
+swimming,Women,D3,"University of Pittsburgh, Bradford",Pitt-Bradford
+swimming,Women,D2,"University of Puerto Rico, Mayaguez",
+swimming,Women,D2,Saginaw Valley State University,Saginaw Valley State
+swimming,Women,D2,Simon Fraser University,Simon Fraser
+swimming,Women,D3,Simpson College,Simpson
+swimming,Women,D1,Saint Mary's College of California,Saint Mary's (CA)
+swimming,Women,D3,York College (New York),York College NY
+tennis,Men,D3,Capital University,Capital
+tennis,Men,D2,Carson-Newman University,Carson-Newman
+tennis,Men,D2,Christian Brothers University,Christian Brothers
+tennis,Men,D2,Erskine College,Erskine
+tennis,Men,D3,"Fairleigh Dickinson University, Florham",FDU Florham
+tennis,Men,D2,University of Illinois Springfield,Illinois Springfield
+tennis,Men,D2,University of Indianapolis,
+tennis,Men,D1,Iona University,Iona
+tennis,Men,D3,McMurry University,McMurry
+tennis,Men,D3,"University of Minnesota, Morris",Minnesota Morris
+tennis,Men,D2,"University of Puerto Rico, Bayamon",
+tennis,Men,D2,"University of Puerto Rico, Mayaguez",
+tennis,Men,D2,"University of Puerto Rico, Rio Piedras",
+tennis,Men,D3,Wilmington College (Ohio),Wilmington College
+tennis,Women,D3,Brevard College,Brevard
+tennis,Women,D3,State University of New York at Brockport,SUNY Brockport
+tennis,Women,D2,Carson-Newman University,Carson-Newman
+tennis,Women,D2,Christian Brothers University,Christian Brothers
+tennis,Women,D3,Howard Payne University,Howard Payne
+tennis,Women,D3,Hunter College,Hunter
+tennis,Women,D2,University of Illinois Springfield,Illinois Springfield
+tennis,Women,D2,University of Indianapolis,
+tennis,Women,D1,Iona University,Iona
+tennis,Women,D3,John Jay College of Criminal Justice,John Jay
+tennis,Women,D3,Lehman College,Lehman
+tennis,Women,D3,McMurry University,McMurry
+tennis,Women,D2,University of Minnesota Duluth,Minnesota Duluth
+tennis,Women,D3,University of Mount Saint Vincent,Mount Saint Vincent
+tennis,Women,D3,Mount Saint Mary College (New York),Mount Saint Mary College
+tennis,Women,D1,University of New Haven,New Haven
+tennis,Women,D3,"University of Pittsburgh, Greensburg",Pitt-Greensburg
+tennis,Women,D2,"University of Puerto Rico, Bayamon",
+tennis,Women,D2,"University of Puerto Rico, Mayaguez",
+tennis,Women,D2,"University of Puerto Rico, Rio Piedras",
+tennis,Women,D3,"Purchase College, State University of New York",SUNY Purchase
+tennis,Women,D3,Rhode Island College,Rhode Island College
+tennis,Women,D3,Salem College (North Carolina),Salem College
+tennis,Women,D3,Sarah Lawrence College,Sarah Lawrence
+tennis,Women,D3,University of Southern Maine,Southern Maine
+tennis,Women,D3,"St. Joseph's University, New York L.I.",St Josephs Long Island
+tennis,Women,D3,Thomas College,Thomas College
+tennis,Women,D3,Trinity Washington University,
+tennis,Women,D3,Utica University,Utica
+tennis,Women,D3,Vermont State University Castleton,Vermont State Castleton
+tennis,Women,D3,Vermont State University Lyndon,Vermont State Lyndon
+tennis,Women,D3,Wilmington College (Ohio),Wilmington College
+tennis,Women,D3,York College (New York),York College NY
+track_indoor,Men,D2,Angelo State University,Angelo State
+track_indoor,Men,D3,Bard College,Bard
+track_indoor,Men,D2,Carson-Newman University,Carson-Newman
+track_indoor,Men,D3,Dominican University (Illinois),Dominican IL
+track_indoor,Men,D2,Flagler College,Flagler
+track_indoor,Men,D2,Grand Valley State University,Grand Valley State
+track_indoor,Men,D3,Hampden-Sydney College,Hampden-Sydney
+track_indoor,Men,D2,Henderson State University,Henderson State
+track_indoor,Men,D2,University of Illinois Springfield,Illinois Springfield
+track_indoor,Men,D2,University of Indianapolis,
+track_indoor,Men,D1,Marshall University,Marshall
+track_indoor,Men,D2,"University of Minnesota, Crookston",Minnesota Crookston
+track_indoor,Men,D1,University of North Alabama,North Ala.
+track_indoor,Men,D2,Northwood University,Northwood
+track_indoor,Men,D3,Penn State Berks College,Penn State Berks
+track_indoor,Men,D1,Quinnipiac University,Quinnipiac
+track_indoor,Men,D2,Regis University (Colorado),Regis
+track_indoor,Men,D2,Saginaw Valley State University,Saginaw Valley State
+track_indoor,Men,D1,Sam Houston State University,Sam Houston
+track_indoor,Men,D2,Seattle Pacific University,Seattle Pacific
+track_indoor,Men,D2,Shorter University,Shorter
+track_indoor,Men,D2,St. Thomas Aquinas College,St Thomas Aquinas
+track_indoor,Men,D2,Tusculum University,Tusculum
+track_indoor,Men,D1,Utah Tech University,Utah Tech
+track_indoor,Men,D2,Virginia State University,Virginia State
+track_indoor,Men,D3,University of Wisconsin-Eau Claire,UW-Eau Claire
+track_indoor,Women,D3,Alverno College,Alverno
+track_indoor,Women,D2,Angelo State University,Angelo State
+track_indoor,Women,D3,Bard College,Bard
+track_indoor,Women,D3,Blackburn College,Blackburn College
+track_indoor,Women,D3,Buena Vista University,Buena Vista
+track_indoor,Women,D2,Carson-Newman University,Carson-Newman
+track_indoor,Women,D3,The City College of New York,CCNY
+track_indoor,Women,D1,Cleveland State University,Cleveland St.
+track_indoor,Women,D2,Flagler College,Flagler
+track_indoor,Women,D2,Grand Valley State University,Grand Valley State
+track_indoor,Women,D2,Henderson State University,Henderson State
+track_indoor,Women,D2,University of Illinois Springfield,Illinois Springfield
+track_indoor,Women,D2,University of Indianapolis,
+track_indoor,Women,D2,LeMoyne-Owen College,LeMoyne-Owen
+track_indoor,Women,D1,University of North Alabama,North Ala.
+track_indoor,Women,D2,Northwood University,Northwood
+track_indoor,Women,D3,Penn State Berks College,Penn State Berks
+track_indoor,Women,D2,Saginaw Valley State University,Saginaw Valley State
+track_indoor,Women,D1,Sam Houston State University,Sam Houston
+track_indoor,Women,D2,Seattle Pacific University,Seattle Pacific
+track_indoor,Women,D2,Seton Hill University,Seton Hill
+track_indoor,Women,D2,Shorter University,Shorter
+track_indoor,Women,D2,St. Thomas Aquinas College,St Thomas Aquinas
+track_indoor,Women,D2,Tusculum University,Tusculum
+track_indoor,Women,D2,Virginia State University,Virginia State
+track_indoor,Women,D3,Webster University,Webster
+track_indoor,Women,D3,University of Wisconsin-Eau Claire,UW-Eau Claire
+track_outdoor,Men,D2,Angelo State University,Angelo State
+track_outdoor,Men,D3,Bard College,Bard
+track_outdoor,Men,D2,Carson-Newman University,Carson-Newman
+track_outdoor,Men,D2,Flagler College,Flagler
+track_outdoor,Men,D2,Fort Valley State University,Fort Valley State
+track_outdoor,Men,D2,Georgia College,Georgia College
+track_outdoor,Men,D2,Grand Valley State University,Grand Valley State
+track_outdoor,Men,D3,Hampden-Sydney College,Hampden-Sydney
+track_outdoor,Men,D2,Henderson State University,Henderson State
+track_outdoor,Men,D2,University of Illinois Springfield,Illinois Springfield
+track_outdoor,Men,D2,University of Indianapolis,
+track_outdoor,Men,D2,Jessup University,Jessup
+track_outdoor,Men,D3,Kean University,Kean
+track_outdoor,Men,D1,Marshall University,Marshall
+track_outdoor,Men,D3,Massachusetts Maritime Academy,
+track_outdoor,Men,D2,"University of Minnesota, Crookston",Minnesota Crookston
+track_outdoor,Men,D3,New England College,New England College
+track_outdoor,Men,D1,University of North Alabama,North Ala.
+track_outdoor,Men,D2,Northwood University,Northwood
+track_outdoor,Men,D1,Presbyterian College,Presbyterian
+track_outdoor,Men,D2,"University of Puerto Rico, Mayaguez",
+track_outdoor,Men,D2,"University of Puerto Rico, Rio Piedras",
+track_outdoor,Men,D1,Quinnipiac University,Quinnipiac
+track_outdoor,Men,D2,Regis University (Colorado),Regis
+track_outdoor,Men,D2,Saginaw Valley State University,Saginaw Valley State
+track_outdoor,Men,D1,Sam Houston State University,Sam Houston
+track_outdoor,Men,D2,Seattle Pacific University,Seattle Pacific
+track_outdoor,Men,D2,Shorter University,Shorter
+track_outdoor,Men,D2,Saint Michael's College,Saint Michaels
+track_outdoor,Men,D2,St. Thomas Aquinas College,St Thomas Aquinas
+track_outdoor,Men,D2,Tusculum University,Tusculum
+track_outdoor,Men,D1,Utah Tech University,Utah Tech
+track_outdoor,Men,D2,Virginia State University,Virginia State
+track_outdoor,Men,D3,Wentworth Institute of Technology,Wentworth
+track_outdoor,Men,D3,Whittier College,Whittier
+track_outdoor,Men,D2,Wilmington University (Delaware),Wilmington DE
+track_outdoor,Men,D3,University of Wisconsin-Eau Claire,UW-Eau Claire
+track_outdoor,Women,D3,Alverno College,Alverno
+track_outdoor,Women,D2,Angelo State University,Angelo State
+track_outdoor,Women,D3,Bard College,Bard
+track_outdoor,Women,D3,Blackburn College,Blackburn College
+track_outdoor,Women,D3,Buena Vista University,Buena Vista
+track_outdoor,Women,D2,Carson-Newman University,Carson-Newman
+track_outdoor,Women,D3,Centenary College (Louisiana),Centenary Louisiana
+track_outdoor,Women,D3,The City College of New York,CCNY
+track_outdoor,Women,D1,Cleveland State University,Cleveland St.
+track_outdoor,Women,D2,Flagler College,Flagler
+track_outdoor,Women,D2,Fort Valley State University,Fort Valley State
+track_outdoor,Women,D2,Georgia College,Georgia College
+track_outdoor,Women,D2,Grand Valley State University,Grand Valley State
+track_outdoor,Women,D2,Henderson State University,Henderson State
+track_outdoor,Women,D2,University of Illinois Springfield,Illinois Springfield
+track_outdoor,Women,D2,University of Indianapolis,
+track_outdoor,Women,D3,Kean University,Kean
+track_outdoor,Women,D2,LeMoyne-Owen College,LeMoyne-Owen
+track_outdoor,Women,D3,Lesley University,Lesley
+track_outdoor,Women,D3,Mary Baldwin University,Mary Baldwin
+track_outdoor,Women,D3,Massachusetts Maritime Academy,
+track_outdoor,Women,D2,Middle Georgia State University,Middle Georgia State
+track_outdoor,Women,D2,Miles College,Miles
+track_outdoor,Women,D3,New England College,New England College
+track_outdoor,Women,D1,University of North Alabama,North Ala.
+track_outdoor,Women,D2,Northwood University,Northwood
+track_outdoor,Women,D3,Notre Dame of Maryland University,Notre Dame of Maryland
+track_outdoor,Women,D2,Point Loma Nazarene University,Point Loma Nazarene University
+track_outdoor,Women,D1,Presbyterian College,Presbyterian
+track_outdoor,Women,D2,"University of Puerto Rico, Mayaguez",
+track_outdoor,Women,D2,"University of Puerto Rico, Rio Piedras",
+track_outdoor,Women,D2,Saginaw Valley State University,Saginaw Valley State
+track_outdoor,Women,D1,Sam Houston State University,Sam Houston
+track_outdoor,Women,D2,Seattle Pacific University,Seattle Pacific
+track_outdoor,Women,D2,Seton Hill University,Seton Hill
+track_outdoor,Women,D2,Shaw University,Shaw
+track_outdoor,Women,D2,Shorter University,Shorter
+track_outdoor,Women,D2,Saint Michael's College,Saint Michaels
+track_outdoor,Women,D2,St. Thomas Aquinas College,St Thomas Aquinas
+track_outdoor,Women,D2,Tusculum University,Tusculum
+track_outdoor,Women,D2,Virginia State University,Virginia State
+track_outdoor,Women,D3,Webster University,Webster
+track_outdoor,Women,D3,Wentworth Institute of Technology,Wentworth
+track_outdoor,Women,D3,Whittier College,Whittier
+track_outdoor,Women,D2,Wilmington University (Delaware),Wilmington DE
+track_outdoor,Women,D3,University of Wisconsin-Eau Claire,UW-Eau Claire
+triathlon,Women,D3,Greensboro College,Greensboro
+triathlon,Women,D3,Guilford College,Guilford
+triathlon,Women,D2,University of Indianapolis,
+triathlon,Women,D2,Kentucky State University,Kentucky State
+volleyball,Women,D1,"University of Arkansas, Fayetteville",Arkansas
+volleyball,Women,D2,Carson-Newman University,Carson-Newman
+volleyball,Women,D2,Fort Valley State University,Fort Valley State
+volleyball,Women,D1,Georgia Institute of Technology,Georgia Tech
+volleyball,Women,D2,University of Indianapolis,
+volleyball,Women,D1,Louisiana State University,LSU
+volleyball,Women,D2,Northeastern State University,Northeastern State
+volleyball,Women,D2,"University of Puerto Rico, Bayamon",
+volleyball,Women,D2,"University of Puerto Rico, Mayaguez",
+volleyball,Women,D2,"University of Puerto Rico, Rio Piedras",
+volleyball,Women,D3,Trinity Washington University,
+volleyball,Women,D1,Vanderbilt University,Vanderbilt
+volleyball,Women,D2,Virginia Union University,Virginia Union
+volleyball,Women,D1,University of West Georgia,West Ga.
+volleyball,Men,D3,Alvernia University,Alvernia
+volleyball,Men,D3,Centenary University (New Jersey),Centenary NJ
+volleyball,Men,D2,Edward Waters University,Edward Waters
+volleyball,Men,D2,Fort Valley State University,Fort Valley State
+volleyball,Men,D3,Franciscan University of Steubenville,Franciscan
+volleyball,Men,D2,University of Jamestown,Jamestown
+volleyball,Men,D3,Juniata College,Juniata
+volleyball,Men,D3,Lake Forest College,Lake Forest
+volleyball,Men,D3,Lycoming College,Lycoming College
+volleyball,Men,D1,University of Maryland Eastern Shore,UMES
+volleyball,Men,D2,Mercy University,Mercy
+volleyball,Men,D3,Mount St. Joseph University,Mount St Joseph
+volleyball,Men,D3,Notre Dame of Maryland University,Notre Dame of Maryland
+volleyball,Men,D1,University of the Pacific,Pacific
+volleyball,Men,D2,"University of Puerto Rico, Bayamon",
+volleyball,Men,D2,"University of Puerto Rico, Mayaguez",
+volleyball,Men,D2,"University of Puerto Rico, Rio Piedras",
+volleyball,Men,D3,Regent University,Regent
+volleyball,Men,D3,Regis College (Massachusetts),Regis College
+volleyball,Men,D3,Rhode Island College,Rhode Island College
+volleyball,Men,D3,University of Scranton,Scranton
+volleyball,Men,D3,Vermont State University-Johnson,Vermont State Johnson
+volleyball,Men,D3,Warren Wilson College,Warren Wilson
+volleyball,Men,D3,Washington and Jefferson College,Washington and Jefferson
+volleyball,Men,D3,William Peace University,William Peace
+water_polo,Men,D3,Austin College,Austin College
+water_polo,Men,D3,"Pennsylvania State Univ. Erie, the Behrend College",Penn State Behrend
+water_polo,Men,D1,Wagner College,Wagner
+water_polo,Women,D3,Austin College,Austin College
+water_polo,Women,D2,Concordia University Irvine,Concordia Irvine
+water_polo,Women,D3,"Pennsylvania State Univ. Erie, the Behrend College",Penn State Behrend
+wrestling,Men,D2,University of Indianapolis,
+wrestling,Men,D3,Pacific University (Oregon),Pacific University (Oregon)
+wrestling,Men,D3,"Penn State University, Altoona",Penn State Altoona
+wrestling,Women,D3,Pacific University (Oregon),Pacific University (Oregon)
+wrestling,Women,D3,"Penn State University, Altoona",Penn State Altoona
+wrestling,Women,D2,Simon Fraser University,Simon Fraser
+wrestling,Women,D2,Western Colorado University,Western Colorado
+wrestling,Women,D3,Westminster College (Missouri),Westminster Missouri
