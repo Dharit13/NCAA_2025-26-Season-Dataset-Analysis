@@ -24,7 +24,7 @@ Genders present: men.
 | `season` | Sport's published season label (2025 fall / 2026 spring / 2025-26). |
 | `division` | NCAA division: D1 / D2 / D3. |
 | `gender` | Men / Women. |
-| `conference` | Athletic conference (as published; ~68% populated). |
+| `conference` | Athletic conference (2025-26 vintage; ~99.97% populated; Shawnee State intentionally blank). |
 | `school` | Institution name (join key to IPEDS/Scorecard). |
 | `position_raw` | Position string as published by the school. |
 | `position_group` | Standardized position bucket. |

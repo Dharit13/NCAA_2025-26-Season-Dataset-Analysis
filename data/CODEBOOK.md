@@ -1,12 +1,10 @@
 # Codebook & Data Dictionary — NCAA All-Sports Rosters 2025-26
 
-**Version 2.0** (enriched build). One row per athlete per sport-roster; 2025-26 athletic year; all 28 NCAA championship sports; D1/D2/D3; both genders. **515,393 rows.**
+**Version 2.0.1** (public tier). One row per athlete per sport-roster; 2025-26 athletic year; all 28 NCAA championship sports; D1/D2/D3; both genders. **515,085 rows.** Conference/division labels corrected for 2025-26 vintage; Louisiana Christian contamination removed (−308 vs v2.0).
 
-The release has two tiers:
-- **Public tier** — `data/ncaa_all_sports_rosters_2025-26.csv` (19 columns, de-identified, no names).
-- **Analysis tier** — `analysis/ncaa_all_sports_analysis_dataset.csv` (54 columns; adds Census income/population, College Scorecard, Opportunity Insights mobility, high-school typology, and validated town income). Joins to the public tier on `athlete_id`.
-
-Each CSV has a Parquet twin with identical data (typed nulls instead of empty strings).
+This GitHub release ships the **public tier** only:
+- **Public tier** — `data/ncaa_all_sports_rosters_2025-26.parquet` (19 columns, de-identified, no names). Per-sport CSV slices under `by_sport/`.
+- **Analysis tier** (54 columns; Census income, Scorecard, mobility, high-school typology) is **research-only** and not distributed here. It joins on `athlete_id` and is rebuildable from public sources. Column dictionary for that tier is retained below for users who rebuild it.
 
 ---
 
@@ -25,7 +23,7 @@ Income, population, school-type, and mobility fields describe the athlete's **ho
 | `season` | string | Sport's own season label (`2025` fall, `2026` spring, `2025-26` winter/full-year). |
 | `division` | string | `D1`/`D2`/`D3` per official NCAA sponsor list. |
 | `gender` | string | `Women` / `Men` (team competition gender). |
-| `conference` | string | Athletic conference (best-effort; ~68%). |
+| `conference` | string | Athletic conference (2025-26 vintage; ~99.97%. Shawnee State intentionally blank — NAIA that year. `Independent` includes Notre Dame, Maranatha Baptist, Salem WV). |
 | `school` | string | Institution name (roster short name). |
 | `position_raw` | string | Position/event/weight-class as listed; semantics vary by sport. |
 | `position_group` | string | Sport-specific standardized grouping. |
@@ -43,17 +41,17 @@ Income, population, school-type, and mobility fields describe the athlete's **ho
 
 ## Tier 2 — Analysis (54 columns)
 
-Columns 1-43 carry the public roster fields plus the original enrichment; columns 44-54 (**marked NEW**) were added in this version. Coverage % is share of the 515,393 rows populated.
+Columns 1-43 carry the public roster fields plus the original enrichment; columns 44-54 (**marked NEW**) were added in this version. Coverage % is share of the 515,085 rows populated.
 
 | Column | Type | Cov% | Source | Description |
 |---|---|---:|---|---|
 | `athlete_id` | string | 100 | internal | Stable surrogate key. Joins across all tiers. |
-| `sport_key` | string | 100 | internal | Sport registry key (matches dataset_release/<sport>/). |
+| `sport_key` | string | 100 | internal | Sport registry key (matches `sport` / `by_sport/<sport>/`). |
 | `athletic_year` | string | 100 | internal | `2025-26` for every row. |
 | `league` | string | 100 | internal | `NCAA` for every row. |
 | `gender` | string | 100 | roster | `Women` / `Men` (team competition gender). |
 | `d2` | string | 98 | internal | Legacy division tag; use `division` instead. |
-| `conference` | string | 68 | roster | Athletic conference (best-effort; 68% — weakest field). |
+| `conference` | string | ~100 | roster | Athletic conference (2025-26 vintage; ~99.97%. Shawnee State blank by design). |
 | `school_name` | string | 100 | roster | Institution name (roster short name). |
 | `sport` | string | 100 | roster | Full sport name incl. gender (e.g. "Women's Basketball"). |
 | `position` | string | 82 | roster | Position/event/weight-class as listed; semantics vary by sport. |
@@ -121,10 +119,14 @@ Built from two federal censuses: **NCES CCD** (public-school universe, 2021) and
 Resolved to a concrete school type (public/private_*): **394,447 (76.5%)**. The remainder is international (8.4%), no high school listed (7.4%), unmatched US (7.4%), homeschool (0.3%). `is_academy` (legacy) is retained but superseded — it classified 44,767 religious-school athletes as non-academy. Full method: `HS_CLASSIFICATION_METHODS.md`.
 
 ## Validated town income (new)
-`town_census_income` / `town_census_population` come from Census ACS 2022 5-year (B19013 income, B01003 population) at place level, with county-subdivision level for CT/ME/MA/NH/RI/VT where towns are the real unit. This **replaces** the original `hometown_population`, which was mis-scaled for small towns (e.g. Darien CT showed 1,242 vs actual 21,571). New income correlates r=0.97 with the original income field. A variance decomposition (`INCOME_PROXY_VALIDATION.md`) shows the town median captures 98-100% of ZIP-level income variation for towns under 50k. Match: 16,430 hometowns (mapping to 10,053 Census places) / 407,664 athletes; `town_income_match_type` flags exact vs fuzzy.
+`town_census_income` / `town_census_population` come from Census ACS 2022 5-year (B19013 income, B01003 population) at place level, with county-subdivision level for CT/ME/MA/NH/RI/VT where towns are the real unit. This **replaces** the original `hometown_population`, which was mis-scaled for small towns (e.g. Darien CT showed 1,242 vs actual 21,639). New income correlates r=0.97 with the original income field. A variance decomposition (`INCOME_PROXY_VALIDATION.md`) shows the town median captures 98-100% of ZIP-level income variation for towns under 50k. Match: 16,430 hometowns (mapping to 10,053 Census places) / 407,664 athletes; `town_income_match_type` flags exact vs fuzzy.
 
 ## Notes
 - **Cross-sport counting:** `track_indoor` ∩ `track_outdoor` share source rows by design (distinct `tfi_`/`tfo_` ids). Decide your unit of analysis before deduping.
 - **De-identified, not anonymized.** No names; `hometown_*`/`high_school` are quasi-identifiers retained for research value. Do not attempt re-identification.
 - **Vintages:** rosters 2025-26; Census ACS 2022; NCES CCD 2021 / PSS 2021-22; College Scorecard & Opportunity Insights as in the original enrichment. Charter schools are counted public.
-- **Per-sport semantics** live in each `dataset_release/<sport>/data/CODEBOOK.md`.
+- **Per-sport file inventories** live in each `by_sport/<sport>/CODEBOOK.md`.
+
+## Version history
+- **2.0.1 (2026-07-13):** Conference/division label correction; −308 Louisiana Christian rows; public schema unchanged.
+- **2.0 (2026-07-08):** Initial DOI release (515,393 rows) with analysis-tier enrichments documented above.

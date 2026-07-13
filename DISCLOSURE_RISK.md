@@ -1,7 +1,7 @@
 # Disclosure Risk Assessment — NCAA All Sports 2025-26
 
 **Written indirect-identifier risk assessment** (ICPSR frame) for the public and analysis
-tiers of the cross-sport master (515,393 rows, 1,089 schools — final build 2026-07-08
+tiers of the cross-sport master (515,085 rows, 1,089 schools — v2.0.1 build 2026-07-13
 at final build). Companion: [ETHICS_REVIEW.md](ETHICS_REVIEW.md). Ground truth used here:
 `data/CODEBOOK.md`, `pii_audit.txt` (clean: forbidden-column check PASS across all 56 tier
 files; 0 regex hits for email/phone/SSN in free-text columns), `sanitize_report.txt`
@@ -19,7 +19,7 @@ tiers — removed at sanitization and enforced by the forbidden-column audit. Wh
 
 | Field | Uniqueness contribution | Note |
 |---|---|---|
-| `school` | High (partitions to ~15–120 athletes) | 1,087 values |
+| `school` | High (partitions to ~15–120 athletes) | 1,089 values |
 | `sport` + `gender` | High (partitions to one team, ~10–120 rows) | with school: the roster itself |
 | `position_raw` / `position_group` | Medium–high within team | often 1–5 per team |
 | `class_year_raw` / `class_standing` | Medium within team | 6 bins |
@@ -113,5 +113,5 @@ attributes never leave the repo; aggregates follow §5. Reassessed at each annua
 alongside ETHICS_REVIEW.md.
 
 ---
-*Final build 2026-07-08 (515,393 rows, 1,089 schools).
+*Public tip v2.0.1 (2026-07-13): 515,085 rows, 1,089 schools.
 Assessed 2026-07-07.*

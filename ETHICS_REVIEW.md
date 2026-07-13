@@ -1,6 +1,6 @@
 # Ethics Self-Review — NCAA All Sports 2025-26
 
-**Pre-release ethics review** for the cross-sport master dataset (515,393 athlete rows,
+**Ethics review** for the cross-sport master dataset (515,085 athlete rows,
 1,089 schools — final build 2026-07-08). Reviewer: Dharit Shah
 (dharits3@gmail.com), independent researcher, no institutional affiliation. This document
 **is** the ethics review — see §4 for why that is the honest framing rather than a gap.
@@ -43,7 +43,7 @@ What this release changes about the context, honestly assessed:
 
 | Contextual shift | Assessment |
 |---|---|
-| **Aggregation** (one school's page → 515,393 rows) | Real shift: cross-school queries become trivial. But the aggregate reveals population patterns, not new individual facts — each row remains exactly what one school published. |
+| **Aggregation** (one school's page → 515,085 rows) | Real shift: cross-school queries become trivial. But the aggregate reveals population patterns, not new individual facts — each row remains exactly what one school published. |
 | **SES/geography enrichment** (analysis tier — research-only, not distributed as of 2026-07-07) | Joins are **place-level aggregates only** — IPEDS/Scorecard facts about the *school*, census-style medians about the *hometown city*. An athlete's row gains "the median household income of the city they told their school they are from," not their family's income. No individual-level attribute is inferred or attached in any distributed tier. |
 | **Research framing** (fan context → demographic research) | The purpose shifts from following a team to studying access and stratification in college sport. Mitigations answer this: analysis operates on de-identified rows; findings are reported as aggregates with N<10 suppression; the one genuinely sensitive derived attribute (BISG race prediction) is confined to research-only files precisely because attaching an inferred race to a locatable individual *would* breach contextual integrity. |
 
@@ -117,5 +117,5 @@ ever — is absolute rather than negotiable.
   nothing to it.
 
 ---
-*Final build 2026-07-08 (515,393 rows). Review date 2026-07-07.
+*Public tip v2.0.1 (2026-07-13): 515,085 rows after label correction. Ethics review dated 2026-07-07 (v2.0 baseline).
 Next scheduled review: 2026-27 release.*

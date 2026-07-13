@@ -8,9 +8,9 @@ three divisions, both genders, one athletic year (2025-26). Companion documents:
 [DISCLOSURE_RISK.md](DISCLOSURE_RISK.md), [LEGAL_NOTES.md](LEGAL_NOTES.md),
 [OPT_OUT.md](OPT_OUT.md).
 
-All counts below are from the **build of 2026-07-06** (`metadata.json`) and will be
-**refreshed at the final build** — two recovery passes (pipeline-dropped athletes; missing
-sponsor-cell sweep) are still landing small upward revisions.
+All counts below are from the **v2.0.1 build of 2026-07-13** (`metadata.json`):
+**515,085** athletes after Louisiana Christian contamination removal and 2025-26
+conference/division label correction. Schema unchanged from v2.0.
 
 ---
 
@@ -44,18 +44,23 @@ as published on the athlete's own school's official athletics website. An athlet
 sports' rosters (e.g. cross country + track) appears once per sport, with per-sport
 `athlete_id`s — the same convention the NCAA uses in its participation reports.
 
-**How many instances are there in total?** **515,393 rows** (Men 291,389 / Women 224,004)
-across **1,087 schools** and 28 sports (final build 2026-07-08).
+**How many instances are there in total?** **515,085 rows** (Men 291,171 / Women 223,914)
+across **1,089 schools** and 28 sports (**v2.0.1**, 2026-07-13).
 Per-sport row counts are in `metadata.json`. One deliberate redundancy:
 **`track_indoor` and `track_outdoor` share source rows** — schools publish one track &
 field roster; the indoor sport is materialized from the shared scrape and independently
-reconciled against the indoor sponsor lists (1,571 overlapping school-gender teams,
+reconciled against the indoor sponsor lists (1,639 overlapping school-gender teams,
 distinct `tfi_`/`tfo_` ids). Never dedupe across sports blindly.
 
+**v2.0.1 note:** −308 rows vs v2.0 remove Louisiana Christian (NAIA) contamination.
+Conference/division labels are 2025-26 vintage. Intentional exceptions: Shawnee State
+empty conference (NAIA competition that year); `Independent` for Notre Dame, Maranatha
+Baptist, Salem WV (and sport-specific independents).
+
 **Does the dataset contain all possible instances or is it a sample?** It attempts the
-census of published rosters and holds **91.9% of the NCAA's reported athlete
-participations, 96.9% of sponsor-list teams, 98.5% of Division I** (final build 2026-07-08;
-counts final). The shortfall is decomposed, not hand-waved
+census of published rosters and holds **91.8% of the NCAA's reported athlete
+participations, 96.9% of sponsor-list teams, 98.5% of Division I** (v2.0.1, 2026-07-13).
+The shortfall is decomposed, not hand-waved
 ([OFFICIAL_COMPARISON.md](OFFICIAL_COMPARISON.md)): (1) ~3.1% of sponsor-list team cells
 missing (small D2/D3 and emerging-sport programs that publish no scrapeable roster);
 (2) published-roster vs reported-squad-size — official figures are season-cumulative
@@ -89,8 +94,8 @@ observational roster dataset, not a prediction task.
 
 **Is any information missing from individual instances?** Yes, where the source roster
 omitted it: field completeness varies by sport (hometown typically >95%, high school
-~90-95%, position/class near-complete; per-sport figures in each
-`dataset_release/<sport>/` datasheet). `hometown_state` is populated only for domestic
+~90-95%, position/class near-complete; per-sport row counts in `metadata.json` and
+`by_sport/<sport>/CODEBOOK.md`). `hometown_state` is populated only for domestic
 athletes. Missing values are empty strings in CSV, typed nulls in Parquet.
 
 **Are relationships between individual instances made explicit?** Partially. `athlete_id`
@@ -259,7 +264,7 @@ full reprocessing. They are not distributed (they contain names).
 ## 5. Uses
 
 **Has the dataset been used for any tasks already?** Yes, by the author: talent-geography
-and SES analyses per sport (each `dataset_release/<sport>/analysis/FINDINGS.md`) — e.g.
+and SES analyses by the author on the research analysis tier — e.g.
 divisional SES stratification, recruiting-distance gradients, prep-academy pipelines,
 state-level talent belts — and the official-vs-scraped participation benchmark
 ([OFFICIAL_COMPARISON.md](OFFICIAL_COMPARISON.md)).
@@ -276,7 +281,7 @@ methods research.
 
 **Is there anything about the composition or collection that might impact future uses?**
 Yes: (1) **roster snapshot ≠ squad size** — do not treat counts as compliance-report
-participation figures (91.9%; relationship decomposed in OFFICIAL_COMPARISON.md);
+participation figures (91.8%; relationship decomposed in OFFICIAL_COMPARISON.md);
 (2) **track indoor/outdoor share source rows** — pick a unit of analysis before
 cross-sport dedup; (3) missing teams skew small/non-D1 — weight or restrict accordingly;
 (4) `hometown_*`/`high_school` are quasi-identifiers — any derived release should
@@ -311,16 +316,17 @@ documentation alongside), with the build pipeline in the accompanying code repos
 locks the repo against deletion/rename; per-record removal remains possible via file
 commits (see OPT_OUT.md).
 
-**When will the dataset be distributed?** After the final recovery merge and count
-refresh (expected July 2026). Status at this writing: built, battery-verified,
-PII-audited, unpublished.
+**When will the dataset be distributed?** **Released** 2026-07-08 (v2.0); tip updated
+2026-07-13 (v2.0.1 label correction). Hugging Face DOI 10.57967/hf/9512; this GitHub
+tree mirrors the public 19-column tier + governance docs.
 
 **Will the dataset be distributed under a copyright or other IP license?** **CC0 1.0**,
 with a **citation request** (not a legal condition). Rationale: the contents are facts,
 which are uncopyrightable in the US (*Feist v. Rural*), so attribution licenses over the
 data would likely be unenforceable; CC0 is the norm at Dryad/Figshare/Dataverse and
 satisfies FAIR R1.1. Citation: Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An
-Individual-Level Dataset Across All Divisions.* [Data set].
+Individual-Level Dataset Across All Divisions* (Version 2.0.1) [Data set].
+https://doi.org/10.57967/hf/9512
 
 **Have any third parties imposed IP-based or other restrictions on the data?** No. The
 underlying facts are not copyrightable; collection was logged-out scraping of public

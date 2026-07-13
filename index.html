@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NCAA All-Sports Rosters 2025-26</title>
-<meta name="description" content="515,393 NCAA college athletes, all 28 sports x 3 divisions x both genders, 2025-26. De-identified, CC0. DOI 10.57967/hf/9512.">
+<meta name="description" content="515,085 NCAA college athletes, all 28 sports x 3 divisions x both genders, 2025-26. De-identified, CC0. DOI 10.57967/hf/9512.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "NCAA All-Sports Rosters 2025-26 (all 28 sports)",
   "alternateName": "NCAA College Athlete Rosters 2025-26",
-  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 515,393 athletes across 1,089 schools (~91.8% of officially reported NCAA participations). De-identified (no names). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. Public tier has 19 columns; a research analysis tier (54 columns) adds Census town income, high-school public/private/religious classification, and College Scorecard / mobility joins.",
+  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 515,085 athletes across 1,089 schools (~91.8% of officially reported NCAA participations). De-identified (no names). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. Public tier has 19 columns; a research analysis tier (54 columns) adds Census town income, high-school public/private/religious classification, and College Scorecard / mobility joins.",
   "url": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
   "sameAs": [
     "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
@@ -34,8 +34,8 @@
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
-  "version": "2.0",
-  "datePublished": "2026-07-08",
+  "version": "2.0.1",
+  "datePublished": "2026-07-13",
   "creator": {
     "@type": "Person",
     "name": "Dharit Shah"
@@ -84,7 +84,7 @@
     {
       "@type": "PropertyValue",
       "name": "conference",
-      "description": "Athletic conference (~68% populated)."
+      "description": "Athletic conference (~99.97% populated; Shawnee State intentionally blank)."
     },
     {
       "@type": "PropertyValue",
@@ -152,7 +152,7 @@
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/ncaa_all_sports_rosters_2025-26.csv",
-      "name": "Master public tier (CSV, 515,393 rows x 19 columns)"
+      "name": "Master public tier (515,085 rows x 19 columns)"
     },
     {
       "@type": "DataDownload",
@@ -186,7 +186,7 @@ table{border-collapse:collapse;width:100%;margin:1em 0} td,th{border:1px solid #
 </head>
 <body>
 <h1>NCAA All-Sports Rosters 2025-26</h1>
-<p class="sub">515,393 college athletes · all 28 NCAA sports · 3 divisions · both genders · the House v. NCAA "year zero"</p>
+<p class="sub">515,085 college athletes · all 28 NCAA sports · 3 divisions · both genders · the House v. NCAA "year zero"</p>
 
 <div class="badges">
 <a href="https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26">Hugging Face (DOI)</a>
@@ -209,9 +209,15 @@ institution-published roster fact validated against the NCAA's official sponsor 
 
 <h2>Citation</h2>
 <p>Shah, Dharit (2026). <i>NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions</i> (Version 2.0) [Data set]. Hugging Face.
+Divisions</i> (Version 2.0.1) [Data set]. Hugging Face.
 <a href="https://doi.org/10.57967/hf/9512">https://doi.org/10.57967/hf/9512</a></p>
 
+
+<h2>Changelog</h2>
+<ul>
+<li><b>v2.0.1 (2026-07-13)</b> — Conference/division labels corrected for 2025-26 vintage; removed 308 Louisiana Christian (NAIA) contamination rows. <b>515,085</b> athletes. Schema unchanged. Intentional exceptions: Shawnee State empty conference; Independents include Notre Dame, Maranatha Baptist, Salem WV.</li>
+<li><b>v2.0 (2026-07-08)</b> — Initial public release with DOI 10.57967/hf/9512 (515,393 athletes).</li>
+</ul>
 <h2>License</h2>
 <p>CC0-1.0 (public domain). Roster facts are not copyrightable (<i>Feist v. Rural</i>). Please do
 not attempt re-identification. Per-record removal honored on request: dharits3@gmail.com.</p>
