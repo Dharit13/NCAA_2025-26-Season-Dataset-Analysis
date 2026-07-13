@@ -47,4 +47,4 @@ Genders present: men, women.
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-08 from the final reconciled build (515,393 rows). Row counts above are exact for this build._
+_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._

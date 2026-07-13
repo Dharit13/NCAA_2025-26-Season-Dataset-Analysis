@@ -1,3 +1,12 @@
+# NCAA All-Sports Rosters 2025-26 — v2.0.1 (label correction)
+
+Conference/division label corrections on the public 19-column tier after a full 2025-26
+re-verify. Schema unchanged. **515,085 athletes** (was 515,393): drops Louisiana Christian
+contamination; corrects core-collision / stale realignment conference labels and a small
+set of division mislabels.
+
+---
+
 # NCAA All-Sports Rosters 2025-26 — v2.0
 
 Individual-level roster data for **all 28 NCAA championship/emerging sports**, all three

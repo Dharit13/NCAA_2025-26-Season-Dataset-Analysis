@@ -12,7 +12,7 @@ Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column pu
 | `women/d2.csv` | women, D2 | 789 |
 | `women/d3.csv` | women, D3 | 3,543 |
 
-Genders present: women (single-gender sport).
+Genders present: women.
 
 ## Columns (19)
 
@@ -44,4 +44,4 @@ Genders present: women (single-gender sport).
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-08 from the final reconciled build (515,393 rows). Row counts above are exact for this build._
+_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._

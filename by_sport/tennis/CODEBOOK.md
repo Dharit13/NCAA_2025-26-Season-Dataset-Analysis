@@ -6,15 +6,15 @@ Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column pu
 
 | File | Scope | Rows |
 |---|---|---|
-| `all.csv` | all divisions, all genders | 14,228 |
+| `all.csv` | all divisions, all genders | 14,221 |
 | `men/all.csv` | men, all divisions | 6,921 |
-| `men/d1.csv` | men, D1 | 2,247 |
-| `men/d2.csv` | men, D2 | 1,394 |
-| `men/d3.csv` | men, D3 | 3,280 |
-| `women/all.csv` | women, all divisions | 7,307 |
-| `women/d1.csv` | women, D1 | 2,719 |
-| `women/d2.csv` | women, D2 | 1,530 |
-| `women/d3.csv` | women, D3 | 3,058 |
+| `men/d1.csv` | men, D1 | 2,236 |
+| `men/d2.csv` | men, D2 | 1,418 |
+| `men/d3.csv` | men, D3 | 3,267 |
+| `women/all.csv` | women, all divisions | 7,300 |
+| `women/d1.csv` | women, D1 | 2,699 |
+| `women/d2.csv` | women, D2 | 1,551 |
+| `women/d3.csv` | women, D3 | 3,050 |
 
 Genders present: men, women.
 
@@ -48,4 +48,4 @@ Genders present: men, women.
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-08 from the final reconciled build (515,393 rows). Row counts above are exact for this build._
+_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._

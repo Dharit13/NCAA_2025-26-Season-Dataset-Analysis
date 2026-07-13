@@ -1,6 +1,6 @@
-# CODEBOOK — Stunt (NCAA 2025-26)
+# CODEBOOK — STUNT (NCAA 2025-26)
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Stunt.
+Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to STUNT.
 
 ## Files in this folder
 
@@ -12,7 +12,7 @@ Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column pu
 | `women/d2.csv` | women, D2 | 586 |
 | `women/d3.csv` | women, D3 | 204 |
 
-Genders present: women (single-gender sport).
+Genders present: women.
 
 ## Columns (19)
 
@@ -44,4 +44,4 @@ Genders present: women (single-gender sport).
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-08 from the final reconciled build (515,393 rows). Row counts above are exact for this build._
+_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._

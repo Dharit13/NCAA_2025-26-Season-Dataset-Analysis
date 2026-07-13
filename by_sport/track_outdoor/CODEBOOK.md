@@ -1,6 +1,6 @@
-# CODEBOOK — Track Outdoor (NCAA 2025-26)
+# CODEBOOK — Track & Field (Outdoor) (NCAA 2025-26)
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Track Outdoor.
+Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Track & Field (Outdoor).
 
 ## Files in this folder
 
@@ -9,12 +9,12 @@ Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column pu
 | `all.csv` | all divisions, all genders | 64,362 |
 | `men/all.csv` | men, all divisions | 32,987 |
 | `men/d1.csv` | men, D1 | 11,749 |
-| `men/d2.csv` | men, D2 | 8,514 |
-| `men/d3.csv` | men, D3 | 12,724 |
+| `men/d2.csv` | men, D2 | 8,542 |
+| `men/d3.csv` | men, D3 | 12,696 |
 | `women/all.csv` | women, all divisions | 31,375 |
 | `women/d1.csv` | women, D1 | 13,644 |
-| `women/d2.csv` | women, D2 | 7,296 |
-| `women/d3.csv` | women, D3 | 10,435 |
+| `women/d2.csv` | women, D2 | 7,328 |
+| `women/d3.csv` | women, D3 | 10,403 |
 
 Genders present: men, women.
 
@@ -48,4 +48,4 @@ Genders present: men, women.
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-08 from the final reconciled build (515,393 rows). Row counts above are exact for this build._
+_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._
