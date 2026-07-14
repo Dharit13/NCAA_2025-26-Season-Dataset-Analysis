@@ -1,5 +1,24 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.0.2 — 2026-07-14 (conference label normalization)
+
+Cosmetic conference-label normalization on the public **19-column** tier. **No rows added
+or removed** (515,085), **no schema change**, **no other field changed** — only six
+conference spellings from different source feeds were normalized to their canonical
+official names:
+
+| Was | Now | Rows |
+|---|---|---:|
+| `Old Dominion Athletic Conf.` | `Old Dominion Athletic Conference` | 6,112 |
+| `Southern California Intercollegiate Athletic Conf.` | `Southern California Intercollegiate Athletic Conference` | 4,893 |
+| `Southern Intercol. Ath. Conf.` | `Southern Intercollegiate Athletic Conference` | 4,083 |
+| `Atlantic 10 conference` | `Atlantic 10 Conference` | 597 |
+| `Sunbelt Conference` | `Sun Belt Conference` | 416 |
+| `New England Wrestling Assn` | `New England Wrestling Association` | 28 |
+
+`Southern Conference` (D1) and `Southern Athletic Association` (D3) are **left distinct** —
+they are genuinely different leagues. DOI **10.57967/hf/9512** (cite with version **2.0.2**).
+
 ## v2.0.1 — 2026-07-13 (label correction)
 
 Conference/division label corrections on the public **19-column** tier after a full

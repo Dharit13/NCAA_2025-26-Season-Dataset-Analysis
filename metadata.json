@@ -197,8 +197,8 @@
     "town_athletes_per_10k"
   ],
   "pii_pattern_hits": 0,
-  "dataset_version": "2.0.1",
-  "version_note": "v2.0.1 corrects 2025-26 conference/division labels after full re-verify; drops Louisiana Christian contamination (308 rows); public schema unchanged (19 cols).",
+  "dataset_version": "2.0.2",
+  "version_note": "v2.0.2 (2026-07-14): cosmetic conference-label normalization to canonical official names (ODAC/SCIAC/SIAC/NEWA + Atlantic 10 / Sun Belt spellings); no rows or schema changed. v2.0.1 corrects 2025-26 conference/division labels after full re-verify; drops Louisiana Christian contamination (308 rows); public schema unchanged (19 cols).",
   "enrichment_provenance": {
     "high_school_classification": {
       "sources": [
@@ -233,7 +233,7 @@
   },
   "checksums_md5": {
     "data/ncaa_all_sports_rosters_2025-26.csv": "77e798915d1a211eaad146b232cb8469",
-    "data/ncaa_all_sports_rosters_2025-26.parquet": "c4162fa549338a851aa80db89eb7aefa",
+    "data/ncaa_all_sports_rosters_2025-26.parquet": "01ca7969a68bb2d81a466b4345e29b2e",
     "analysis/ncaa_all_sports_analysis_dataset.csv": "eb1674c163f2a7c35f59357a5562cd5c",
     "analysis/ncaa_all_sports_analysis_dataset.parquet": "de6bf5c09b7fdb86f2e64afb8c851ead"
   },
