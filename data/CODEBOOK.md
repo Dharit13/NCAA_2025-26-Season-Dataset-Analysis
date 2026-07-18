@@ -34,7 +34,7 @@ Income, population, school-type, and mobility fields describe the athlete's **ho
 | `hometown_raw` | string | Hometown as listed. |
 | `hometown_city` | string | Parsed city (97.8%). |
 | `hometown_state` | string | Parsed US state/territory, USPS 2-letter (US athletes incl. PR/VI/GU/AS/MP; ~88%). |
-| `origin` | string | `domestic` (~88%) / `international` (~10%) / `unknown` (2.2%). US territories are `domestic`. |
+| `origin` | string | `domestic` (87.9% / 452,348) / `international` (9.9% / 51,210) / `unknown` (2.2% / 11,138). US territories are `domestic`. |
 | `high_school` | string | High school / prep / academy as listed (92.6%). |
 | `high_school_is_academy` | 0/1 | Legacy thin prep/academy flag. Superseded by analysis-tier `hs_category`. |
 | `source_url` | string | Roster page / API endpoint the row came from. |
@@ -63,7 +63,7 @@ Columns 1-43 carry the public roster fields plus the original enrichment; column
 | `hometown_state` | string | 96 | roster (parsed) | Parsed US state as published (mixed-format). |
 | `high_school` | string | 93 | roster | High school / prep / academy as listed. |
 | `source_url` | string | 100 | internal | Roster page / API endpoint the row came from. |
-| `origin` | string | 100 | derived | `US` / `INTL` / `UNK` (~88% / ~10% / 2.2%). US territories are `US`. |
+| `origin` | string | 100 | derived | `US` / `INTL` / `UNK` (aligned with public domestic/international/unknown: 87.9% / 9.9% / 2.2%). US territories are `US`. |
 | `us_state` | string | 88 | derived | USPS 2-letter state/territory (incl. PR/VI/GU/AS/MP), US athletes only. |
 | `intl_region` | string | 10 | derived | Country/region for international athletes (10%). |
 | `position_std` | string | 100 | derived | Standardized position grouping. |

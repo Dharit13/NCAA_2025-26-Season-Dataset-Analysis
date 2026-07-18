@@ -49,12 +49,12 @@ across **1,087 schools** and 28 sports (v2.0.4, 2026-07-18 territory-origin fix)
 Per-sport row counts are in `metadata.json`. One deliberate redundancy:
 **`track_indoor` and `track_outdoor` share source rows** — schools publish one track &
 field roster; the indoor sport is materialized from the shared scrape and independently
-reconciled against the indoor sponsor lists (1,571 overlapping school-gender teams,
+reconciled against the indoor sponsor lists (1,639 overlapping school-gender teams,
 distinct `tfi_`/`tfo_` ids). Never dedupe across sports blindly.
 
 **Does the dataset contain all possible instances or is it a sample?** It attempts the
-census of published rosters and holds **91.8% of the NCAA's reported athlete
-participations, 96.9% of sponsor-list teams, 98.5% of Division I** (v2.0.1, 2026-07-13;
+census of published rosters and holds **91.7% of the NCAA's reported athlete
+participations, 96.9% of sponsor-list teams, 98.5% of Division I** (v2.0.4 current;
 514,696 / 560,992). The shortfall is decomposed, not hand-waved
 ([OFFICIAL_COMPARISON.md](OFFICIAL_COMPARISON.md)): (1) ~3.1% of sponsor-list team cells
 missing (small D2/D3 and emerging-sport programs that publish no scrapeable roster);
@@ -277,7 +277,7 @@ methods research.
 
 **Is there anything about the composition or collection that might impact future uses?**
 Yes: (1) **roster snapshot ≠ squad size** — do not treat counts as compliance-report
-participation figures (91.8%; relationship decomposed in OFFICIAL_COMPARISON.md);
+participation figures (91.7%; relationship decomposed in OFFICIAL_COMPARISON.md);
 (2) **track indoor/outdoor share source rows** — pick a unit of analysis before
 cross-sport dedup; (3) missing teams skew small/non-D1 — weight or restrict accordingly;
 (4) `hometown_*`/`high_school` are quasi-identifiers — any derived release should
