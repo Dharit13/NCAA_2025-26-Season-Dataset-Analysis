@@ -1,7 +1,7 @@
 athlete_id,sport,athletic_year,season,division,gender,conference,school,position_raw,position_group,class_year_raw,class_standing,hometown_raw,hometown_city,hometown_state,origin,high_school,high_school_is_academy,source_url
 ski_c018c31f83f0,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Nordic,Nordic,So.,So,"Steamboat Springs, CO",Steamboat Springs,CO,domestic,,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26
 ski_7fdc67e43983,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Alpine,Alpine,Sr.,Sr,"Samedan, Switzerland",Samedan,,international,Academia Engiadina,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26
-ski_303854d2ac93,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Nordic,Nordic,Gr.,Gr,"LaClusaz, France",LaClusaz,,international,University Grenobles Alpes,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26
+ski_303854d2ac93,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Nordic,Nordic,Gr.,Gr,"LaClusaz, France",LaClusaz,,international,,,https://msubobcats.com/sports/mens-skiing/roster/2025-26
 ski_ac107c9a2f3f,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Alpine,Alpine,Jr.,Jr,"Park City, UT",Park City,UT,domestic,Winter Sports School,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26
 ski_e4e1b0a2c5c4,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Nordic,Nordic,Jr.,Jr,"Bozeman, MT",Bozeman,MT,domestic,Bozeman HS,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26
 ski_dceb7e717ad0,skiing,2025-26,2025-26,D1,Men,Big Sky Conference,Montana St.,Nordic,Nordic,Jr.,Jr,"McCall, ID",McCall,ID,domestic,McCall-Donnelly HS,0,https://msubobcats.com/sports/mens-skiing/roster/2025-26

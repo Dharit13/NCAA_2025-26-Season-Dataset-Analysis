@@ -24,7 +24,7 @@ Genders present: men.
 | `season` | Sport's published season label (2025 fall / 2026 spring / 2025-26). |
 | `division` | NCAA division: D1 / D2 / D3. |
 | `gender` | Men / Women. |
-| `conference` | Athletic conference (2025-26 vintage; ~99.97% populated; Shawnee State intentionally blank). |
+| `conference` | Athletic conference (2025-26 vintage; fully populated after v2.0.3 audit removals). |
 | `school` | Institution name (join key to IPEDS/Scorecard). |
 | `position_raw` | Position string as published by the school. |
 | `position_group` | Standardized position bucket. |
@@ -34,7 +34,7 @@ Genders present: men.
 | `hometown_city` | Parsed hometown city (~97.8%). |
 | `hometown_state` | Parsed US state (domestic only; ~87.9%). |
 | `origin` | domestic / international / unknown. |
-| `high_school` | High school as published (~92.6%). |
+| `high_school` | High school as published (~92.4%; post-audit recovery fills previously blank cells where source pages had them). |
 | `high_school_is_academy` | Legacy binary academy flag (SUPERSEDED by the analysis-tier hs_category; see top-level CODEBOOK). |
 | `source_url` | URL of the roster page scraped. |
 
@@ -44,4 +44,4 @@ Genders present: men.
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-13 from the conference/division-corrected build (515,085 rows). Row counts above are exact for this build._
+_Generated 2026-07-18 from the v2.0.3 audit-corrected build (514,696 rows). Row counts above are exact for this build._

@@ -1,5 +1,54 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.0.3 — 2026-07-14 (audit correction; data tip 2026-07-17)
+
+Comprehensive dataset + join audit on the public **19-column** tier. Schools
+cross-checked against the official NCAA directory and web-verified for the 2025-26
+season. **Schema unchanged.**
+
+| | v2.0.2 | v2.0.3 |
+|---|---:|---:|
+| Athletes | 515,085 | **514,696** |
+| Schools | 1,089 | **1,087** |
+| Public columns | 19 | 19 |
+
+### Why −389 athletes / −2 schools
+
+Removed out-of-scope institutions that were **not NCAA members competing under NCAA
+sponsorship in 2025-26**:
+
+| School | Reason | Rows |
+|---|---|---:|
+| Shawnee State | Competing as NAIA that year | 172 |
+| Johnson & Wales University Charlotte | NCAA exploratory / USCAA | 217 |
+
+**Kept** six NCAA provisional members (Jamestown, Roosevelt, Point Park, Carlow, Regent,
+Middle Georgia State). Johnson & Wales **Providence** remains (NCAA).
+
+### What else changed
+
+- **Conference labels** web-verified for 2025-26, including Notre Dame (per-sport
+  ACC / Big Ten hockey / Independent football), SUNY Brockport → Empire 8, SUNY Canton →
+  SUNYAC, Upper Iowa → GLVC, Penn College → United East, Vermont State Lyndon → North
+  Atlantic, Salve Regina → NEWMAC, Norwich → GNAC, Utica → Empire 8, Marywood → Atlantic
+  East.
+- **High-school recovery** on public `high_school` (source-page restores where blank);
+  analysis-tier `hs_category` patches applied in the private research build (not shipped
+  here).
+- Prior v2.0.2 conference spelling normalizations retained.
+- **`by_sport/`** convenience slices rebuilt from the corrected master (203 CSVs;
+  gender×division leaves sum to 514,696).
+- Conference is **fully populated** (Shawnee State's intentional blank rows are gone with
+  the school).
+
+### Unchanged
+
+- De-identification posture (no names).
+- Public column set and semantics.
+- DOI **10.57967/hf/9512** (cite with version **2.0.3**).
+
+---
+
 ## v2.0.2 — 2026-07-14 (conference label normalization)
 
 Cosmetic conference-label normalization on the public **19-column** tier. **No rows added
@@ -50,7 +99,7 @@ schools were dropped for this release.
 
 | Case | Notes |
 |---|---|
-| **Shawnee State** | Empty `conference` (172 rows). NCAA D2 member competing as NAIA in 2025-26 — no NCAA conference affiliation that year. |
+| **Shawnee State** | Empty `conference` (172 rows). NCAA D2 member competing as NAIA in 2025-26 — no NCAA conference affiliation that year. *(Removed entirely in v2.0.3.)* |
 | **Independents** | `Independent` is correct for full independents including **Notre Dame**, **Maranatha Baptist**, and **Salem WV**, and for athletes on sport-specific independent schedules. |
 
 ### Unchanged
@@ -96,4 +145,4 @@ attempt re-identification. Per-record removal honored on request: dharits3@gmail
 ### Citation
 
 Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions* (Version 2.0.1) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512
+Divisions* (Version 2.0.3) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512

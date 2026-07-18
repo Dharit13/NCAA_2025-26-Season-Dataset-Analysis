@@ -1,6 +1,6 @@
 {
-  "built_utc": "2026-07-13T22:45:44.980863+00:00",
-  "git_head": "1c08c62",
+  "built_utc": "2026-07-08T13:23:54.716598+00:00",
+  "git_head": "4ba3f3a",
   "athletic_year": "2025-26",
   "sports": {
     "acro_tumbling": {
@@ -8,11 +8,11 @@
       "season": "2026"
     },
     "baseball": {
-      "rows": 38125,
+      "rows": 38049,
       "season": "2026"
     },
     "basketball": {
-      "rows": 32680,
+      "rows": 32614,
       "season": "2025-26"
     },
     "beach_volleyball": {
@@ -24,7 +24,7 @@
       "season": "2025-26"
     },
     "cross_country": {
-      "rows": 28271,
+      "rows": 28230,
       "season": "2025"
     },
     "equestrian": {
@@ -44,7 +44,7 @@
       "season": "2025"
     },
     "golf": {
-      "rows": 13661,
+      "rows": 13648,
       "season": "2026"
     },
     "gymnastics": {
@@ -72,11 +72,11 @@
       "season": "2025-26"
     },
     "soccer": {
-      "rows": 54659,
+      "rows": 54559,
       "season": "2025"
     },
     "softball": {
-      "rows": 20686,
+      "rows": 20670,
       "season": "2026"
     },
     "stunt": {
@@ -88,7 +88,7 @@
       "season": "2025-26"
     },
     "tennis": {
-      "rows": 14221,
+      "rows": 14197,
       "season": "2026"
     },
     "track_indoor": {
@@ -96,7 +96,7 @@
       "season": "2025-26"
     },
     "track_outdoor": {
-      "rows": 64362,
+      "rows": 64342,
       "season": "2025-26"
     },
     "triathlon": {
@@ -104,7 +104,7 @@
       "season": "2025"
     },
     "volleyball": {
-      "rows": 21441,
+      "rows": 21408,
       "season": "2025"
     },
     "water_polo": {
@@ -116,8 +116,8 @@
       "season": "2025-26"
     }
   },
-  "total_athletes": 515085,
-  "unique_schools": 1089,
+  "total_athletes": 514696,
+  "unique_schools": 1087,
   "track_team_overlap": 1639,
   "data_columns": [
     "athlete_id",
@@ -197,8 +197,8 @@
     "town_athletes_per_10k"
   ],
   "pii_pattern_hits": 0,
-  "dataset_version": "2.0.2",
-  "version_note": "v2.0.2 (2026-07-14): cosmetic conference-label normalization to canonical official names (ODAC/SCIAC/SIAC/NEWA + Atlantic 10 / Sun Belt spellings); no rows or schema changed. v2.0.1 corrects 2025-26 conference/division labels after full re-verify; drops Louisiana Christian contamination (308 rows); public schema unchanged (19 cols).",
+  "dataset_version": "2.0.3",
+  "version_note": "v2.0.3 (2026-07-14): comprehensive dataset+join audit \u2014 every one of the 514,696-athlete release's schools cross-checked vs the official NCAA directory and individually web-verified for the 2025-26 season (2 workflows, ~137 agents, adversarial refutation). Removed out-of-scope non-NCAA-in-2025-26 schools: Shawnee State (NAIA, 172) and Johnson & Wales University Charlotte (NCAA exploratory/USCAA, 217). Kept 6 NCAA provisional members (Jamestown, Roosevelt, Point Park, Carlow, Regent, Middle Georgia State). Web-verified 2025-26 conference corrections: Notre Dame (per-sport ACC/Big Ten hockey/Independent football), SUNY Brockport->Empire 8, SUNY Canton->SUNYAC, Upper Iowa->GLVC, Penn College->United East, Vermont State Lyndon->North Atlantic, Salve Regina->NEWMAC, Norwich->GNAC, Utica->Empire 8, Marywood->Atlantic East. Backfilled school_state for 133 schools (~58.7k rows) from Scorecard; enriched SES for 5 schools; fixed Missouri S&T IPEDS join (config). 515,085 -> 514,696. Schema unchanged. v2.0.1 (2026-07-13): removed 308 Louisiana Christian University (NAIA) rows mis-scraped into the Louisiana/UL-Lafayette path, and corrected conference/division labels to 2025-26 vintage. 515,393 -> 515,085. Schema unchanged. v2.0 adds high-school public/private/religious classification (NCES CCD+PSS) and Census-validated town income/population (ACS 2022), replacing mis-scaled hometown_population.",
   "enrichment_provenance": {
     "high_school_classification": {
       "sources": [
@@ -232,11 +232,12 @@
     }
   },
   "checksums_md5": {
-    "data/ncaa_all_sports_rosters_2025-26.csv": "77e798915d1a211eaad146b232cb8469",
-    "data/ncaa_all_sports_rosters_2025-26.parquet": "01ca7969a68bb2d81a466b4345e29b2e",
-    "analysis/ncaa_all_sports_analysis_dataset.csv": "eb1674c163f2a7c35f59357a5562cd5c",
-    "analysis/ncaa_all_sports_analysis_dataset.parquet": "de6bf5c09b7fdb86f2e64afb8c851ead"
+    "data/ncaa_all_sports_rosters_2025-26.csv": "f2b94b92347f3259a04cd2fd746eee6d",
+    "data/ncaa_all_sports_rosters_2025-26.parquet": "0283472f9c3e5d46c1cac40babe26ac7",
+    "analysis/ncaa_all_sports_analysis_dataset.csv": "00b329a2c1c9caeedcd559d76fcad5b9",
+    "analysis/ncaa_all_sports_analysis_dataset.parquet": "91b8ea85f6a519f864649abb819d1e7c"
   },
   "n_analysis_columns": 54,
-  "n_public_columns": 19
+  "n_public_columns": 19,
+  "corrected_utc": "2026-07-17T22:37:55.255500+00:00"
 }

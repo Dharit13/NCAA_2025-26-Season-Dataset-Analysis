@@ -23,7 +23,7 @@ glf_84f6c526a1df,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,Fr.
 glf_4be0e882da10,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,R-Fr.,Fr,"Bergen, Norway",Bergen,,international,IMG Academy,1,https://riceowls.com/sports/womens-golf/roster
 glf_1ef278d98d39,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,Fr.,Fr,"La Canada, Calif.",La Canada,CA,domestic,Village Christian,0,https://riceowls.com/sports/womens-golf/roster
 glf_7c34653609d2,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,Fr.,Fr,"Yorba Linda, Calif.",Yorba Linda,CA,domestic,Orange Lutheran HS,0,https://riceowls.com/sports/womens-golf/roster
-glf_5bafa17def5b,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,R-Jr.,Jr,"New Dehli, India",New Dehli,,international,Southern Miss,0,https://riceowls.com/sports/womens-golf/roster
+glf_5bafa17def5b,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,R-Jr.,Jr,"New Dehli, India",New Dehli,,international,Delhi Public School R.K. Puram,0,https://riceowls.com/sports/womens-golf/roster
 glf_c5e2312f2a7c,golf,2025-26,2026,D1,Women,American Conference,Rice,,Golfer,R-Fr.,Fr,"New York, N.Y.",New York,NY,domestic,Florida Atlantic University HS,0,https://riceowls.com/sports/womens-golf/roster
 glf_9de75583f483,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,Jr.,Jr,"Bangkok, Thailand",Bangkok,,international,Bodindecha (Sing Singhaseni),0,https://gotigersgo.com/sports/womens-golf/roster
 glf_b9b46dcce675,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,Fr.,Fr,"Costa Mesa, Calif.",Costa Mesa,CA,domestic,,0,https://gotigersgo.com/sports/womens-golf/roster
@@ -33,10 +33,10 @@ glf_d566a5eb56c5,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,
 glf_83599df2f786,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,Fr.,Fr,"Westford, Mass.",Westford,MA,domestic,,0,https://gotigersgo.com/sports/womens-golf/roster
 glf_48c1b9ced9ca,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,So.,So,"Memphis, Tenn.",Memphis,TN,domestic,,0,https://gotigersgo.com/sports/womens-golf/roster
 glf_1fefd8e09a3f,golf,2025-26,2026,D1,Women,American Conference,Memphis,,Golfer,,UNK,,,,unknown,,0,https://gotigersgo.com/sports/womens-golf/roster
-glf_b4524aae94ed,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Fr.,Fr,"Palencia, Spain",Palencia,,international,New Mexico Junior College,0,https://ucasports.com/sports/womens-golf/roster
+glf_b4524aae94ed,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Fr.,Fr,"Palencia, Spain",Palencia,,international,,,https://ucasports.com/sports/womens-golf/roster
 glf_120de3b479a7,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,So.,So,"Cagayan do Oro City, Philipines",Cagayan do Oro City,,international,,0,https://ucasports.com/sports/womens-golf/roster
-glf_dc7fcc22fe93,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Sr.,Sr,"Okaya, Japan",Okaya,,international,New Mexico Junior College,0,https://ucasports.com/sports/womens-golf/roster
-glf_00781a74c10f,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Sr.,Sr,"Hot Springs, Ark.",Hot Springs,AR,domestic,Cincinnati,0,https://ucasports.com/sports/womens-golf/roster
+glf_dc7fcc22fe93,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Sr.,Sr,"Okaya, Japan",Okaya,,international,Kaishi International High School,0,https://ucasports.com/sports/womens-golf/roster
+glf_00781a74c10f,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Sr.,Sr,"Hot Springs, Ark.",Hot Springs,AR,domestic,Lakeside High School,0,https://ucasports.com/sports/womens-golf/roster
 glf_1b8795af9147,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Jr.,Jr,"Paris, France",Paris,,international,,0,https://ucasports.com/sports/womens-golf/roster
 glf_d9cbb4eb69ab,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Jr.,Jr,"Guaynabo, Puerto Rico",Guaynabo,PR,domestic,,0,https://ucasports.com/sports/womens-golf/roster
 glf_b144b6e78326,golf,2025-26,2026,D1,Women,ASUN Conference,Central Ark.,,Golfer,Fr.,Fr,"Chiang Mai, Thailand",Chiang Mai,,international,,0,https://ucasports.com/sports/womens-golf/roster
@@ -84,7 +84,7 @@ glf_e2ae0292604f,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Jr.
 glf_ae7a7002f092,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,So.,So,"Querataro, Mexico",Querataro,,international,Instituto Ex Novo Preparatoria,0,https://lipscombsports.com/sports/wgolf/roster
 glf_cebcf154d8b3,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,So.,So,"Bonifay, Fla.",Bonifay,FL,domestic,Holmes County High School,0,https://lipscombsports.com/sports/wgolf/roster
 glf_01a010bb6c55,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Gr.,Gr,"Calvert City, Ky.",Calvert City,KY,domestic,Marshall County HS,0,https://lipscombsports.com/sports/wgolf/roster
-glf_eaf2e36c1348,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Jr.,Jr,,,,unknown,Florida State University,0,https://lipscombsports.com/sports/wgolf/roster
+glf_eaf2e36c1348,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Jr.,Jr,,,,unknown,North Cobb Christian School,0,https://lipscombsports.com/sports/wgolf/roster
 glf_d51596d13247,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Sr.,Sr,"Montgomery, Texas",Montgomery,TX,domestic,Lake Creek High School,0,https://lipscombsports.com/sports/wgolf/roster
 glf_de3fcfec9b3c,golf,2025-26,2026,D1,Women,ASUN Conference,Lipscomb,,Golfer,Jr.,Jr,"Montgomery, Texas",Montgomery,TX,domestic,Lake Creek High School,0,https://lipscombsports.com/sports/wgolf/roster
 glf_3461d2e48d90,golf,2025-26,2026,D1,Women,Big 12 Conference,TCU,,Golfer,Sr.,Sr,"Las Vegas, Nev.",Las Vegas,NV,domestic,Coppell HS,0,https://gofrogs.com/sports/womens-golf/roster
@@ -159,7 +159,7 @@ glf_0f0c5d5ce927,golf,2025-26,2026,D1,Women,Big East Conference,Creighton,,Golfe
 glf_60eee4726cac,golf,2025-26,2026,D1,Women,Big East Conference,Creighton,,Golfer,Fr.,Fr,"Waukee, Iowa",Waukee,IA,domestic,Waukee Northwest,0,https://gocreighton.com/sports/womens-golf/roster
 glf_09cf1fbee3e2,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'6""",Golfer,Fr.,Fr,"Santa Cruz de la Sierra, Bolivia",Santa Cruz de la Sierra,,international,Santa Cruz Cooperative School,0,https://nauathletics.com/sports/womens-golf/roster/2026
 glf_d92dfb41ea7e,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'6""",Golfer,Sr.,Sr,"Bath, England",Bath,,international,Norton Hill School,0,https://nauathletics.com/sports/womens-golf/roster/2026
-glf_b074324f27c7,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'6""",Golfer,Sr.,Sr,"The Woodlands, Texas",The Woodlands,TX,domestic,Sam Houston,0,https://nauathletics.com/sports/womens-golf/roster/2026
+glf_b074324f27c7,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'6""",Golfer,Sr.,Sr,"The Woodlands, Texas",The Woodlands,TX,domestic,The Woodlands College Park High School,0,https://nauathletics.com/sports/womens-golf/roster/2026
 glf_7a36e0636a8c,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'5""",Golfer,Fr.,Fr,"Prague, Czech Republic",Prague,,international,Gymnasium Ceskolipska,0,https://nauathletics.com/sports/womens-golf/roster/2026
 glf_db99cb6bad26,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'8""",Golfer,Fr.,Fr,"Gorzow Wielkopolski, Poland",Gorzow Wielkopolski,,international,,0,https://nauathletics.com/sports/womens-golf/roster/2026
 glf_08c28ede890e,golf,2025-26,2026,D1,Women,Big Sky Conference,Northern Ariz.,"5'4""",Golfer,Jr.,Jr,"Toronto, Ontario",Toronto,,international,Northern Illinois,0,https://nauathletics.com/sports/womens-golf/roster/2026
@@ -205,12 +205,12 @@ glf_b52a6c850230,golf,2025-26,2026,D1,Women,Big Ten Conference,Iowa,,Golfer,,UNK
 glf_d240469ed83f,golf,2025-26,2026,D1,Women,Big Ten Conference,Iowa,,Golfer,,UNK,"Pleasant Valley, Iowa",Pleasant Valley,IA,domestic,,0,https://hawkeyesports.com/sports/wgolf/roster
 glf_33d9dad30537,golf,2025-26,2026,D1,Women,Big Ten Conference,Iowa,,Golfer,,UNK,"Lexington, Ky.",Lexington,KY,domestic,The Golf Performance Academy,1,https://hawkeyesports.com/sports/wgolf/roster
 glf_fc4f348606cd,golf,2025-26,2026,D1,Women,Big Ten Conference,Iowa,,Golfer,,UNK,"Beijing, China",Beijing,,international,,0,https://hawkeyesports.com/sports/wgolf/roster
-glf_43b3f4cf2df8,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Graduate Student,Gr,"Enkoping, Sweden",Enkoping,,international,Oakland,0,https://huskers.com/sports/womens-golf/roster
+glf_43b3f4cf2df8,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Graduate Student,Gr,"Enkoping, Sweden",Enkoping,,international,,,https://huskers.com/sports/womens-golf/roster
 glf_bce2c1f1a4a6,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Redshirt Junior,Jr,"Phoenix, Ariz.",Phoenix,AZ,domestic,Arcadia,0,https://huskers.com/sports/womens-golf/roster
 glf_dfafbbb0c0a5,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Graduate Student,Gr,"Wahoo, Neb.",Wahoo,NE,domestic,Bishop Neumann,0,https://huskers.com/sports/womens-golf/roster
 glf_ea8a8b67229f,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Sophomore,So,"Austin, Texas",Austin,TX,domestic,Lake Travis,0,https://huskers.com/sports/womens-golf/roster
 glf_a22f16c9fc68,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Sophomore,So,"Chandler, Ariz.",Chandler,AZ,domestic,Valley Christian,0,https://huskers.com/sports/womens-golf/roster
-glf_26edd9671056,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Junior,Jr,"Rockford, Mich.",Rockford,MI,domestic,Rockford,0,https://huskers.com/sports/womens-golf/roster
+glf_26edd9671056,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Junior,Jr,"Rockford, Mich.",Rockford,MI,domestic,Rockford High School,0,https://huskers.com/sports/womens-golf/roster
 glf_794fc9abe4e3,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Junior,Jr,"Lincoln, Neb.",Lincoln,NE,domestic,Lincoln Christian,0,https://huskers.com/sports/womens-golf/roster
 glf_e319a1fe8866,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Junior,Jr,"Austin, Texas",Austin,TX,domestic,Vandegrift,0,https://huskers.com/sports/womens-golf/roster
 glf_6f63dec0f395,golf,2025-26,2026,D1,Women,Big Ten Conference,Nebraska,,Golfer,Redshirt Senior,Sr,"Carrollton, Texas",Carrollton,TX,domestic,Hebron/Virginia Tech,0,https://huskers.com/sports/womens-golf/roster
@@ -251,7 +251,7 @@ glf_a48cec6d7ceb,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Campbel
 glf_4e2b932aabd5,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Campbell,"5'8""",Golfer,So.,So,"Uppsala, Sweden",Uppsala,,international,Celsiusskolan,0,https://gocamels.com/sports/womens-golf/roster
 glf_cbfd1b5ff3b4,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,Sr.,Sr,"Murrells Inlet, S.C.",Murrells Inlet,SC,domestic,St. James,0,https://cofcsports.com/sports/womens-golf/roster
 glf_3f393caca5a1,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,Fr.,Fr,"Dover, NH",Dover,NH,domestic,Dover High School,0,https://cofcsports.com/sports/womens-golf/roster
-glf_8643f6e97733,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,Sr.,Sr,"Nashville, Tenn.",Nashville,TN,domestic,Ole Miss,0,https://cofcsports.com/sports/womens-golf/roster
+glf_8643f6e97733,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,Sr.,Sr,"Nashville, Tenn.",Nashville,TN,domestic,Lexington High School,0,https://cofcsports.com/sports/womens-golf/roster
 glf_64b6f2b94155,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,R-Jr.,Jr,"Daniel Island, S.C.",Daniel Island,SC,domestic,Ashley Hall,0,https://cofcsports.com/sports/womens-golf/roster
 glf_0787900fb8e8,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,So.,So,"Summit, NJ",Summit,NJ,domestic,Kent Place School,0,https://cofcsports.com/sports/womens-golf/roster
 glf_5771dc098b43,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Col. of Charleston,,Golfer,So.,So,"Filey, North Yorkshire, England",Filey,,international,Norton College Secondary School,0,https://cofcsports.com/sports/womens-golf/roster
@@ -366,7 +366,7 @@ glf_17bcc39b6203,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Q
 glf_9be01f6568e1,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Jr.,Jr,"Paramus, NJ",Paramus,NJ,domestic,Immaculate Heart Academy,1,https://gobobcats.com/sports/wgolf/roster
 glf_8826713cdae5,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Jr.,Jr,"Torrance, CA",Torrance,CA,domestic,North Torrance,0,https://gobobcats.com/sports/wgolf/roster
 glf_ae72b6db080e,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Sr.,Sr,"West Orange, NJ",West Orange,NJ,domestic,West Orange,0,https://gobobcats.com/sports/wgolf/roster
-glf_376bb9b5cead,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Jr.,Jr,"Toronto, Canada",Toronto,,international,Holy Name of Mary College,0,https://gobobcats.com/sports/wgolf/roster
+glf_376bb9b5cead,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Jr.,Jr,"Toronto, Canada",Toronto,,international,Holy Name of Mary College School,0,https://gobobcats.com/sports/wgolf/roster
 glf_19dac27c7602,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Jr.,Jr,"Bridgewater, NJ",Bridgewater,NJ,domestic,Bridgewater - Raritan,0,https://gobobcats.com/sports/wgolf/roster
 glf_9b59cc96dc82,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,Sr.,Sr,"Jersey City, NJ",Jersey City,NJ,domestic,St. Dominic Academy,1,https://gobobcats.com/sports/wgolf/roster
 glf_ad1808867781,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Quinnipiac,,Golfer,So.,So,"Los Angeles, California",Los Angeles,CA,domestic,South Island School,0,https://gobobcats.com/sports/wgolf/roster
@@ -464,7 +464,7 @@ glf_edc01373d0d0,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfe
 glf_0c9aadd0ce9a,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Sr.,Sr,"Surrey, BC, Canada",Surrey,,international,Earl Marriott Secondary,0,https://texaslonghorns.com/sports/womens-golf/roster
 glf_80163b5a2c8e,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Fr.,Fr,"Langley, British Columbia",Langley,,international,,0,https://texaslonghorns.com/sports/womens-golf/roster
 glf_c0e8f27597e2,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Sr.,Sr,"Tainan City, Taiwan",Tainan City,,international,,0,https://texaslonghorns.com/sports/womens-golf/roster
-glf_e026e52b9a4c,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Sr.,Sr,"Auckland, New Zealand",Auckland,,international,Washington,0,https://texaslonghorns.com/sports/womens-golf/roster
+glf_e026e52b9a4c,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Sr.,Sr,"Auckland, New Zealand",Auckland,,international,Macleans College,0,https://texaslonghorns.com/sports/womens-golf/roster
 glf_6e6cd015ad54,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Jr.,Jr,"Shrewsbury, England",Shrewsbury,,international,,0,https://texaslonghorns.com/sports/womens-golf/roster
 glf_cb184ad3985e,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Fr.,Fr,"Northumberland, England",Northumberland,,international,,0,https://texaslonghorns.com/sports/womens-golf/roster
 glf_7ebef5d7f6da,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas,,Golfer,Sr.,Sr,"Austin, Texas",Austin,TX,domestic,Anderson,0,https://texaslonghorns.com/sports/womens-golf/roster
@@ -508,7 +508,7 @@ glf_161e20c3c58e,golf,2025-26,2026,D1,Women,Southland Conference,Lamar Universit
 glf_a478b381a353,golf,2025-26,2026,D1,Women,Southland Conference,Lamar University,Sr.-2L,Golfer,,UNK,"Orange, Texas",Orange,TX,domestic,Little Cypress Mauriceville,0,https://lamarcardinals.com/sports/womens-golf/roster
 glf_9cd33d8589f4,golf,2025-26,2026,D1,Women,Southland Conference,Lamar University,Sr.-3L,Golfer,,UNK,"Calgary, Alberta, Canada",Calgary,,international,Lake Mary Prep,1,https://lamarcardinals.com/sports/womens-golf/roster
 glf_6bd5e4586c21,golf,2025-26,2026,D1,Women,Southland Conference,Lamar University,So.-1L,Golfer,,UNK,"Ballito, South Africa",Ballito,,international,Ashton International College,0,https://lamarcardinals.com/sports/womens-golf/roster
-glf_a8ec8dbd4f6b,golf,2025-26,2026,D1,Women,Southland Conference,Lamar University,Jr.-1L,Golfer,,UNK,"Madrid, Spain",Madrid,,international,Oklahoma Baptist,0,https://lamarcardinals.com/sports/womens-golf/roster
+glf_a8ec8dbd4f6b,golf,2025-26,2026,D1,Women,Southland Conference,Lamar University,Jr.-1L,Golfer,,UNK,"Madrid, Spain",Madrid,,international,,,https://lamarcardinals.com/sports/womens-golf/roster
 glf_8f5c3c277146,golf,2025-26,2026,D1,Women,The Summit League,Denver,"5'8""",Golfer,Jr.,Jr,"Scottsdale, Arizona",Scottsdale,AZ,domestic,Chaparral H.S.,0,https://denverpioneers.com/sports/womens-golf/roster
 glf_09d03688bc9e,golf,2025-26,2026,D1,Women,The Summit League,Denver,"5'6""",Golfer,Jr.,Jr,"Lørenskog, Norway",Lørenskog,,international,Wang toppidrett,0,https://denverpioneers.com/sports/womens-golf/roster
 glf_27bccd42fe82,golf,2025-26,2026,D1,Women,The Summit League,Denver,"5'7""",Golfer,Jr.,Jr,"Erie, Colorado",Erie,CO,domestic,Erie High School,0,https://denverpioneers.com/sports/womens-golf/roster
@@ -652,14 +652,14 @@ glf_490500adce74,golf,2025-26,2026,D1,Women,Mid-American Conference,Akron,,Golfe
 glf_2172b2eaa949,golf,2025-26,2026,D1,Women,Mid-American Conference,Akron,,Golfer,So.,So,"Selangor, Malaysia",Selangor,,international,SMK Seri Garing,0,https://gozips.com/sports/womens-golf/roster/2025-26
 glf_5cbb085e1ae1,golf,2025-26,2026,D1,Women,Mid-American Conference,Akron,,Golfer,Fr.,Fr,"Bangkok, Thailand",Bangkok,,international,Chitralada School,0,https://gozips.com/sports/womens-golf/roster/2025-26
 glf_c315064d8e7b,golf,2025-26,2026,D1,Women,Mid-American Conference,Akron,,Golfer,Sr.,Sr,"Mumbai, Maharashtra",Mumbai,,international,Bandra East,0,https://gozips.com/sports/womens-golf/roster/2025-26
-glf_3acb5f9c6aa5,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Sr.,Sr,"Panama City, Panama",Panama City,,international,Drury,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
+glf_3acb5f9c6aa5,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Sr.,Sr,"Panama City, Panama",Panama City,,international,The Oxford School (Panama),0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
 glf_f9ec5846ce87,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Sr.,Sr,"Samut Prakan, Thailand",Samut Prakan,,international,Sainampeung School,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
 glf_9208db284fc8,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Fr.,Fr,"Loxahatchee, Fla.",Loxahatchee,FL,domestic,Cardinal Newman HS,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
 glf_f1861912baa0,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Jr.,Jr,"Santa Cruz, Bolivia",Santa Cruz,,international,,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
-glf_5221a2a094a6,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Sr.,Sr,"Lahore, Pakistan",Lahore,,international,Lake Superior State,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
+glf_5221a2a094a6,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,Sr.,Sr,"Lahore, Pakistan",Lahore,,international,American School of International Academics,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
 glf_9fa664f14895,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,So.,So,"Davie, Fla.",Davie,FL,domestic,Western HS,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
 glf_e4303c0dad4b,golf,2025-26,2026,D1,Women,Southwestern Athletic Conference,Alabama St.,,Golfer,So.,So,,,,unknown,,0,https://bamastatesports.com/sports/womens-golf/roster/2025-26
-glf_e0e8329b9825,golf,2025-26,2026,D1,Women,American Conference,UAB,,Golfer,Jr.,Jr,"Armenia, Colombia",Armenia,,international,Glenville State,0,https://uabsports.com/sports/womens-golf/roster/2025-26
+glf_e0e8329b9825,golf,2025-26,2026,D1,Women,American Conference,UAB,,Golfer,Jr.,Jr,"Armenia, Colombia",Armenia,,international,GI School (Gimnasio Ingles),0,https://uabsports.com/sports/womens-golf/roster/2025-26
 glf_0644ea902947,golf,2025-26,2026,D1,Women,American Conference,UAB,,Golfer,Jr.,Jr,"Southside, AL",Southside,AL,domestic,Southside HS,0,https://uabsports.com/sports/womens-golf/roster/2025-26
 glf_baf7f16a29d3,golf,2025-26,2026,D1,Women,American Conference,UAB,,Golfer,Fr.,Fr,"Murfreesboro, TN",Murfreesboro,TN,domestic,Providence Christian,0,https://uabsports.com/sports/womens-golf/roster/2025-26
 glf_d516da10a6fe,golf,2025-26,2026,D1,Women,American Conference,UAB,,Golfer,Fr.,Fr,"Marietta, Ga.",Marietta,GA,domestic,,0,https://uabsports.com/sports/womens-golf/roster/2025-26
@@ -692,7 +692,7 @@ glf_27e28565bf2b,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Go
 glf_d64a5a7baee8,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,So.,So,"Jonesboro, Ark.",Jonesboro,AR,domestic,Jonesboro HS,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
 glf_5ede9c950667,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,Fr.,Fr,"Montreal, Quebec",Montreal,,international,,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
 glf_4fd43db9dc34,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,Jr.,Jr,"Quebec City, Quebec",Quebec City,,international,Academie Saint Louis,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
-glf_38dd29faf426,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,Jr.,Jr,"Montgomery, Texas",Montgomery,TX,domestic,UAB,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
+glf_38dd29faf426,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,Jr.,Jr,"Montgomery, Texas",Montgomery,TX,domestic,Montgomery High School,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
 glf_d89d8c18a2c9,golf,2025-26,2026,D1,Women,Sun Belt Conference,Arkansas St.,,Golfer,Fr.,Fr,"Tucson, Ariz.",Tucson,AZ,domestic,,0,https://astateredwolves.com/sports/womens-golf/roster/2025-26
 glf_07e84d86c324,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'6""",Golfer,Sr.,Sr,"Surrey, British Columbia",Surrey,,international,Frank Hurt Secondary School,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_c06b8ec55c3a,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'4""",Golfer,Jr.,Jr,"Heidelberg, Germany",Heidelberg,,international,Kurpfalz Gymnasium Schriesheim,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
@@ -700,7 +700,7 @@ glf_c06b72d3b49e,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'5""",Go
 glf_934a15415965,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'10""",Golfer,Sr.,Sr,"Overland Park, Kan.",Overland Park,KS,domestic,Blue Valley HS,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_ada9c06c6f1c,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'9""",Golfer,Fr.,Fr,"Los Angeles, Calif.",Los Angeles,CA,domestic,Orion International Academy,1,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_e7b55098e1cd,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"6'0""",Golfer,Fr.,Fr,"Castro Valley, Calif.",Castro Valley,CA,domestic,Bishop O'Dowd HS,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
-glf_04e57e976643,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,,Golfer,So.,So,"Queretaro, Mexico",Queretaro,,international,Arkansas,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
+glf_04e57e976643,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,,Golfer,So.,So,"Queretaro, Mexico",Queretaro,,international,John F. Kennedy The American School of Queretaro,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_1d88bf75d630,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'8""",Golfer,Fr.,Fr,"Naples, Fla.",Naples,FL,domestic,Gulf Coast HS,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_5f2f20e97b88,golf,2025-26,2026,D1,Women,Big 12 Conference,Arizona,"5'4""",Golfer,Sr.,Sr,"Bangkok, Thailand",Bangkok,,international,Kwong Chow School,0,https://arizonawildcats.com/sports/womens-golf/roster/2025-26
 glf_1dce693141d8,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Little Rock,,Golfer,Junior,Jr,"Elancourt, France",Elancourt,,international,Gimnazija Franceta Prešerna,0,https://lrtrojans.com/sports/womens-golf/roster/season/2025-26
@@ -748,11 +748,11 @@ glf_90ddaf0e0d6d,golf,2025-26,2026,D1,Women,Mountain West Conference,Boise St.,,
 glf_d6e46fbab794,golf,2025-26,2026,D1,Women,Mountain West Conference,Boise St.,,Golfer,Jr.,Jr,"Kaimuki, Hawaii",Kaimuki,HI,domestic,Kalani HS,0,https://broncosports.com/sports/womens-golf/roster/2025-26
 glf_dbed54b443f4,golf,2025-26,2026,D1,Women,Mountain West Conference,Boise St.,,Golfer,Sr.,Sr,"Eagle, Idaho",Eagle,ID,domestic,Eagle HS,0,https://broncosports.com/sports/womens-golf/roster/2025-26
 glf_2974d9db3bd5,golf,2025-26,2026,D1,Women,Mountain West Conference,Boise St.,,Golfer,Fr.,Fr,"Albuquerque, N.M.",Albuquerque,NM,domestic,Laurel Springs School,0,https://broncosports.com/sports/womens-golf/roster/2025-26
-glf_6e0b8a183db0,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Jr.,Jr,"Munich, Germany",Munich,,international,Tennessee,0,https://bceagles.com/sports/womens-golf/roster/2025-26
+glf_6e0b8a183db0,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Jr.,Jr,"Munich, Germany",Munich,,international,St. Stephen's School (Rome),0,https://bceagles.com/sports/womens-golf/roster/2025-26
 glf_926c311e3522,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Sr.,Sr,"Ketsch, Germany",Ketsch,,international,Carl-Theodor School,0,https://bceagles.com/sports/womens-golf/roster/2025-26
-glf_59b42c5f6569,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Gr.,Gr,"Midlothian, Texas",Midlothian,TX,domestic,Texas,0,https://bceagles.com/sports/womens-golf/roster/2025-26
+glf_59b42c5f6569,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Gr.,Gr,"Midlothian, Texas",Midlothian,TX,domestic,Midlothian High School,0,https://bceagles.com/sports/womens-golf/roster/2025-26
 glf_037e7fa5c586,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Jr.,Jr,"Rolling Hills Estates, Calif.",Rolling Hills Estates,CA,domestic,Palos Verdes,0,https://bceagles.com/sports/womens-golf/roster/2025-26
-glf_0f5bd94fe911,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,So.,So,"Frankfort, Ill.",Frankfort,IL,domestic,Michigan,0,https://bceagles.com/sports/womens-golf/roster/2025-26
+glf_0f5bd94fe911,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,So.,So,"Frankfort, Ill.",Frankfort,IL,domestic,Benet Academy,0,https://bceagles.com/sports/womens-golf/roster/2025-26
 glf_9d2f7599c9bf,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,So.,So,"Monterrey, Mexico",Monterrey,,international,ASFM,0,https://bceagles.com/sports/womens-golf/roster/2025-26
 glf_3a684380fcc2,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Sr.,Sr,"Lake Mary, Fla.",Lake Mary,FL,domestic,Lake Mary Prep,1,https://bceagles.com/sports/womens-golf/roster/2025-26
 glf_9513b52b6c3b,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Boston College,,Golfer,Sr.,Sr,"Milpitas, Calif.",Milpitas,CA,domestic,Valley Christian,0,https://bceagles.com/sports/womens-golf/roster/2025-26
@@ -825,7 +825,7 @@ glf_2c132ffa3c8e,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer
 glf_6e24f186a39d,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Sr.,Sr,"South Pasadena, Calif.",South Pasadena,CA,domestic,South Pasadena,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
 glf_326f1f34d967,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Fr.,Fr,"Bellevue, Wash.",Bellevue,WA,domestic,International Virtual Learning Academy,1,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
 glf_31780b876001,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Fr.,Fr,"San Ramon, Calif.",San Ramon,CA,domestic,Dougherty Valley,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
-glf_8ab0e8a898fe,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Jr.,Jr,"Ripon, Calif.",Ripon,CA,domestic,Ripon,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
+glf_8ab0e8a898fe,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Jr.,Jr,"Ripon, Calif.",Ripon,CA,domestic,Ripon High School,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
 glf_e7be8c2e9ea9,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Jr.,Jr,"San Jose, Calif.",San Jose,CA,domestic,Piedmont Hills,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
 glf_e8acf33b0e89,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,So.,So,"Murrieta, Calif.",Murrieta,CA,domestic,,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
 glf_30b6cfdd0e7b,golf,2025-26,2026,D1,Women,Big West Conference,UC Davis,,Golfer,Jr.,Jr,"Guangzhou, China",Guangzhou,,international,,0,https://ucdavisaggies.com/sports/womens-golf/roster/2025-26
@@ -866,7 +866,7 @@ glf_dd51ddd3b523,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Go
 glf_470986ab7f98,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"North Hills, Calif.",North Hills,CA,domestic,Notre Dame HS,0,https://gohighlanders.com/sports/womens-golf/roster/2025-26
 glf_59522aae2b63,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"San Diego, Calif.",San Diego,CA,domestic,Del Norte HS,0,https://gohighlanders.com/sports/womens-golf/roster/2025-26
 glf_f01274e0b70b,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,Jr.,Jr,"Fullerton, Calif.",Fullerton,CA,domestic,Orange Lutheran HS,0,https://gohighlanders.com/sports/womens-golf/roster/2025-26
-glf_e36b70a836c0,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,Jr.,Jr,"Riverside, Calif.",Riverside,CA,domestic,Point Loma Nazarene,0,https://gohighlanders.com/sports/womens-golf/roster/2025-26
+glf_e36b70a836c0,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,Jr.,Jr,"Riverside, Calif.",Riverside,CA,domestic,Riverside Polytechnic High School,0,https://gohighlanders.com/sports/womens-golf/roster/2025-26
 glf_94b00f606aea,golf,2025-26,2026,D1,Women,Big West Conference,UC Riverside,,Golfer,,UNK,,,,unknown,Elite Academic Academy,1,https://gohighlanders.com/sports/womens-golf/roster/2025-26
 glf_3dc4876182d0,golf,2025-26,2026,D1,Women,Big 12 Conference,UCF,,Golfer,Redshirt Freshman,Fr,"Dubai, United Arab Emirates",Dubai,,international,,0,https://ucfknights.com/sports/womens-golf/roster
 glf_a6b1c22640f6,golf,2025-26,2026,D1,Women,Big 12 Conference,UCF,,Golfer,Sophomore,So,"Reunion, France",Reunion,,international,,0,https://ucfknights.com/sports/womens-golf/roster
@@ -941,7 +941,7 @@ glf_1ec7beea40f6,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Gol
 glf_c729dc7598d0,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,So.,So,"Hermitage, Pa.",Hermitage,PA,domestic,Hickory,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
 glf_41b3d04e8581,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,Sr.,Sr,"Pittsburgh, Pa.",Pittsburgh,PA,domestic,Mt. Lebanon,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
 glf_846ee0c9f454,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,Fr.,Fr,"Southport, N.C.",Southport,NC,domestic,South Brunswick,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
-glf_3c93ef955360,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,So.,So,"Northville, Mich.",Northville,MI,domestic,Mercy,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
+glf_3c93ef955360,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,So.,So,"Northville, Mich.",Northville,MI,domestic,Mercy High School,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
 glf_7fc950f18304,golf,2025-26,2026,D1,Women,Atlantic 10 Conference,Duquesne,,Golfer,Fr.,Fr,"Eagle, Idaho",Eagle,ID,domestic,The Ambrose School,0,https://goduquesne.com/sports/womens-golf/roster/2025-26
 glf_4d18f42c9e03,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Duke,Academic,Golfer,So.,So,"Barcelona, Spain",Barcelona,,international,St. Paul's School,0,https://goduke.com/sports/womens-golf/roster/2025-26
 glf_6a7e2a7cdd97,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Duke,Academic,Golfer,So.,So,"Paris, France",Paris,,international,Diagonale,0,https://goduke.com/sports/womens-golf/roster/2025-26
@@ -953,7 +953,7 @@ glf_1b75bbac2bf4,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Duke,Acade
 glf_20061a9ef4d6,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Duke,,Golfer,,UNK,,,,unknown,St. Paul's School,0,https://goduke.com/sports/womens-golf/roster/2025-26
 glf_4f1b19af95bc,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'6""",Golfer,Fr.,Fr,"Maryville, Tenn.",Maryville,TN,domestic,Emory & Henry,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
 glf_bac4be7261e1,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'2""",Golfer,Sr.,Sr,"Abingdon, Va.",Abingdon,VA,domestic,Emory & Henry,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
-glf_e187a9fbb724,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'8""",Golfer,R-Jr.,Jr,"Freiburg, Germany",Freiburg,,international,Nebraska,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
+glf_e187a9fbb724,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'8""",Golfer,R-Jr.,Jr,"Freiburg, Germany",Freiburg,,international,,,https://etsubucs.com/sports/womens-golf/roster/2025-26
 glf_90e4cc6de11b,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'4""",Golfer,So.,So,"Kingsport, Tenn.",Kingsport,TN,domestic,Emory & Henry,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
 glf_208d5051b5eb,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,"5'4""",Golfer,Fr.,Fr,"Nakhon Prathom, Thailand",Nakhon Prathom,,international,,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
 glf_023cd657f89c,golf,2025-26,2026,D1,Women,Southern Conference,ETSU,,Golfer,Fr.,Fr,"Stavanger, Norway",Stavanger,,international,,0,https://etsubucs.com/sports/womens-golf/roster/2025-26
@@ -965,7 +965,7 @@ glf_60c186ff0f93,golf,2025-26,2026,D1,Women,Southland Conference,East Texas A&M,
 glf_284c2ab9b97c,golf,2025-26,2026,D1,Women,Southland Conference,East Texas A&M,,Golfer,Fr.,Fr,"Beddingestrand, Sweden",Beddingestrand,,international,Sundsgymnasiet,0,https://lionathletics.com/sports/womens-golf/roster/2025-26
 glf_b2e06528eec5,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,So.,So,"Ravenna, Ky.",Ravenna,KY,domestic,Estill County High School,0,https://ekusports.com/sports/womens-golf/roster/2025-26
 glf_2572c4e2be95,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,Fr.,Fr,"Porrentruy, Switzerland",Porrentruy,,international,Sotogrande International School,0,https://ekusports.com/sports/womens-golf/roster/2025-26
-glf_7dc6db9ca751,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,Sr.,Sr,"Ethridge, Tenn.",Ethridge,TN,domestic,Middle Tennessee State University,0,https://ekusports.com/sports/womens-golf/roster/2025-26
+glf_7dc6db9ca751,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,Sr.,Sr,"Ethridge, Tenn.",Ethridge,TN,domestic,Summertown High School,0,https://ekusports.com/sports/womens-golf/roster/2025-26
 glf_fe7021772ed6,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,So.,So,"Adelaide, Australia",Adelaide,,international,,0,https://ekusports.com/sports/womens-golf/roster/2025-26
 glf_043f320c70ee,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,Sr.,Sr,"Lexington, Ky.",Lexington,KY,domestic,Lexington Christian,0,https://ekusports.com/sports/womens-golf/roster/2025-26
 glf_29b4c48d05e7,golf,2025-26,2026,D1,Women,ASUN Conference,Eastern Ky.,,Golfer,Jr.,Jr,"Richmond, Ky.",Richmond,KY,domestic,Madison Central High School,0,https://ekusports.com/sports/womens-golf/roster/2025-26
@@ -1018,14 +1018,14 @@ glf_d5394b207246,golf,2025-26,2026,D1,Women,Southeastern Conference,Florida,,Gol
 glf_fac0168a3675,golf,2025-26,2026,D1,Women,Southeastern Conference,Florida,,Golfer,So.,So,"Semarang, Indonesia",Semarang,,international,Bina Bangsa School,0,https://floridagators.com/sports/womens-golf/roster/2025-26
 glf_dc0145132ade,golf,2025-26,2026,D1,Women,Southeastern Conference,Florida,,Golfer,So.,So,Hong Kong,Hong Kong,,international,Windermere Preparatory School,1,https://floridagators.com/sports/womens-golf/roster/2025-26
 glf_ea4bf57c90ab_2,golf,2025-26,2026,D1,Women,Southeastern Conference,Florida,,Golfer,Jr.,Jr,"Rennes, France Sophia Dyer",Rennes,,international,Shorecrest Preparatory Paula Francisco,1,https://floridagators.com/sports/womens-golf/roster/2025-26
-glf_d7634f62d027,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'8""",Golfer,Jr.,Jr,"Miami, Fla.",Miami,FL,domestic,Palm Harbor University,0,https://fiusports.com/sports/womens-golf/roster/2025-26
-glf_ce7391cefd73,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'9""",Golfer,So.,So,"Palm Harbor, Fla.",Palm Harbor,FL,domestic,Palm Harbor University,0,https://fiusports.com/sports/womens-golf/roster/2025-26
+glf_d7634f62d027,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'8""",Golfer,Jr.,Jr,"Miami, Fla.",Miami,FL,domestic,Doral Academy,0,https://fiusports.com/sports/womens-golf/roster/2025-26
+glf_ce7391cefd73,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'9""",Golfer,So.,So,"Palm Harbor, Fla.",Palm Harbor,FL,domestic,Palm Harbor University High School,0,https://fiusports.com/sports/womens-golf/roster/2025-26
 glf_e7ff02e055ca,golf,2025-26,2026,D1,Women,Conference USA,FIU,,Golfer,Fr.,Fr,"Szada, Hungary",Szada,,international,,0,https://fiusports.com/sports/womens-golf/roster/2025-26
 glf_49ee37185935,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'5""",Golfer,Sr.,Sr,"Hong Kong, China",Hong Kong,,international,Keiser,0,https://fiusports.com/sports/womens-golf/roster/2025-26
 glf_f926ea34b823,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'5""",Golfer,Sr.,Sr,"Surrey, England",Surrey,,international,Seminole State,0,https://fiusports.com/sports/womens-golf/roster/2025-26
 glf_cc76a7bda035,golf,2025-26,2026,D1,Women,Conference USA,FIU,,Golfer,Fr.,Fr,"Bondues, France",Bondues,,international,,0,https://fiusports.com/sports/womens-golf/roster/2025-26
 glf_f697870bc5f8,golf,2025-26,2026,D1,Women,Conference USA,FIU,"5'3""",Golfer,So.,So,"Menton, France",Menton,,international,,0,https://fiusports.com/sports/womens-golf/roster/2025-26
-glf_3283f177dbca,golf,2025-26,2026,D1,Women,American Conference,Fla. Atlantic,,Golfer,Sr.,Sr,"Neuss, Germany",Neuss,,international,Keiser University,0,https://fausports.com/sports/womens-golf/roster/2025-26
+glf_3283f177dbca,golf,2025-26,2026,D1,Women,American Conference,Fla. Atlantic,,Golfer,Sr.,Sr,"Neuss, Germany",Neuss,,international,Marienberg Mädchengymnasium,0,https://fausports.com/sports/womens-golf/roster/2025-26
 glf_7ba27bb9ffed,golf,2025-26,2026,D1,Women,American Conference,Fla. Atlantic,,Golfer,So.,So,"Ormond Beach, Fla.",Ormond Beach,FL,domestic,Seabreeze,0,https://fausports.com/sports/womens-golf/roster/2025-26
 glf_d73b4fd29e1d,golf,2025-26,2026,D1,Women,American Conference,Fla. Atlantic,,Golfer,So.,So,"Ponte Vedra Beach, Fla.",Ponte Vedra Beach,FL,domestic,Ponte Vedra,0,https://fausports.com/sports/womens-golf/roster/2025-26
 glf_ec0d2ce97a72,golf,2025-26,2026,D1,Women,American Conference,Fla. Atlantic,,Golfer,Fr.,Fr,"Seilh, France",Seilh,,international,,0,https://fausports.com/sports/womens-golf/roster/2025-26
@@ -1064,11 +1064,11 @@ glf_4eb3e46f167c,golf,2025-26,2026,D1,Women,Big East Conference,Georgetown,,Golf
 glf_754546268208,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Fr.,Fr,"Delray Beach, Fla.",Delray Beach,FL,domestic,Saint Andrews School,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
 glf_6e97cb3ed364,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Fr.,Fr,"Calvert City, Ky.",Calvert City,KY,domestic,Marshall County High School,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
 glf_5fdd2a0cb0ea,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Jr.,Jr,"Asker, Norway",Asker,,international,Wang Toppidrett,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
-glf_b58282453ea1,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Gr.,Gr,"Sandviken, Sweden",Sandviken,,international,Colorado,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
-glf_d41ef0817a30,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,So.,So,"Queretaro, Mexico",Queretaro,,international,New Mexico,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
-glf_80b9043b1c2e,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,So.,So,"Austin, Tex.",Austin,,international,Colorado,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
+glf_b58282453ea1,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Gr.,Gr,"Sandviken, Sweden",Sandviken,,international,Vasaskolan,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
+glf_d41ef0817a30,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,So.,So,"Queretaro, Mexico",Queretaro,,international,Prepa Anahuac Queretaro,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
+glf_80b9043b1c2e,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,So.,So,"Austin, Tex.",Austin,,international,Vandegrift High School,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
 glf_abc8bab7a50d,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,Fr.,Fr,"Duluth, Ga.",Duluth,GA,domestic,Georgia Connections Academy,1,https://georgiadogs.com/sports/womens-golf/roster/2025-26
-glf_d24ee7988cef,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,R-Jr.,Jr,"Lake Mary, Fla.",Lake Mary,FL,domestic,Florida,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
+glf_d24ee7988cef,golf,2025-26,2026,D1,Women,Southeastern Conference,Georgia,,Golfer,R-Jr.,Jr,"Lake Mary, Fla.",Lake Mary,FL,domestic,Lake Mary High School,0,https://georgiadogs.com/sports/womens-golf/roster/2025-26
 glf_495847143701,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'1""",Golfer,Fr.,Fr,"Auburn, Ala.",Auburn,AL,domestic,Auburn,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
 glf_6e8941af1489,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'9""",Golfer,Fr.,Fr,"Frisco, Texas",Frisco,TX,domestic,Wakeland,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
 glf_fb97845b939b,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'3""",Golfer,Jr.,Jr,"Nonthaburi, Thailand",Nonthaburi,,international,Distance Institute,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
@@ -1077,14 +1077,14 @@ glf_a3835eb18141,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'4
 glf_e0965cda0b6d,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'5""",Golfer,So.,So,"Suwanee, Ga.",Suwanee,GA,domestic,Peachtree Ridge,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
 glf_9b32ceb6d024,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'5""",Golfer,So.,So,"Atlanta, Ga.",Atlanta,GA,domestic,Georgia Connections Academy,1,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
 glf_0019a345dc6e,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'4""",Golfer,Jr.,Jr,"Bangkok,Thailand",Bangkok,,international,Keerapat International School,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
-glf_4c879cac232e,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'4""",Golfer,R-Sr.,Sr,"Canberra, Australia",Canberra,,international,Lake Ginninderra College/Campbell,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
+glf_4c879cac232e,golf,2025-26,2026,D1,Women,Sun Belt Conference,Georgia St.,"5'4""",Golfer,R-Sr.,Sr,"Canberra, Australia",Canberra,,international,Lake Ginninderra College,0,https://georgiastatesports.com/sports/womens-golf/roster/2025-26
 glf_6a085867ccdc,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Sr.,Sr,"Bellevue, Wash.",Bellevue,WA,domestic,Bellevue,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_0d0459d13805,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Sr.,Sr,"Semarang, Indonesia",Semarang,,international,,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_119af7c06e7d,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Sr.,Sr,"Spokane, Wash.",Spokane,WA,domestic,Mead,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_2512f1bbf60e,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Fr.,Fr,"Newcastle, Wash.",Newcastle,WA,domestic,Liberty,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_e9a267c9ca40,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Gr.,Gr,"Stockton, Calif.",Stockton,CA,domestic,Bear Creek,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_ec0b21adfc8f,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Fr.,Fr,"Waipahu, Hawaii",Waipahu,HI,domestic,Mililani,0,https://gozags.com/sports/womens-golf/roster/2025-26
-glf_99c3fec33e36,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Jr.,Jr,"Porter Ranch, Calif.",Porter Ranch,CA,domestic,Notre Dame,0,https://gozags.com/sports/womens-golf/roster/2025-26
+glf_99c3fec33e36,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Jr.,Jr,"Porter Ranch, Calif.",Porter Ranch,CA,domestic,Notre Dame High School,0,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_b5d67db2cc2c,golf,2025-26,2026,D1,Women,West Coast Conference,Gonzaga,,Golfer,Jr.,Jr,"Pasadena, Calif.",Pasadena,CA,domestic,La Salle College Preparatory,1,https://gozags.com/sports/womens-golf/roster/2025-26
 glf_e2645f7cf0c4,golf,2025-26,2026,D1,Women,Mountain West Conference,Grand Canyon,,Golfer,Fr.,Fr,"Bondorf, Germany",Bondorf,,international,Paul Klee Gymnasium,0,https://gculopes.com/sports/womens-golf/roster/2025-26
 glf_41af15062826,golf,2025-26,2026,D1,Women,Mountain West Conference,Grand Canyon,,Golfer,Jr.,Jr,"Burnham-on-Sea, Somerset, England",Burnham-on-Sea,,international,Bridgwater and Taunton College,0,https://gculopes.com/sports/womens-golf/roster/2025-26
@@ -1114,8 +1114,8 @@ glf_70839064c007,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Hofstra
 glf_07cb0ffdce88,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Hofstra,"5'3""",Golfer,Fr.,Fr,"Bonita Springs, FL",Bonita Springs,FL,domestic,Community School,0,https://gohofstra.com/sports/womens-golf/roster/2025-26
 glf_62d8bf1d002b,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,"5'4""",Golfer,Sr.,Sr,"Western Springs, Ill.",Western Springs,IL,domestic,Fenwick,0,https://goholycross.com/sports/womens-golf/roster/2025-26
 glf_30b112dd444a,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,"5'4""",Golfer,Sr.,Sr,"Dubuque, Iowa",Dubuque,IA,domestic,Shattuck-St. Mary’s,0,https://goholycross.com/sports/womens-golf/roster/2025-26
-glf_0994a4eae12f,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,"5'0""",Golfer,So.,So,"Rochester, N.Y.",Rochester,NY,domestic,Mercy,0,https://goholycross.com/sports/womens-golf/roster/2025-26
-glf_fa81dd88eb49,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,,Golfer,Sr.,Sr,"Belmont, Mass.",Belmont,MA,domestic,Belmont,0,https://goholycross.com/sports/womens-golf/roster/2025-26
+glf_0994a4eae12f,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,"5'0""",Golfer,So.,So,"Rochester, N.Y.",Rochester,NY,domestic,Our Lady of Mercy School for Young Women,0,https://goholycross.com/sports/womens-golf/roster/2025-26
+glf_fa81dd88eb49,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,,Golfer,Sr.,Sr,"Belmont, Mass.",Belmont,MA,domestic,Belmont High School,0,https://goholycross.com/sports/womens-golf/roster/2025-26
 glf_15cbd3e29236,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,,Golfer,Fr.,Fr,"Barrington, R.I.",Barrington,RI,domestic,,0,https://goholycross.com/sports/womens-golf/roster/2025-26
 glf_1c6b1607d9dc,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,,Golfer,Sr.,Sr,"North Wales, Pa.",North Wales,PA,domestic,Mount St. Joseph Academy,1,https://goholycross.com/sports/womens-golf/roster/2025-26
 glf_e1b030950d64,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,,Golfer,Sr.,Sr,"Old Greenwich, Conn.",Old Greenwich,CT,domestic,Sacred Heart-Greenwich,0,https://goholycross.com/sports/womens-golf/roster/2025-26
@@ -1127,7 +1127,7 @@ glf_bfa0033a0d8a,golf,2025-26,2026,D1,Women,Patriot League,Holy Cross,"5'3""",Go
 glf_0e33a254c8d1,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,"5'7""",Golfer,Fr.,Fr,"Chiangmai, Thailand",Chiangmai,,international,Brantford Collegiate,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
 glf_f4b4748c1f1f,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,"5'7""",Golfer,Sr.,Sr,"Queretaro, Mexico",Queretaro,,international,,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
 glf_9493b59f62a0,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,Sr.,Sr,"Paris, Ontario, Canada",Paris,,international,Brantford Collegiate,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
-glf_5a267445ab13,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,Jr.,Jr,"Allen, Texas",Allen,TX,domestic,Allen,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
+glf_5a267445ab13,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,Jr.,Jr,"Allen, Texas",Allen,TX,domestic,Allen High School,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
 glf_6d23fd31a3f5,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,So.,So,"Nonthaburi, Thailand",Nonthaburi,,international,,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
 glf_748d62c375b1,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,So.,So,"Sugar Land, Texas",Sugar Land,TX,domestic,,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
 glf_35a4bb23231a,golf,2025-26,2026,D1,Women,Southland Conference,Houston Christian,,Golfer,Fr.,Fr,"Nokia, Finland",Nokia,,international,,0,https://hcuhuskies.com/sports/womens-golf/roster/2025-26
@@ -1146,7 +1146,7 @@ glf_fe79b2a4b9ec,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer
 glf_b60c198b0230,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,So.,So,"Penang, Malaysia",Penang,,international,Chung Ling Private HS,0,https://isubengals.com/sports/womens-golf/roster/2025-26
 glf_b5f0aae21f04,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,Fr.,Fr,"Springfield, IL",Springfield,IL,domestic,Sacred Heart Griffin High School,0,https://isubengals.com/sports/womens-golf/roster/2025-26
 glf_11829aa2a275,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,Sr.,Sr,"Meridian, ID",Meridian,ID,domestic,Rocky Mountain HS,0,https://isubengals.com/sports/womens-golf/roster/2025-26
-glf_50f5148d50a9,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,Jr.,Jr,"Oakdale, CA",Oakdale,CA,domestic,Chico State,0,https://isubengals.com/sports/womens-golf/roster/2025-26
+glf_50f5148d50a9,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,Jr.,Jr,"Oakdale, CA",Oakdale,CA,domestic,Oakdale High School,0,https://isubengals.com/sports/womens-golf/roster/2025-26
 glf_181d1540901b,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,R-Fr.,Fr,"Aurora, Colorado",Aurora,CO,domestic,Wyoming,0,https://isubengals.com/sports/womens-golf/roster/2025-26
 glf_69e40c18d311,golf,2025-26,2026,D1,Women,Big Sky Conference,Idaho St.,,Golfer,So.,So,"Kuantan, Pahang, Malaysia",Kuantan,,international,Regent International School,0,https://isubengals.com/sports/womens-golf/roster/2025-26
 glf_4d465d05e2dc,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Illinois St.,,Golfer,Jr.,Jr,"Morton, Ill.",Morton,IL,domestic,Morton HS,0,https://goredbirds.com/sports/womens-golf/roster/2025-26
@@ -1251,7 +1251,7 @@ glf_c42978190629,golf,2025-26,2026,D1,Women,Conference USA,Kennesaw St.,"5'7""",
 glf_a58d967182d1,golf,2025-26,2026,D1,Women,Conference USA,Kennesaw St.,,Golfer,Jr.,Jr,"Ontario, Canada",Ontario,,international,Marshall McLuhan Catholic,0,https://ksuowls.com/sports/womens-golf/roster/2025-26
 glf_4c81fb8822c9,golf,2025-26,2026,D1,Women,Conference USA,Kennesaw St.,"5'4""",Golfer,Fr.,Fr,"Sunrise, Fla.",Sunrise,FL,domestic,Sagemont Preparatory School,1,https://ksuowls.com/sports/womens-golf/roster/2025-26
 glf_96e709000163,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,Jr.,Jr,"Castellon, Spain",Castellon,,international,IES Miquel Peris,0,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
-glf_154eb7fe3276,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,So.,So,"Dalian, China",Dalian,,international,Georgia Southern Univ.,0,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
+glf_154eb7fe3276,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,So.,So,"Dalian, China",Dalian,,international,,,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
 glf_c62b784b2b08,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,Fr.,Fr,"Fort Worth, Texas",Fort Worth,TX,domestic,Hebron,0,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
 glf_ff0e2ae73d7c,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,Fr.,Fr,"Lanzhou, China",Lanzhou,,international,International School,0,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
 glf_dc4a5b25a47e,golf,2025-26,2026,D1,Women,Big 12 Conference,Kansas St.,,Golfer,So.,So,"Kani, Japan",Kani,,international,,0,https://www.kstatesports.com:443/sports/womens-golf/roster/2025-26
@@ -1300,7 +1300,7 @@ glf_981c579e6962,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'9""
 glf_f65e307509f5,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'10""",Golfer,Fr.,Fr,"Ottawa, Ontario, Canada",Ottawa,,international,A.Y. Jackson Secondary School,0,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
 glf_7d04ec7ea7fa,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,,Golfer,Fr.,Fr,"Windermere, Fla.",Windermere,FL,domestic,Florida Virtual School,0,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
 glf_0d2509c3bb6b,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'7""",Golfer,So.,So,"Boca Raton, Fla.",Boca Raton,FL,domestic,Ohio Connections Academy,1,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
-glf_46076b0ec402,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'5""",Golfer,Gr.,Gr,"Murrysville, Pa.",Murrysville,PA,domestic,Ohio Dominican,0,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
+glf_46076b0ec402,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'5""",Golfer,Gr.,Gr,"Murrysville, Pa.",Murrysville,PA,domestic,Franklin Regional High School,0,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
 glf_5cc091fc300b,golf,2025-26,2026,D1,Women,Big South Conference,Longwood,"5'7""",Golfer,So.,So,"Berlin, Germany",Berlin,,international,John F. Kennedy School,0,https://longwoodlancers.com/sports/womens-golf/roster/2025-26
 glf_606fcf1b77da,golf,2025-26,2026,D1,Women,Sun Belt Conference,ULM,,Golfer,Sr.,Sr,"Prague, Czech Republic",Prague,,international,Economics and Sport HS,0,https://ulmwarhawks.com/sports/womens-golf/roster/2025-26
 glf_76e8de57cabd,golf,2025-26,2026,D1,Women,Sun Belt Conference,ULM,,Golfer,Jr.,Jr,"Viladecans, Barcelona",Viladecans,,international,Agora International School,0,https://ulmwarhawks.com/sports/womens-golf/roster/2025-26
@@ -1323,9 +1323,9 @@ glf_ed4bdafabe00,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville
 glf_26f8ed49853f,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,Fr.,Fr,"Nevada, Mo.",Nevada,MO,domestic,Nevada HS,0,https://gocards.com/sports/womens-golf/roster/2025-26
 glf_2fc3c9bca21c,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,Jr.,Jr,"Ascot, Wales",Ascot,,international,Gordon's School,0,https://gocards.com/sports/womens-golf/roster/2025-26
 glf_6191efe42a5b,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,So.,So,"The Woodlands, Texas",The Woodlands,TX,domestic,The Woodlands,0,https://gocards.com/sports/womens-golf/roster/2025-26
-glf_778b484f3c4e,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,Sr.,Sr,"Lilburn, GA",Lilburn,GA,domestic,UNLV,0,https://gocards.com/sports/womens-golf/roster/2025-26
+glf_778b484f3c4e,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,Sr.,Sr,"Lilburn, GA",Lilburn,GA,domestic,,,https://gocards.com/sports/womens-golf/roster/2025-26
 glf_634f82ac8238,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,Fr.,Fr,"Palm Beach Gardens, Fla.",Palm Beach Gardens,FL,domestic,Palm Beach Virtual,0,https://gocards.com/sports/womens-golf/roster/2025-26
-glf_65aec34d4feb,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,So.,So,"Poulsbo, Wash.",Poulsbo,WA,domestic,Michigan,0,https://gocards.com/sports/womens-golf/roster/2025-26
+glf_65aec34d4feb,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Louisville,,Golfer,So.,So,"Poulsbo, Wash.",Poulsbo,WA,domestic,,,https://gocards.com/sports/womens-golf/roster/2025-26
 glf_b65da7b7bb02,golf,2025-26,2026,D1,Women,Big Ten Conference,Maryland,,Golfer,Sr.,Sr,"Mexico City, Mexico",Mexico City,,international,University of Texas HS,0,https://umterps.com/sports/womens-golf/roster/2025-26
 glf_dc005cb0a5b6,golf,2025-26,2026,D1,Women,Big Ten Conference,Maryland,,Golfer,So.,So,"Pathum Thani, Thailand",Pathum Thani,,international,The American School,0,https://umterps.com/sports/womens-golf/roster/2025-26
 glf_e3cb720f62f7,golf,2025-26,2026,D1,Women,Big Ten Conference,Maryland,,Golfer,Jr.,Jr,"New Braunfels, TX",New Braunfels,TX,domestic,Saint Mary's Hall,0,https://umterps.com/sports/womens-golf/roster/2025-26
@@ -1385,10 +1385,10 @@ glf_61aaa24cbf69,golf,2025-26,2026,D1,Women,Conference USA,Middle Tenn.,,Golfer,
 glf_9274b2ea1deb,golf,2025-26,2026,D1,Women,Conference USA,Middle Tenn.,,Golfer,Jr.,Jr,"Calhoun, Ga.",Calhoun,GA,domestic,Calhoun High School,0,https://goblueraiders.com/sports/womens-golf/roster/2025-26
 glf_c696afefbed6,golf,2025-26,2026,D1,Women,Conference USA,Middle Tenn.,,Golfer,So.,So,Murfreesboro. Tenn.,Murfreesboro. Tenn.,,international,Providence Christian,0,https://goblueraiders.com/sports/womens-golf/roster/2025-26
 glf_e79a182a15ba,golf,2025-26,2026,D1,Women,Conference USA,Middle Tenn.,,Golfer,,UNK,,,,unknown,Roane County High School,0,https://goblueraiders.com/sports/womens-golf/roster/2025-26
-glf_aeca177123fc,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,"Dobbs Ferry, N.Y.",Dobbs Ferry,NY,domestic,Saint Leo,0,https://gophersports.com/sports/womens-golf/roster/2025-26
+glf_aeca177123fc,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,"Dobbs Ferry, N.Y.",Dobbs Ferry,NY,domestic,Dobbs Ferry High School,0,https://gophersports.com/sports/womens-golf/roster/2025-26
 glf_b0745088c5e1,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Fr.,Fr,"Lake Mary, Fla.",Lake Mary,FL,domestic,Florida Virtual School,0,https://gophersports.com/sports/womens-golf/roster/2025-26
-glf_6c3cbcb318ad,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,So.,So,"Tallinn, Estonia",Tallinn,,international,Jacksonville,0,https://gophersports.com/sports/womens-golf/roster/2025-26
-glf_818f74c3e954,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,"Mansfield, Texas",Mansfield,TX,domestic,Mansfield,0,https://gophersports.com/sports/womens-golf/roster/2025-26
+glf_6c3cbcb318ad,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,So.,So,"Tallinn, Estonia",Tallinn,,international,,,https://gophersports.com/sports/womens-golf/roster/2025-26
+glf_818f74c3e954,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,"Mansfield, Texas",Mansfield,TX,domestic,Mansfield High School,0,https://gophersports.com/sports/womens-golf/roster/2025-26
 glf_d59d00ece404,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Fr.,Fr,"Guatemala City, Guatemala",Guatemala City,,international,,0,https://gophersports.com/sports/womens-golf/roster/2025-26
 glf_cfd3a25dfd5e,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,Inver Grove,Inver Grove,,international,Homeschool,1,https://gophersports.com/sports/womens-golf/roster/2025-26
 glf_7096ccf2cb29,golf,2025-26,2026,D1,Women,Big Ten Conference,Minnesota,,Golfer,So.,So,Inver Grove,Inver Grove,,international,Homeschool,1,https://gophersports.com/sports/womens-golf/roster/2025-26
@@ -1444,7 +1444,7 @@ glf_57798f43a0a5,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golf
 glf_dbd02dff6d03,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Jr.,Jr,Good,Good,,international,Desert Edge HS,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
 glf_f971cb03db28,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Sr.,Sr,"Boise, ID",Boise,ID,domestic,Borah HS,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
 glf_844794b9ac58,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Fr.,Fr,"Scottsdale, AZ",Scottsdale,AZ,domestic,Horizon HS,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
-glf_698e70d27024,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Jr.,Jr,"Sankt Pölten, Austria",Sankt Pölten,,international,Tulsa,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
+glf_698e70d27024,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Jr.,Jr,"Sankt Pölten, Austria",Sankt Pölten,,international,BORG für Leistungssport St. Pölten,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
 glf_79ed9d08fdbd,golf,2025-26,2026,D1,Women,Big Sky Conference,Montana St.,,Golfer,Fr.,Fr,"Denver, CO",Denver,CO,domestic,Rock Canyon HS,0,https://msubobcats.com/sports/womens-golf/roster/2025-26
 glf_79f7a250952b,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Mount St. Mary's,,Golfer,Fr.,Fr,"Nazareth, Pa.",Nazareth,PA,domestic,Nazareth Area,0,https://mountathletics.com/sports/womens-golf/roster/2025-26
 glf_2520b6f0784e,golf,2025-26,2026,D1,Women,Metro Atlantic Athletic Conference,Mount St. Mary's,,Golfer,Sr.,Sr,"York, Pa.",York,PA,domestic,Dallastown,0,https://mountathletics.com/sports/womens-golf/roster/2025-26
@@ -1458,7 +1458,7 @@ glf_0e542a4a8ca0,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St
 glf_babf106bf9c3,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,So.,So,"Haarlem, Netherlands",Haarlem,,international,,0,https://goracers.com/sports/womens-golf/roster/2025-26
 glf_d787cbeb83d3,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,Jr.,Jr,"Tallahassee, Fla.",Tallahassee,FL,domestic,St. John Paul II HS,0,https://goracers.com/sports/womens-golf/roster/2025-26
 glf_31d8ec425d40,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,Jr.,Jr,"Vine Grove, Ky.",Vine Grove,KY,domestic,North Hardin HS,0,https://goracers.com/sports/womens-golf/roster/2025-26
-glf_cd9e8f28d28d,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,So.,So,"Pontyclun, Wales",Pontyclun,,international,The College Merth,0,https://goracers.com/sports/womens-golf/roster/2025-26
+glf_cd9e8f28d28d,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,So.,So,"Pontyclun, Wales",Pontyclun,,international,The College Merthyr Tydfil,0,https://goracers.com/sports/womens-golf/roster/2025-26
 glf_0b0614f6634e,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,So.,So,"Solothurn, Switzerland",Solothurn,,international,Kantonsschule Solothurn,0,https://goracers.com/sports/womens-golf/roster/2025-26
 glf_f87dadb2c745,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,Fr.,Fr,"Madisonville, Ky.",Madisonville,KY,domestic,Madison-North Hopkins HS,0,https://goracers.com/sports/womens-golf/roster/2025-26
 glf_30ceef55bb4d,golf,2025-26,2026,D1,Women,Missouri Valley Conference,Murray St.,,Golfer,Sr.,Sr,"Hanson, Ky.",Hanson,KY,domestic,Madisonville-North Hopkins HS,0,https://goracers.com/sports/womens-golf/roster/2025-26
@@ -1485,7 +1485,7 @@ glf_41d9b084556a,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Gol
 glf_e1c6dd30dff3,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,Jr.,Jr,"Burlington, Canada",Burlington,,international,,0,https://nevadawolfpack.com/sports/womens-golf/roster
 glf_757845839321,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,So.,So,"Chico, Calif.",Chico,CA,domestic,,0,https://nevadawolfpack.com/sports/womens-golf/roster
 glf_5f5a6e79da1b,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,So.,So,"Sao Paulo, Brazil",Sao Paulo,,international,,0,https://nevadawolfpack.com/sports/womens-golf/roster
-glf_1a92edadcc9b,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,Sr.,Sr,"Moscow, Russia",Moscow,,international,Kansas,0,https://nevadawolfpack.com/sports/womens-golf/roster
+glf_1a92edadcc9b,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,Sr.,Sr,"Moscow, Russia",Moscow,,international,,,https://nevadawolfpack.com/sports/womens-golf/roster
 glf_594363f398b9,golf,2025-26,2026,D1,Women,Mountain West Conference,Nevada,,Golfer,Fr.,Fr,"Sacramento, Calif.",Sacramento,CA,domestic,Christian Brothers High School,0,https://nevadawolfpack.com/sports/womens-golf/roster
 glf_c3668ea80411,golf,2025-26,2026,D1,Women,Mountain West Conference,New Mexico,,Golfer,Sr.,Sr,"Madrid, Spain",Madrid,,international,CAR de Madrid,0,https://golobos.com/sports/wgolf/roster
 glf_167da2c9251d,golf,2025-26,2026,D1,Women,Mountain West Conference,New Mexico,,Golfer,Fr.,Fr,"Hauula, Hawaii",Hauula,HI,domestic,Kahuku HS,0,https://golobos.com/sports/wgolf/roster
@@ -1508,7 +1508,7 @@ glf_2771eb5e16dc,golf,2025-26,2026,D1,Women,ASUN Conference,North Ala.,,Golfer,J
 glf_c2632244e1bc,golf,2025-26,2026,D1,Women,ASUN Conference,North Ala.,,Golfer,Fr.,Fr,"Trussville, Ala.",Trussville,AL,domestic,Hewitt-Trussville HS,0,https://roarlions.com/sports/womens-golf/roster/2025-26
 glf_d0df5ae3a793,golf,2025-26,2026,D1,Women,ASUN Conference,North Ala.,,Golfer,Jr.,Jr,"Temple, Texas",Temple,TX,domestic,Huntsville HS (AL),0,https://roarlions.com/sports/womens-golf/roster/2025-26
 glf_5fcfae3d2c04,golf,2025-26,2026,D1,Women,ASUN Conference,North Ala.,,Golfer,So.,So,"Penkridge, England",Penkridge,,international,,0,https://roarlions.com/sports/womens-golf/roster/2025-26
-glf_7fc2aee8a85d,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Jr.,Jr,"San Ramon, Calif.",San Ramon,CA,domestic,California,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
+glf_7fc2aee8a85d,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Jr.,Jr,"San Ramon, Calif.",San Ramon,CA,domestic,California High School,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_53c76b080b75,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Jr.,Jr,,,,unknown,,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_4d2d7939e92e,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,"Saint Johns, Fla.",Saint Johns,FL,domestic,The Bolles School,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_27211a1a1a74,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,"Moscow, Russia",Moscow,,international,Plekhanov,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
@@ -1516,14 +1516,14 @@ glf_6301acec0cd0,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&
 glf_67a76775a8cf,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,So.,So,"Kitchener, Ontario",Kitchener,,international,Huron Heights,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_be3dd052a3e6,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,So.,So,"Trophy Club, Texas",Trophy Club,TX,domestic,Byron Nelson HS,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_55fc7803b6d6,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,So.,So,"Palm Beach Gardens, Fla.",Palm Beach Gardens,FL,domestic,Spring Creek Academy,1,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
-glf_4815e66724d2,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,R-Jr.,Jr,"Pebble Beach, Calif.",Pebble Beach,CA,domestic,University of North Colorado / Robert Louis Stevenson,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
+glf_4815e66724d2,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,R-Jr.,Jr,"Pebble Beach, Calif.",Pebble Beach,CA,domestic,Robert Louis Stevenson School,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_4cfed4f4ffbd,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,Jr.,Jr,"Austin, Texas",Austin,TX,domestic,Longwood / Vandergrift HS,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_52c687ea2953,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,So.,So,"Bradenton, Fla.",Bradenton,FL,domestic,Mansfield High School,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_013263c6bb8c,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,Sr.,Sr,"Storfors, Sweden",Storfors,,international,Limestone / Tingvalla Gymnasium,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_adb7e9473a76,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,Sr.,Sr,"Palm Beach Gardens, Fla.",Palm Beach Gardens,FL,domestic,Florida Virtual School,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_fbfb22c10a86,golf,2025-26,2026,D1,Women,Big South Conference,UNC Asheville,,Golfer,Fr.,Fr,"Bastrop, Texas",Bastrop,TX,domestic,Bastrop HS,0,https://uncabulldogs.com/sports/womens-golf/roster/2025-26
 glf_42a7382a17e2,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Fr.,Fr,"Jacksonville, N.C.",Jacksonville,NC,domestic,Jacksonville HS,0,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
-glf_824f2ffd3ec8,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Sr.,Sr,"Charleston, S.C.",Charleston,SC,domestic,Newberry,0,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
+glf_824f2ffd3ec8,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Sr.,Sr,"Charleston, S.C.",Charleston,SC,domestic,Hillcrest High School,0,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
 glf_3e2df3113d03,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Fr.,Fr,"Pinehurst, N.C.",Pinehurst,NC,domestic,Pinecrest HS,0,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
 glf_8e0f70903eb5,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Jr.,Jr,"Buenos Aires, Argentina",Buenos Aires,,international,IMG Academy,1,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
 glf_112ee98f0349,golf,2025-26,2026,D1,Women,Mid-Eastern Athletic Conference,N.C. Central,,Golfer,Sr.,Sr,"Cary, N.C.",Cary,NC,domestic,Green Hope HS,0,https://nccueaglepride.com/sports/womens-golf/roster/2025-26
@@ -1617,7 +1617,7 @@ glf_2758d9e3424d,golf,2025-26,2026,D1,Women,Mid-American Conference,NIU,Sport Ma
 glf_c558e1a13e09,golf,2025-26,2026,D1,Women,Mid-American Conference,NIU,Sport Management,Golfer,So.,So,"Las Vegas, Nevada",Las Vegas,NV,domestic,Bishop Gorman,0,https://niuhuskies.com/sports/womens-golf/roster/2025-26
 glf_3af3e3c97d58,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,Jr.,Jr,"Owenton, KY",Owenton,KY,domestic,Owen County,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
 glf_656e85bbe369,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,So.,So,"Pullman, WA",Pullman,WA,domestic,Pullman HS,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
-glf_5b210cbb39b9,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,Sr.,Sr,"Louisville, Ky.",Louisville,KY,domestic,Assumption,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
+glf_5b210cbb39b9,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,Sr.,Sr,"Louisville, Ky.",Louisville,KY,domestic,Assumption High School,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
 glf_cd3f04c79220,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,R-Jr.,Jr,"Greenville, OH",Greenville,OH,domestic,Greenville HS,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
 glf_b064919be6e0,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,Fr.,Fr,"Hopkinsville, KY",Hopkinsville,KY,domestic,University Heights Academy,1,https://nkunorse.com/sports/womens-golf/roster/2025-26
 glf_18a4e4a92d78,golf,2025-26,2026,D1,Women,Horizon League,Northern Ky.,,Golfer,So.,So,"Edgewood, KY",Edgewood,KY,domestic,Cooper HS,0,https://nkunorse.com/sports/womens-golf/roster/2025-26
@@ -1658,7 +1658,7 @@ glf_282b7b1388e1,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Go
 glf_18427cae252c,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Sr.,Sr,"Newport, Wales",Newport,,international,Millfield School,0,https://soonersports.com/sports/womens-golf/roster/2025-26
 glf_9fef1063efc2,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,R-Jr.,Jr,"Pocola, Okla.",Pocola,OK,domestic,Pocola HS,0,https://soonersports.com/sports/womens-golf/roster/2025-26
 glf_b10fa3e59b96,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,So.,So,"Columbia, Mo.",Columbia,MO,domestic,Fr. Tolton Catholic,0,https://soonersports.com/sports/womens-golf/roster/2025-26
-glf_c002ff3eed76,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Sr.,Sr,"Bad Homburg, Germany",Bad Homburg,,international,Lynn University,0,https://soonersports.com/sports/womens-golf/roster/2025-26
+glf_c002ff3eed76,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Sr.,Sr,"Bad Homburg, Germany",Bad Homburg,,international,,,https://soonersports.com/sports/womens-golf/roster/2025-26
 glf_26456e9c5c11,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Fr.,Fr,"Chiangmai, Thailand",Chiangmai,,international,Unity Concord International School,0,https://soonersports.com/sports/womens-golf/roster/2025-26
 glf_8a9d491d64bb,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Fr.,Fr,"Wichita, Kan.",Wichita,KS,domestic,ical School,0,https://soonersports.com/sports/womens-golf/roster/2025-26
 glf_c97ea388eba0,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Golfer,Sr.,Sr,"Southlake, Texas",Southlake,TX,domestic,Southlake Carroll HS,0,https://soonersports.com/sports/womens-golf/roster/2025-26
@@ -1666,10 +1666,10 @@ glf_e94eaf0c49b8,golf,2025-26,2026,D1,Women,Southeastern Conference,Oklahoma,,Go
 glf_2310f8a5d835,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,So.,So,"Shenzhen, China",Shenzhen,,international,,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_06edb2247304,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,Jr.,Jr,"Wellington, New Zealand",Wellington,,international,San Jose State,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_635432383a9b,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,Fr.,Fr,"Hong Kong, China",Hong Kong,,international,,0,https://goducks.com/sports/womens-golf/roster/2025-26
-glf_0a883c9806e0,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,So.,So,"Costa Mesa, Calif.",Costa Mesa,CA,domestic,Houston,0,https://goducks.com/sports/womens-golf/roster/2025-26
+glf_0a883c9806e0,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,So.,So,"Costa Mesa, Calif.",Costa Mesa,CA,domestic,San Diego Virtual School,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_15909d7fb0fd,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,Jr.,Jr,"San Jose, Calif.",San Jose,CA,domestic,,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_a7b5b9ac7bf1,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,Fr.,Fr,"Gold Coast, Australia",Gold Coast,,international,,0,https://goducks.com/sports/womens-golf/roster/2025-26
-glf_7b7522b358c6,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,R-Sr.,Sr,"Portland, Ore.",Portland,OR,domestic,Idaho,0,https://goducks.com/sports/womens-golf/roster/2025-26
+glf_7b7522b358c6,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,R-Sr.,Sr,"Portland, Ore.",Portland,OR,domestic,Riverdale High School,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_2310f8a5d835_2,golf,2025-26,2026,D1,Women,Big Ten Conference,Oregon,,Golfer,So.,So,"Shenzhen, China Darae Chung",Shenzhen,,international,San Jose State Sophie Han,0,https://goducks.com/sports/womens-golf/roster/2025-26
 glf_9efb0879a4cf,golf,2025-26,2026,D1,Women,Pac-12 Conference,Oregon St.,,Golfer,So.,So,"Gothenburg, Sweden",Gothenburg,,international,Kitas Gymnasium,0,https://osubeavers.com/sports/womens-golf/roster/2025-26
 glf_edbdab29bc00,golf,2025-26,2026,D1,Women,Pac-12 Conference,Oregon St.,,Golfer,Jr.,Jr,"Pretoria, South Africa",Pretoria,,international,Curro Hazeldean HS,0,https://osubeavers.com/sports/womens-golf/roster/2025-26
@@ -1727,7 +1727,7 @@ glf_4a41a51305f3,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golf
 glf_4a144959dfb5,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golfer,Jr.,Jr,"Millwood, N.Y.",Millwood,NY,domestic,Horace Greeley High School,0,https://friars.com/sports/womens-golf/roster/2025-26
 glf_07960accf679,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golfer,Fr.,Fr,"Edison, N.J.",Edison,NJ,domestic,ICL Academy,1,https://friars.com/sports/womens-golf/roster/2025-26
 glf_fb798d82e3e3,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golfer,Jr.,Jr,"Madison, N.J.",Madison,NJ,domestic,Madison High School,0,https://friars.com/sports/womens-golf/roster/2025-26
-glf_4062d672d736,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golfer,So.,So,"East Aurora, N.Y.",East Aurora,NY,domestic,Augusta University,0,https://friars.com/sports/womens-golf/roster/2025-26
+glf_4062d672d736,golf,2025-26,2026,D1,Women,Big East Conference,Providence,,Golfer,So.,So,"East Aurora, N.Y.",East Aurora,NY,domestic,Homeschooled,0,https://friars.com/sports/womens-golf/roster/2025-26
 glf_d4216867d85e,golf,2025-26,2026,D1,Women,Big Ten Conference,Purdue,,Golfer,Junior,Jr,,,,unknown,,0,https://purduesports.com/sports/womens-golf/roster
 glf_1bebd6e2f7ee,golf,2025-26,2026,D1,Women,Big Ten Conference,Purdue,,Golfer,Sophomore,So,,,,unknown,,0,https://purduesports.com/sports/womens-golf/roster
 glf_79e31ebc639f,golf,2025-26,2026,D1,Women,Big Ten Conference,Purdue,,Golfer,Senior,Sr,,,,unknown,,0,https://purduesports.com/sports/womens-golf/roster
@@ -1797,7 +1797,7 @@ glf_b3190a700fc8,golf,2025-26,2026,D1,Women,West Coast Conference,San Francisco,
 glf_068686ad0040,golf,2025-26,2026,D1,Women,West Coast Conference,San Francisco,,Golfer,Sr.,Sr,"Denver, Colo.",Denver,CO,domestic,,0,https://usfdons.com/sports/womens-golf/roster/2025-26
 glf_f99e021b0125,golf,2025-26,2026,D1,Women,West Coast Conference,San Francisco,,Golfer,Fr.,Fr,"Fairfield, Calif.",Fairfield,CA,domestic,Vacaville HS,0,https://usfdons.com/sports/womens-golf/roster/2025-26
 glf_f20e912e7889,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,Sr.,Sr,"Reno, Nev.",Reno,NV,domestic,Bishop Manogue Catholic,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
-glf_3752478fb6cd,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,So.,So,"Aukland, New Zealand",Aukland,,international,Ranitoto College,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
+glf_3752478fb6cd,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,So.,So,"Aukland, New Zealand",Aukland,,international,Rangitoto College,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
 glf_54dbf1c18805,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,Jr.,Jr,"Fullerton, Calif.",Fullerton,CA,domestic,Sunny Hills HS,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
 glf_27561443b337,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,So.,So,"Fountain Valley, Calif.",Fountain Valley,CA,domestic,Edison HS,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
 glf_0048527857b8,golf,2025-26,2026,D1,Women,West Coast Conference,Santa Clara,,Golfer,So.,So,"San Carlos, Calif.",San Carlos,CA,domestic,Palo Alto HS,0,https://santaclarabroncos.com/sports/womens-golf/roster/2025-26
@@ -1818,7 +1818,7 @@ glf_c4a04feaf339,golf,2025-26,2026,D1,Women,The Summit League,South Dakota,,Golf
 glf_dff47acddb94,golf,2025-26,2026,D1,Women,The Summit League,South Dakota,,Golfer,Jr.,Jr,"Colorado Springs, Colo.",Colorado Springs,CO,domestic,Cheyenne Mountain H.S.,0,https://goyotes.com/sports/womens-golf/roster/2025-26
 glf_e773d524b27d,golf,2025-26,2026,D1,Women,The Summit League,South Dakota,,Golfer,Sr.,Sr,"Edmonton, Alberta, Canada",Edmonton,,international,Strathcona H.S.,0,https://goyotes.com/sports/womens-golf/roster/2025-26
 glf_26f493ce1a00,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Jr.,Jr,"Boiling Springs, S.C.",Boiling Springs,SC,domestic,Boiling Springs HS,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
-glf_2f39652405b3,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Sr.,Sr,"Sacramento, Calif.",Sacramento,CA,domestic,Dalton State College,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
+glf_2f39652405b3,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Sr.,Sr,"Sacramento, Calif.",Sacramento,CA,domestic,Sheldon High School,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
 glf_9ee2a11f04e7,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Jr.,Jr,"Chonburi, Thailand",Chonburi,,international,Pattaya City 11 School,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
 glf_a5e5f6aec8d4,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Fr.,Fr,"Moore, S.C.",Moore,SC,domestic,,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
 glf_92cbb21c627a,golf,2025-26,2026,D1,Women,Big South Conference,USC Upstate,,Golfer,Fr.,Fr,"Chesnee, S.C.",Chesnee,SC,domestic,,0,https://upstatespartans.com/sports/womens-golf/roster/2025-26
@@ -1867,7 +1867,7 @@ glf_35c23d6affef,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfe
 glf_7db7877bd70a,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,JR,Jr,"Seoul, South Korea",Seoul,,international,Scholars International,0,https://smumustangs.com/sports/womens-golf/roster/2025-26
 glf_29faf132d541,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,JR,Jr,"Huntsville, Texas",Huntsville,TX,domestic,The Ogburn School,0,https://smumustangs.com/sports/womens-golf/roster/2025-26
 glf_36ad88df4435,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,SR,Sr,"North Little Rock, Ark.",North Little Rock,AR,domestic,North Little Rock,0,https://smumustangs.com/sports/womens-golf/roster/2025-26
-glf_df8e69a70cb1,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,SR,Sr,"St. James, Barbados",St. James,,international,"Queens College / University of Texas, Austin",0,https://smumustangs.com/sports/womens-golf/roster/2025-26
+glf_df8e69a70cb1,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,SR,Sr,"St. James, Barbados",St. James,,international,Queen's College (Barbados),0,https://smumustangs.com/sports/womens-golf/roster/2025-26
 glf_b102404e9a6e,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,SMU,,Golfer,FR,Fr,"Papeete, French Polynesia",Papeete,,international,Brisbane School,0,https://smumustangs.com/sports/womens-golf/roster/2025-26
 glf_70724b26132d,golf,2025-26,2026,D1,Women,Big East Conference,St. John's (NY),,Golfer,So.,So,"Chatsworth, Calif.",Chatsworth,CA,domestic,Oak Park,0,https://redstormsports.com/sports/womens-golf/roster/2025-26
 glf_32e8f12690f8,golf,2025-26,2026,D1,Women,Big East Conference,St. John's (NY),,Golfer,Sr.,Sr,"Houston, Texas",Houston,TX,domestic,Memorial,0,https://redstormsports.com/sports/womens-golf/roster/2025-26
@@ -1922,7 +1922,7 @@ glf_be5e38d3a2b7,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.
 glf_448fc2bfa446,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,Gr.,Gr,"Phoenix, Ariz.",Phoenix,AZ,domestic,Youngker,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
 glf_8dc672aca78e,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,So.,So,"Greenback, Tenn.",Greenback,TN,domestic,Greenback,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
 glf_977d3844de8f,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,Jr.,Jr,"Murfreesboro, Tenn.",Murfreesboro,TN,domestic,Blackman,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
-glf_a9457949a4b4,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas A&M,,Golfer,Senior,Sr,"Nashville, Tenn.",Nashville,TN,domestic,Alabama,0,https://12thman.com/sports/womens-golf/roster/season/2025-26
+glf_a9457949a4b4,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas A&M,,Golfer,Senior,Sr,"Nashville, Tenn.",Nashville,TN,domestic,International Virtual Learning Academy,0,https://12thman.com/sports/womens-golf/roster/season/2025-26
 glf_f70b61fa8f91,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas A&M,,Golfer,Junior,Jr,"Béziers, France",Béziers,,international,Georgia Southern,0,https://12thman.com/sports/womens-golf/roster/season/2025-26
 glf_2de4ef2d1f8b,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas A&M,,Golfer,Junior,Jr,"Madrid, Spain",Madrid,,international,,0,https://12thman.com/sports/womens-golf/roster/season/2025-26
 glf_90067fc75db9,golf,2025-26,2026,D1,Women,Southeastern Conference,Texas A&M,,Golfer,Sophomore,So,"Etobicoke, Ont.",Etobicoke,,international,,0,https://12thman.com/sports/womens-golf/roster/season/2025-26
@@ -1943,8 +1943,8 @@ glf_a771f3e2e40e_2,golf,2025-26,2026,D1,Women,Southeastern Conference,Tennessee,
 glf_779c2a5f32f6,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'5""",Golfer,So.,So,"Prague, Czech Republic",Prague,,international,TX Veterans Memorial High School,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
 glf_0f57fdc37f8b,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'4""",Golfer,Sr.,Sr,"Maturin, Venezuela",Maturin,,international,Southwestern Christian,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
 glf_f7cb4d43cfc9,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'6""",Golfer,Jr.,Jr,"Queretaro, Mexico",Queretaro,,international,,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
-glf_ad8bb4d3d493,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'4""",Golfer,So.,So,"Houston, TX",Houston,TX,domestic,UAB,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
-glf_77bb59a7a131,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'3""",Golfer,So.,So,"Bangkok, Thailand",Bangkok,,international,Lindsey Wilson University,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
+glf_ad8bb4d3d493,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'4""",Golfer,So.,So,"Houston, TX",Houston,TX,domestic,Klein Cain High School,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
+glf_77bb59a7a131,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'3""",Golfer,So.,So,"Bangkok, Thailand",Bangkok,,international,Satriwitthaya 2 School,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
 glf_9a60fac2616f,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'4""",Golfer,Jr.,Jr,"Cantabria, Spain",Cantabria,,international,,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
 glf_dce6524a8b30,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,,Golfer,So.,So,"Corpus Christi, TX",Corpus Christi,TX,domestic,TX Veterans Memorial High School,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
 glf_8fa0055eee13,golf,2025-26,2026,D1,Women,Southland Conference,UTRGV,"5'4""",Golfer,Jr.,Jr,"San Antonio, TX",San Antonio,TX,domestic,TX Johnson High School,0,https://goutrgv.com/sports/womens-golf/roster/2025-26
@@ -1973,7 +1973,7 @@ glf_e59d744c0879,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,
 glf_7dd397f96a6f,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,Sr.,Sr,"Sterling, Va.",Sterling,VA,domestic,Dominion,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
 glf_68f2ccbaa835,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,So.,So,"Litchfield Park, Ariz.",Litchfield Park,AZ,domestic,Xavier College Preparatory,1,https://towsontigers.com/sports/womens-golf/roster/2025-26
 glf_ff2b75f46828,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,Sr.,Sr,"Bangkok, Thailand",Bangkok,,international,Assumption College Thonburi,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
-glf_6884f73674ba,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,So.,So,"Atlanta, Ga.",Atlanta,GA,domestic,Howard,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
+glf_6884f73674ba,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,So.,So,"Atlanta, Ga.",Atlanta,GA,domestic,Homeschool,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
 glf_062ac30cac8e,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,Jr.,Jr,"North Potomac, Md.",North Potomac,MD,domestic,Quince Orchard High School,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
 glf_2c3d17912b79,golf,2025-26,2026,D1,Women,Coastal Athletic Association,Towson,,Golfer,Jr.,Jr,"Havre de Grace, Md.",Havre de Grace,MD,domestic,Harford Technical,0,https://towsontigers.com/sports/womens-golf/roster/2025-26
 glf_8b65f2913c28,golf,2025-26,2026,D1,Women,Southland Conference,A&M-Corpus Christi,,Golfer,Fr.,Fr,"Rockport, Texas",Rockport,TX,domestic,Rockport Fulton HS,0,https://goislanders.com/sports/womens-golf/roster/2025-26
@@ -2048,10 +2048,10 @@ glf_3aa2e4c34307,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Fores
 glf_3a765c23e1be,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,So.,So,"Ocean View, Delaware",Ocean View,DE,domestic,,0,https://godeacs.com/sports/womens-golf/roster/2025-26
 glf_b706043915c2,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Jr.,Jr,"Winston-Salem, N.C.",Winston-Salem,NC,domestic,Reagan High School,0,https://godeacs.com/sports/womens-golf/roster/2025-26
 glf_1cd147d9daf5,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Fr.,Fr,"Chonburi, Thailand",Chonburi,,international,,0,https://godeacs.com/sports/womens-golf/roster/2025-26
-glf_c4eecd2f04dd,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Gr.,Gr,"Pembroke Pines, Fla.",Pembroke Pines,FL,domestic,Auburn,0,https://godeacs.com/sports/womens-golf/roster/2025-26
+glf_c4eecd2f04dd,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Gr.,Gr,"Pembroke Pines, Fla.",Pembroke Pines,FL,domestic,American Heritage School (Plantation),0,https://godeacs.com/sports/womens-golf/roster/2025-26
 glf_ffd1b8e728f1,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Fr.,Fr,"Singapore, AP",Singapore,,international,,0,https://godeacs.com/sports/womens-golf/roster/2025-26
 glf_02e3ae118656_2,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Wake Forest,,Golfer,Sr.,Sr,"Almere, Netherlands Morgan Ketchum",Almere,,international,Chloe Kovelesky,0,https://godeacs.com/sports/womens-golf/roster/2025-26
-glf_ead17119cff4,golf,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Golfer,Sr.,Sr,"Casares Malaga, Spain",Casares Malaga,,international,Texas Tech,0,https://gohuskies.com/sports/womens-golf/roster/2025-26
+glf_ead17119cff4,golf,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Golfer,Sr.,Sr,"Casares Malaga, Spain",Casares Malaga,,international,,,https://gohuskies.com/sports/womens-golf/roster/2025-26
 glf_05ba8a7ae9c6,golf,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Golfer,So.,So,"Newcastle, Wash.",Newcastle,WA,domestic,Newport HS,0,https://gohuskies.com/sports/womens-golf/roster/2025-26
 glf_12ca73c578d3,golf,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Golfer,Sr.,Sr,"Auckland, New Zealand",Auckland,,international,,0,https://gohuskies.com/sports/womens-golf/roster/2025-26
 glf_baeb7181a252,golf,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Golfer,So.,So,"Singapore, Singapore",Singapore,,international,Hangzhou International School,0,https://gohuskies.com/sports/womens-golf/roster/2025-26
@@ -2077,8 +2077,8 @@ glf_2db8d9a6e010,golf,2025-26,2026,D1,Women,Conference USA,Western Ky.,,Golfer,F
 glf_c9fde771e7de,golf,2025-26,2026,D1,Women,Conference USA,Western Ky.,,Golfer,Jr.,Jr,"Spencerport, N.Y.",Spencerport,NY,domestic,Our Lady of Mercy,0,https://wkusports.com/sports/womens-golf/roster/2025-26
 glf_648345e21d07,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'3""",Golfer,Jr.,Jr,"Lisbon, Portugal",Lisbon,,international,Escola Basica Miraflores,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
 glf_372ab296dbc1,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'8""",Golfer,Sr.,Sr,"Chapin, S.C.",Chapin,SC,domestic,Chapin H.S.,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
-glf_b214350aaff4,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'4""",Golfer,Sr.,Sr,"Malaga, Spain",Malaga,,international,Univ. of Charleston,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
-glf_7acc9e8d4080,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'7""",Golfer,Sr.,Sr,"Rixheim, France",Rixheim,,international,Cameron University,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
+glf_b214350aaff4,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'4""",Golfer,Sr.,Sr,"Malaga, Spain",Malaga,,international,,,https://winthropeagles.com/sports/womens-golf/roster/2025-26
+glf_7acc9e8d4080,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'7""",Golfer,Sr.,Sr,"Rixheim, France",Rixheim,,international,Don Bosco Landser,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
 glf_cf438e9b0ca5,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'7""",Golfer,Fr.,Fr,"Naples, Fla.",Naples,FL,domestic,Community School,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
 glf_9abf0996a287,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'7""",Golfer,Sr.,Sr,"Gothenburg, Sweden",Gothenburg,,international,Katrinelunds Gymnasiet,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
 glf_b893790f8a8b,golf,2025-26,2026,D1,Women,Big South Conference,Winthrop,"5'6""",Golfer,Jr.,Jr,"Ft. Mill, S.C.",Ft. Mill,SC,domestic,Catawba Ridge H.S.,0,https://winthropeagles.com/sports/womens-golf/roster/2025-26
@@ -2107,7 +2107,7 @@ glf_efdbff440a3c,golf,2025-26,2026,D1,Women,Mountain West Conference,Wyoming,,Go
 glf_0bbc669d8486,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,So.,So,Philippines,Philippines,,international,,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
 glf_72675b45e8cc,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,Fr.,Fr,China,China,,international,,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
 glf_1d3d12e19191,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,Sr.,Sr,"Marikina City, Philippines",Marikina City,,international,"Homeschoo, Global",0,https://cbulancers.com/sports/womens-golf/roster/2025-26
-glf_8ea44590fc22,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,Jr.,Jr,Thailand,Thailand,,international,Satit Khonkaen University,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
+glf_8ea44590fc22,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,Jr.,Jr,Thailand,Thailand,,international,Khon Kaen University Demonstration School,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
 glf_53b545ef5b05,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,R-Sr.,Sr,Paraguay,Paraguay,,international,"Colegio Bertoni, Foz do Iguaçu",0,https://cbulancers.com/sports/womens-golf/roster/2025-26
 glf_ab3fc32d7268,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,So.,So,Japan,Japan,,international,,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
 glf_b11f172c9473,golf,2025-26,2026,D1,Women,Western Athletic Conference,California Baptist,,Golfer,Fr.,Fr,Thailand,Thailand,,international,,0,https://cbulancers.com/sports/womens-golf/roster/2025-26
@@ -2181,14 +2181,14 @@ glf_981f41a75854,golf,2025-26,2026,D1,Women,Southeastern Conference,LSU,,Golfer,
 glf_7fc2aee8a85d_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Jr.,Jr,,,,unknown,,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_4d2d7939e92e_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,,,,unknown,,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_27211a1a1a74_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,,,,unknown,Appalachian State,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
-glf_6301acec0cd0_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,,,,unknown,University of Texas Arlington,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
-glf_67a76775a8cf_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,So.,So,,,,unknown,University of Texas Rio Grande Valley,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
+glf_6301acec0cd0_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,Sr.,Sr,,,,unknown,Spring Creek Academy/Westlake HS,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
+glf_67a76775a8cf_2,golf,2025-26,2026,D1,Women,Coastal Athletic Association,N.C. A&T,,Golfer,So.,So,,,,unknown,Huron Heights Secondary School,0,https://ncataggies.com/sports/womens-golf/roster/2025-26
 glf_a91695563a33_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,Fr.,Fr,,,,unknown,,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
 glf_9abfa9fc64a7_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,Sr.,Sr,,,,unknown,,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
 glf_d14ee2e1e543_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,Jr.,Jr,,,,unknown,,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
 glf_f0480ea11010_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,So.,So,,,,unknown,,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
 glf_2823c2cc1657_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,So.,So,,,,unknown,,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
-glf_ac76292f2534_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,Jr.,Jr,,,,unknown,Marshall,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
+glf_ac76292f2534_2,golf,2025-26,2026,D1,Women,Southern Conference,UNC Greensboro,,Golfer,Jr.,Jr,,,,unknown,Apex High School,0,https://uncgspartans.com/sports/womens-golf/roster/2025-26
 glf_fb0135284f05_2,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,Fr.,Fr,,,,unknown,,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
 glf_be5e38d3a2b7_2,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,Fr.,Fr,,,,unknown,,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
 glf_448fc2bfa446_2,golf,2025-26,2026,D1,Women,Ohio Valley Conference,Tennessee St.,,Golfer,Gr.,Gr,,,,unknown,South Mountain CC,0,https://tsutigers.com/sports/womens-golf/roster/2025-26
@@ -2225,14 +2225,14 @@ glf_3a5bb36e9f27,golf,2025-26,2026,D1,Women,Big 12 Conference,Oklahoma St.,,Golf
 glf_c4580f32c923,golf,2025-26,2026,D1,Women,Big 12 Conference,Oklahoma St.,,Golfer,Jr.,Jr,"Plano, Texas",Plano,TX,domestic,,0,https://okstate.com/sports/womens-golf/roster
 glf_651fcea6731c,golf,2025-26,2026,D1,Women,Big 12 Conference,Oklahoma St.,,Golfer,Jr.,Jr,"Bangkok, Thailand",Bangkok,,international,,0,https://okstate.com/sports/womens-golf/roster
 glf_47d1aa7cd6ef,golf,2025-26,2026,D1,Women,Big 12 Conference,Oklahoma St.,,Golfer,Sr.,Sr,"Riga, Latvia",Riga,,international,Lycée Français International Georges Pompidou,0,https://okstate.com/sports/womens-golf/roster
-glf_a23dbf5cc4c0,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Sophomore,So,"Denver, Colo.",Denver,CO,domestic,St. Marys Academy,1,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_6b7283d22c15,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Freshman,Fr,"Rehoboth Beach, Delaware",Rehoboth Beach,DE,domestic,Tower Hill School,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_b3a345407193,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Freshman,Fr,,,,unknown,,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_04cb1fb5f6fa,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Sophomore,So,"Aix en Provence, France",Aix en Provence,,international,Lycée Émile Zola,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_9c9314679ca9,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Junior,Jr,"Pinehurst, NC",Pinehurst,NC,domestic,Neal School,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_6a4d42cc0f02,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Freshman,Fr,"Bedford, N.Y.",Bedford,NY,domestic,Dwight Global,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_f264aa62b293,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Sophomore,So,"Hinsdale, Ill.",Hinsdale,IL,domestic,Hinsdale Central,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
-glf_c397ff6d1893,golf,2025-26,2026,D1,Women,Independent,Notre Dame,,Golfer,Sophomore,So,"Toronto, Ont.",Toronto,,international,Hilton Head Preparatory,1,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_a23dbf5cc4c0,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Sophomore,So,"Denver, Colo.",Denver,CO,domestic,St. Marys Academy,1,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_6b7283d22c15,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Freshman,Fr,"Rehoboth Beach, Delaware",Rehoboth Beach,DE,domestic,Tower Hill School,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_b3a345407193,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Freshman,Fr,,,,unknown,,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_04cb1fb5f6fa,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Sophomore,So,"Aix en Provence, France",Aix en Provence,,international,Lycée Émile Zola,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_9c9314679ca9,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Junior,Jr,"Pinehurst, NC",Pinehurst,NC,domestic,Neal School,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_6a4d42cc0f02,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Freshman,Fr,"Bedford, N.Y.",Bedford,NY,domestic,Dwight Global,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_f264aa62b293,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Sophomore,So,"Hinsdale, Ill.",Hinsdale,IL,domestic,Hinsdale Central,0,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
+glf_c397ff6d1893,golf,2025-26,2026,D1,Women,Atlantic Coast Conference,Notre Dame,,Golfer,Sophomore,So,"Toronto, Ont.",Toronto,,international,Hilton Head Preparatory,1,https://web.archive.org/web/20260203085824/https://fightingirish.com/sports/wgolf/roster
 glf_d450fed55f9f,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Sr.,Sr,"Diamondhead, Miss.",Diamondhead,MS,domestic,Hancock HS,0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
 glf_9bbee5462d26,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Sr.,Sr,"Tulln, Austria",Tulln,,international,Borge Sankt Pölten,0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
 glf_fa850c4244ac,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Sr.,Sr,"London, Ontario, Canada",London,,international,Oakridge Secondary School,0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
@@ -2242,7 +2242,7 @@ glf_dd3f5592e847,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,So.
 glf_127fb485ea1f,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Jr.,Jr,"Ahmedabad, India",Ahmedabad,,international,Apple Global School,0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
 glf_4b9aa5c1ae9c,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Sr.,Sr,"Charlotte, N.C.",Charlotte,NC,domestic,"Gabriel Fauré (Foix, France)",0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
 glf_c8994cc44973,golf,2025-26,2026,D1,Women,Sun Belt Conference,Troy,,Golfer,Fr.,Fr,"Montgomery, Ala.",Montgomery,AL,domestic,Alabama Christian,0,https://web.archive.org/web/20260128174835/https://troytrojans.com/sports/womens-golf/roster
-glf_7d802eb820da,golf,2025-26,2026,D1,Women,American Conference,Tulsa,,Golfer,Gr.,Gr,"Collombey, Switzerland",Collombey,,international,Sorbonne University (France),0,https://tulsahurricane.com/sports/womens-golf/roster/2025-26
+glf_7d802eb820da,golf,2025-26,2026,D1,Women,American Conference,Tulsa,,Golfer,Gr.,Gr,"Collombey, Switzerland",Collombey,,international,,,https://tulsahurricane.com/sports/womens-golf/roster/2025-26
 glf_33952fdd2412,golf,2025-26,2026,D1,Women,American Conference,Tulsa,,Golfer,Fr.,Fr,"Overland Park, Kan.",Overland Park,KS,domestic,Blue Valley High School,0,https://tulsahurricane.com/sports/womens-golf/roster/2025-26
 glf_22e78cd88ec6,golf,2025-26,2026,D1,Women,American Conference,Tulsa,,Golfer,So.,So,"Phoenix, Ariz.",Phoenix,AZ,domestic,Veritas Scholars Academy,1,https://tulsahurricane.com/sports/womens-golf/roster/2025-26
 glf_6aefb2e2051b,golf,2025-26,2026,D1,Women,American Conference,Tulsa,,Golfer,Fr.,Fr,Maxilly-sur-Léman France,Maxilly-sur-Léman France,,international,,0,https://tulsahurricane.com/sports/womens-golf/roster/2025-26

@@ -1,5 +1,5 @@
 athlete_id,sport,athletic_year,season,division,gender,conference,school,position_raw,position_group,class_year_raw,class_standing,hometown_raw,hometown_city,hometown_state,origin,high_school,high_school_is_academy,source_url
-ski_7f4b0c1d7929,skiing,2025-26,2025-26,D1,Women,Big Sky Conference,Montana St.,Nordic,Nordic,Gr.,Gr,"LaClusaz, France",LaClusaz,,international,University Savoie Mont Blanc,0,https://msubobcats.com/sports/womens-skiing/roster/2025-26
+ski_7f4b0c1d7929,skiing,2025-26,2025-26,D1,Women,Big Sky Conference,Montana St.,Nordic,Nordic,Gr.,Gr,"LaClusaz, France",LaClusaz,,international,,,https://msubobcats.com/sports/womens-skiing/roster/2025-26
 ski_b5cd060188bc,skiing,2025-26,2025-26,D1,Women,Big Sky Conference,Montana St.,Alpine,Alpine,Fr.,Fr,"Jackson, WY",Jackson,WY,domestic,Green Mountain Valley School,0,https://msubobcats.com/sports/womens-skiing/roster/2025-26
 ski_49ac5c766d77,skiing,2025-26,2025-26,D1,Women,Big Sky Conference,Montana St.,Nordic,Nordic,So.,So,"Canmore, AB, Canada",Canmore,,international,,0,https://msubobcats.com/sports/womens-skiing/roster/2025-26
 ski_993d271df521,skiing,2025-26,2025-26,D1,Women,Big Sky Conference,Montana St.,Alpine,Alpine,Fr.,Fr,"Calgary, AB, Canada",Calgary,,international,David Thompson Secondary School,0,https://msubobcats.com/sports/womens-skiing/roster/2025-26

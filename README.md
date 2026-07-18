@@ -2,13 +2,14 @@
 
 Individual-level roster data for **every NCAA championship sport** — all 28 sports,
 all three divisions, both genders, one athletic year (2025-26):
-**515,085 athlete rows across 1,089 schools** (~91.8% of officially reported NCAA
+**514,696 athlete rows across 1,087 schools** (~91.7% of officially reported NCAA
 participations; ≈96.9% of sponsor-list teams).
 
 ## Release status
 
-**Released.** Current tip is **v2.0.1** (2026-07-13) — conference/division label
-correction on the public 19-column tier. Original v2.0 published 2026-07-08.
+**Released.** Current tip is **v2.0.3** (2026-07-14 / data refreshed 2026-07-17) —
+post-audit school-scope, conference, and high-school field corrections on the public
+19-column tier. Original v2.0 published 2026-07-08.
 
 | | |
 |---|---|
@@ -16,13 +17,13 @@ correction on the public 19-column tier. Original v2.0 published 2026-07-08.
 | **DOI** | [10.57967/hf/9512](https://doi.org/10.57967/hf/9512) |
 | **Kaggle mirror** | https://www.kaggle.com/datasets/shahdha/ncaa-all-sports-rosters-2025-26 |
 | **License** | CC0 1.0 (citation requested; no NIL / publicity grant) |
-| **Version** | **2.0.1** |
+| **Version** | **2.0.3** |
 
 ## What's in this repo
 
 ```
 ├── data/
-│   ├── ncaa_all_sports_rosters_2025-26.parquet   515,085 × 19 (public, de-identified)
+│   ├── ncaa_all_sports_rosters_2025-26.parquet   514,696 × 19 (public, de-identified)
 │   └── CODEBOOK.md
 ├── by_sport/                                      convenience slices (identical 19-col schema)
 ├── metadata.json                                  build sidecar (counts, checksums, version)
@@ -37,31 +38,34 @@ Scorecard / mobility joins) is **research-only** and is not shipped here; those 
 are rebuildable from this public tier plus public sources (Census ACS, NCES, College
 Scorecard, Opportunity Insights).
 
-## Shape (v2.0.1)
+## Shape (v2.0.3)
 
 | | |
 |---|---|
-| Athletes | **515,085** (Men 291,171 / Women 223,914) |
-| Divisions | D1 185,912 · D2 124,902 · D3 204,271 |
-| Origin | domestic 452,555 (87.9%) · international 51,391 (10.0%) · unknown 11,139 (2.2%) |
+| Athletes | **514,696** (Men 290,969 / Women 223,727) |
+| Divisions | D1 185,912 · D2 124,730 · D3 204,054 |
+| Origin | domestic 452,198 (87.9%) · international 51,360 (10.0%) · unknown 11,138 (2.2%) |
 | Sports | 28 (every NCAA championship + emerging sport) |
-| Schools | 1,089 |
+| Schools | 1,087 |
 | Athletic year | 2025-26 for every row |
 
-## v2.0.1 corrections (summary)
+## v2.0.3 corrections (summary)
 
-- **−308 rows:** Louisiana Christian University (NAIA) contamination removed from the
-  Louisiana / UL Lafayette scrape path (`lcwildcats.net`).
-- **Conference & division labels** re-verified for the **2025-26** vintage (stale
-  realignment / core-collision labels corrected; division mislabels fixed).
-- **Schema unchanged** (same 19 public columns).
+- **−389 rows / −2 schools:** removed out-of-scope non-NCAA-in-2025-26 schools —
+  Shawnee State (NAIA, 172) and Johnson & Wales University Charlotte (NCAA
+  exploratory/USCAA, 217). Kept six NCAA provisional members.
+- **Conference labels** web-verified for 2025-26 (Notre Dame per-sport affiliations;
+  SUNY Brockport, SUNY Canton, Upper Iowa, Penn College, Vermont State Lyndon, Salve
+  Regina, Norwich, Utica, Marywood, and others).
+- **High-school recovery** on the public tier: blank `high_school` cells restored from
+  source pages where present; subsequent `hs_category` enrichment is analysis-tier only.
+- **Schema unchanged** (same 19 public columns). Conference is fully populated.
 
 **Known intentional exceptions**
 
 | Case | Behavior |
 |---|---|
-| **Shawnee State** | Empty `conference` (172 rows). NCAA D2 member but competing as NAIA in 2025-26 — no NCAA conference affiliation that year. |
-| **Independents** | `conference = Independent` is correct for full independents such as **Notre Dame**, **Maranatha Baptist**, and **Salem WV** (and for sport-specific independents elsewhere). |
+| **Independents** | `conference = Independent` is correct for full independents such as **Notre Dame** (football), **Maranatha Baptist**, and **Salem WV** (and for sport-specific independents elsewhere). |
 
 Full changelog: [RELEASE_NOTES.md](RELEASE_NOTES.md).
 
@@ -83,7 +87,7 @@ overlapping school-gender teams. Never blindly dedupe across sports.
 ## Citation
 
 > Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset
-> Across All Divisions* (Version 2.0.1) [Data set]. Hugging Face.
+> Across All Divisions* (Version 2.0.3) [Data set]. Hugging Face.
 > https://doi.org/10.57967/hf/9512
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).

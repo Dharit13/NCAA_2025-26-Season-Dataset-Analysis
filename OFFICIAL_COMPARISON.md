@@ -17,13 +17,12 @@ one row per athlete per sport-roster.
 |---|---|---|
 | Championship sports | 554,298 (M 318,949 / W 235,349) | |
 | + Emerging sports | 561,290 | |
-| Comparable universe (excl. rifle — 298 participants (M 100 / W 198), not covered here) | 560,992 | **515,085** |
+| Comparable universe (excl. rifle — 298 participants (M 100 / W 198), not covered here) | 560,992 | **514,696** |
 | Men / Women | 318,949 / 235,349 | 291,171 / 223,914 |
 | Teams | 19,928 championship (+ emerging) | 19,608 covered of 20,241 official sponsor-list cells (96.9%) |
 
-**This dataset holds 91.8% of the NCAA's reported athlete-participations (515,085 /
-560,992), ≈96.9% of teams, and 98.5% of Division I.** (v2.0.1; −308 vs v2.0 from
-Louisiana Christian removal — coverage % unchanged at one decimal place.)
+**This dataset holds 91.7% of the NCAA's reported athlete-participations (514,696 /
+560,992), ≈96.9% of teams, and 98.5% of Division I.**
 
 ## Why ~92% of athletes at ~97% of teams — the gap decomposed
 
