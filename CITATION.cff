@@ -13,9 +13,8 @@ abstract: >-
   all three divisions, both genders, for the single 2025-26 athletic year —
   de-identified (no names, no per-athlete demographic predictions), with hometown,
   high school, position, and class fields as published on official school athletics
-  sites, validated against the NCAA's official sponsor lists. Version 2.0.3 removes
-  out-of-scope non-NCAA-in-2025-26 schools, corrects conference labels, and restores
-  high-school fields from source pages (514,696 athletes across 1,087 schools).
+  sites, validated against the NCAA's official sponsor lists. Version 2.0.4 corrects US territory origin/state labeling (AS/GU/VI/MP/PR)
+  and documents full conference population (514,696 athletes across 1,087 schools).
 keywords:
   - NCAA
   - college athletics
@@ -25,6 +24,6 @@ keywords:
 license: CC0-1.0
 url: "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
 repository-code: "https://github.com/Dharit13/NCAA_2025-26-Season-Dataset-Analysis"
-version: "2.0.3"
+version: "2.0.4"
 doi: "10.57967/hf/9512"
-date-released: "2026-07-17"
+date-released: "2026-07-18"

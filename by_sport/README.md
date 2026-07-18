@@ -13,12 +13,13 @@ by_sport/
       d1.csv d2.csv d3.csv   that gender, one division
 ```
 
-**28 sports · 203 files.** The gender×division leaf files sum to exactly 514,696 rows — the full master, no loss or duplication. 12 sports are single-gender (e.g. football/baseball = men; softball/field_hockey = women).
+**28 sports · 203 CSV files.** The gender×division leaf files sum to exactly 514,696 rows — the full master, no loss or duplication. 12 sports are single-gender (e.g. football/baseball = men; softball/field_hockey = women).
 
 ## Cautions
-- **Conference:** 2025-26 vintage labels (post v2.0.3 school-scope + conference audit). `Independent` includes Notre Dame (football), Maranatha Baptist, Salem WV, and sport-specific independents.
+- **Conference:** fully populated (post v2.0.3). `Independent` includes Notre Dame (football), Maranatha Baptist, Salem WV, and sport-specific independents.
+- **Origin / hometown_state:** US territories (PR/VI/GU/AS/MP) are `domestic` with the matching USPS code (v2.0.4). British Virgin Islands remain `international`.
 - **De-identified** (no names). `hometown_*`/`high_school` are quasi-identifiers — no re-identification.
 - **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
 - For the full data dictionary, enrichment provenance, and coverage, see the top-level `data/CODEBOOK.md` and `DATASHEET.md`.
 
-_Generated 2026-07-18 from the v2.0.3 audit-corrected build._
+_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._

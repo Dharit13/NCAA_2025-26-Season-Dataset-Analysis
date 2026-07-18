@@ -45,7 +45,7 @@ sports' rosters (e.g. cross country + track) appears once per sport, with per-sp
 `athlete_id`s — the same convention the NCAA uses in its participation reports.
 
 **How many instances are there in total?** **514,696 rows** (Men 290,969 / Women 223,727)
-across **1,087 schools** and 28 sports (v2.0.3, 2026-07-14 correction).
+across **1,087 schools** and 28 sports (v2.0.4, 2026-07-18 territory-origin fix).
 Per-sport row counts are in `metadata.json`. One deliberate redundancy:
 **`track_indoor` and `track_outdoor` share source rows** — schools publish one track &
 field roster; the indoor sport is materialized from the shared scrape and independently
@@ -107,7 +107,8 @@ indoor/outdoor shared-row design above; (2) roster-page noise — schools vary i
 vocabularies (a few list height in `position_raw`), hometown formatting, and class
 notation; raw fields are preserved alongside standardized ones; (3) residual
 misparses survive at low rates despite an 11-check verification battery and a
-label-integrity audit per sport; (4) `conference` is best-effort. Known sport-specific
+label-integrity audit per sport; (4) `conference` is fully populated on the public tier
+  (`Independent` is intentional for true / sport-specific independents). Known sport-specific
 limitations (skiing's unsplittable coed tail, STUNT's unpublished tail) are documented in
 the per-sport codebooks.
 

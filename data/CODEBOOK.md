@@ -1,6 +1,6 @@
 # Codebook & Data Dictionary — NCAA All-Sports Rosters 2025-26
 
-**Version 2.0** (enriched build). One row per athlete per sport-roster; 2025-26 athletic year; all 28 NCAA championship sports; D1/D2/D3; both genders. **514,696 rows.**
+**Version 2.0.4** (enriched build). One row per athlete per sport-roster; 2025-26 athletic year; all 28 NCAA championship sports; D1/D2/D3; both genders. **514,696 rows.**
 
 The release has two tiers:
 - **Public tier** — `data/ncaa_all_sports_rosters_2025-26.csv` (19 columns, de-identified, no names).
@@ -25,7 +25,7 @@ Income, population, school-type, and mobility fields describe the athlete's **ho
 | `season` | string | Sport's own season label (`2025` fall, `2026` spring, `2025-26` winter/full-year). |
 | `division` | string | `D1`/`D2`/`D3` per official NCAA sponsor list. |
 | `gender` | string | `Women` / `Men` (team competition gender). |
-| `conference` | string | Athletic conference (best-effort; ~68%). |
+| `conference` | string | Athletic conference (fully populated on the public tier; `Independent` is intentional for true independents / sport-specific independents). |
 | `school` | string | Institution name (roster short name). |
 | `position_raw` | string | Position/event/weight-class as listed; semantics vary by sport. |
 | `position_group` | string | Sport-specific standardized grouping. |
@@ -33,8 +33,8 @@ Income, population, school-type, and mobility fields describe the athlete's **ho
 | `class_standing` | string | Standardized: `Fr`/`So`/`Jr`/`Sr`/`Gr`/`UNK`. |
 | `hometown_raw` | string | Hometown as listed. |
 | `hometown_city` | string | Parsed city (97.8%). |
-| `hometown_state` | string | Parsed US state, USPS 2-letter (US athletes; 87.9%). |
-| `origin` | string | `domestic` (87.9%) / `international` (10.0%) / `unknown` (2.2%). |
+| `hometown_state` | string | Parsed US state/territory, USPS 2-letter (US athletes incl. PR/VI/GU/AS/MP; ~88%). |
+| `origin` | string | `domestic` (~88%) / `international` (~10%) / `unknown` (2.2%). US territories are `domestic`. |
 | `high_school` | string | High school / prep / academy as listed (92.6%). |
 | `high_school_is_academy` | 0/1 | Legacy thin prep/academy flag. Superseded by analysis-tier `hs_category`. |
 | `source_url` | string | Roster page / API endpoint the row came from. |
@@ -53,7 +53,7 @@ Columns 1-43 carry the public roster fields plus the original enrichment; column
 | `league` | string | 100 | internal | `NCAA` for every row. |
 | `gender` | string | 100 | roster | `Women` / `Men` (team competition gender). |
 | `d2` | string | 98 | internal | Legacy division tag; use `division` instead. |
-| `conference` | string | 68 | roster | Athletic conference (best-effort; 68% — weakest field). |
+| `conference` | string | 100 | roster | Athletic conference (fully populated; `Independent` is intentional where applicable). |
 | `school_name` | string | 100 | roster | Institution name (roster short name). |
 | `sport` | string | 100 | roster | Full sport name incl. gender (e.g. "Women's Basketball"). |
 | `position` | string | 82 | roster | Position/event/weight-class as listed; semantics vary by sport. |
@@ -63,8 +63,8 @@ Columns 1-43 carry the public roster fields plus the original enrichment; column
 | `hometown_state` | string | 96 | roster (parsed) | Parsed US state as published (mixed-format). |
 | `high_school` | string | 93 | roster | High school / prep / academy as listed. |
 | `source_url` | string | 100 | internal | Roster page / API endpoint the row came from. |
-| `origin` | string | 100 | derived | `US` / `INTL` / `UNK` (domestic 87.9% / intl 10.0% / unknown 2.2%). |
-| `us_state` | string | 88 | derived | USPS 2-letter state, US athletes only (87.9%). |
+| `origin` | string | 100 | derived | `US` / `INTL` / `UNK` (~88% / ~10% / 2.2%). US territories are `US`. |
+| `us_state` | string | 88 | derived | USPS 2-letter state/territory (incl. PR/VI/GU/AS/MP), US athletes only. |
 | `intl_region` | string | 10 | derived | Country/region for international athletes (10%). |
 | `position_std` | string | 100 | derived | Standardized position grouping. |
 | `class_std` | string | 100 | derived | Standardized class: `Fr`/`So`/`Jr`/`Sr`/`Gr`/`UNK`. |

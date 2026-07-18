@@ -5,7 +5,7 @@ Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column pu
 ## Files in this folder
 
 | File | Scope | Rows |
-|---|---|---|
+|---|---|---:|
 | `all.csv` | all divisions, all genders | 1,037 |
 | `women/all.csv` | women, all divisions | 1,037 |
 | `women/d1.csv` | women, D1 | 688 |
@@ -19,29 +19,24 @@ Genders present: women.
 | Column | Definition |
 |---|---|
 | `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder (e.g. "basketball"). |
-| `athletic_year` | Athletic year — constant "2025-26" on every row. |
-| `season` | Sport's published season label (2025 fall / 2026 spring / 2025-26). |
-| `division` | NCAA division: D1 / D2 / D3. |
-| `gender` | Men / Women. |
-| `conference` | Athletic conference (2025-26 vintage; fully populated after v2.0.3 audit removals). |
-| `school` | Institution name (join key to IPEDS/Scorecard). |
-| `position_raw` | Position string as published by the school. |
-| `position_group` | Standardized position bucket. |
-| `class_year_raw` | Class/eligibility string as published. |
-| `class_standing` | Standardized class: Fr/So/Jr/Sr/Gr/UNK. |
-| `hometown_raw` | Hometown string as published. |
-| `hometown_city` | Parsed hometown city (~97.8%). |
-| `hometown_state` | Parsed US state (domestic only; ~87.9%). |
-| `origin` | domestic / international / unknown. |
-| `high_school` | High school as published (~92.4%; post-audit recovery fills previously blank cells where source pages had them). |
-| `high_school_is_academy` | Legacy binary academy flag (SUPERSEDED by the analysis-tier hs_category; see top-level CODEBOOK). |
-| `source_url` | URL of the roster page scraped. |
+| `sport` | Sport key — constant within this folder. |
+| `athletic_year` | `2025-26` for every row. |
+| `season` | Sport's own season label. |
+| `division` | `D1` / `D2` / `D3`. |
+| `gender` | `Men` / `Women`. |
+| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
+| `school` | Institution short name. |
+| `position_raw` | Position/event as listed. |
+| `position_group` | Standardized position group. |
+| `class_year_raw` | Class as listed. |
+| `class_standing` | Standardized class standing. |
+| `hometown_raw` | Hometown as listed. |
+| `hometown_city` | Parsed city. |
+| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
+| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
+| `high_school` | High school as listed. |
+| `high_school_is_academy` | Legacy academy flag. |
+| `source_url` | Source roster URL. |
 
-## Notes
-- **De-identified.** No athlete names or contact info. `hometown_*` and `high_school` are quasi-identifiers retained for research value — do not attempt re-identification.
-- `high_school_is_academy` is the legacy flag; the richer public/private/religious classification lives in the research-only analysis tier (not distributed).
-- **Do not sum `track_indoor` + `track_outdoor`** — they share source rows by design.
-- Full project-level data dictionary and provenance: top-level `data/CODEBOOK.md`.
 
-_Generated 2026-07-18 from the v2.0.3 audit-corrected build (514,696 rows). Row counts above are exact for this build._
+_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._

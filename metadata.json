@@ -197,8 +197,8 @@
     "town_athletes_per_10k"
   ],
   "pii_pattern_hits": 0,
-  "dataset_version": "2.0.3",
-  "version_note": "v2.0.3 (2026-07-14): comprehensive dataset+join audit \u2014 every one of the 514,696-athlete release's schools cross-checked vs the official NCAA directory and individually web-verified for the 2025-26 season (2 workflows, ~137 agents, adversarial refutation). Removed out-of-scope non-NCAA-in-2025-26 schools: Shawnee State (NAIA, 172) and Johnson & Wales University Charlotte (NCAA exploratory/USCAA, 217). Kept 6 NCAA provisional members (Jamestown, Roosevelt, Point Park, Carlow, Regent, Middle Georgia State). Web-verified 2025-26 conference corrections: Notre Dame (per-sport ACC/Big Ten hockey/Independent football), SUNY Brockport->Empire 8, SUNY Canton->SUNYAC, Upper Iowa->GLVC, Penn College->United East, Vermont State Lyndon->North Atlantic, Salve Regina->NEWMAC, Norwich->GNAC, Utica->Empire 8, Marywood->Atlantic East. Backfilled school_state for 133 schools (~58.7k rows) from Scorecard; enriched SES for 5 schools; fixed Missouri S&T IPEDS join (config). 515,085 -> 514,696. Schema unchanged. v2.0.1 (2026-07-13): removed 308 Louisiana Christian University (NAIA) rows mis-scraped into the Louisiana/UL-Lafayette path, and corrected conference/division labels to 2025-26 vintage. 515,393 -> 515,085. Schema unchanged. v2.0 adds high-school public/private/religious classification (NCES CCD+PSS) and Census-validated town income/population (ACS 2022), replacing mis-scaled hometown_population.",
+  "dataset_version": "2.0.4",
+  "version_note": "v2.0.4 (2026-07-18): US territory origin/state fix \u2014 American Samoa (AS), Guam (GU), U.S. Virgin Islands (VI), Northern Mariana Islands (MP), and residual Puerto Rico (PR) rows that were origin=international with empty hometown_state are now domestic with the matching USPS territory code (150 public-tier rows). Analysis tier: filled us_state for the same cohort and reverted 2 Road Town (BVI) rows wrongly labeled US. British Virgin Islands unchanged (international). CODEBOOK conference coverage corrected to 100% (stale ~68% claim removed). Schema and row count unchanged (514,696). v2.0.3 (2026-07-14): comprehensive dataset+join audit \u2014 every one of the 514,696-athlete release's schools cross-checked vs the official NCAA directory and individually web-verified for the 2025-26 season (2 workflows, ~137 agents, adversarial refutation). Removed out-of-scope non-NCAA-in-2025-26 schools: Shawnee State (NAIA, 172) and Johnson & Wales University Charlotte (NCAA exploratory/USCAA, 217). Kept 6 NCAA provisional members (Jamestown, Roosevelt, Point Park, Carlow, Regent, Middle Georgia State). Web-verified 2025-26 conference corrections: Notre Dame (per-sport ACC/Big Ten hockey/Independent football), SUNY Brockport->Empire 8, SUNY Canton->SUNYAC, Upper Iowa->GLVC, Penn College->United East, Vermont State Lyndon->North Atlantic, Salve Regina->NEWMAC, Norwich->GNAC, Utica->Empire 8, Marywood->Atlantic East. Backfilled school_state for 133 schools (~58.7k rows) from Scorecard; enriched SES for 5 schools; fixed Missouri S&T IPEDS join (config). 515,085 -> 514,696. Schema unchanged. v2.0.1 (2026-07-13): removed 308 Louisiana Christian University (NAIA) rows mis-scraped into the Louisiana/UL-Lafayette path, and corrected conference/division labels to 2025-26 vintage. 515,393 -> 515,085. Schema unchanged. v2.0 adds high-school public/private/religious classification (NCES CCD+PSS) and Census-validated town income/population (ACS 2022), replacing mis-scaled hometown_population.",
   "enrichment_provenance": {
     "high_school_classification": {
       "sources": [
@@ -232,12 +232,12 @@
     }
   },
   "checksums_md5": {
-    "data/ncaa_all_sports_rosters_2025-26.csv": "f2b94b92347f3259a04cd2fd746eee6d",
-    "data/ncaa_all_sports_rosters_2025-26.parquet": "0283472f9c3e5d46c1cac40babe26ac7",
-    "analysis/ncaa_all_sports_analysis_dataset.csv": "00b329a2c1c9caeedcd559d76fcad5b9",
-    "analysis/ncaa_all_sports_analysis_dataset.parquet": "91b8ea85f6a519f864649abb819d1e7c"
+    "data/ncaa_all_sports_rosters_2025-26.csv": "b26c7ed7c39f44a9f37e66403bc96900",
+    "data/ncaa_all_sports_rosters_2025-26.parquet": "e489dc8fc070c4598e4a20d195b83e0f",
+    "analysis/ncaa_all_sports_analysis_dataset.csv": "48c869573ef02d287a9c5edb3c30c0d3",
+    "analysis/ncaa_all_sports_analysis_dataset.parquet": "9d122c91b725f74cee6a9967f83bd49e"
   },
   "n_analysis_columns": 54,
   "n_public_columns": 19,
-  "corrected_utc": "2026-07-17T22:37:55.255500+00:00"
+  "corrected_utc": "2026-07-18T17:24:51.559573+00:00"
 }

@@ -1,5 +1,39 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.0.4 — 2026-07-18 (territory origin + docs)
+
+Data-quality fix on the public **19-column** tier. **No rows added or removed**
+(514,696), **no schema change**.
+
+| | v2.0.3 | v2.0.4 |
+|---|---:|---:|
+| Athletes | 514,696 | **514,696** |
+| Schools | 1,087 | **1,087** |
+| Domestic | 452,198 | **452,348** |
+| International | 51,360 | **51,210** |
+
+### What changed
+
+- **US territory origin/state:** athletes whose `hometown_raw` clearly indicates
+  American Samoa, Guam, U.S. Virgin Islands, Northern Mariana Islands, or Puerto Rico
+  but shipped as `origin=international` with empty `hometown_state` are now
+  `origin=domestic` with the matching USPS territory code (`AS`/`GU`/`VI`/`MP`/`PR`).
+  **150** public-tier rows corrected. British Virgin Islands (incl. Tortola / Road Town /
+  Anegada / Virgin Gorda) stay `international`.
+- **`by_sport/`** convenience slices rebuilt from the corrected master.
+- **CODEBOOK:** `conference` documentation updated to reflect full population (removed
+  stale "~68% / weakest field" language left over from pre-v2.0.3 builds). Version header
+  bumped to 2.0.4.
+
+### Unchanged
+
+- De-identification posture (no names).
+- Public column set and semantics (territory codes were already in the USPS set; Puerto
+  Rico was already mostly correct).
+- DOI **10.57967/hf/9512** (cite with version **2.0.4**).
+
+---
+
 ## v2.0.3 — 2026-07-14 (audit correction; data tip 2026-07-17)
 
 Comprehensive dataset + join audit on the public **19-column** tier. Schools
@@ -145,4 +179,4 @@ attempt re-identification. Per-record removal honored on request: dharits3@gmail
 ### Citation
 
 Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions* (Version 2.0.3) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512
+Divisions* (Version 2.0.4) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512

@@ -7,9 +7,9 @@ participations; ≈96.9% of sponsor-list teams).
 
 ## Release status
 
-**Released.** Current tip is **v2.0.3** (2026-07-14 / data refreshed 2026-07-17) —
-post-audit school-scope, conference, and high-school field corrections on the public
-19-column tier. Original v2.0 published 2026-07-08.
+**Released.** Current tip is **v2.0.4** (2026-07-18) — US territory origin/state
+fix plus CODEBOOK conference-coverage correction on the public 19-column tier.
+Prior: v2.0.3 audit correction (2026-07-14); original v2.0 published 2026-07-08.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ post-audit school-scope, conference, and high-school field corrections on the pu
 | **DOI** | [10.57967/hf/9512](https://doi.org/10.57967/hf/9512) |
 | **Kaggle mirror** | https://www.kaggle.com/datasets/shahdha/ncaa-all-sports-rosters-2025-26 |
 | **License** | CC0 1.0 (citation requested; no NIL / publicity grant) |
-| **Version** | **2.0.3** |
+| **Version** | **2.0.4** |
 
 ## What's in this repo
 
@@ -38,28 +38,32 @@ Scorecard / mobility joins) is **research-only** and is not shipped here; those 
 are rebuildable from this public tier plus public sources (Census ACS, NCES, College
 Scorecard, Opportunity Insights).
 
-## Shape (v2.0.3)
+## Shape (v2.0.4)
 
 | | |
 |---|---|
 | Athletes | **514,696** (Men 290,969 / Women 223,727) |
 | Divisions | D1 185,912 · D2 124,730 · D3 204,054 |
-| Origin | domestic 452,198 (87.9%) · international 51,360 (10.0%) · unknown 11,138 (2.2%) |
+| Origin | domestic 452,348 (87.9%) · international 51,210 (9.9%) · unknown 11,138 (2.2%) |
 | Sports | 28 (every NCAA championship + emerging sport) |
 | Schools | 1,087 |
 | Athletic year | 2025-26 for every row |
 
-## v2.0.3 corrections (summary)
+## v2.0.4 corrections (summary)
 
-- **−389 rows / −2 schools:** removed out-of-scope non-NCAA-in-2025-26 schools —
-  Shawnee State (NAIA, 172) and Johnson & Wales University Charlotte (NCAA
-  exploratory/USCAA, 217). Kept six NCAA provisional members.
-- **Conference labels** web-verified for 2025-26 (Notre Dame per-sport affiliations;
-  SUNY Brockport, SUNY Canton, Upper Iowa, Penn College, Vermont State Lyndon, Salve
-  Regina, Norwich, Utica, Marywood, and others).
-- **High-school recovery** on the public tier: blank `high_school` cells restored from
-  source pages where present; subsequent `hs_category` enrichment is analysis-tier only.
-- **Schema unchanged** (same 19 public columns). Conference is fully populated.
+- **US territories:** 150 athletes from American Samoa, Guam, U.S. Virgin Islands,
+  Northern Mariana Islands, and residual Puerto Rico rows were mislabeled
+  `origin=international` with empty `hometown_state`. Now `domestic` with USPS codes
+  `AS`/`GU`/`VI`/`MP`/`PR`. British Virgin Islands remain international.
+- **CODEBOOK:** removed stale `conference` "~68%" coverage claim (public tier is fully
+  populated since v2.0.3).
+- **Schema and row count unchanged** (514,696 athletes / 1,087 schools).
+
+### Prior (v2.0.3)
+
+- **−389 rows / −2 schools:** removed Shawnee State (NAIA) and JWU Charlotte
+  (exploratory/USCAA). Kept six NCAA provisional members.
+- Conference labels web-verified; high-school recovery on public `high_school`.
 
 **Known intentional exceptions**
 
@@ -87,7 +91,7 @@ overlapping school-gender teams. Never blindly dedupe across sports.
 ## Citation
 
 > Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset
-> Across All Divisions* (Version 2.0.3) [Data set]. Hugging Face.
+> Across All Divisions* (Version 2.0.4) [Data set]. Hugging Face.
 > https://doi.org/10.57967/hf/9512
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).

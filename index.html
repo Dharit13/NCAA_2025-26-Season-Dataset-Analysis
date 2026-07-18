@@ -34,8 +34,8 @@
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
-  "version": "2.0.3",
-  "datePublished": "2026-07-17",
+  "version": "2.0.4",
+  "datePublished": "2026-07-18",
   "creator": {
     "@type": "Person",
     "name": "Dharit Shah"
@@ -124,7 +124,7 @@
     {
       "@type": "PropertyValue",
       "name": "hometown_state",
-      "description": "Parsed US state, USPS 2-letter (87.9%)."
+      "description": "Parsed US state/territory, USPS 2-letter (incl. PR/VI/GU/AS/MP)."
     },
     {
       "@type": "PropertyValue",
@@ -209,12 +209,13 @@ institution-published roster fact validated against the NCAA's official sponsor 
 
 <h2>Citation</h2>
 <p>Shah, Dharit (2026). <i>NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions</i> (Version 2.0.3) [Data set]. Hugging Face.
+Divisions</i> (Version 2.0.4) [Data set]. Hugging Face.
 <a href="https://doi.org/10.57967/hf/9512">https://doi.org/10.57967/hf/9512</a></p>
 
 
 <h2>Changelog</h2>
 <ul>
+<li><b>v2.0.4 (2026-07-18)</b> — US territory origin/state fix (150 rows: AS/GU/VI/MP/PR → domestic + USPS); CODEBOOK conference coverage corrected to 100%. <b>514,696</b> athletes · schema unchanged.</li>
 <li><b>v2.0.3 (2026-07-14 / data tip 2026-07-17)</b> — School-scope audit: removed Shawnee State (NAIA, 172) and JWU Charlotte (exploratory/USCAA, 217); conference corrections; high-school field recovery. <b>514,696</b> athletes · <b>1,087</b> schools. Schema unchanged.</li>
 <li><b>v2.0.2 (2026-07-14)</b> — Normalized six abbreviated conference labels to canonical names (515,085 athletes; no row changes).</li>
 <li><b>v2.0.1 (2026-07-13)</b> — Conference/division labels corrected for 2025-26 vintage; removed 308 Louisiana Christian (NAIA) contamination rows. 515,085 athletes.</li>
