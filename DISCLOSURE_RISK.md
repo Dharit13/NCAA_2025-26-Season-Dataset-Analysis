@@ -1,11 +1,14 @@
 # Disclosure Risk Assessment — NCAA All Sports 2025-26
 
 **Written indirect-identifier risk assessment** (ICPSR frame) for the public and analysis
-tiers of the cross-sport master (515,393 rows, 1,089 schools — final build 2026-07-08
-at final build). Companion: [ETHICS_REVIEW.md](ETHICS_REVIEW.md). Ground truth used here:
-`data/CODEBOOK.md`, `pii_audit.txt` (clean: forbidden-column check PASS across all 56 tier
-files; 0 regex hits for email/phone/SSN in free-text columns), `sanitize_report.txt`
-(per-row log: staff-directory rows dropped, leaked `high_school` values scrubbed).
+tiers of the cross-sport master. **Current tip: v2.0.4 — 514,696 rows, 1,087 schools**
+(2026-07-18). Assessment written against the Gate-0 final build of **2026-07-08
+(515,393 rows / 1,089 schools)**; post-review removals changed counts, not the
+quasi-identifier inventory or treatment decisions. Companion:
+[ETHICS_REVIEW.md](ETHICS_REVIEW.md). Ground truth used here: `data/CODEBOOK.md`,
+`pii_audit.txt` (clean: forbidden-column check PASS across all 56 tier files; 0 regex hits
+for email/phone/SSN in free-text columns), `sanitize_report.txt` (per-row log:
+staff-directory rows dropped, leaked `high_school` values scrubbed).
 
 **Headline, stated up front:** the public tier is **de-identified, not anonymized**.
 Re-identification by linkage to the source roster pages is trivial — by design, since every
@@ -113,5 +116,5 @@ attributes never leave the repo; aggregates follow §5. Reassessed at each annua
 alongside ETHICS_REVIEW.md.
 
 ---
-*Final build 2026-07-08 (515,393 rows, 1,089 schools).
-Assessed 2026-07-07.*
+*Assessment written against Gate-0 final build 2026-07-08 (515,393 rows / 1,089 schools).
+Assessed 2026-07-07. Current tip: v2.0.4 (514,696 rows / 1,087 schools, 2026-07-18).*

@@ -1,9 +1,13 @@
 # Ethics Self-Review — NCAA All Sports 2025-26
 
-**Pre-release ethics review** for the cross-sport master dataset (515,393 athlete rows,
-1,089 schools — final build 2026-07-08). Reviewer: Dharit Shah
-(dharits3@gmail.com), independent researcher, no institutional affiliation. This document
-**is** the ethics review — see §4 for why that is the honest framing rather than a gap.
+**Pre-release ethics review** for the cross-sport master dataset. **Current release tip:
+v2.0.4 — 514,696 athlete rows across 1,087 schools** (2026-07-18). This review was written
+against the Gate-0 final build of **2026-07-08 (515,393 rows / 1,089 schools)**; later
+errata (v2.0.1–v2.0.3) removed out-of-scope schools and corrected labels without changing
+the public-tier schema, the de-identification stance, or any ethics disposition below.
+Reviewer: Dharit Shah (dharits3@gmail.com), independent researcher, no institutional
+affiliation. This document **is** the ethics review — see §4 for why that is the honest
+framing rather than a gap.
 
 Structured around the four concerns Zimmer (2010) raised against the T3 "Tastes, Ties,
 and Time" Facebook release — the canonical case of an IRB-approved, "anonymized" roster-like
@@ -43,7 +47,7 @@ What this release changes about the context, honestly assessed:
 
 | Contextual shift | Assessment |
 |---|---|
-| **Aggregation** (one school's page → 515,393 rows) | Real shift: cross-school queries become trivial. But the aggregate reveals population patterns, not new individual facts — each row remains exactly what one school published. |
+| **Aggregation** (one school's page → ~515k rows; 515,393 at 2026-07-08 review / 514,696 as of v2.0.4) | Real shift: cross-school queries become trivial. But the aggregate reveals population patterns, not new individual facts — each row remains exactly what one school published. |
 | **SES/geography enrichment** (analysis tier — research-only, not distributed as of 2026-07-07) | Joins are **place-level aggregates only** — IPEDS/Scorecard facts about the *school*, census-style medians about the *hometown city*. An athlete's row gains "the median household income of the city they told their school they are from," not their family's income. No individual-level attribute is inferred or attached in any distributed tier. |
 | **Research framing** (fan context → demographic research) | The purpose shifts from following a team to studying access and stratification in college sport. Mitigations answer this: analysis operates on de-identified rows; findings are reported as aggregates with N<10 suppression; the one genuinely sensitive derived attribute (BISG race prediction) is confined to research-only files precisely because attaching an inferred race to a locatable individual *would* breach contextual integrity. |
 
@@ -117,5 +121,6 @@ ever — is absolute rather than negotiable.
   nothing to it.
 
 ---
-*Final build 2026-07-08 (515,393 rows). Review date 2026-07-07.
+*Review written against Gate-0 final build 2026-07-08 (515,393 rows / 1,089 schools).
+Review date 2026-07-07. Current tip: v2.0.4 (514,696 rows / 1,087 schools, 2026-07-18).
 Next scheduled review: 2026-27 release.*
