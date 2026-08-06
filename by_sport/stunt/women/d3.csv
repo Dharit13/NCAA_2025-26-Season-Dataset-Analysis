@@ -163,43 +163,43 @@ st_e9756fedb144,stunt,2025-26,2026,D3,Women,Old Dominion Athletic Conference,Ran
 st_6441189b10bf,stunt,2025-26,2026,D3,Women,Old Dominion Athletic Conference,Randolph,"5'6""",Athlete,So.,So,"Fredericksburg, Va.",Fredericksburg,VA,domestic,Spotsylvania,0,https://randolphwildcats.com/sports/stunt/roster/2026
 st_7718474e14ea,stunt,2025-26,2026,D3,Women,Old Dominion Athletic Conference,Randolph,"5'7""",Athlete,So.,So,"Haymarket, Va.",Haymarket,VA,domestic,Gainesville,0,https://randolphwildcats.com/sports/stunt/roster/2026
 st_b084dd15e863,stunt,2025-26,2026,D3,Women,Old Dominion Athletic Conference,Randolph,"5'10""",Athlete,Jr.,Jr,"Petersburg, Va.",Petersburg,VA,domestic,,0,https://randolphwildcats.com/sports/stunt/roster/2026
-st_6b850288d538,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,West Lafayette,West Lafayette,,international,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_15b09909b5ef,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,Zanesville,Zanesville,,international,West Muskingum,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_6b850288d538,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,West Lafayette,West Lafayette,OH,domestic,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_15b09909b5ef,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,Zanesville,Zanesville,OH,domestic,West Muskingum,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
 st_4d7d3113fa67,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Byseville,Byseville,,international,Meadowbrook,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_4d2a9e0d9939,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Botkins,Botkins,,international,Botkins,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_dd5db6606dfb,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Centerburg,Centerburg,,international,Centerburg,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_d56718f4a37e,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Jr.,Jr,Logan,Logan,,international,Logan,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_b57d0b0b3e96,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,West Lafayette,West Lafayette,,international,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_4d2a9e0d9939,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Botkins,Botkins,OH,domestic,Botkins,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_dd5db6606dfb,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Centerburg,Centerburg,OH,domestic,Centerburg,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_d56718f4a37e,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Jr.,Jr,Logan,Logan,OH,domestic,Logan,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_b57d0b0b3e96,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,West Lafayette,West Lafayette,OH,domestic,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
 st_0ed7e94e7b69,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Halloway,Halloway,,international,Union Local,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_8b4a530401eb,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,West Lafayette,West Lafayette,,international,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_d1eb1b507e72,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Englewood,Englewood,,international,Northmont,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_f926fbb522ec,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Newark,Newark,,international,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_050642eb0ba7,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Jr.,Jr,Marietta,Marietta,,international,Marietta,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_b5a0a1a457d5,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Woodsfield,Woodsfield,,international,Monroe Central,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_112404bb6b04,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Nashport,Nashport,,international,Tri-Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_bbad34f40342,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Troy,Troy,,international,Troy,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_312dc0a90947,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Utica,Utica,,international,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_cbec8b774101,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Heath,Heath,,international,Licking Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_f7936604757b,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Zanesville,Zanesville,,international,Zanesville,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_6c1ba89a03aa,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,New Carlisle,New Carlisle,,international,Tecumseh,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_e8fa75983471,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Gr.,Gr,Dresden,Dresden,,international,Tri- Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_67f2eab34b7b,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Newark,Newark,,international,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
-st_f7902ae1aa20,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Battle Creek,Battle Creek,,international,Pennfield,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_bd3c83cea298,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Battle Creek,Battle Creek,,international,Comstock,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_1c956e836148,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Grand Blanc,Grand Blanc,,international,Kearsley,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_429b1198dff8,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Bellevue,Bellevue,,international,Bellevue,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_6c1b0a956c27,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Olivet,Olivet,,international,Olivet,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_870fd109ba3b,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Detroit,Detroit,,international,Harper Woods,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_fedf75a2f8bc,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Battle Creek,Battle Creek,,international,Lakeview,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_b4b16b2f36b9,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Vicksburg,Vicksburg,,international,Vicksburg,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_d4f255324873,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Lawton,Lawton,,international,Mattawan,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_6fb78976e43d,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Fowlerville,Fowlerville,,international,Fowlerville,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_37d812a2d3b4,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Three Rivers,Three Rivers,,international,Three Rivers,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_c8a67451aa76,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Marshall,Marshall,,international,Marshall,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_1e973ee6f6fd,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Homer,Homer,,international,Union City,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_5e4e50f609f8,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Whitehall,Whitehall,,international,Whitehall,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_8b4a530401eb,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,West Lafayette,West Lafayette,OH,domestic,Ridgewood,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_d1eb1b507e72,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Englewood,Englewood,OH,domestic,Northmont,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_f926fbb522ec,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Newark,Newark,OH,domestic,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_050642eb0ba7,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Jr.,Jr,Marietta,Marietta,OH,domestic,Marietta,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_b5a0a1a457d5,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Woodsfield,Woodsfield,OH,domestic,Monroe Central,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_112404bb6b04,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Nashport,Nashport,OH,domestic,Tri-Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_bbad34f40342,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Troy,Troy,OH,domestic,Troy,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_312dc0a90947,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Fr.,Fr,Utica,Utica,OH,domestic,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_cbec8b774101,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Heath,Heath,OH,domestic,Licking Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_f7936604757b,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Zanesville,Zanesville,OH,domestic,Zanesville,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_6c1ba89a03aa,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Sr.,Sr,New Carlisle,New Carlisle,OH,domestic,Tecumseh,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_e8fa75983471,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: Gr.,Gr,Dresden,Dresden,OH,domestic,Tri- Valley,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_67f2eab34b7b,stunt,2025-26,2026,D3,Women,Ohio Athletic Conference,Muskingum,,Athlete,Cl.: So.,So,Newark,Newark,OH,domestic,Utica,0,https://fightingmuskies.com/sports/stunt/2025-26/roster
+st_f7902ae1aa20,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Battle Creek,Battle Creek,MI,domestic,Pennfield,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_bd3c83cea298,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Battle Creek,Battle Creek,MI,domestic,Comstock,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_1c956e836148,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Grand Blanc,Grand Blanc,MI,domestic,Kearsley,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_429b1198dff8,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Bellevue,Bellevue,MI,domestic,Bellevue,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_6c1b0a956c27,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Olivet,Olivet,MI,domestic,Olivet,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_870fd109ba3b,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Detroit,Detroit,MI,domestic,Harper Woods,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_fedf75a2f8bc,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Battle Creek,Battle Creek,MI,domestic,Lakeview,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_b4b16b2f36b9,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Vicksburg,Vicksburg,MI,domestic,Vicksburg,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_d4f255324873,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Lawton,Lawton,MI,domestic,Mattawan,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_6fb78976e43d,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Fowlerville,Fowlerville,MI,domestic,Fowlerville,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_37d812a2d3b4,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Jr.,Jr,Three Rivers,Three Rivers,MI,domestic,Three Rivers,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_c8a67451aa76,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Marshall,Marshall,MI,domestic,Marshall,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_1e973ee6f6fd,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Homer,Homer,MI,domestic,Union City,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_5e4e50f609f8,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Whitehall,Whitehall,MI,domestic,Whitehall,0,https://olivetcomets.com/sports/stunt/2025-26/roster
 st_403f2adfa4bd,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,East Leroy,East Leroy,,international,Athens,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_762fb5c1ba63,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Belleville,Belleville,,international,Lincoln,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_762fb5c1ba63,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Belleville,Belleville,MI,domestic,Lincoln,0,https://olivetcomets.com/sports/stunt/2025-26/roster
 st_7202164940b8,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,"Cortland, Ohio",Cortland,OH,domestic,Lakeview,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_e2cd5f704483,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Vicksburg,Vicksburg,,international,Vicksburg,0,https://olivetcomets.com/sports/stunt/2025-26/roster
-st_4c058a6afaea,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Unionville,Unionville,,international,Valley Lutheran,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_e2cd5f704483,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,Fr.,Fr,Vicksburg,Vicksburg,MI,domestic,Vicksburg,0,https://olivetcomets.com/sports/stunt/2025-26/roster
+st_4c058a6afaea,stunt,2025-26,2026,D3,Women,Independent,Olivet,,Athlete,So.,So,Unionville,Unionville,MI,domestic,Valley Lutheran,0,https://olivetcomets.com/sports/stunt/2025-26/roster

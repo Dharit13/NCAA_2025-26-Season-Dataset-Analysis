@@ -1,5 +1,48 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.0.5 — 2026-08-06 (city-only roster origin fix)
+
+Data-quality fix on the public **19-column** tier. **No rows added or removed**
+(514,696), **no schema change**.
+
+| | v2.0.4 | v2.0.5 |
+|---|---:|---:|
+| Athletes | 514,696 | **514,696** |
+| Schools | 1,087 | **1,087** |
+| Domestic | 452,348 | **459,317** |
+| International | 51,210 | **44,241** |
+| Unknown | 11,138 | **11,138** |
+
+### What changed
+
+- **False-international fix (6,969 public-tier rows):** the same `classify_origin`
+  flaw behind the v2.0.4 territory fix also mislabeled US athletes at schools whose
+  rosters print hometowns **city-only** ("Columbus" with no state), island-style
+  ("Honolulu, O'ahu"), or as a "City, St. / High School" mash. Concentrated at ~15
+  schools (SUNY Cortland, the five Ohio Athletic Conference schools, UW-Oshkosh,
+  UW-La Crosse, Olivet, Eastern Connecticut State, Cal State LA / Dominguez Hills,
+  Hawaii, East Carolina, Coastal Carolina, UNC Greensboro, and a long tail). Rows now
+  `origin=domestic` with `hometown_state` resolved via Census gazetteer match against
+  the school's state (falls back to unique national match / major-city map; 51 rows
+  are domestic with state left blank where the state is not determinable).
+- **Method:** gazetteer-driven detection over all 51,210 international rows; per-rule
+  dispositions with country-name and foreign-capital exclusions; a 26-row stratified
+  sample was verified against live roster pages (25 confirmed US towns, 1 refuted —
+  which reverted the whole "bare country name at schools that print domestic hometowns
+  with states" class, e.g. "Mexico" at Dickinson = the country, not Mexico, PA).
+  Genuinely international clusters (Simon Fraser (BC), the Lincoln Missouri Jamaica
+  track pipeline, District of Columbia's Caribbean rosters, etc.) are untouched.
+  Full audit trail: `patch_false_international_manifest.json` /
+  `false_intl_dispositions.csv` in the build tree.
+- **`by_sport/`** slices and per-sport release CSVs patched from the same dispositions.
+
+### Unchanged
+
+- Row count, schema, de-identification posture.
+- DOI **10.57967/hf/9512** (cite with version **2.0.5**).
+
+---
+
 ## v2.0.4 — 2026-07-18 (territory origin + docs)
 
 Data-quality fix on the public **19-column** tier. **No rows added or removed**

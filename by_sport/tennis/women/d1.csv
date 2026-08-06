@@ -218,7 +218,7 @@ ten_421c6f22154b,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,"5'3"""
 ten_3ed8e58966a6,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,"5'8""",Player,Jr.,Jr,"Los Angeles, Calif.",Los Angeles,CA,domestic,John Marshall High School,0,https://hawaiiathletics.com/sports/womens-tennis/roster
 ten_cf7fb5230cad,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,"5'6""",Player,Fr.,Fr,"Kuressaare, Estonia",Kuressaare,,international,Audentes e-gymnasium,0,https://hawaiiathletics.com/sports/womens-tennis/roster
 ten_55fe62008f60,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,"5'1""",Player,So.,So,"Rosemead, Calif.",Rosemead,CA,domestic,California Connections Academy,1,https://hawaiiathletics.com/sports/womens-tennis/roster
-ten_01ed8d31f9e0,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,,Player,Sr.,Sr,"Honolulu, O‘ahu",Honolulu,,international,Henry J. Kaiser HS,0,https://hawaiiathletics.com/sports/womens-tennis/roster
+ten_01ed8d31f9e0,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,,Player,Sr.,Sr,"Honolulu, O‘ahu",Honolulu,HI,domestic,Henry J. Kaiser HS,0,https://hawaiiathletics.com/sports/womens-tennis/roster
 ten_a0ffdc209dac,tennis,2025-26,2026,D1,Women,Big West Conference,Hawaii,"5'10""",Player,Sr.,Sr,"Bad Soden am Taunus, Germany",Bad Soden am Taunus,,international,Albert Einstein School,0,https://hawaiiathletics.com/sports/womens-tennis/roster
 ten_def200d1d311,tennis,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Player,Sr.,Sr,"Calgary, Canada",Calgary,,international,Vista Virtual,0,https://gohuskies.com/sports/wten/roster
 ten_0fa3ceda9990,tennis,2025-26,2026,D1,Women,Big Ten Conference,Washington,,Player,Fr.,Fr,"Prague, Czech Republic",Prague,,international,Gymnazium Nad Stolou,0,https://gohuskies.com/sports/wten/roster
@@ -1885,16 +1885,16 @@ ten_362ac124481a,tennis,2025-26,2026,D1,Women,Ivy League,Penn,,Player,Sr.,Sr,"La
 ten_0c1877967680,tennis,2025-26,2026,D1,Women,Ivy League,Penn,,Player,Fr.,Fr,"Cary, N.C.",Cary,NC,domestic,Crossroads Flex,0,https://pennathletics.com/sports/womens-tennis/roster/2025-26
 ten_81384c1096e1,tennis,2025-26,2026,D1,Women,Ivy League,Penn,,Player,Jr.,Jr,"Colmar, Pa.",Colmar,PA,domestic,North Penn,0,https://pennathletics.com/sports/womens-tennis/roster/2025-26
 ten_0e16ba013232,tennis,2025-26,2026,D1,Women,Ivy League,Penn,,Player,So.,So,"Lake Forest, Ill.",Lake Forest,IL,domestic,Adlai E. Stevenson High School,0,https://pennathletics.com/sports/womens-tennis/roster/2025-26
-ten_e881c4de485d,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Greensboro, N.C.",Greensboro,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
+ten_e881c4de485d,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Greensboro, N.C.",Greensboro,NC,domestic,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_9c07a2697de6,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Barcelona, Spain",Barcelona,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_934eb718fa95,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Focsani, Romania",Focsani,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
-ten_f297852a1e7a,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Vestavia, Ala.",Vestavia,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
+ten_f297852a1e7a,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Vestavia, Ala.",Vestavia,AL,domestic,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_33c6d3a5633f,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Plovdiv, Bulgaria",Plovdiv,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
-ten_ab66c3394d4c,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Williamsport, Pa.",Williamsport,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
-ten_dd583e477931,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Middle Village, N.Y.",Middle Village,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
+ten_ab66c3394d4c,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Williamsport, Pa.",Williamsport,PA,domestic,,0,https://gopsusports.com/sports/womens-tennis/roster
+ten_dd583e477931,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Middle Village, N.Y.",Middle Village,NY,domestic,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_ff81c8515ef8,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Paris, France",Paris,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_bddca27f5b14,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Tokyo, Japan",Tokyo,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
-ten_ec80474a6385,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Lancaster, Pa.",Lancaster,,international,,0,https://gopsusports.com/sports/womens-tennis/roster
+ten_ec80474a6385,tennis,2025-26,2026,D1,Women,Big Ten Conference,Penn St.,,Player,,UNK,"Lancaster, Pa.",Lancaster,PA,domestic,,0,https://gopsusports.com/sports/womens-tennis/roster
 ten_32608a964125,tennis,2025-26,2026,D1,Women,The Summit League,Oral Roberts,,Player,So.,So,"Minsk, Belarus",Minsk,,international,Secondary School,0,https://oruathletics.com/sports/womens-tennis/roster/2025-26
 ten_93f423e6dc84,tennis,2025-26,2026,D1,Women,The Summit League,Oral Roberts,,Player,Jr.,Jr,"Bentonville, Ark.",Bentonville,AR,domestic,Bentonville West HS,0,https://oruathletics.com/sports/womens-tennis/roster/2025-26
 ten_5f3e682e6b75,tennis,2025-26,2026,D1,Women,The Summit League,Oral Roberts,,Player,Jr.,Jr,"Roger, Ark.",Roger,AR,domestic,Rogers High School,0,https://oruathletics.com/sports/womens-tennis/roster/2025-26

@@ -156,7 +156,7 @@ ten_e23c5eb64d97,tennis,2025-26,2026,D1,Men,Big Ten Conference,Indiana,,Player,J
 ten_f468e9f18f6d_2,tennis,2025-26,2026,D1,Men,Big Ten Conference,Indiana,,Player,So.,So,"Roslyn Heights, N.Y.",Roslyn Heights,NY,domestic,,0,https://iuhoosiers.com/sports/mens-tennis/roster
 ten_23c96b014e31,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Sr.,Sr,"Damascus, Syria",Damascus,,international,,0,https://msuspartans.com/sports/mens-tennis/roster
 ten_d5c6f3350218,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Jr.,Jr,"Aktau, Kazakhstan",Aktau,,international,,0,https://msuspartans.com/sports/mens-tennis/roster
-ten_5c526df833c8,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Jr.,Jr,Arlington,Arlington,,international,John Hersey,0,https://msuspartans.com/sports/mens-tennis/roster
+ten_5c526df833c8,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Jr.,Jr,Arlington,Arlington,MI,domestic,John Hersey,0,https://msuspartans.com/sports/mens-tennis/roster
 ten_fe28e8399196,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,So.,So,"Lansing, Mich.",Lansing,MI,domestic,Team IMPACT,0,https://msuspartans.com/sports/mens-tennis/roster
 ten_23c96b014e31_2,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Sr.,Sr,"Damascus, Syria Danial Rakhmatullayev",Damascus,,international,John Hersey Nolan W.,0,https://msuspartans.com/sports/mens-tennis/roster
 ten_5c526df833c8_2,tennis,2025-26,2026,D1,Men,Big Ten Conference,Michigan St.,,Player,Jr.,Jr,"Arlington Heights, Ill.",Arlington Heights,IL,domestic,John Hersey,0,https://msuspartans.com/sports/mens-tennis/roster
@@ -178,7 +178,7 @@ ten_1d88033cdd90,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'8""",P
 ten_ecb302d3af8c,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'11""",Player,Fr.,Fr,"Stuttgart, Germany",Stuttgart,,international,Privatgymnasium Mannheim,0,https://hawaiiathletics.com/sports/mens-tennis/roster
 ten_cd21e8fc78df,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'8""",Player,Jr.,Jr,"Hiroshima, Japan",Hiroshima,,international,,0,https://hawaiiathletics.com/sports/mens-tennis/roster
 ten_11c1ffed9d77,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'8""",Player,Fr.,Fr,"Kanagawa, Japan",Kanagawa,,international,Komyo Gakuen Sagamihara High School,0,https://hawaiiathletics.com/sports/mens-tennis/roster
-ten_546fe5b3a94f,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'11""",Player,Sr.,Sr,"Honolulu, O‘ahu",Honolulu,,international,Hibernian Private School,0,https://hawaiiathletics.com/sports/mens-tennis/roster
+ten_546fe5b3a94f,tennis,2025-26,2026,D1,Men,Big West Conference,Hawaii,"5'11""",Player,Sr.,Sr,"Honolulu, O‘ahu",Honolulu,HI,domestic,Hibernian Private School,0,https://hawaiiathletics.com/sports/mens-tennis/roster
 ten_f3fdfe04de5f,tennis,2025-26,2026,D1,Men,Coastal Athletic Association,Col. of Charleston,,Player,So.,So,"Montreal, Canada",Montreal,,international,,0,https://cofcsports.com/sports/mens-tennis/roster
 ten_0c9914a4d94b,tennis,2025-26,2026,D1,Men,Coastal Athletic Association,Col. of Charleston,,Player,Jr.,Jr,"Buckhead, Ga.",Buckhead,GA,domestic,Morgan County HS,0,https://cofcsports.com/sports/mens-tennis/roster
 ten_0b283bd445b5,tennis,2025-26,2026,D1,Men,Coastal Athletic Association,Col. of Charleston,,Player,Sr.,Sr,"Melbourne, Australia",Melbourne,,international,Overnewton Anglican Community College,0,https://cofcsports.com/sports/mens-tennis/roster
@@ -1300,7 +1300,7 @@ ten_c2b114e8edf1,tennis,2025-26,2026,D1,Men,Big Ten Conference,Nebraska,,Player,
 ten_4f459ed73f00,tennis,2025-26,2026,D1,Men,Big Ten Conference,Nebraska,,Player,Graduate Student,Gr,"San Diego, Calif.",San Diego,CA,domestic,,0,https://huskers.com/sports/mens-tennis/roster
 ten_5a5cb5654c24,tennis,2025-26,2026,D1,Men,Big Ten Conference,Nebraska,,Player,Freshman,Fr,"Eindhoven, Netherlands",Eindhoven,,international,,0,https://huskers.com/sports/mens-tennis/roster
 ten_afb0e4502a38,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,"6'2""",Player,Jr.,Jr,"Middlesbrough, England",Middlesbrough,,international,Nunthorpe Academy,1,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
-ten_53b08c78f8c8,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,,Player,So.,So,Las Vegas,Las Vegas,,international,Odyssey Charter HS,0,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
+ten_53b08c78f8c8,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,,Player,So.,So,Las Vegas,Las Vegas,NV,domestic,Odyssey Charter HS,0,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
 ten_5a48a92d59d6,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,,Player,Gr.,Gr,"Tokyo, Japan",Tokyo,,international,Sundaikofu HS,0,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
 ten_48410d65511e,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,"6'2""",Player,Sr.,Sr,"Kyiv, Ukraine",Kyiv,,international,Specialized German School,0,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
 ten_09f804c25d22,tennis,2025-26,2026,D1,Men,Mountain West Conference,UNLV,"6'1""",Player,R-Fr.,Fr,"Izmir, Turkey",Izmir,,international,Esenkent Okyanus Anatolian HS,0,https://unlvrebels.com/sports/mens-tennis/roster/2025-26
@@ -1696,7 +1696,7 @@ ten_78f78d15dbad,tennis,2025-26,2026,D1,Men,Atlantic Coast Conference,SMU,"5'9""
 ten_eef9ecca384a,tennis,2025-26,2026,D1,Men,Atlantic Coast Conference,SMU,"5'9""",Player,JR,Jr,"San Diego, Calif.",San Diego,CA,domestic,Connections Academy,1,https://smumustangs.com/sports/mens-tennis/roster/2025-26
 ten_000bedba1acf,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,Jr.,Jr,"Hamburg, Germany",Hamburg,,international,,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26
 ten_16de1c3082db,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,Fr.,Fr,Netherlands,Netherlands,,international,,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26
-ten_e11ccb9b194e,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,R-So.,So,Tulsa,Tulsa,,international,Mizzou online,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26
+ten_e11ccb9b194e,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,R-So.,So,Tulsa,Tulsa,OK,domestic,Mizzou online,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26
 ten_7e343077ccf1,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,So.,So,Parrish,Parrish,,international,Florida Connections Academy,1,https://southernmiss.com/sports/mens-tennis/roster/2025-26
 ten_b3653a62df1b,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,Jr.,Jr,"Malmö, Sweden",Malmö,,international,Akademi Båstad Gymnasium,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26
 ten_7e32bcea6951,tennis,2025-26,2026,D1,Men,Sun Belt Conference,Southern Miss.,,Player,Gr.,Gr,"Lincolnshire, IL",Lincolnshire,IL,domestic,Adlai E Stevenson High School,0,https://southernmiss.com/sports/mens-tennis/roster/2025-26

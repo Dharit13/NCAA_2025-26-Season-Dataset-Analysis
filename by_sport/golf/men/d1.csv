@@ -37,14 +37,14 @@ glf_330f0774dc8d,golf,2025-26,2026,D1,Men,ASUN Conference,Stetson,"6'0""",Golfer
 glf_9858570e745a,golf,2025-26,2026,D1,Men,ASUN Conference,Stetson,"6'0""",Golfer,Fr.,Fr,Italy,Italy,,international,,0,https://gohatters.com/sports/mens-golf/roster
 glf_72d1be1d1571,golf,2025-26,2026,D1,Men,ASUN Conference,Stetson,,Golfer,Jr.,Jr,"Swatragh, Northern Ireland",Swatragh,,international,"St. Patrick's College, Maghera",0,https://gohatters.com/sports/mens-golf/roster
 glf_0743fe4a13ce,golf,2025-26,2026,D1,Men,ASUN Conference,Stetson,"5'10""",Golfer,So.,So,"Udon Thani, Thailand",Udon Thani,,international,,0,https://gohatters.com/sports/mens-golf/roster
-glf_791dfeb59d6a,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Fr.,Fr,Cary,Cary,,international,Green Hope,0,https://ecupirates.com/sports/mens-golf/roster
+glf_791dfeb59d6a,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Fr.,Fr,Cary,Cary,NC,domestic,Green Hope,0,https://ecupirates.com/sports/mens-golf/roster
 glf_137c220ea280,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,So.,So,"Boca Raton, Fla.",Boca Raton,FL,domestic,Boca Raton Community,0,https://ecupirates.com/sports/mens-golf/roster
 glf_c97b78534044,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,So.,So,"Cranleigh, England",Cranleigh,,international,Godalming College,0,https://ecupirates.com/sports/mens-golf/roster
 glf_9c9a6d00914e,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Sr.,Sr,"Sollentuna, Sweden",Sollentuna,,international,Celsiusskolan Uppsala,0,https://ecupirates.com/sports/mens-golf/roster
-glf_a30e259f0c21,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Jr.,Jr,Greenville,Greenville,,international,J.H. Rose,0,https://ecupirates.com/sports/mens-golf/roster
-glf_5ce8990ff520,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Sr.,Sr,Wilson,Wilson,,international,Beddingfield,0,https://ecupirates.com/sports/mens-golf/roster
-glf_27386ea7d1b0,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Sr.,Sr,Wilson,Wilson,,international,Beddingfield,0,https://ecupirates.com/sports/mens-golf/roster
-glf_41d9107b5db4,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Jr.,Jr,Greenville,Greenville,,international,Farmville Central,0,https://ecupirates.com/sports/mens-golf/roster
+glf_a30e259f0c21,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Jr.,Jr,Greenville,Greenville,NC,domestic,J.H. Rose,0,https://ecupirates.com/sports/mens-golf/roster
+glf_5ce8990ff520,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Sr.,Sr,Wilson,Wilson,NC,domestic,Beddingfield,0,https://ecupirates.com/sports/mens-golf/roster
+glf_27386ea7d1b0,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Sr.,Sr,Wilson,Wilson,NC,domestic,Beddingfield,0,https://ecupirates.com/sports/mens-golf/roster
+glf_41d9107b5db4,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Jr.,Jr,Greenville,Greenville,NC,domestic,Farmville Central,0,https://ecupirates.com/sports/mens-golf/roster
 glf_2d919e451bac,golf,2025-26,2026,D1,Men,American Conference,East Carolina,,Golfer,Fr.,Fr,"Greer, S.C.",Greer,SC,domestic,Riverside,0,https://ecupirates.com/sports/mens-golf/roster
 glf_6bc55b8c5d22,golf,2025-26,2026,D1,Men,American Conference,North Texas,,Golfer,Jr.,Jr,"Munich, Germany",Munich,,international,Kurt-Huber-Gymnasium,0,https://meangreensports.com/sports/mens-golf/roster
 glf_03d5c72add01,golf,2025-26,2026,D1,Men,American Conference,North Texas,,Golfer,Fr.,Fr,"Dallas, Texas",Dallas,TX,domestic,,0,https://meangreensports.com/sports/mens-golf/roster
@@ -267,14 +267,14 @@ glf_bdb0d09406d7,golf,2025-26,2026,D1,Men,Big Ten Conference,Wisconsin,,Golfer,J
 glf_bcefd4cc082a,golf,2025-26,2026,D1,Men,Big Ten Conference,Wisconsin,,Golfer,So.,So,"Windermere, Fla.",Windermere,FL,domestic,Windermere Prep,1,https://uwbadgers.com/sports/mens-golf/roster
 glf_33019cb2d32c,golf,2025-26,2026,D1,Men,Big Ten Conference,Wisconsin,,Golfer,R-So.,So,"Milton, Ga.",Milton,GA,domestic,,0,https://uwbadgers.com/sports/mens-golf/roster
 glf_3b28bbeae601,golf,2025-26,2026,D1,Men,Big Ten Conference,Wisconsin,,Golfer,Jr.,Jr,"Wellington, Fla.",Wellington,FL,domestic,,0,https://uwbadgers.com/sports/mens-golf/roster
-glf_0a1bfbd3382d,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Jr.,Jr,"Kahului, Maui",Kahului,,international,Kamehameha Schools-Maui,0,https://hawaiiathletics.com/sports/mens-golf/roster
+glf_0a1bfbd3382d,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Jr.,Jr,"Kahului, Maui",Kahului,HI,domestic,Kamehameha Schools-Maui,0,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_fdd67ff50e22,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Fr.,Fr,"Las Vegas, Nev.",Las Vegas,NV,domestic,Bishop Gorman HS,0,https://hawaiiathletics.com/sports/mens-golf/roster
-glf_a6a71b3d4988,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Sr.,Sr,"Mililani, O‘ahu",Mililani,,international,i Baptist Academy,1,https://hawaiiathletics.com/sports/mens-golf/roster
+glf_a6a71b3d4988,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Sr.,Sr,"Mililani, O‘ahu",Mililani,HI,domestic,i Baptist Academy,1,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_94816851b83e,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Fr.,Fr,"Litchfield Park, Ariz.",Litchfield Park,AZ,domestic,St. John Paul II Catholic,0,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_9498c05c4d6b,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,So.,So,"Santa Maria, Calif.",Santa Maria,CA,domestic,St. Joseph HS,0,https://hawaiiathletics.com/sports/mens-golf/roster
-glf_0733be44d773,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Fr.,Fr,"Lahaina, Maui",Lahaina,,international,Maui Prep,1,https://hawaiiathletics.com/sports/mens-golf/roster
+glf_0733be44d773,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Fr.,Fr,"Lahaina, Maui",Lahaina,HI,domestic,Maui Prep,1,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_b9c5539910fe,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,So.,So,"Vancouver, British Columbia, Canada",Vancouver,,international,Prince of Wales Secondary School,0,https://hawaiiathletics.com/sports/mens-golf/roster
-glf_6a7b94613173,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Jr.,Jr,"Kane‘ohe, O‘ahu",Kane‘ohe,,international,Iolani School,0,https://hawaiiathletics.com/sports/mens-golf/roster
+glf_6a7b94613173,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Jr.,Jr,"Kane‘ohe, O‘ahu",Kane‘ohe,HI,domestic,Iolani School,0,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_9ba8a3ba7ee1,golf,2025-26,2026,D1,Men,Big West Conference,Hawaii,,Golfer,Sr.,Sr,"Carlsbad, Calif.",Carlsbad,CA,domestic,Pacific Ridge School,0,https://hawaiiathletics.com/sports/mens-golf/roster
 glf_e4ee800cdea1,golf,2025-26,2026,D1,Men,Big West Conference,UC Davis,,Golfer,Sr.,Sr,"Monterey, Calif.",Monterey,CA,domestic,Robert Louis Stevenson School,0,https://ucdavisaggies.com/sports/mens-golf/roster
 glf_f2c99387d1f4,golf,2025-26,2026,D1,Men,Big West Conference,UC Davis,,Golfer,Sr.,Sr,"Davis, Calif.",Davis,CA,domestic,Davis Senior,0,https://ucdavisaggies.com/sports/mens-golf/roster
@@ -700,7 +700,7 @@ glf_c05474ce1f9a,golf,2025-26,2026,D1,Men,Ohio Valley Conference,UT Martin,,Golf
 glf_220cf7dad28f,golf,2025-26,2026,D1,Men,Ohio Valley Conference,UT Martin,,Golfer,Jr.,Jr,"Bolivar, Tenn.",Bolivar,TN,domestic,University School,0,https://utmsports.com/sports/mens-golf/roster
 glf_9e2bf0075bf6,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,Sr.,Sr,"Dallas, Texas",Dallas,TX,domestic,Jesuit College Preparatory School,1,https://goxavier.com/sports/golf/roster
 glf_bdd4b11f0040,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,Jr.,Jr,"Saratoga Springs, N.Y.",Saratoga Springs,NY,domestic,Saratoga Springs,0,https://goxavier.com/sports/golf/roster
-glf_31741c8c8c2e,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,So.,So,Hudson,Hudson,,international,"Hudson, Ohio",0,https://goxavier.com/sports/golf/roster
+glf_31741c8c8c2e,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,So.,So,Hudson,Hudson,OH,domestic,"Hudson, Ohio",0,https://goxavier.com/sports/golf/roster
 glf_c78bd604d6f2,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,Sr.,Sr,"Crown Point, Ind.",Crown Point,IN,domestic,Crown Point,0,https://goxavier.com/sports/golf/roster
 glf_bab2c4c8f452,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,Fr.,Fr,"Maple Grove, Minn.",Maple Grove,MN,domestic,Maple Grove,0,https://goxavier.com/sports/golf/roster
 glf_d8a784aa5668,golf,2025-26,2026,D1,Men,Big East Conference,Xavier,,Golfer,Fr.,Fr,"Aarhus, Denmark",Aarhus,,international,,0,https://goxavier.com/sports/golf/roster
@@ -913,12 +913,12 @@ glf_5a67e59aca60,golf,2025-26,2026,D1,Men,Big West Conference,UC Irvine,,Golfer,
 glf_faf04dc8f5e8,golf,2025-26,2026,D1,Men,Big West Conference,UC Irvine,,Golfer,,UNK,,,,unknown,BASIS International School,0,https://ucirvinesports.com/sports/mens-golf/roster/2025-26
 glf_213e9e680e36,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"Riverside, Calif.",Riverside,CA,domestic,Riverside Poly HS,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_2b3374f69fdb,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"La Quinta, Calif.",La Quinta,CA,domestic,Palm Desert HS,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
-glf_e40e2970879c,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"La Quinta, Calif. / Palm Desert High School",La Quinta,,international,,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
+glf_e40e2970879c,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"La Quinta, Calif. / Palm Desert High School",La Quinta,CA,domestic,,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_55537ca747e9,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,So.,So,"Diamond Bar, Calif.",Diamond Bar,CA,domestic,Anaheim Discovery Christian,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_5c358f5a1bf9,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Sr.,Sr,"Tracy, Calif.",Tracy,CA,domestic,Foothill High School,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_62bd230eeafe,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"Palm Desert, Calif.",Palm Desert,CA,domestic,Xavier Prep,1,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_81a7cb8c3bf0,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,So.,So,"Palm Harbor, Fla.",Palm Harbor,FL,domestic,East Lake High School,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
-glf_e40e2970879c_2,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"La Quinta, Calif. / Palm Desert",La Quinta,,international,,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
+glf_e40e2970879c_2,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,Fr.,Fr,"La Quinta, Calif. / Palm Desert",La Quinta,CA,domestic,,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_d000d862f956,golf,2025-26,2026,D1,Men,Big West Conference,UC Riverside,,Golfer,,UNK,,,,unknown,Palm Desert High School,0,https://gohighlanders.com/sports/mens-golf/roster/2025-26
 glf_377c217a2046,golf,2025-26,2026,D1,Men,Big West Conference,UC Santa Barbara,"6'0""",Golfer,So.,So,"Shenzhen, China",Shenzhen,,international,Shenzen Senior High School,0,https://ucsbgauchos.com/sports/mens-golf/roster/2025-26
 glf_27408c7f545b,golf,2025-26,2026,D1,Men,Big West Conference,UC Santa Barbara,"5'10""",Golfer,Fr.,Fr,"Calabasas, Calif.",Calabasas,CA,domestic,Chaminade College Prep,1,https://ucsbgauchos.com/sports/mens-golf/roster/2025-26
@@ -1667,7 +1667,7 @@ glf_7f3bc690c8d7,golf,2025-26,2026,D1,Men,Big Ten Conference,Michigan,,Golfer,So
 glf_3dd2420611a2,golf,2025-26,2026,D1,Men,Big Ten Conference,Michigan,,Golfer,So.,So,"Laredo, Texas",Laredo,TX,domestic,St. Augustine High School,0,https://mgoblue.com/sports/mens-golf/roster/2025-26
 glf_2d73df005785,golf,2025-26,2026,D1,Men,Big Ten Conference,Michigan,,Golfer,Fr.,Fr,"Jupiter, Fla.",Jupiter,FL,domestic,Jupiter High School,0,https://mgoblue.com/sports/mens-golf/roster/2025-26
 glf_363ceb15219e,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,So.,So,"Bluffton, S.C.",Bluffton,SC,domestic,Hilton Head Prepatory,0,https://gophersports.com/sports/mens-golf/roster/2025-26
-glf_716bcb749f7a,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,Fr.,Fr,Mendota,Mendota,,international,Cretin-Derham Hall HS,0,https://gophersports.com/sports/mens-golf/roster/2025-26
+glf_716bcb749f7a,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,Fr.,Fr,Mendota,Mendota,MN,domestic,Cretin-Derham Hall HS,0,https://gophersports.com/sports/mens-golf/roster/2025-26
 glf_a4486a2de7fa,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,Fr.,Fr,"Edina, Minn.",Edina,MN,domestic,Edina HS,0,https://gophersports.com/sports/mens-golf/roster/2025-26
 glf_43455d138ce1,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,Jr.,Jr,"Farmington, Minn.",Farmington,MN,domestic,Farmington HS,0,https://gophersports.com/sports/mens-golf/roster/2025-26
 glf_88773e94a066,golf,2025-26,2026,D1,Men,Big Ten Conference,Minnesota,,Golfer,Sr.,Sr,"Blairgowrie, Scotland",Blairgowrie,,international,Blairgowrie HS,0,https://gophersports.com/sports/mens-golf/roster/2025-26
