@@ -11,7 +11,7 @@
   "@type": "Dataset",
   "name": "NCAA All-Sports Rosters 2025-26 (all 28 sports)",
   "alternateName": "NCAA College Athlete Rosters 2025-26",
-  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 514,696 athletes across 1,087 schools (~91.7% of officially reported NCAA participations). De-identified (no names). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. Public tier has 19 columns; a research analysis tier (54 columns) adds Census town income, high-school public/private/religious classification, and College Scorecard / mobility joins.",
+  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 514,696 athletes across 1,087 schools (~91.7% of officially reported NCAA participations). De-identified (no names). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. Public tier has 19 columns; a research-only analysis tier (54 columns, not publicly distributed) adds Census town income, high-school public/private/religious classification, and College Scorecard / mobility joins, all rebuildable from public sources.",
   "url": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
   "sameAs": [
     "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
@@ -150,15 +150,9 @@
   "distribution": [
     {
       "@type": "DataDownload",
-      "encodingFormat": "text/csv",
-      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/ncaa_all_sports_rosters_2025-26.csv",
-      "name": "Master public tier (514,696 rows x 19 columns)"
-    },
-    {
-      "@type": "DataDownload",
       "encodingFormat": "application/parquet",
-      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/ncaa_all_sports_rosters_2025-26.parquet",
-      "name": "Master public tier (Parquet)"
+      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/data/ncaa_all_sports_rosters_2025-26.parquet",
+      "name": "Master public tier (514,696 rows x 19 columns, Parquet)"
     }
   ],
   "citation": "https://doi.org/10.57967/hf/9512",
@@ -204,7 +198,15 @@ institution-published roster fact validated against the NCAA's official sponsor 
 <table>
 <tr><th>Tier</th><th>Columns</th><th>Where</th></tr>
 <tr><td>Public (de-identified)</td><td>19</td><td>Hugging Face · Kaggle</td></tr>
-<tr><td>Analysis (research)</td><td>54 — adds Census income, HS classification, Scorecard/mobility</td><td>Hugging Face</td></tr>
+<tr><td>Analysis (research)</td><td>54 — adds Census income, HS classification, Scorecard/mobility</td><td>By documented request (research-only; not publicly distributed) — or rebuild from the public tier + public sources (Census ACS, NCES, Scorecard, Opportunity Insights)</td></tr>
+</table>
+
+<h2>Research using this dataset</h2>
+<table>
+<tr><th>Output</th><th>What it finds</th><th>Links</th></tr>
+<tr><td><i>The Beautiful Game's Class Ceiling</i> — SocArXiv preprint (2026)</td><td>NCAA soccer's hometown-income gradient: selective-college access runs 15.3% (richest home-community quintile) vs 3.7% (poorest); men's rosters are 2.7× more international than women's.</td><td><a href="https://doi.org/10.31235/osf.io/9x4kg_v1">DOI</a> · <a href="https://osf.io/mu3wt/">replication</a></td></tr>
+<tr><td><i>Who Reaches the NBA Draft?</i> — SocArXiv preprint (2026)</td><td>Dual concentration in 2016–26 draft pathways: Duke + Kentucky alone supply 9.5% of all picks, and two-thirds of draftees did not finish at a US public high school.</td><td><a href="https://doi.org/10.31235/osf.io/exarh_v1">DOI</a> · <a href="https://osf.io/yud8x/">replication</a></td></tr>
+<tr><td>All-sports starter analysis — Kaggle notebook</td><td>Coverage profile, sport/division/gender structure, state and international recruiting patterns across all 514,696 rows.</td><td><a href="https://www.kaggle.com/code/shahdha/ncaa-all-sports-rosters-2025-26-analysis">notebook</a></td></tr>
 </table>
 
 <h2>Citation</h2>
