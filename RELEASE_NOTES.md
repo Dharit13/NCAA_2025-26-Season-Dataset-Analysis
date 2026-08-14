@@ -1,5 +1,192 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.1.0 — 2026-08-14 (named + enriched)
+
+The dataset is now **named and enriched**. Schema change: **19 → 27 columns**
+(column order locked; the 19 v2.0.x columns are unchanged and keep their
+semantics). New per-sport **season-stats sidecar files** for 10 sports. The
+consolidated file path **changes** to
+`data/ncaa_all_sports_rosters_2025-26_enriched.parquet` (+ `.csv`); per-sport
+slices remain `by_sport/<sport>/all.parquet`.
+
+| | v2.0.5 | v2.1.0 |
+|---|---:|---:|
+| Athletes | 514,696 | **513,655** |
+| Schools | 1,087 | **1,087** |
+| Sports | 28 | **28** |
+| Columns | 19 | **27** |
+| Names | withheld | **public** |
+| Season-stats files | — | **10 sports · 205,132 rows** |
+
+v2.1.0 splits: Men 290,510 / Women 223,145 · D1 185,086 / D2 124,660 /
+D3 203,909 · origin domestic 459,068 / international 43,853 / unknown 10,734.
+
+### What's new
+
+- **Names public.** `first_name` / `last_name` ship on every row. Rationale:
+  names are school-published facts on public roster pages — publishing them
+  makes every record verifiable against its `source_url` and linkable, while
+  adding nothing beyond what the cited page prints.
+- **8 new columns:** `first_name`, `last_name`, `major`, `previous_school`,
+  `height_raw`/`height_in`, `weight_raw`/`weight_lbs`. Raw + parsed pairs ship
+  together so parsing is auditable.
+- **Season-stats sidecars** — `by_sport/<sport>/stats.{parquet,csv}`, columns
+  sport-specific **by design**, joined to rosters on `athlete_id`. 205,132
+  athletes (39.9%) have a stat row. Per-sport rows: soccer 42,750 · football
+  34,982 · baseball 27,470 · basketball 26,818 · lacrosse 24,789 · volleyball
+  17,767 · softball 17,160 · ice_hockey 6,345 · field_hockey 5,439 ·
+  water_polo 1,612.
+- **Coverage of the new columns:** first_name 100%, last_name 99.5% (2,542
+  mononym athletes carry no last name), height 62.2%, weight 30.0%,
+  major 30.9%, previous_school 19.5% (high_school carries over at 92.5%).
+  **Missingness is a publication convention** — schools choose what their
+  rosters print (women's weight is ~0% in many sports by convention: softball
+  0%, field hockey 0%; football publishes it at 89.3%). Columns are never
+  dropped for low coverage.
+
+### Row-count change: 514,696 → 513,655 (−1,041 junk rows)
+
+All inherited from the v2.0.x source data, found during enrichment:
+
+| Class | Rows | What it was |
+|---|---:|---|
+| Dual-render duplicates | 845 | One platform ("firehawk" template) rendered rosters twice; the second render produced duplicate rows with `_N`-suffixed `athlete_id`s |
+| Header artifacts | 196 | Table headers scraped as athletes (e.g. a `Ht.` column header as a name) |
+
+### Fixed-rows ledger
+
+All defects inherited from v2.0.x source data; every change is logged.
+Name repairs total **1,972 rows** (comma-swaps + jersey-number fixes +
+trailing commas + 1 manual); the null-literal class repairs non-name fields.
+(`metadata.json` reports `fix_jersey_number: 487` because it counts the 80
+recovered height/weight values as separate ledger entries alongside the 407
+name fixes.)
+
+| Fix class | Rows |
+|---|---:|
+| `"Last," / "First"` comma-swaps rejoined in correct order | 1,562 |
+| Jersey number mashed into the name field, removed | 407 |
+| — of which height/weight recovered from mashed UCLA baseball strings | +80 values |
+| Junk null-literal strings (`<NA>`, `nan`, `N/A`, `null`) replaced with real nulls (mostly `weight_raw` in acro & tumbling / STUNT) | 2,142 |
+| Trailing-comma strips | 2 |
+| Manual correction (Alleda Hawron, WNE track) | 1 |
+
+Additionally, 4 stats-sidecar rows whose `athlete_id` belonged to removed
+duplicate rows were dropped from the sidecars (they have no roster row to
+join to).
+
+**One deliberate keep:** `ih_1d6230318867` / `ih_1d6230318867_2` (Beloit ice
+hockey) are two **different** athletes named Taylor — an id-hash collision, not
+a duplicate. Both rows stay.
+
+### Verification
+
+All 28 sports individually signed off before release:
+
+- **Internal battery** per sport (id uniqueness, parity, coverage, label
+  integrity).
+- **Adversarial live-page workflow** per sport: 9–11 agents re-checking ~25
+  stratified athletes per sport against live roster pages — ~3,000 field checks
+  total, **zero wrong-value findings** (the only misses were under-capture:
+  fields the pipeline left blank, never fields it got wrong).
+- **External record-book cross-checks** for the stats sports.
+
+The per-sport verification log is maintained in the build repository (not
+shipped with the dataset).
+
+### Known limitations
+
+- WMT-platform schools (Stanford, UCLA, Penn State): partial bio-column coverage.
+- Some Sidearm goalkeeper/pitching stat lines are JS-only and missing from the
+  stats sidecars.
+- Presto's combined "Sacks-YDS" football stat column ships unsplit.
+- Track-family enrichment rejoin 83.3–83.5% (bio columns blank for the
+  unmatched remainder in cross country / indoor / outdoor track).
+- Ice-hockey goalie minutes unreliable.
+- `track_indoor` / `track_outdoor` share source rows by design — never blindly
+  dedupe across sports.
+
+### Removals (opt-out ledger)
+
+Per-record removal is honored on request, without question: email
+**dharits3@gmail.com** (see `OPT_OUT.md`), target turnaround **14 days**.
+Removals are committed to the data files and recorded here, per version.
+
+*Empty as of 2026-08-14 — no removal requests received.*
+
+### Files in this release
+
+298 files (299 including `MANIFEST.json` itself), ~611 MB. Full per-file row
+counts and sha256 checksums: `MANIFEST.json`.
+
+### Citation
+
+Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level
+Dataset Across All Divisions* (Version 2.1.0) [Data set]. Hugging Face.
+https://doi.org/10.57967/hf/9512
+
+Top level:
+
+| Path | Rows |
+|---|---:|
+| `data/ncaa_all_sports_rosters_2025-26_enriched.parquet` | 513,655 |
+| `data/ncaa_all_sports_rosters_2025-26_enriched.csv` | 513,655 |
+| `samples/ncaa_rosters_sample_10000.csv` | 10,000 |
+| `samples/school_sport_summary.csv` | 19,603 |
+| `samples/sport_summary.csv` | 28 |
+| `samples/data_dictionary.csv` | 27 |
+| `metadata.json` · `MANIFEST.json` · `LICENSE` · `CITATION.cff` · `README.md` · `RELEASE_NOTES.md` · governance docs | — |
+
+`by_sport/<sport>/` — every sport ships `CODEBOOK.md`, `all.csv`,
+`all.parquet`, and per-gender division slices (`<gender>/all.csv`, `d1.csv`,
+`d2.csv`, `d3.csv`; a division file exists only where the division fields teams
+— e.g. no men's gymnastics `d2.csv`). The 10 stats sports add `stats.csv` +
+`stats.parquet`. Per-sport roster rows sum to the consolidated 513,655.
+
+| Sport | Genders | Roster rows | Stats rows |
+|---|---|---:|---:|
+| acro_tumbling | W | 1,099 | — |
+| baseball | M | 38,033 | 27,470 |
+| basketball | M+W | 32,614 | 26,818 |
+| beach_volleyball | W | 1,678 | — |
+| bowling | W | 804 | — |
+| cross_country | M+W | 28,178 | — |
+| equestrian | W | 1,017 | — |
+| fencing | M+W | 1,212 | — |
+| field_hockey | W | 6,300 | 5,439 |
+| football | M | 72,512 | 34,982 |
+| golf | M+W | 13,447 | — |
+| gymnastics | M+W | 2,031 | — |
+| ice_hockey | M+W | 7,529 | 6,345 |
+| lacrosse | M+W | 29,221 | 24,789 |
+| rowing | W | 5,763 | — |
+| rugby | W | 824 | — |
+| skiing | M+W | 500 | — |
+| soccer | M+W | 54,537 | 42,750 |
+| softball | W | 20,661 | 17,160 |
+| stunt | W | 1,046 | — |
+| swimming | M+W | 20,808 | — |
+| tennis | M+W | 14,019 | — |
+| track_indoor | M+W | 60,816 | — |
+| track_outdoor | M+W | 64,231 | — |
+| triathlon | W | 321 | — |
+| volleyball | M+W | 21,394 | 17,767 |
+| water_polo | M+W | 2,333 | 1,612 |
+| wrestling | M+W | 10,727 | — |
+| **Total** | | **513,655** | **205,132** |
+
+### Unchanged
+
+- School set (1,087) and sport set (28).
+- The 19 v2.0.x columns and their semantics.
+- Governance posture: the research tier (BISG race, income/SES, tract, mobility
+  joins) is research-only, in no distributed file, never will be, and is not
+  reconstructable from released fields. PII audit clean.
+- License CC0 1.0 (citation requested; no NIL/publicity grant).
+- DOI **10.57967/hf/9512** (same HF repo — cite with version **2.1.0**).
+
+---
+
 ## v2.0.5 — 2026-08-06 (city-only roster origin fix)
 
 Data-quality fix on the public **19-column** tier. **No rows added or removed**
@@ -222,4 +409,4 @@ attempt re-identification. Per-record removal honored on request: dharits3@gmail
 ### Citation
 
 Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions* (Version 2.0.4) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512
+Divisions* (Version 2.0) [Data set]. Hugging Face. https://doi.org/10.57967/hf/9512

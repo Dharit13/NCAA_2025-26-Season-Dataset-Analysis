@@ -1,46 +1,26 @@
-# CODEBOOK — Volleyball (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **21,394 rows**. Figures below were computed at sport sign-off, before the release build removed 14 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 95 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Volleyball.
+# NCAA Volleyball 2025-26 — Enriched (v2.1 staging)
 
-## Files in this folder
+Two files, joined on `athlete_id`. Women = fall 2025; Men = winter/spring 2026.
+- `ncaa_volleyball_2025-26_combined` (21,408 x 27) — locked 27-col schema
+- `ncaa_volleyball_2025-26_stats` (17,767) — `mp, sets, kills, errors, ta, pct, assists, digs, aces, serve_errors, block_solos, block_assists, blocks, recv_errors, points`
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 21,408 |
-| `men/all.csv` | men, all divisions | 3,276 |
-| `men/d1.csv` | men, D1 | 542 |
-| `men/d2.csv` | men, D2 | 639 |
-| `men/d3.csv` | men, D3 | 2,095 |
-| `women/all.csv` | women, all divisions | 18,132 |
-| `women/d1.csv` | women, D1 | 5,760 |
-| `women/d2.csv` | women, D2 | 4,987 |
-| `women/d3.csv` | women, D3 | 7,385 |
+Hitting pct = (kills − errors) / ta. `blocks` may be half-valued
+(block-assist convention); `bs`/`ba` components included where published.
 
-Genders present: men, women.
+## Coverage
+| column | Men (n=3,276) | Women (n=18,132) |
+|---|---|---|
+| height_in | 88.8% | 90.3% |
+| weight_lbs | 28.4% | 0.0% |
+| major | 39.7% | 36.8% |
+| previous_school | 17.2% | 23.4% |
 
-## Columns (19)
+Athletes with >=1 stat: 83.0%.
+NOTE: men's volleyball weight is mostly unpublished (28%) — the first men's
+sport following the no-weight convention.
 
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
-
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- 7'1"–7'2" middle blockers are real (band [56,88])
+- 27 firehawk suffix-dup rows in upstream release (v2.1 ledger)

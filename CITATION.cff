@@ -1,29 +1,28 @@
-# Citation metadata (CFF 1.2.0). Citation is REQUESTED, not legally required —
-# the data are CC0 (see LICENSE).
 cff-version: 1.2.0
-message: "If you use this dataset or its build pipeline, please cite it as below."
+message: "If you use this dataset, please cite it as below."
 type: dataset
 title: "NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All Divisions"
 authors:
   - family-names: "Shah"
     given-names: "Dharit"
-    email: "dharits3@gmail.com"
+version: "2.1.0"
+date-released: "2026-08-14"
+doi: "10.57967/hf/9512"
+license: CC0-1.0
+repository: "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
+url: "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
 abstract: >-
-  Individual-level roster data for all 28 NCAA championship and emerging sports,
-  all three divisions, both genders, for the single 2025-26 athletic year —
-  de-identified (no names, no per-athlete demographic predictions), with hometown,
-  high school, position, and class fields as published on official school athletics
-  sites, validated against the NCAA's official sponsor lists. Version 2.0.4 corrects US territory origin/state labeling (AS/GU/VI/MP/PR)
-  and documents full conference population (514,696 athletes across 1,087 schools).
+  Individual-level roster records for all 28 NCAA championship and emerging
+  sports across Divisions I, II, and III for the 2025-26 athletic year:
+  513,655 named athlete rows from 1,087 schools, with school-published bio
+  fields (name, height, weight, major, previous school, hometown, high school)
+  and per-sport season-stats sidecar files for 10 sports. Compiled from
+  official school athletics-site rosters and validated against NCAA sponsor
+  lists. CC0 1.0; citation requested.
 keywords:
   - NCAA
   - college athletics
-  - sports rosters
-  - participation
-  - social science
-license: CC0-1.0
-url: "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
-repository-code: "https://github.com/Dharit13/NCAA_2025-26-Season-Dataset-Analysis"
-version: "2.0.4"
-doi: "10.57967/hf/9512"
-date-released: "2026-07-18"
+  - rosters
+  - student-athletes
+  - sports analytics
+  - higher education

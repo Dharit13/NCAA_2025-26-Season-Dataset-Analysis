@@ -1,46 +1,20 @@
-# CODEBOOK — Fencing (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **1,212 rows**. Figures below were computed at sport sign-off, before the release build removed 2 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 0 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Fencing.
+# NCAA Fencing 2025-26 — Enriched (v2.1 staging, roster-only)
 
-## Files in this folder
+One file: `ncaa_fencing_2025-26_combined` (1,214 x 27) — locked 27-col schema.
+No stats sidecar (performance data external: Golfstat/ITA/etc.).
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 1,214 |
-| `men/all.csv` | men, all divisions | 588 |
-| `men/d1.csv` | men, D1 | 341 |
-| `men/d2.csv` | men, D2 | 20 |
-| `men/d3.csv` | men, D3 | 227 |
-| `women/all.csv` | women, all divisions | 626 |
-| `women/d1.csv` | women, D1 | 381 |
-| `women/d2.csv` | women, D2 | 9 |
-| `women/d3.csv` | women, D3 | 236 |
+## Coverage
+| column | Men (n=588) | Women (n=626) |
+|---|---|---|
+| height_in | 40.3% | 44.6% |
+| weight_lbs | 18.9% | 0.0% |
+| major | 31.8% | 25.4% |
+| previous_school | 0.3% | 0.5% |
 
-Genders present: men, women.
-
-## Columns (19)
-
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
-
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+Sparse bio = publication convention (agents verified page absences).
+previous_school is source-labeled (may be an HS at some schools — cross-check
+the high_school column). 0 firehawk dup rows (ledger).
+Recovery arsenal applied: nextgen API, WMT website-api, wayback unwrapping,
+headless rendering.

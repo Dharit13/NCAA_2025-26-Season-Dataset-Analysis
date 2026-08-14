@@ -1,42 +1,17 @@
-# CODEBOOK — Beach Volleyball (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **1,678 rows**. Figures below were computed at sport sign-off, before the release build removed 0 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 0 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Beach Volleyball.
+# NCAA Beach Volleyball 2025-26 — Enriched (v2.1 staging, roster-only)
 
-## Files in this folder
+One file: `ncaa_beach_volleyball_2025-26_combined` (1,678 x 27) — locked 27-col schema.
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 1,678 |
-| `women/all.csv` | women, all divisions | 1,678 |
-| `women/d1.csv` | women, D1 | 1,151 |
-| `women/d2.csv` | women, D2 | 352 |
-| `women/d3.csv` | women, D3 | 175 |
+## Coverage
+| column | Men (n=0) | Women (n=1,678) |
+|---|---|---|
+| height_in | — | 81.3% |
+| weight_lbs | — | 0.0% |
+| major | — | 27.2% |
+| previous_school | — | 31.6% |
 
-Genders present: women.
-
-## Columns (19)
-
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
-
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+Sparse bio = publication convention. Majors on athlete BIO pages (not roster
+pages) are out of scope (profile scraping = 30x fetch cost, rejected early).
+0 firehawk dup rows (ledger).

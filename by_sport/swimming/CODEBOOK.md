@@ -1,46 +1,27 @@
-# CODEBOOK — Swimming & Diving (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **20,808 rows**. Figures below were computed at sport sign-off, before the release build removed 72 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 28 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Swimming & Diving.
+# NCAA Swimming 2025-26 — Enriched (v2.1 staging, roster-only)
 
-## Files in this folder
+One file (no stats sidecar — performance data for this sport lives on
+external systems, e.g. TFRRS/SwimCloud, out of scope):
+- `ncaa_swimming_2025-26_combined` (20,880 x 27) — locked 27-col schema
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 20,880 |
-| `men/all.csv` | men, all divisions | 9,137 |
-| `men/d1.csv` | men, D1 | 3,553 |
-| `men/d2.csv` | men, D2 | 1,530 |
-| `men/d3.csv` | men, D3 | 4,054 |
-| `women/all.csv` | women, all divisions | 11,743 |
-| `women/d1.csv` | women, D1 | 5,320 |
-| `women/d2.csv` | women, D2 | 1,853 |
-| `women/d3.csv` | women, D3 | 4,570 |
+## Coverage
+| column | Men (n=9,137) | Women (n=11,743) |
+|---|---|---|
+| height_in | 33.0% | 33.8% |
+| weight_lbs | 11.3% | 0.0% |
+| major | 29.3% | 30.9% |
+| previous_school | 9.9% | 9.2% |
 
-Genders present: men, women.
+Low height/weight coverage is the PUBLICATION CONVENTION for individual
+sports — most programs list only name/class/hometown/events. Verified by
+live-page agents: pages with zero height spans are genuinely unpublished.
 
-## Columns (19)
-
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
-
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- Sidearm NEXTGEN platform schools recovered via the JSON roster API
+  (/api/v2/rosters) — 3 backfill passes; structured previousSchool included
+- previous_school semantics vary by school: some label their high-school
+  column "Previous School" — treat as source-labeled, cross-check high_school
+- 132 firehawk suffix-dup rows in upstream release (v2.1 ledger)
+- residual rejoin gap: WMT-platform schools (e.g. Stanford) + roster churn

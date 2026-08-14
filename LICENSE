@@ -19,9 +19,10 @@ Scope notes (informational, not additional conditions):
   commercial or endorsement purposes; rights of publicity and NIL rights
   are unaffected and remain with the individuals.
 - CONDITIONS OF USE (ethical, stated in the release documentation): do not
-  attempt re-identification of individuals; do not use the data for
-  decisions about individual athletes; preserve the de-identification
-  posture and small-cell suppression in derived releases. See DATASHEET.md
+  attempt individual-level inference of sensitive attributes (race,
+  ethnicity, income, or similar) from the released fields; do not use the
+  data for decisions about individual athletes; honor removals recorded in
+  the opt-out ledger (OPT_OUT.md) in derived releases. See DATASHEET.md
   §5 and ETHICS_REVIEW.md.
 - The BUILD PIPELINE (source code) is licensed separately under the MIT
   License (repository root LICENSE file).

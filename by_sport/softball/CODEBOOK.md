@@ -1,42 +1,30 @@
-# CODEBOOK — Softball (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **20,661 rows**. Figures below were computed at sport sign-off, before the release build removed 9 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 124 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Softball.
+# NCAA Softball 2026 — Enriched (v2.1 staging)
 
-## Files in this folder
+Two files, joined on `athlete_id` (spring 2026 season; women's sport):
+- `ncaa_softball_2025-26_combined` (20,670 x 27) — locked 27-col schema
+- `ncaa_softball_2025-26_stats` (17,160) — `gp, gs, ab, r, h, doubles, triples, hr, rbi, tb, bb, so, sb, sb_att, avg, ip, era, w, l, sv, k, app`
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 20,670 |
-| `women/all.csv` | women, all divisions | 20,670 |
-| `women/d1.csv` | women, D1 | 6,908 |
-| `women/d2.csv` | women, D2 | 5,808 |
-| `women/d3.csv` | women, D3 | 7,954 |
+## Coverage (n=20,670, all women)
 
-Genders present: women.
-
-## Columns (19)
-
-| Column | Definition |
+| column | coverage |
 |---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
+| height_in | 80.6% |
+| weight_lbs | 0.0% (not published — publication convention) |
+| major | 34.9% |
+| previous_school | 22.4% |
 
+Athletes with >=1 stat: 83.0%;
+pitchers with pitching lines: 3,879.
 
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- batting and pitching parsed with CONTEXT-AWARE table mapping: pitching
+  tables' h/r/ab/2b/hr columns are against-pitcher values and never enter
+  batting columns (bug found by live-page verification, fixed 2026-08-13)
+- `k` = pitcher strikeouts; `so` = batter strikeouts
+- ERA up to 99.00 is real (site cap; 7-inning ERA on tiny IP samples)
+- career tables skipped at parse (caption filter) + season-plausibility
+  row filter (ab<=320 etc.) as defense in depth
+- 18 firehawk suffix-dup rows in upstream release; 'Holt,/Lauren' (Cornell)
+  inverted-name release bug -> v2.1 fix ledger

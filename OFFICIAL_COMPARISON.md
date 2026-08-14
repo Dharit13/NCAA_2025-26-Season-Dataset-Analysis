@@ -1,5 +1,13 @@
 # How this dataset compares to the official NCAA participation numbers
 
+> **v2.1.0 note (2026-08-14).** The dataset row count moved **514,696 → 513,655**
+> solely from removing **1,041 junk rows**: 845 platform dual-render duplicate rows
+> (`_N`-suffixed `athlete_id`s) and 196 header-artifact rows (a column header such as
+> `Ht.`/`Cl.`/`Wt.` scraped as an athlete name). No teams were added or dropped and no
+> real athletes were removed, so coverage vs the official NCAA participation figures is
+> otherwise unchanged; the headline athlete ratio shifts mechanically from 91.7% to
+> 91.6% (513,655 / 560,992). The analysis below is retained as computed at v2.0.x.
+
 **Official source:** NCAA Sports Sponsorship and Participation Rates Report (1956-57 through
 2024-25), updated 2025-09-04 ([PDF](https://ncaaorg.s3.amazonaws.com/research/sportpart/2025RES_SportsSponsorshipParticipationRatesReport.pdf)),
 announced in the NCAA's 2025-09-15 press release. **The most recent official year is
@@ -26,7 +34,9 @@ one row per athlete per sport-roster.
 
 ## Why ~92% of athletes at ~97% of teams — the gap decomposed
 
-1. **Missing teams (~3.1%).** 633 named sponsor-list cells (see `coverage_missing.csv`) —
+1. **Missing teams (~3.1%).** 633 named sponsor-list cells (enumerated in
+   `coverage_missing.csv`, retained at the repo root from the v2.0.x audit —
+   the team universe is unchanged in v2.1.0) —
    down from 911 before the 2026-07 recovery sweep — now demonstrably structural:
    dormant programs whose newest published roster is years old, gender-unsplittable
    combined pages, WAF-fortress sites, Puerto Rico campuses on separate league sites,

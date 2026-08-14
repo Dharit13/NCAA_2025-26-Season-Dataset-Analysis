@@ -1,46 +1,31 @@
-# CODEBOOK — Soccer (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **54,537 rows**. Figures below were computed at sport sign-off, before the release build removed 22 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 247 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Soccer.
+# NCAA Soccer 2025 — Enriched (v2.1 staging)
 
-## Files in this folder
+Two files, joined on `athlete_id`:
+- `ncaa_soccer_2025-26_combined` (54,559 rows x 27 cols) — locked 27-col schema
+- `ncaa_soccer_2025-26_stats` (42,750 rows) — soccer vocabulary:
+  `gp, gs, minutes, goals, assists, points, shots, sog, gwg, pk_goals, pk_att, yc, rc, gk_ga, gk_gaa, gk_saves, gk_sv_pct, gk_shutouts`
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 54,559 |
-| `men/all.csv` | men, all divisions | 26,097 |
-| `men/d1.csv` | men, D1 | 6,149 |
-| `men/d2.csv` | men, D2 | 7,047 |
-| `men/d3.csv` | men, D3 | 12,901 |
-| `women/all.csv` | women, all divisions | 28,462 |
-| `women/d1.csv` | women, D1 | 9,551 |
-| `women/d2.csv` | women, D2 | 7,620 |
-| `women/d3.csv` | women, D3 | 11,291 |
+Points follow the NCAA convention `pts = 2*goals + assists`.
 
-Genders present: men, women.
+## Coverage
 
-## Columns (19)
+| column | Men (n=26,097) | Women (n=28,462) |
+|---|---|---|
+| height_in | 87.1% | 82.7% |
+| weight_lbs | 57.2% | 0.0% |
+| major | 37.6% | 36.0% |
+| previous_school | 26.1% | 23.6% |
 
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
+Athletes with >=1 stat: 78.4%.
+Women's weight is not published (publication convention).
 
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- Sidearm goalkeeper season lines are client-rendered (JS payload) — gk_*
+  columns fill mainly from Presto-platform schools; treat GK coverage as partial
+- 88 of 156 client-rendered (WMT/JS) team pages recovered via headless pass;
+  the remainder have release columns only
+- 44 suffix-dup rows exist in the upstream published soccer release
+  (firehawk dual-render bug) — queued for the v2.1 main-file fix
+- height_in validated to [56, 84]; raw always preserved

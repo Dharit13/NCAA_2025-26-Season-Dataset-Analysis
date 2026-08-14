@@ -1,46 +1,43 @@
-# CODEBOOK — Ice Hockey (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **7,529 rows**. Figures below were computed at sport sign-off, before the release build removed 6 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 52 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Ice Hockey.
+# NCAA Ice Hockey 2025-26 — Combined Dataset (preview)
 
-## Files in this folder
+**Architecture.** One combined main file per the published all-sports schema
+plus identity/bio columns; sport-specific season stats live in a separate
+per-sport file (stat columns differ by sport), joined on `athlete_id`:
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 7,535 |
-| `men/all.csv` | men, all divisions | 4,483 |
-| `men/d1.csv` | men, D1 | 1,729 |
-| `men/d2.csv` | men, D2 | 206 |
-| `men/d3.csv` | men, D3 | 2,548 |
-| `women/all.csv` | women, all divisions | 3,052 |
-| `women/d1.csv` | women, D1 | 987 |
-| `women/d2.csv` | women, D2 | 124 |
-| `women/d3.csv` | women, D3 | 1,941 |
+```python
+df = combined.merge(stats, on="athlete_id", how="left")
+```
 
-Genders present: men, women.
+## Main file: ncaa_ice_hockey_2025-26_combined (7535 rows x 27 cols)
 
-## Columns (19)
+Column order: `athlete_id, first_name, last_name, major, previous_school,
+height_raw, height_in, weight_raw, weight_lbs`, then the 18 published roster
+columns (`sport ... source_url`) unchanged.
 
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
+| new column | Men (n=4483) | Women (n=3052) |
+|---|---|---|
+| first_name / last_name | 100% | 100% |
+| major | 13.8% | 15.9% |
+| previous_school | 39.0% | 31.1% |
+| height_in | 88.9% | 84.5% |
+| weight_lbs | 75.3% | 0.0% |
 
+## Stats file: ncaa_ice_hockey_2025-26_stats (6349 rows — athletes with >=1 stat)
 
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+Hockey-specific columns: `gp, goals, assists, points, plus_minus, minutes,
+goalie_ga, goalie_gaa, goalie_saves, goalie_sv_pct`. Other sports will ship
+their own stats file with their own column vocabulary (basketball: minutes,
+fg/3pt/ft, rebounds...; soccer: shots, goals, saves...).
+
+Known caveats (from verification battery):
+- `minutes` is unreliable for goaltenders (skater-table zeros win the merge)
+- extreme goalie rates (GAA > 8, SV% of 0.000/1.000) are real small-sample
+  backup lines, not errors — filter on `gp` or `goalie_saves` for analysis
+- 6 duplicate athlete pairs exist in the upstream published release
+  (collision-suffixed `_2` ids); both copies carry the same stat line
+
+All values are school-published facts (public roster + stats pages,
+re-scraped 2026-08-13). Research-tier variables (race, income/SES) are not
+in these files and are never distributed.

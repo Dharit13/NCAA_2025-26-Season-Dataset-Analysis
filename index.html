@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NCAA All-Sports Rosters 2025-26</title>
-<meta name="description" content="514,696 NCAA college athletes, all 28 sports x 3 divisions x both genders, 2025-26. De-identified, CC0. DOI 10.57967/hf/9512.">
+<meta name="description" content="513,655 NCAA college athletes, all 28 sports x 3 divisions x both genders, 2025-26. Named + enriched (height, weight, major, previous school, season stats). CC0. DOI 10.57967/hf/9512.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "NCAA All-Sports Rosters 2025-26 (all 28 sports)",
   "alternateName": "NCAA College Athlete Rosters 2025-26",
-  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 514,696 athletes across 1,087 schools (~91.7% of officially reported NCAA participations). De-identified (no names). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. Public tier has 19 columns; a research-only analysis tier (54 columns, not publicly distributed) adds Census town income, high-school public/private/religious classification, and College Scorecard / mobility joins, all rebuildable from public sources.",
+  "description": "Individual-level roster data for all 28 NCAA championship and emerging sports, all three divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v. NCAA settlement. 513,655 athletes across 1,087 schools (~91.6% of officially reported NCAA participations). Named (v2.1.0): first/last name, height, weight, academic major, and previous school as published by each school, plus per-sport season-stats sidecar files for 10 sports (205,132 athletes). Every field is an institution-published roster fact collected from official college athletics websites and validated against the NCAA's official sport-sponsorship lists. A research-only tier (BISG race, income/SES, tract, and mobility joins) is never distributed.",
   "url": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
   "sameAs": [
     "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26",
@@ -27,6 +27,11 @@
     "sports rosters",
     "student athletes",
     "participation",
+    "height",
+    "weight",
+    "transfers",
+    "majors",
+    "sports statistics",
     "social science",
     "demographics",
     "United States",
@@ -34,8 +39,9 @@
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
-  "version": "2.0.5",
-  "datePublished": "2026-07-18",
+  "version": "2.1.0",
+  "datePublished": "2026-07-08",
+  "dateModified": "2026-08-14",
   "creator": {
     "@type": "Person",
     "name": "Dharit Shah"
@@ -49,12 +55,52 @@
     "@type": "Place",
     "name": "United States"
   },
-  "measurementTechnique": "Automated collection of publicly published team roster pages from official college athletics websites; fields parsed/normalized and de-identified; coverage reconciled against NCAA official sponsor lists.",
+  "measurementTechnique": "Automated collection of publicly published team roster, bio, and statistics pages from official college athletics websites; fields parsed/normalized; coverage reconciled against NCAA official sponsor lists; adversarial live-page verification per sport.",
   "variableMeasured": [
     {
       "@type": "PropertyValue",
       "name": "athlete_id",
-      "description": "Stable surrogate key, sport-prefixed; joins to per-sport files."
+      "description": "Stable surrogate key, sport-prefixed; joins roster rows to per-sport stats sidecars."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "first_name",
+      "description": "First/given name as school-published (public since v2.1.0)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "last_name",
+      "description": "Last/family name as school-published (99.5%; mononym athletes carry none)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "major",
+      "description": "Academic major as listed on roster/bio page (30.9%; publication varies by school)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "previous_school",
+      "description": "Previous school as listed — source-labeled (college, junior club, or HS depending on school)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "height_raw",
+      "description": "Height exactly as published (e.g. 6-2)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "height_in",
+      "description": "Parsed height in inches (62.2%)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weight_raw",
+      "description": "Weight exactly as published."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "weight_lbs",
+      "description": "Parsed weight in pounds (30.0%; women's weight rarely published — a publication convention)."
     },
     {
       "@type": "PropertyValue",
@@ -84,7 +130,7 @@
     {
       "@type": "PropertyValue",
       "name": "conference",
-      "description": "Athletic conference (2025-26 vintage; fully populated after v2.0.3 audit)."
+      "description": "Athletic conference (2025-26 vintage; fully populated)."
     },
     {
       "@type": "PropertyValue",
@@ -134,7 +180,7 @@
     {
       "@type": "PropertyValue",
       "name": "high_school",
-      "description": "High school / prep / academy as listed (~92.4%; post-audit recovery)."
+      "description": "High school / prep / academy as listed (92.5%)."
     },
     {
       "@type": "PropertyValue",
@@ -151,8 +197,8 @@
     {
       "@type": "DataDownload",
       "encodingFormat": "application/parquet",
-      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/data/ncaa_all_sports_rosters_2025-26.parquet",
-      "name": "Master public tier (514,696 rows x 19 columns, Parquet)"
+      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/data/ncaa_all_sports_rosters_2025-26_enriched.parquet",
+      "name": "Master file, named + enriched (513,655 rows x 27 columns, Parquet)"
     }
   ],
   "citation": "https://doi.org/10.57967/hf/9512",
@@ -180,7 +226,7 @@ table{border-collapse:collapse;width:100%;margin:1em 0} td,th{border:1px solid #
 </head>
 <body>
 <h1>NCAA All-Sports Rosters 2025-26</h1>
-<p class="sub">514,696 college athletes · all 28 NCAA sports · 3 divisions · both genders · the House v. NCAA "year zero"</p>
+<p class="sub">513,655 college athletes · all 28 NCAA sports · 3 divisions · both genders · named + enriched · the House v. NCAA "year zero"</p>
 
 <div class="badges">
 <a href="https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26">Hugging Face (DOI)</a>
@@ -190,15 +236,17 @@ table{border-collapse:collapse;width:100%;margin:1em 0} td,th{border:1px solid #
 
 <p>Individual-level roster data for all 28 NCAA championship and emerging sports, all three
 divisions (D1/D2/D3), both genders, athletic year 2025-26 — the first year under the House v.
-NCAA settlement (roster limits, revenue sharing, NIL). Covers <b>~91.7%</b> of officially
-reported NCAA participations. <b>De-identified</b> (no names, no contact info); every field is an
+NCAA settlement (roster limits, revenue sharing, NIL). Covers <b>~91.6%</b> of officially
+reported NCAA participations. <b>Named and enriched (v2.1.0)</b>: first/last name, height,
+weight, academic major, and previous school as published by each school, plus per-sport
+season-stats sidecar files for 10 sports (205,132 athletes). Every field is an
 institution-published roster fact validated against the NCAA's official sponsor lists.</p>
 
 <h2>Access</h2>
 <table>
-<tr><th>Tier</th><th>Columns</th><th>Where</th></tr>
-<tr><td>Public (de-identified)</td><td>19</td><td>Hugging Face · Kaggle</td></tr>
-<tr><td>Analysis (research)</td><td>54 — adds Census income, HS classification, Scorecard/mobility</td><td>By documented request (research-only; not publicly distributed) — or rebuild from the public tier + public sources (Census ACS, NCES, Scorecard, Opportunity Insights)</td></tr>
+<tr><th>Tier</th><th>Contents</th><th>Where</th></tr>
+<tr><td>Public (named)</td><td>27 columns (identity, bio, team, hometown, high school) + per-sport season-stats sidecars joined on <code>athlete_id</code></td><td>Hugging Face · Kaggle</td></tr>
+<tr><td>Research (never distributed)</td><td>BISG race predictions, home-community income/SES, census tract, and mobility joins — research-only, not reconstructable from released fields</td><td>Not distributed on any platform</td></tr>
 </table>
 
 <h2>Research using this dataset</h2>
@@ -206,26 +254,30 @@ institution-published roster fact validated against the NCAA's official sponsor 
 <tr><th>Output</th><th>What it finds</th><th>Links</th></tr>
 <tr><td><i>The Beautiful Game's Class Ceiling</i> — SocArXiv preprint (2026)</td><td>NCAA soccer's hometown-income gradient: selective-college access runs 15.3% (richest home-community quintile) vs 3.7% (poorest); men's rosters are 2.7× more international than women's.</td><td><a href="https://doi.org/10.31235/osf.io/9x4kg_v1">DOI</a> · <a href="https://osf.io/mu3wt/">replication</a></td></tr>
 <tr><td><i>Who Reaches the NBA Draft?</i> — SocArXiv preprint (2026)</td><td>Dual concentration in 2016–26 draft pathways: Duke + Kentucky alone supply 9.5% of all picks, and two-thirds of draftees did not finish at a US public high school.</td><td><a href="https://doi.org/10.31235/osf.io/exarh_v1">DOI</a> · <a href="https://osf.io/yud8x/">replication</a></td></tr>
-<tr><td>All-sports starter analysis — Kaggle notebook</td><td>Coverage profile, sport/division/gender structure, state and international recruiting patterns across all 514,696 rows.</td><td><a href="https://www.kaggle.com/code/shahdha/ncaa-all-sports-rosters-2025-26-analysis">notebook</a></td></tr>
+<tr><td>Starter notebook (v2.1.0) — Kaggle</td><td>Load, two-file stats join, coverage heatmap, heights, the weight-publication convention, pathways, and a manifest reproducibility check.</td><td><a href="https://www.kaggle.com/code/shahdha/ncaa-rosters-starter">notebook</a></td></tr>
+<tr><td>All-sports analysis — Kaggle notebook</td><td>Headline findings: sport/division/gender structure, international shares, state production, class pyramid.</td><td><a href="https://www.kaggle.com/code/shahdha/ncaa-all-sports-analysis">notebook</a></td></tr>
 </table>
 
 <h2>Citation</h2>
 <p>Shah, Dharit (2026). <i>NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions</i> (Version 2.0.5) [Data set]. Hugging Face.
+Divisions</i> (Version 2.1.0) [Data set]. Hugging Face.
 <a href="https://doi.org/10.57967/hf/9512">https://doi.org/10.57967/hf/9512</a></p>
 
 
 <h2>Changelog</h2>
 <ul>
-<li><b>v2.0.5 (2026-08-06)</b> — False-international origin fix: 6,969 US athletes at city-only-style rosters corrected from international to domestic (gazetteer-resolved states, sample web-verified). Origin split now domestic 459,317 / international 44,241. <b>514,696</b> athletes · schema unchanged.</li>
+<li><b>v2.1.0 (2026-08-14)</b> — Named + enriched release: first/last name public; height, weight, major, previous school added (8 new columns, 27 total); per-sport season-stats sidecars for 10 sports (205,132 athletes). 1,041 junk rows removed (dual-render duplicates + header artifacts) and 1,972 defective names repaired, every change ledgered. <b>513,655</b> athletes · <b>1,087</b> schools.</li>
+<li><b>v2.0.5 (2026-08-06)</b> — False-international origin fix: 6,969 US athletes at city-only-style rosters corrected from international to domestic (gazetteer-resolved states, sample web-verified). <b>514,696</b> athletes · schema unchanged.</li>
 <li><b>v2.0.4 (2026-07-18)</b> — US territory origin/state fix (150 rows: AS/GU/VI/MP/PR → domestic + USPS); CODEBOOK conference coverage corrected to 100%. <b>514,696</b> athletes · schema unchanged.</li>
 <li><b>v2.0.3 (2026-07-14 / data tip 2026-07-17)</b> — School-scope audit: removed Shawnee State (NAIA, 172) and JWU Charlotte (exploratory/USCAA, 217); conference corrections; high-school field recovery. <b>514,696</b> athletes · <b>1,087</b> schools. Schema unchanged.</li>
 <li><b>v2.0.2 (2026-07-14)</b> — Normalized six abbreviated conference labels to canonical names (515,085 athletes; no row changes).</li>
 <li><b>v2.0.1 (2026-07-13)</b> — Conference/division labels corrected for 2025-26 vintage; removed 308 Louisiana Christian (NAIA) contamination rows. 515,085 athletes.</li>
-<li><b>v2.0 (2026-07-08)</b> — Initial public release with DOI 10.57967/hf/9512 (515,393 athletes).</li>
+<li><b>v2.0 (2026-07-08)</b> — Initial public release with DOI 10.57967/hf/9512 (515,393 athletes, de-identified).</li>
 </ul>
 <h2>License</h2>
-<p>CC0-1.0 (public domain). Roster facts are not copyrightable (<i>Feist v. Rural</i>). Please do
-not attempt re-identification. Per-record removal honored on request: dharits3@gmail.com.</p>
+<p>CC0-1.0 (public domain). Roster facts are not copyrightable (<i>Feist v. Rural</i>). CC0 covers
+the database compilation only — it grants no name/image/likeness or publicity rights. Please do
+not attempt individual-level inference of sensitive attributes. Per-record removal honored on
+request: dharits3@gmail.com.</p>
 </body>
 </html>

@@ -1,46 +1,31 @@
-# CODEBOOK — Basketball (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **32,614 rows**. Figures below were computed at sport sign-off, before the release build removed 0 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 194 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Basketball.
+# NCAA Basketball 2025-26 — Enriched (v2.1 staging)
 
-## Files in this folder
+Two files, joined on `athlete_id`:
+- `ncaa_basketball_2025-26_combined` (32,614 rows x 27 cols) — locked
+  27-col schema (published 19 + identity/bio 8)
+- `ncaa_basketball_2025-26_stats` (26,818 rows) — basketball vocabulary:
+  `gp, gs, minutes, fgm, fga, tpm, tpa, ftm, fta, pts, oreb, dreb, reb, ast, stl, blk, to, pf`
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 32,614 |
-| `men/all.csv` | men, all divisions | 17,346 |
-| `men/d1.csv` | men, D1 | 5,407 |
-| `men/d2.csv` | men, D2 | 4,720 |
-| `men/d3.csv` | men, D3 | 7,219 |
-| `women/all.csv` | women, all divisions | 15,268 |
-| `women/d1.csv` | women, D1 | 4,725 |
-| `women/d2.csv` | women, D2 | 4,273 |
-| `women/d3.csv` | women, D3 | 6,270 |
+## Coverage
 
-Genders present: men, women.
+| column | Men (n=17,346) | Women (n=15,268) |
+|---|---|---|
+| height_in | 89.1% | 88.9% |
+| weight_lbs | 69.2% | 0.0% |
+| major | 29.9% | 32.9% |
+| previous_school | 34.0% | 27.4% |
 
-## Columns (19)
+Athletes with >=1 stat: 82.2%.
+Weight for women's programs is not published (publication convention).
 
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
-
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- height_in validated to [56, 93] in — the 93 is real (Olivier Rioux, Florida,
+  7'9'', verified live + 305 lbs); values outside the band are school-side
+  typos, kept verbatim in height_raw with height_in = NA
+- percentages (fg%, 3pt%, ft%) deliberately not scraped — recompute from
+  made/attempted
+- ~4% of teams lack a parseable stats page (JS shells / Presto 404s)
+- bare roster URLs had rolled to 2026-27; season-pinned re-fetch
+  (/roster/2025-26) recovered 948 teams — all data is the 2025-26 season

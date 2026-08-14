@@ -1,46 +1,29 @@
-# CODEBOOK — Lacrosse (NCAA 2025-26)
+> **v2.1.0 release note (2026-08-14).** The shipped file has **29,221 rows**. Figures below were computed at sport sign-off, before the release build removed 15 junk row(s) from this sport (duplicate renders / header artifacts) and repaired 48 name value(s); coverage percentages drift by at most ~2pp from the shipped file. Any 'suffix-dup rows' known-issue notes below are resolved in this release (ice hockey's Beloit 'Taylor' pair is two different athletes and both rows are kept).
 
-Per-sport slice of the NCAA All-Sports 2025-26 public dataset. Same 19-column public (de-identified, no names) schema as the master release. All files here are subsets of `data/ncaa_all_sports_rosters_2025-26.csv` — identical columns, filtered to Lacrosse.
+# NCAA Lacrosse 2026 — Enriched (v2.1 staging)
 
-## Files in this folder
+Two files, joined on `athlete_id` (spring 2026 season, 2025-26 athletic year):
+- `ncaa_lacrosse_2025-26_combined` (29,236 x 27) — locked 27-col schema
+- `ncaa_lacrosse_2025-26_stats` (24,789) — `gp, gs, goals, assists, points, shots, sog, gwg, gb, to, ct, dc, fow, fo_att, minutes, gk_ga, gk_gaa, gk_saves, gk_sv_pct`
 
-| File | Scope | Rows |
-|---|---|---:|
-| `all.csv` | all divisions, all genders | 29,236 |
-| `men/all.csv` | men, all divisions | 15,852 |
-| `men/d1.csv` | men, D1 | 3,837 |
-| `men/d2.csv` | men, D2 | 3,392 |
-| `men/d3.csv` | men, D3 | 8,623 |
-| `women/all.csv` | women, all divisions | 13,384 |
-| `women/d1.csv` | women, D1 | 4,539 |
-| `women/d2.csv` | women, D2 | 2,895 |
-| `women/d3.csv` | women, D3 | 5,950 |
+Points follow the lacrosse convention `pts = goals + assists`.
+`dc` (draw controls) is women-only; `fow/fo_att` (faceoffs) men-only.
 
-Genders present: men, women.
+## Coverage
 
-## Columns (19)
+| column | Men (n=15,852) | Women (n=13,384) |
+|---|---|---|
+| height_in | 90.5% | 81.2% |
+| weight_lbs | 76.2% | 0.0% |
+| major | 40.4% | 38.6% |
+| previous_school | 15.1% | 11.5% |
 
-| Column | Definition |
-|---|---|
-| `athlete_id` | Stable de-identified row id (per sport). Not a person id across sports. |
-| `sport` | Sport key — constant within this folder. |
-| `athletic_year` | `2025-26` for every row. |
-| `season` | Sport's own season label. |
-| `division` | `D1` / `D2` / `D3`. |
-| `gender` | `Men` / `Women`. |
-| `conference` | Athletic conference (fully populated; `Independent` intentional where applicable). |
-| `school` | Institution short name. |
-| `position_raw` | Position/event as listed. |
-| `position_group` | Standardized position group. |
-| `class_year_raw` | Class as listed. |
-| `class_standing` | Standardized class standing. |
-| `hometown_raw` | Hometown as listed. |
-| `hometown_city` | Parsed city. |
-| `hometown_state` | USPS state/territory (US athletes incl. PR/VI/GU/AS/MP). |
-| `origin` | `domestic` / `international` / `unknown`. US territories are domestic. |
-| `high_school` | High school as listed. |
-| `high_school_is_academy` | Legacy academy flag. |
-| `source_url` | Source roster URL. |
+Athletes with >=1 stat: 84.8%.
 
-
-_Generated 2026-07-18 from the v2.0.4 territory-origin fix build._
+## Notes
+- weight band [90,380]: five 305–370 lb D3 men are school-published values
+- some Presto schools 404 on /2025-26/stats (dead stats URL — nulls reflect
+  the missing page, not verified zero seasons)
+- 30 firehawk suffix-dup rows in the upstream release (v2.1 fix ledger)
+- label-as-value bug (empty 'Previous College:' fields captured as text)
+  found by live-page verification and fixed dataset-wide 2026-08-13
