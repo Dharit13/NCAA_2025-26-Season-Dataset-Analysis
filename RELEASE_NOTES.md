@@ -17,6 +17,12 @@ columns (`major`, `previous_school`, `height_raw`, `height_in`, `weight_raw`,
   convention — splitting them keeps the roster file lean and makes the
   missingness structure explicit.
 
+**Docs errata (2026-08-14, post-release):** the reconciliation notes atop the
+28 `by_sport/*/CODEBOOK.md` files now state the post-split reality (21-column
+slices; bio fields in the sidecar) — their sign-off bodies still describe the
+pre-split 27-column layout. `OFFICIAL_COMPARISON.md` headline and per-sport
+dataset counts refreshed to the shipped v2.1.1 files. No data files changed.
+
 ## v2.1.0 — 2026-08-14 (named + enriched)
 
 The dataset is now **named and enriched**. Schema change: **19 → 27 columns**

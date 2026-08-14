@@ -1,9 +1,9 @@
 {
  "package": "ncaa-college-athlete-rosters-2025-26",
- "version": "2.1.0",
+ "version": "2.1.1",
  "built": "2026-08-14",
  "n_files": 300,
- "total_bytes": 585996014,
+ "total_bytes": 586009021,
  "rows_consolidated": 513655,
  "files": [
   {
@@ -38,8 +38,8 @@
   },
   {
    "path": "OFFICIAL_COMPARISON.md",
-   "bytes": 6980,
-   "sha256": "ff15c906000f52fd74e08a117f16f9bc8cd8f456c863f15042e0af905e8c6c5e"
+   "bytes": 7081,
+   "sha256": "0ac9e2bd88715f0af9d3c27f09ba7a32dbe01998954bc69d7ad0bc147b972546"
   },
   {
    "path": "OPT_OUT.md",
@@ -53,8 +53,8 @@
   },
   {
    "path": "RELEASE_NOTES.md",
-   "bytes": 19259,
-   "sha256": "7b8fe191cba0c7965a8f69b3aa7bb45a61c0218c5df9b2ac07dd0762547edb27"
+   "bytes": 19649,
+   "sha256": "40598cff42c455d8a078259dae6d28757d3d0a96660fec691218a0b6100220d2"
   },
   {
    "path": "by_sport/README.md",
@@ -63,8 +63,8 @@
   },
   {
    "path": "by_sport/acro_tumbling/CODEBOOK.md",
-   "bytes": 1009,
-   "sha256": "0655a8773a0dfdd855f80d30fbaa73bf1eb9c19f2384d97a254c8afdd9da9df6"
+   "bytes": 1456,
+   "sha256": "31480871995918fbfcdf626fb688b9de17160a77099653aa9f8b575c1da48fbd"
   },
   {
    "path": "by_sport/acro_tumbling/all.csv",
@@ -104,8 +104,8 @@
   },
   {
    "path": "by_sport/baseball/CODEBOOK.md",
-   "bytes": 1612,
-   "sha256": "24f3a15d6080aa7643cce105ca0e13d86b493769707f08bb97b1db275bfb8cd9"
+   "bytes": 2059,
+   "sha256": "7e24f5eb60574ac9711d34606f1b1eaf00b3ab2cf47f61cb6330cda2f7193cf0"
   },
   {
    "path": "by_sport/baseball/all.csv",
@@ -157,8 +157,8 @@
   },
   {
    "path": "by_sport/basketball/CODEBOOK.md",
-   "bytes": 1691,
-   "sha256": "00fd22ea8b212228b5d1936691a39841281057545e4d9c76f6c5002ebdf6b473"
+   "bytes": 2138,
+   "sha256": "56e0d43b24ed0332dda2c253c0f042811ee4c69bcebd6bc2eb47e962fd595e62"
   },
   {
    "path": "by_sport/basketball/all.csv",
@@ -234,8 +234,8 @@
   },
   {
    "path": "by_sport/beach_volleyball/CODEBOOK.md",
-   "bytes": 1015,
-   "sha256": "2f60c34b80c3e3433be78790a24456af6b561a70fea3e5d9f1b37a427651f7ff"
+   "bytes": 1462,
+   "sha256": "ba74f40c4df0791611c3a24d1868fea61ebab52ee9d3ff2565f8f69b5f9a1b87"
   },
   {
    "path": "by_sport/beach_volleyball/all.csv",
@@ -275,8 +275,8 @@
   },
   {
    "path": "by_sport/bowling/CODEBOOK.md",
-   "bytes": 993,
-   "sha256": "691d577702ef9857feef1320ea0bec7229f0294fa4e591b86865b244334d1f40"
+   "bytes": 1440,
+   "sha256": "1549257e0aaea6b58ff16a4486116a037b4cc4f6c672864b52afdeef625d972d"
   },
   {
    "path": "by_sport/bowling/all.csv",
@@ -316,8 +316,8 @@
   },
   {
    "path": "by_sport/cross_country/CODEBOOK.md",
-   "bytes": 1632,
-   "sha256": "ad3f56e8103c85d9faa4991761ab7bc3f0cf1f98ab4155e60232ae52b75d111a"
+   "bytes": 2079,
+   "sha256": "863c7ccef336bb372ddd91f2db64b6f30398f1567127684bb35c29863176e2aa"
   },
   {
    "path": "by_sport/cross_country/all.csv",
@@ -381,8 +381,8 @@
   },
   {
    "path": "by_sport/equestrian/CODEBOOK.md",
-   "bytes": 1005,
-   "sha256": "35f32c98010cbcb7c368edabaa228b174abb21aa7d1b1b9238fd4ab1959418f9"
+   "bytes": 1452,
+   "sha256": "e14a6952cce41e57ed4dac60e33b3ade2155b918bc93e4e5e26efb78e7ee831b"
   },
   {
    "path": "by_sport/equestrian/all.csv",
@@ -422,8 +422,8 @@
   },
   {
    "path": "by_sport/fencing/CODEBOOK.md",
-   "bytes": 1184,
-   "sha256": "1fb5c1f3e59b4ca8d86fadb37f984564b8cbdd5ab951093008dd93931df8cea6"
+   "bytes": 1631,
+   "sha256": "f60cab746915e1d78148b20e88407cafeef69c79bc22364e71a783f742535623"
   },
   {
    "path": "by_sport/fencing/all.csv",
@@ -487,8 +487,8 @@
   },
   {
    "path": "by_sport/field_hockey/CODEBOOK.md",
-   "bytes": 1454,
-   "sha256": "aba78357db57a1c908f73339dd101c7073438cbc784908fbf03281f3c8f15337"
+   "bytes": 1901,
+   "sha256": "87b8f9f75ea676186925ad26101e4bb811bf992dce5b1baa103c35dd244eb9db"
   },
   {
    "path": "by_sport/field_hockey/all.csv",
@@ -540,8 +540,8 @@
   },
   {
    "path": "by_sport/football/CODEBOOK.md",
-   "bytes": 1852,
-   "sha256": "057c4e6891c4f3acd705850a17354b2c8d40c30a3aeb155ce35ed56db0367d28"
+   "bytes": 2299,
+   "sha256": "0f9f3412a82452942a4140b98e11492214447b85186b6554a269d71ad82a72e2"
   },
   {
    "path": "by_sport/football/all.csv",
@@ -593,8 +593,8 @@
   },
   {
    "path": "by_sport/golf/CODEBOOK.md",
-   "bytes": 1191,
-   "sha256": "df4720c9b7806f243da25a2f91bcb8472870208601deb85c8bbf46e233c9d073"
+   "bytes": 1638,
+   "sha256": "0d8eade5446b30724eeaca56777f1d690d9037043fea1644acba15c7b82b19e8"
   },
   {
    "path": "by_sport/golf/all.csv",
@@ -658,8 +658,8 @@
   },
   {
    "path": "by_sport/gymnastics/CODEBOOK.md",
-   "bytes": 1195,
-   "sha256": "a49b2a917371f45445b74a7a1c6fc20c9724bfd541dd59cd2e0f07976bab6efa"
+   "bytes": 1642,
+   "sha256": "7c0c39345e29bf6d4e5d4eee212e27327da8113bbf5d5a739b300f8a35141ca2"
   },
   {
    "path": "by_sport/gymnastics/all.csv",
@@ -717,8 +717,8 @@
   },
   {
    "path": "by_sport/ice_hockey/CODEBOOK.md",
-   "bytes": 2294,
-   "sha256": "7bbbf7b5612b3804e8ede2161f1d98eb1cc18693a4d8bab268ed5f1dd76a4d74"
+   "bytes": 2741,
+   "sha256": "20d41dc86f8dcd3610ee366f7f1548321f6aa2aa53bb4a6082410f81157d98dc"
   },
   {
    "path": "by_sport/ice_hockey/all.csv",
@@ -794,8 +794,8 @@
   },
   {
    "path": "by_sport/lacrosse/CODEBOOK.md",
-   "bytes": 1647,
-   "sha256": "e95958240baf17eaa231d492e1b1a118a7be6ecfb2a2bc7493c15a61e51505cd"
+   "bytes": 2094,
+   "sha256": "96c69705efe5b22c4b1ff3bebcbdde233adaad08d0df152c2a4ad209d0f6018c"
   },
   {
    "path": "by_sport/lacrosse/all.csv",
@@ -871,8 +871,8 @@
   },
   {
    "path": "by_sport/rowing/CODEBOOK.md",
-   "bytes": 1177,
-   "sha256": "2eb4caca808732c409d8ae8e1c07a01c6dc7dbe8d50427ec70e2de657171d640"
+   "bytes": 1624,
+   "sha256": "f442747a1cc5d90d3b53f0c916400ffc8589bcb75978ee327bde5d09cc3bb4ba"
   },
   {
    "path": "by_sport/rowing/all.csv",
@@ -912,8 +912,8 @@
   },
   {
    "path": "by_sport/rugby/CODEBOOK.md",
-   "bytes": 988,
-   "sha256": "80e43e74233726288499b3aeb55e38a2541bf3d4983bd6292bbae3e532650734"
+   "bytes": 1435,
+   "sha256": "3e084b60e9ee9b3d7d5695241a2557f856df0cb3b40500887edd852d0d1b3695"
   },
   {
    "path": "by_sport/rugby/all.csv",
@@ -953,8 +953,8 @@
   },
   {
    "path": "by_sport/skiing/CODEBOOK.md",
-   "bytes": 1000,
-   "sha256": "b0053042559d7dbc6fdf4ed40c011bd5d5fb583b517f2fdb9a32048dd50c88d4"
+   "bytes": 1447,
+   "sha256": "eb12bb045ee199b2ca7ce89c5cecb99b59ed80e821bc7910b68ef553f3f54011"
   },
   {
    "path": "by_sport/skiing/all.csv",
@@ -1018,8 +1018,8 @@
   },
   {
    "path": "by_sport/soccer/CODEBOOK.md",
-   "bytes": 1682,
-   "sha256": "5529ebbaa9531d6a90b1b733c6c661e98b3b7f2870a16662a64a2b976700c42a"
+   "bytes": 2129,
+   "sha256": "1022ab2e6ffd5adb874fb6739d4782069bd788a831075861f698bc16bbd2120b"
   },
   {
    "path": "by_sport/soccer/all.csv",
@@ -1095,8 +1095,8 @@
   },
   {
    "path": "by_sport/softball/CODEBOOK.md",
-   "bytes": 1696,
-   "sha256": "860add507716c1a9323600d7842eda887799cf49a500f945364d3872306f11fd"
+   "bytes": 2143,
+   "sha256": "03e9738a10298a854cfdb1c05d849e0c2c2a0f724bb932e9b156a898affd5a57"
   },
   {
    "path": "by_sport/softball/all.csv",
@@ -1148,8 +1148,8 @@
   },
   {
    "path": "by_sport/stunt/CODEBOOK.md",
-   "bytes": 993,
-   "sha256": "379e1a2a68b62b8649cf247713ce0be5c3be64db08dfe45851cec2a3783a2000"
+   "bytes": 1440,
+   "sha256": "fc12d7c10aea4f592925a656b1326c72e705471c8217ab3328945fe1a3401373"
   },
   {
    "path": "by_sport/stunt/all.csv",
@@ -1189,8 +1189,8 @@
   },
   {
    "path": "by_sport/swimming/CODEBOOK.md",
-   "bytes": 1619,
-   "sha256": "457805bf2c31e85f76622b2aed98fba6e7d8edc7db4d7b172cb84f9e87b462b0"
+   "bytes": 2066,
+   "sha256": "12589933b7abf450bf3e45c42f1befb8c1fdfa08d0f16e9b54c0ccebc5a3fbd0"
   },
   {
    "path": "by_sport/swimming/all.csv",
@@ -1254,8 +1254,8 @@
   },
   {
    "path": "by_sport/tennis/CODEBOOK.md",
-   "bytes": 1195,
-   "sha256": "ee48b3cfec48f907c4ff5c462b5ba49e34bf9c40e410b624e1247e9a51e14a1c"
+   "bytes": 1642,
+   "sha256": "03a780967b1683e6e0dbad88d708d8aeae8a9bc027924653fcd20499b09d9b01"
   },
   {
    "path": "by_sport/tennis/all.csv",
@@ -1319,8 +1319,8 @@
   },
   {
    "path": "by_sport/track_indoor/CODEBOOK.md",
-   "bytes": 1630,
-   "sha256": "fd29b91f15a1dd00de8c2fba9406839350446826cb1d2c7c8cf243469a30f588"
+   "bytes": 2077,
+   "sha256": "b1fc50ed15c1a1da2cee55788c58aabf60a0a456000e5db933f9762747272a09"
   },
   {
    "path": "by_sport/track_indoor/all.csv",
@@ -1384,8 +1384,8 @@
   },
   {
    "path": "by_sport/track_outdoor/CODEBOOK.md",
-   "bytes": 1633,
-   "sha256": "b26c184bb4d668a818c29d137683200bbae766b9a59c47543974aadd453dc21c"
+   "bytes": 2080,
+   "sha256": "3d401be4dba9851c24ac357f10a0eb00c6325cb167b44870da6d9a70f35c6f50"
   },
   {
    "path": "by_sport/track_outdoor/all.csv",
@@ -1449,8 +1449,8 @@
   },
   {
    "path": "by_sport/triathlon/CODEBOOK.md",
-   "bytes": 996,
-   "sha256": "1a5e7effb01833504e4442e9864dd5d7d5343918c12ebdc9ff1b542663e5eb26"
+   "bytes": 1443,
+   "sha256": "4c9612b5c633b2a396780554930f014346446844e5c2265711309b0f485106b0"
   },
   {
    "path": "by_sport/triathlon/all.csv",
@@ -1490,8 +1490,8 @@
   },
   {
    "path": "by_sport/volleyball/CODEBOOK.md",
-   "bytes": 1489,
-   "sha256": "5a79adfe6f69163c581d763d09a7b62fb6e65bdbdeae83cf2ab7aac095723c50"
+   "bytes": 1936,
+   "sha256": "492b7667d77f87a2c47afe5ccb35e021ac70e8146cbe4130af5037e835f45772"
   },
   {
    "path": "by_sport/volleyball/all.csv",
@@ -1567,8 +1567,8 @@
   },
   {
    "path": "by_sport/water_polo/CODEBOOK.md",
-   "bytes": 1278,
-   "sha256": "fb5ccd7835b355183b55110ac7454c44caab2654fb34e92757f32bb0f9e8d7ca"
+   "bytes": 1725,
+   "sha256": "b674b69ce53c2cbe3bb81b30f0f66c0b9e74ac70b36b447f49bb17d087ccc071"
   },
   {
    "path": "by_sport/water_polo/all.csv",
@@ -1644,8 +1644,8 @@
   },
   {
    "path": "by_sport/wrestling/CODEBOOK.md",
-   "bytes": 1200,
-   "sha256": "e5910e592055a4709560a16b9c03334f4de3c2790f40cdf22e2fe6022ae69c53"
+   "bytes": 1647,
+   "sha256": "9ee952c2891777de13a2b047cd15548762ffbb3cfc635531423e010cf77be9b2"
   },
   {
    "path": "by_sport/wrestling/all.csv",

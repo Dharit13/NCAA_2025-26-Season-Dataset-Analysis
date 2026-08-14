@@ -6,7 +6,9 @@
 > `Ht.`/`Cl.`/`Wt.` scraped as an athlete name). No teams were added or dropped and no
 > real athletes were removed, so coverage vs the official NCAA participation figures is
 > otherwise unchanged; the headline athlete ratio shifts mechanically from 91.7% to
-> 91.6% (513,655 / 560,992). The analysis below is retained as computed at v2.0.x.
+> 91.6% (513,655 / 560,992). Headline and per-sport dataset counts below are
+> refreshed to the shipped v2.1.1 files (2026-08-14); the gap-decomposition
+> analysis is retained as computed at v2.0.x.
 
 **Official source:** NCAA Sports Sponsorship and Participation Rates Report (1956-57 through
 2024-25), updated 2025-09-04 ([PDF](https://ncaaorg.s3.amazonaws.com/research/sportpart/2025RES_SportsSponsorshipParticipationRatesReport.pdf)),
@@ -25,11 +27,11 @@ one row per athlete per sport-roster.
 |---|---|---|
 | Championship sports | 554,298 (M 318,949 / W 235,349) | |
 | + Emerging sports | 561,290 | |
-| Comparable universe (excl. rifle — 298 participants (M 100 / W 198), not covered here) | 560,992 | **514,696** |
-| Men / Women | 318,949 / 235,349 | 290,969 / 223,727 |
+| Comparable universe (excl. rifle — 298 participants (M 100 / W 198), not covered here) | 560,992 | **513,655** |
+| Men / Women | 318,949 / 235,349 | 290,510 / 223,145 |
 | Teams | 19,928 championship (+ emerging) | 19,603 covered of 20,241 official sponsor-list cells (96.9%) |
 
-**This dataset holds 91.7% of the NCAA's reported athlete-participations (514,696 /
+**This dataset holds 91.6% of the NCAA's reported athlete-participations (513,655 /
 560,992), ≈96.9% of teams, and 98.5% of Division I.**
 
 ## Why ~92% of athletes at ~97% of teams — the gap decomposed
@@ -88,24 +90,24 @@ Wabash W) were caught by the verification passes and removed before shipping.
 
 | Sport | Official | This dataset | Ratio | Team coverage here |
 |---|---|---|---|---|
-| Football | 83,794 | 72,574 | 87% | 98.8% |
-| Track & field outdoor (M+W) | 68,266 | 64,342 | 94% | 95.5% |
-| Track & field indoor (M+W) | 63,881 | 60,912 | 95% | 96.9% |
-| Soccer (M+W) | 59,946 | 54,559 | 91% | 99.2% |
-| Baseball | 41,580 | 38,049 | 92% | 99.5% |
+| Football | 83,794 | 72,512 | 87% | 98.8% |
+| Track & field outdoor (M+W) | 68,266 | 64,231 | 94% | 95.5% |
+| Track & field indoor (M+W) | 63,881 | 60,816 | 95% | 96.9% |
+| Soccer (M+W) | 59,946 | 54,537 | 91% | 99.2% |
+| Baseball | 41,580 | 38,033 | 91% | 99.5% |
 | Basketball (M+W) | 36,440 | 32,614 | 90% | 99.5% |
-| Cross country (M+W) | 30,821 | 28,230 | 92% | 95.6% |
-| Lacrosse (M+W) | 30,597 | 29,236 | 96% | 95.9% |
-| Swimming & diving (M+W) | 23,129 | 20,880 | 90% | 95.6% |
-| Softball | 21,916 | 20,670 | 94% | 97.5% |
-| Tennis (M+W) | 15,610 | 14,197 | 91% | 96.8% |
-| Golf (M+W) | 14,679 | 13,648 | 93% | 95.1% |
+| Cross country (M+W) | 30,821 | 28,178 | 91% | 95.6% |
+| Lacrosse (M+W) | 30,597 | 29,221 | 96% | 95.9% |
+| Swimming & diving (M+W) | 23,129 | 20,808 | 90% | 95.6% |
+| Softball | 21,916 | 20,661 | 94% | 97.5% |
+| Tennis (M+W) | 15,610 | 14,019 | 90% | 96.8% |
+| Golf (M+W) | 14,679 | 13,447 | 92% | 95.1% |
 
 Official per-sport values from the same report; official football total (83,794) is the sum
 of the report's FBS+FCS/D2/D3 rows (the printed "overall" cell excludes the D1 sub-rows).
 Coed-sport caution in the official tables: rifle/skiing coed squads are counted in both
 gender tables there.
 
-*(Dataset counts reflect tip v2.0.4 (514,696 athletes), after the 2026-07 school-eligibility
-removals (Shawnee State, JWU Charlotte). Team-coverage percentages were computed at the
-2026-07-08 v2.0 build and shift by at most ~0.1 pp under those removals.)*
+*(Dataset counts reflect the shipped v2.1.1 files (513,655 athletes). Team-coverage
+percentages were computed at the 2026-07-08 v2.0 build and shift by at most ~0.1 pp
+under the subsequent school-eligibility removals and junk-row cleanup.)*
