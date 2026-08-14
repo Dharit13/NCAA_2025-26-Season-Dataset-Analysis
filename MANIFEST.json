@@ -3,7 +3,7 @@
  "version": "2.1.0",
  "built": "2026-08-14",
  "n_files": 300,
- "total_bytes": 585992346,
+ "total_bytes": 585996014,
  "rows_consolidated": 513655,
  "files": [
   {
@@ -48,18 +48,18 @@
   },
   {
    "path": "README.md",
-   "bytes": 23968,
-   "sha256": "dac566559a7023d663e08288fb9916c0b17dbc40089e7bb3996363782c2a9326"
+   "bytes": 26192,
+   "sha256": "874a73864e3d4c00bd652e85de68f74d5b7296729cff9513ac420cee3939d02b"
   },
   {
    "path": "RELEASE_NOTES.md",
-   "bytes": 19185,
-   "sha256": "ec3cfe0807965854dc4e6e30a33025b23001c88f2b73db5bd168d349392ee570"
+   "bytes": 19259,
+   "sha256": "7b8fe191cba0c7965a8f69b3aa7bb45a61c0218c5df9b2ac07dd0762547edb27"
   },
   {
    "path": "by_sport/README.md",
-   "bytes": 2797,
-   "sha256": "f4ffb8761479019280514e104dcb218783229a76fcbfac366c947b4adc672970"
+   "bytes": 3158,
+   "sha256": "d6b8086bd8c8bb200a86887c56ff5f17e26f98bf7bc996010e434b4792288476"
   },
   {
    "path": "by_sport/acro_tumbling/CODEBOOK.md",
@@ -1709,8 +1709,8 @@
   },
   {
    "path": "data/CODEBOOK.md",
-   "bytes": 10248,
-   "sha256": "38059d4c115ed47369aeeee455e1196da258371250b6810602d5282cc98d9a1f"
+   "bytes": 11257,
+   "sha256": "2dd0c1112681a3c1d41b7eb074a76add3597177ed76cd0f589bab776576f0ad0"
   },
   {
    "path": "data/ncaa_all_sports_rosters_2025-26_enriched.csv",

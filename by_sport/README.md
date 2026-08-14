@@ -1,10 +1,11 @@
-# by_sport/ — per-sport slices (v2.1.0)
+# by_sport/ — per-sport slices (v2.1.1)
 
 Per-sport slices of the roster file
 (`data/ncaa_all_sports_rosters_2025-26_enriched.{csv,parquet}`; 513,655 rows total).
-Every file carries the same locked 21-column roster schema (bio fields join
-from `data/ncaa_athlete_bio_2025-26` as of v2.1.1) — see
-[../data/CODEBOOK.md](../data/CODEBOOK.md).
+Every roster slice (`all.*` and the gender/division CSVs) carries the same
+locked 21-column roster schema (bio fields join from
+`data/ncaa_athlete_bio_2025-26` as of v2.1.1); the `stats.*` files have
+sport-specific schemas — see [../data/CODEBOOK.md](../data/CODEBOOK.md).
 
 ## Layout
 
@@ -32,23 +33,27 @@ merged into one wide cross-sport file): baseball (27,470 rows), basketball (26,8
 field_hockey (5,439), football (34,982), ice_hockey (6,345), lacrosse (24,789), soccer
 (42,750), softball (17,160), volleyball (17,767), water_polo (1,612). One row per
 athlete with ≥1 published stat line; column definitions in each sport's `CODEBOOK.md`.
+Every stats file also carries `first_name`/`last_name` so it reads standalone —
+drop them when joining to a roster slice, which already has both.
 
-Join on `athlete_id` — the one key every file in the release shares:
+Join on `athlete_id` — the one key every file in the release shares
+(paths from the repo root):
 
 ```python
 roster = pd.read_parquet("by_sport/soccer/all.parquet")
 stats  = pd.read_parquet("by_sport/soccer/stats.parquet")
-bio    = pd.read_parquet("../data/ncaa_athlete_bio_2025-26.parquet")  # compact bio sidecar
+bio    = pd.read_parquet("data/ncaa_athlete_bio_2025-26.parquet")  # compact bio sidecar
 
-df = (roster.merge(stats, on="athlete_id", how="left")
+df = (roster.merge(stats.drop(columns=["first_name", "last_name"]),  # roster already has the names
+                   on="athlete_id", how="left")
             .merge(bio[["athlete_id", "major", "height_in", "weight_lbs"]],
-                   on="athlete_id", how="left", suffixes=("", "_bio")))
+                   on="athlete_id", how="left"))
 ```
 
 Left-merge so roster athletes without stats survive with nulls — redshirts and
-non-appearing reserves are real roster states, not join failures. The bio
-sidecar duplicates the wide file's bio columns (same values, denser file);
-take them from whichever file you already have open.
+non-appearing reserves are real roster states, not join failures. As of v2.1.1
+the bio sidecar is the **only** source of the bio columns (the roster files
+carry none); join it in whenever you need `major`, height, or weight.
 
 ## Track shared-rows warning
 

@@ -190,17 +190,21 @@ teams, one coherent year (2025-26, the first season under the House v. NCAA
 settlement). Every field is an institution-published roster fact from official
 school athletics sites, validated against the NCAA's official sponsor lists.
 
-**New in v2.1.0** (2026-08-14):
+**New in v2.1** (2026-08-14; current: v2.1.1):
 
-- **Names are public.** `first_name` / `last_name` ship on every row — they are
-  school-published facts on public roster pages, and publishing them makes every
-  record verifiable against its `source_url` and linkable to other data.
-- **8 new bio columns:** `first_name`/`last_name` join the roster file; `major`,
-  `previous_school`, `height_raw`/`height_in`, `weight_raw`/`weight_lbs` ship in
-  the compact **bio sidecar** `data/ncaa_athlete_bio_2025-26` (v2.1.1 split:
-  373,817 rows — athletes with ≥1 bio field — joined on `athlete_id`; raw +
-  parsed pairs ship together). The roster file is 21 columns (the 19 v2.0.5
-  columns unchanged + names; column order locked).
+- **Names are public.** `first_name` / `last_name` are columns on every row —
+  they are school-published facts on public roster pages, and publishing them
+  makes every record verifiable against its `source_url` and linkable to other
+  data. (`last_name` is null for the ~0.5% of listings that publish a single
+  name.)
+- **8 new columns:** 2 name columns (`first_name`/`last_name`, in the roster
+  file) + 6 bio fields (`major`, `previous_school`, `height_raw`/`height_in`,
+  `weight_raw`/`weight_lbs`) in the compact **bio sidecar**
+  `data/ncaa_athlete_bio_2025-26` (373,817 rows — athletes with ≥1 bio field —
+  joined on `athlete_id`; raw + parsed pairs ship together). As of the v2.1.1
+  split the roster file is 21 columns (the 19 v2.0.5 columns unchanged + names;
+  column order locked) — **21 roster columns + 7 bio-sidecar columns, 27
+  distinct fields across two files**.
 - **Season-stats sidecars for 10 sports** — `by_sport/<sport>/stats.parquet`,
   205,132 stat rows (39.9% of athletes), joinable on `athlete_id`.
 - **1,041 junk rows removed** and **1,972 defective names repaired** (details in
@@ -225,47 +229,102 @@ analysis (roster × stats), academic-major composition, transfer pathways
 
 ## Quick start
 
-Load everything (Parquet, 21 roster columns; bio fields join from the sidecar):
+Load the roster file (Parquet, 513,655 × 21; bio and stats join in below — see
+**Joining the files**):
 
 ```python
 import pandas as pd
 df = pd.read_parquet("hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_all_sports_rosters_2025-26_enriched.parquet")
 ```
 
-Load a single sport without downloading the rest — every sport is a config, and
-each of the 10 stats sidecars is a `<sport>_stats` config:
+Load a single sport without downloading the rest — every sport is a config, the
+bio sidecar is the `bio` config, and each of the 10 stats sidecars is a
+`<sport>_stats` config:
 
 ```python
 from datasets import load_dataset
 soccer = load_dataset("dharits3/ncaa-college-athlete-rosters-2025-26", "soccer", split="full")
-bb_stats = load_dataset("dharits3/ncaa-college-athlete-rosters-2025-26", "basketball_stats", split="full")
 ```
 
-Join rosters to season stats on `athlete_id` (basketball example):
+Just want a look? [`samples/ncaa_rosters_sample_10000.csv`](samples/ncaa_rosters_sample_10000.csv)
+is a 10,000-row sample; [`samples/sport_summary.csv`](samples/sport_summary.csv)
+has per-sport counts and coverage.
+
+## Joining the files
+
+Every file in the release joins on **`athlete_id`**, with two scopes:
+
+- The **bio sidecar** (`data/ncaa_athlete_bio_2025-26`) is one file covering
+  every sport — it joins to the full roster file, any sport slice, or any
+  gender/division CSV.
+- **Stats joins are within ONE sport only.** Stat columns are sport-specific
+  (a goalie's GAA has no football equivalent), so a stats join starts from that
+  sport's roster slice under `by_sport/`, never the cross-sport file.
+
+Every stats file also carries `first_name`/`last_name` so it reads standalone;
+drop them before joining to a roster slice, which already has both.
+
+**(a) Roster + bio** — works across all sports:
 
 ```python
 import pandas as pd
-base = "hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
-combined = pd.read_parquet(f"{base}/by_sport/basketball/all.parquet")   # 32,614 roster rows
-stats    = pd.read_parquet(f"{base}/by_sport/basketball/stats.parquet") # 26,818 stat rows
-bb = combined.merge(stats, on="athlete_id", how="left")
-# left join keeps all 32,614 athletes; those without a published stat line get NaN stats
+base   = "hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
+roster = pd.read_parquet(f"{base}/data/ncaa_all_sports_rosters_2025-26_enriched.parquet")  # 513,655 × 21
+bio    = pd.read_parquet(f"{base}/data/ncaa_athlete_bio_2025-26.parquet")                  # 373,817 × 7
+df = roster.merge(bio, on="athlete_id", how="left")  # 513,655 rows, 27 columns
+# athletes with no published bio field have no sidecar row -> NaN bio columns
 ```
 
-**Every file in the release joins on the same key, but always within ONE
-sport** — stats columns are sport-specific (a goalie's GAA has no football
-equivalent), so a stats join starts from that sport's roster slice, never the
-cross-sport file. The full three-file pattern for one sport:
+**(b) One sport's roster slice + its stats** (basketball):
 
 ```python
+import pandas as pd
+base   = "hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
+roster = pd.read_parquet(f"{base}/by_sport/basketball/all.parquet")    # 32,614 roster rows
+stats  = pd.read_parquet(f"{base}/by_sport/basketball/stats.parquet")  # 26,818 stat rows
+# stats files carry first_name/last_name for standalone readability;
+# drop them here — the roster slice already has both.
+bb = roster.merge(stats.drop(columns=["first_name", "last_name"]), on="athlete_id", how="left")
+# left join keeps all 32,614 athletes; no published stat line -> NaN stats
+```
+
+**(c) The full three-file pattern for one sport** (roster slice + bio + stats):
+
+```python
+import pandas as pd
 base   = "hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
 roster = pd.read_parquet(f"{base}/by_sport/basketball/all.parquet")       # one sport's roster slice
 bio    = pd.read_parquet(f"{base}/data/ncaa_athlete_bio_2025-26.parquet") # bio sidecar (all sports)
 stats  = pd.read_parquet(f"{base}/by_sport/basketball/stats.parquet")     # THIS sport's stat columns
 
 full = (roster
-        .merge(bio, on="athlete_id", how="left", suffixes=("", "_bio"))
+        .merge(bio, on="athlete_id", how="left")
         .merge(stats.drop(columns=["first_name", "last_name"]), on="athlete_id", how="left"))
+```
+
+**(d) With the `datasets` library** — the sidecars are configs too:
+
+```python
+from datasets import load_dataset
+bio      = load_dataset("dharits3/ncaa-college-athlete-rosters-2025-26", "bio", split="full")
+bb_stats = load_dataset("dharits3/ncaa-college-athlete-rosters-2025-26", "basketball_stats", split="full")
+```
+
+DuckDB / Polars read (and join) the same paths:
+
+```sql
+SELECT r.sport, count(*) AS athletes,
+       round(100.0 * avg(CASE WHEN b.height_in IS NOT NULL THEN 1 ELSE 0 END), 1) AS height_pct,
+       round(100.0 * avg(CASE WHEN r.origin = 'international' THEN 1 ELSE 0 END), 1) AS intl_pct
+FROM read_parquet('hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_all_sports_rosters_2025-26_enriched.parquet') r
+LEFT JOIN read_parquet('hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_athlete_bio_2025-26.parquet') b
+       USING (athlete_id)
+GROUP BY 1 ORDER BY athletes DESC;
+```
+
+```python
+import polars as pl
+df = pl.read_parquet("hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_all_sports_rosters_2025-26_enriched.parquet")
 ```
 
 Left-joins keep every rostered athlete; missing bio/stats values are real
@@ -273,28 +332,9 @@ roster states (redshirts, fields a school didn't publish), not join failures.
 As of v2.1.1 the bio columns live **only** in the sidecar — the roster file
 stays lean and the sparse fields join in when you need them. The gender ×
 division CSVs under `by_sport/<sport>/<gender>/` are row-slices of the same
-schema; anything you compute on them joins back the same way.
+21-column schema; anything you compute on them joins back the same way.
 
-Polars / DuckDB:
-
-```python
-import polars as pl
-df = pl.read_parquet("hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_all_sports_rosters_2025-26_enriched.parquet")
-```
-
-```sql
-SELECT sport, count(*) AS athletes,
-       round(100.0 * avg(CASE WHEN height_in IS NOT NULL THEN 1 ELSE 0 END), 1) AS height_pct,
-       round(100.0 * avg(CASE WHEN origin = 'international' THEN 1 ELSE 0 END), 1) AS intl_pct
-FROM read_parquet('hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26/data/ncaa_all_sports_rosters_2025-26_enriched.parquet')
-GROUP BY 1 ORDER BY athletes DESC;
-```
-
-Just want a look? [`samples/ncaa_rosters_sample_10000.csv`](samples/ncaa_rosters_sample_10000.csv)
-is a 10,000-row sample; [`samples/sport_summary.csv`](samples/sport_summary.csv)
-has per-sport counts and coverage.
-
-## Shape (v2.1.0)
+## Shape (v2.1.1)
 
 | | |
 |---|---|
@@ -303,7 +343,7 @@ has per-sport counts and coverage.
 | Origin | domestic 459,068 (89.4%) · international 43,853 (8.5%) · unknown 10,734 (2.1%) |
 | Sports | 28 (every NCAA championship + emerging sport) |
 | Schools | 1,087 |
-| Columns | 27 (19 from v2.0.x + 8 new; order locked) |
+| Columns | 21 roster + 7 bio-sidecar (27 distinct fields across two files, joined on `athlete_id`) + per-sport stats |
 | Season stats | 10 sports · 205,132 rows · 39.9% of athletes |
 | Athletic year | 2025-26 for every row |
 
@@ -368,7 +408,9 @@ athletes):
 `by_sport/<sport>/stats.parquet` (+ `.csv`) for 10 sports. Columns are
 **sport-specific by design** (a baseball stat file has no reason to share a
 schema with soccer's); every file joins to its sport's roster slice on
-`athlete_id`. 205,132 athletes (39.9%) have a stat row.
+`athlete_id`. Every stats file also carries `first_name`/`last_name` so it
+reads standalone — drop them when joining to a roster slice (see **Joining the
+files**). 205,132 athletes (39.9%) have a stat row.
 
 | Sport | Stat rows | Sport | Stat rows |
 |---|---:|---|---:|
@@ -391,8 +433,9 @@ indoor/outdoor track.
 
 ## Access: what ships and what never will
 
-The public tier is everything in this repo: **27 named columns** — all
-school-published roster facts — **plus the per-sport season-stats sidecars**.
+The public tier is everything in this repo: **21 roster columns + 7 bio-sidecar
+columns** (27 distinct fields across two files) — all school-published roster
+facts — **plus the per-sport season-stats sidecars**.
 There is also a **research tier** (BISG race/ethnicity predictions,
 home-community income/SES, Census-tract and mobility joins) that is
 **research-only, is in no distributed file, and never will be**; it is not
@@ -418,7 +461,8 @@ removal is honored on request — see [OPT_OUT.md](OPT_OUT.md).
 ├── data/
 │   ├── ncaa_all_sports_rosters_2025-26_enriched.parquet   513,655 × 21 (identity + team + hometown)
 │   ├── ncaa_all_sports_rosters_2025-26_enriched.csv       same data
-│   └── ncaa_athlete_bio_2025-26.parquet + .csv            bio sidecar: athlete_id + major/prev_school/ht/wt, 373,817 rows (athletes with ≥1 bio field)
+│   ├── ncaa_athlete_bio_2025-26.parquet + .csv            bio sidecar: athlete_id + major/prev_school/ht/wt, 373,817 rows (athletes with ≥1 bio field)
+│   └── CODEBOOK.md                                        full column dictionary (roster + bio sidecar + stats architecture)
 ├── by_sport/<sport>/
 │   ├── all.parquet + all.csv           per-sport slice (same 21 cols; parquet = HF config)
 │   ├── <gender>/all.csv, d1/d2/d3.csv  gender × division CSV slices
@@ -475,7 +519,7 @@ Prior versions (condensed; full changelog in [RELEASE_NOTES.md](RELEASE_NOTES.md
 | **Kaggle mirror** | https://www.kaggle.com/datasets/shahdha/ncaa-all-sports-rosters-2025-26 |
 | **GitHub** | https://github.com/Dharit13/NCAA_2025-26-Season-Dataset-Analysis ([releases](https://github.com/Dharit13/NCAA_2025-26-Season-Dataset-Analysis/releases)) |
 | **License** | CC0 1.0 — citation requested; CC0 covers the compilation and grants **no NIL / publicity rights** |
-| **Version** | **2.1.0** |
+| **Version** | **2.1.1** |
 
 **Known intentional exceptions**
 
@@ -491,8 +535,8 @@ Prior versions (condensed; full changelog in [RELEASE_NOTES.md](RELEASE_NOTES.md
 - Some Sidearm goalkeeper/pitching stat lines are rendered JS-only and are
   missing from the stats sidecars.
 - Presto's combined **"Sacks-YDS"** football stat column ships unsplit.
-- Track-family enrichment rejoin rate is 83.3–83.5% (bio columns are blank for
-  the unmatched remainder in cross country / indoor / outdoor track).
+- Track-family enrichment rejoin rate is 83.3–83.5% (the unmatched remainder in
+  cross country / indoor / outdoor track has no row in the bio sidecar).
 - Ice-hockey goalie minutes are unreliable; treat with caution.
 - `track_indoor` / `track_outdoor` share source rows by design (see above).
 
