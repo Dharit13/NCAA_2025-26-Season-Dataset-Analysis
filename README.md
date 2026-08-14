@@ -1,3 +1,186 @@
+---
+license: cc0-1.0
+language:
+  - en
+pretty_name: NCAA All-Sports Rosters 2025-26
+size_categories:
+  - 100K<n<1M
+tags:
+  - tabular
+  - sports
+  - sports-analytics
+  - ncaa
+  - college-athletics
+  - rosters
+  - student-athletes
+  - recruiting
+  - higher-education
+  - social-science
+  - demographics
+  - united-states
+configs:
+  - config_name: default
+    data_files:
+      - split: full
+        path: data/ncaa_all_sports_rosters_2025-26_enriched.parquet
+  - config_name: bio
+    data_files:
+      - split: full
+        path: data/ncaa_athlete_bio_2025-26.parquet
+  - config_name: acro_tumbling
+    data_files:
+      - split: full
+        path: by_sport/acro_tumbling/all.parquet
+  - config_name: baseball
+    data_files:
+      - split: full
+        path: by_sport/baseball/all.parquet
+  - config_name: basketball
+    data_files:
+      - split: full
+        path: by_sport/basketball/all.parquet
+  - config_name: beach_volleyball
+    data_files:
+      - split: full
+        path: by_sport/beach_volleyball/all.parquet
+  - config_name: bowling
+    data_files:
+      - split: full
+        path: by_sport/bowling/all.parquet
+  - config_name: cross_country
+    data_files:
+      - split: full
+        path: by_sport/cross_country/all.parquet
+  - config_name: equestrian
+    data_files:
+      - split: full
+        path: by_sport/equestrian/all.parquet
+  - config_name: fencing
+    data_files:
+      - split: full
+        path: by_sport/fencing/all.parquet
+  - config_name: field_hockey
+    data_files:
+      - split: full
+        path: by_sport/field_hockey/all.parquet
+  - config_name: football
+    data_files:
+      - split: full
+        path: by_sport/football/all.parquet
+  - config_name: golf
+    data_files:
+      - split: full
+        path: by_sport/golf/all.parquet
+  - config_name: gymnastics
+    data_files:
+      - split: full
+        path: by_sport/gymnastics/all.parquet
+  - config_name: ice_hockey
+    data_files:
+      - split: full
+        path: by_sport/ice_hockey/all.parquet
+  - config_name: lacrosse
+    data_files:
+      - split: full
+        path: by_sport/lacrosse/all.parquet
+  - config_name: rowing
+    data_files:
+      - split: full
+        path: by_sport/rowing/all.parquet
+  - config_name: rugby
+    data_files:
+      - split: full
+        path: by_sport/rugby/all.parquet
+  - config_name: skiing
+    data_files:
+      - split: full
+        path: by_sport/skiing/all.parquet
+  - config_name: soccer
+    data_files:
+      - split: full
+        path: by_sport/soccer/all.parquet
+  - config_name: softball
+    data_files:
+      - split: full
+        path: by_sport/softball/all.parquet
+  - config_name: stunt
+    data_files:
+      - split: full
+        path: by_sport/stunt/all.parquet
+  - config_name: swimming
+    data_files:
+      - split: full
+        path: by_sport/swimming/all.parquet
+  - config_name: tennis
+    data_files:
+      - split: full
+        path: by_sport/tennis/all.parquet
+  - config_name: track_indoor
+    data_files:
+      - split: full
+        path: by_sport/track_indoor/all.parquet
+  - config_name: track_outdoor
+    data_files:
+      - split: full
+        path: by_sport/track_outdoor/all.parquet
+  - config_name: triathlon
+    data_files:
+      - split: full
+        path: by_sport/triathlon/all.parquet
+  - config_name: volleyball
+    data_files:
+      - split: full
+        path: by_sport/volleyball/all.parquet
+  - config_name: water_polo
+    data_files:
+      - split: full
+        path: by_sport/water_polo/all.parquet
+  - config_name: wrestling
+    data_files:
+      - split: full
+        path: by_sport/wrestling/all.parquet
+  - config_name: baseball_stats
+    data_files:
+      - split: full
+        path: by_sport/baseball/stats.parquet
+  - config_name: basketball_stats
+    data_files:
+      - split: full
+        path: by_sport/basketball/stats.parquet
+  - config_name: field_hockey_stats
+    data_files:
+      - split: full
+        path: by_sport/field_hockey/stats.parquet
+  - config_name: football_stats
+    data_files:
+      - split: full
+        path: by_sport/football/stats.parquet
+  - config_name: ice_hockey_stats
+    data_files:
+      - split: full
+        path: by_sport/ice_hockey/stats.parquet
+  - config_name: lacrosse_stats
+    data_files:
+      - split: full
+        path: by_sport/lacrosse/stats.parquet
+  - config_name: soccer_stats
+    data_files:
+      - split: full
+        path: by_sport/soccer/stats.parquet
+  - config_name: softball_stats
+    data_files:
+      - split: full
+        path: by_sport/softball/stats.parquet
+  - config_name: volleyball_stats
+    data_files:
+      - split: full
+        path: by_sport/volleyball/stats.parquet
+  - config_name: water_polo_stats
+    data_files:
+      - split: full
+        path: by_sport/water_polo/stats.parquet
+---
+
 # NCAA All Sports Rosters 2025-26
 
 A near-census of a full NCAA athletic year — now **named and enriched**.
@@ -12,10 +195,12 @@ school athletics sites, validated against the NCAA's official sponsor lists.
 - **Names are public.** `first_name` / `last_name` ship on every row — they are
   school-published facts on public roster pages, and publishing them makes every
   record verifiable against its `source_url` and linkable to other data.
-- **8 new bio columns:** `first_name`, `last_name`, `major`, `previous_school`,
-  `height_raw`/`height_in`, `weight_raw`/`weight_lbs` (raw + parsed pairs ship
-  together). 27 columns total (the 19 v2.0.5 columns are unchanged; column order
-  is locked).
+- **8 new bio columns:** `first_name`/`last_name` join the roster file; `major`,
+  `previous_school`, `height_raw`/`height_in`, `weight_raw`/`weight_lbs` ship in
+  the compact **bio sidecar** `data/ncaa_athlete_bio_2025-26` (v2.1.1 split:
+  373,817 rows — athletes with ≥1 bio field — joined on `athlete_id`; raw +
+  parsed pairs ship together). The roster file is 21 columns (the 19 v2.0.5
+  columns unchanged + names; column order locked).
 - **Season-stats sidecars for 10 sports** — `by_sport/<sport>/stats.parquet`,
   205,132 stat rows (39.9% of athletes), joinable on `athlete_id`.
 - **1,041 junk rows removed** and **1,972 defective names repaired** (details in
@@ -40,7 +225,7 @@ analysis (roster × stats), academic-major composition, transfer pathways
 
 ## Quick start
 
-Load everything (Parquet, 27 columns):
+Load everything (Parquet, 21 roster columns; bio fields join from the sidecar):
 
 ```python
 import pandas as pd
@@ -66,6 +251,29 @@ stats    = pd.read_parquet(f"{base}/by_sport/basketball/stats.parquet") # 26,818
 bb = combined.merge(stats, on="athlete_id", how="left")
 # left join keeps all 32,614 athletes; those without a published stat line get NaN stats
 ```
+
+**Every file in the release joins on the same key, but always within ONE
+sport** — stats columns are sport-specific (a goalie's GAA has no football
+equivalent), so a stats join starts from that sport's roster slice, never the
+cross-sport file. The full three-file pattern for one sport:
+
+```python
+base   = "hf://datasets/dharits3/ncaa-college-athlete-rosters-2025-26"
+roster = pd.read_parquet(f"{base}/by_sport/basketball/all.parquet")       # one sport's roster slice
+bio    = pd.read_parquet(f"{base}/data/ncaa_athlete_bio_2025-26.parquet") # bio sidecar (all sports)
+stats  = pd.read_parquet(f"{base}/by_sport/basketball/stats.parquet")     # THIS sport's stat columns
+
+full = (roster
+        .merge(bio, on="athlete_id", how="left", suffixes=("", "_bio"))
+        .merge(stats.drop(columns=["first_name", "last_name"]), on="athlete_id", how="left"))
+```
+
+Left-joins keep every rostered athlete; missing bio/stats values are real
+roster states (redshirts, fields a school didn't publish), not join failures.
+As of v2.1.1 the bio columns live **only** in the sidecar — the roster file
+stays lean and the sparse fields join in when you need them. The gender ×
+division CSVs under `by_sport/<sport>/<gender>/` are row-slices of the same
+schema; anything you compute on them joins back the same way.
 
 Polars / DuckDB:
 
@@ -101,21 +309,18 @@ has per-sport counts and coverage.
 
 ## Schema & completeness
 
-27 columns, in file order. **Bold** = new in v2.1.0. Machine-readable version:
-[`samples/data_dictionary.csv`](samples/data_dictionary.csv); per-sport notes in
-each `by_sport/<sport>/CODEBOOK.md`.
+Two joinable files (v2.1.1 split). **Bold** = new in v2.1.x. Machine-readable
+version: [`samples/data_dictionary.csv`](samples/data_dictionary.csv); per-sport
+notes in each `by_sport/<sport>/CODEBOOK.md`.
+
+**Roster file** (`data/ncaa_all_sports_rosters_2025-26_enriched`, 513,655 × 21,
+in file order):
 
 | Column | Meaning | Known |
 |---|---|---:|
-| `athlete_id` | Stable sport-prefixed surrogate key; joins to `stats` files | 100% |
+| `athlete_id` | Stable sport-prefixed surrogate key; joins to the `stats` files and the bio sidecar | 100% |
 | **`first_name`** | First/given name as school-published | 100% |
 | **`last_name`** | Last/family name as school-published | 99.5% |
-| **`major`** | Academic major as listed on roster/bio page | 30.9% |
-| **`previous_school`** | Previous school as listed (college, junior/club, or HS — source-labeled) | 19.5% |
-| **`height_raw`** | Height as published (`6-2`, `5'11"`) | 62.2% |
-| **`height_in`** | Parsed height, inches | 62.2% |
-| **`weight_raw`** | Weight as published | 30.1% |
-| **`weight_lbs`** | Parsed weight, pounds | 30.0% |
 | `sport` | Sport registry key — indoor/outdoor track share source rows, see below | 100% |
 | `athletic_year` | 2025-26 for every row | 100% |
 | `season` | Sport's season label (`2025`, `2026`, `2025-26`) | 100% |
@@ -134,6 +339,20 @@ each `by_sport/<sport>/CODEBOOK.md`.
 | `high_school` | High school / prep / academy as listed | 92.5% |
 | `high_school_is_academy` | Legacy prep/academy flag | 99.8% |
 | `source_url` | Roster page / API endpoint the row came from | 100% |
+
+**Bio sidecar** (`data/ncaa_athlete_bio_2025-26`, 373,817 × 7 — only athletes
+with ≥1 published bio field; "Known" shown within-file / of all 513,655
+athletes):
+
+| Column | Meaning | Known |
+|---|---|---:|
+| `athlete_id` | Join key (subset of the roster file's ids) | 100% / 72.8% |
+| **`major`** | Academic major as listed on roster/bio page | 42.4% / 30.9% |
+| **`previous_school`** | Previous school as listed (college, junior/club, or HS — source-labeled) | 26.8% / 19.5% |
+| **`height_raw`** | Height as published (`6-2`, `5'11"`) | 85.5% / 62.2% |
+| **`height_in`** | Parsed height, inches | 85.4% / 62.2% |
+| **`weight_raw`** | Weight as published | 41.4% / 30.1% |
+| **`weight_lbs`** | Parsed weight, pounds | 41.3% / 30.0% |
 
 > **Missingness is a publication convention, not a defect.** Schools choose what
 > their rosters publish, and conventions differ sharply by sport and gender:
@@ -197,10 +416,11 @@ removal is honored on request — see [OPT_OUT.md](OPT_OUT.md).
 
 ```
 ├── data/
-│   ├── ncaa_all_sports_rosters_2025-26_enriched.parquet   513,655 × 27
-│   └── ncaa_all_sports_rosters_2025-26_enriched.csv       same data
+│   ├── ncaa_all_sports_rosters_2025-26_enriched.parquet   513,655 × 21 (identity + team + hometown)
+│   ├── ncaa_all_sports_rosters_2025-26_enriched.csv       same data
+│   └── ncaa_athlete_bio_2025-26.parquet + .csv            bio sidecar: athlete_id + major/prev_school/ht/wt, 373,817 rows (athletes with ≥1 bio field)
 ├── by_sport/<sport>/
-│   ├── all.parquet + all.csv           per-sport slice (same 27 cols; parquet = HF config)
+│   ├── all.parquet + all.csv           per-sport slice (same 21 cols; parquet = HF config)
 │   ├── <gender>/all.csv, d1/d2/d3.csv  gender × division CSV slices
 │   ├── stats.parquet + stats.csv       season stats (10 sports; join on athlete_id)
 │   └── CODEBOOK.md
@@ -213,7 +433,15 @@ removal is honored on request — see [OPT_OUT.md](OPT_OUT.md).
 
 ## Release status
 
-**Current: v2.1.0** (2026-08-14) — the **named + enriched** release.
+**Current: v2.1.1** (2026-08-14) — the **bio-sidecar split**, same day as v2.1.0.
+
+- The six sparse bio columns (`major`, `previous_school`, `height_raw`,
+  `height_in`, `weight_raw`, `weight_lbs`) moved out of the roster file into
+  `data/ncaa_athlete_bio_2025-26.{parquet,csv}` (373,817 rows — athletes with
+  ≥1 published bio field), joined on `athlete_id`. Same values, same ids; no
+  data changed. The roster file is now 21 columns.
+
+**v2.1.0** (2026-08-14) — the **named + enriched** release.
 
 - Names public; 8 new columns; stats sidecars for 10 sports; consolidated file
   renamed to `data/ncaa_all_sports_rosters_2025-26_enriched.parquet`.
@@ -286,7 +514,7 @@ Prior versions (condensed; full changelog in [RELEASE_NOTES.md](RELEASE_NOTES.md
 ## Citation
 
 > Shah, Dharit (2026). *NCAA All Sports Rosters 2025-26: An Individual-Level
-> Dataset Across All Divisions* (Version 2.1.0) [Data set]. Hugging Face.
+> Dataset Across All Divisions* (Version 2.1.1) [Data set]. Hugging Face.
 > https://doi.org/10.57967/hf/9512
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).

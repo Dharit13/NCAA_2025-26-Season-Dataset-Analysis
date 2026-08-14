@@ -1,28 +1,29 @@
-column,description,pct_known
-athlete_id,"Stable surrogate key, sport-prefixed; globally unique; joins to per-sport stats files.",100.0
-first_name,First/given name as school-published (public in v2.1).,100.0
-last_name,Last/family name as school-published.,99.5
-major,Academic major as listed on roster/bio page; publication varies by school.,30.9
-previous_school,"Previous school as listed — source-labeled (college, junior club, or HS depending on school).",19.5
-height_raw,"Height as published (e.g. 6-2, 5'11"").",62.2
-height_in,Parsed height in inches.,62.2
-weight_raw,Weight as published.,30.1
-weight_lbs,Parsed weight in pounds.,30.0
-sport,"Sport registry key (basketball, track_indoor, ...). Indoor/outdoor track share source rows by design.",100.0
-athletic_year,2025-26 for every row.,100.0
-season,"Season label (2025 fall, 2026 spring, 2025-26 winter/full-year).",100.0
-division,D1 / D2 / D3 per official NCAA sponsor list.,100.0
-gender,Women / Men (team competition gender).,100.0
-conference,"Athletic conference, 2025-26 vintage; fully populated.",100.0
-school,Institution name (roster short name).,100.0
-position_raw,Position / event / weight-class as listed; semantics vary by sport.,81.6
-position_group,Sport-specific standardized position grouping (UNK where unlisted).,100.0
-class_year_raw,"Class as listed (Fr., R-So., Gr.).",99.1
-class_standing,Standardized class: Fr / So / Jr / Sr / Gr / UNK.,100.0
-hometown_raw,Hometown as listed on the roster.,97.9
-hometown_city,Parsed city.,97.9
-hometown_state,"Parsed US state/territory, USPS 2-letter incl. PR/VI/GU/AS/MP.",89.4
-origin,"domestic / international / unknown — roster-listed origin, NOT citizenship.",100.0
-high_school,High school / prep / academy as listed (institution-published free text).,92.5
-high_school_is_academy,Legacy prep/academy flag (0/1).,99.8
-source_url,Roster page / API endpoint the row came from.,100.0
+file,column,description,pct_known_in_file,pct_of_all_athletes
+combined,athlete_id,"Stable surrogate key, sport-prefixed; globally unique; joins to per-sport stats files.",100.0,100.0
+combined,first_name,First/given name as school-published (public in v2.1).,100.0,100.0
+combined,last_name,Last/family name as school-published.,99.5,99.5
+combined,sport,"Sport registry key (basketball, track_indoor, ...). Indoor/outdoor track share source rows by design.",100.0,100.0
+combined,athletic_year,2025-26 for every row.,100.0,100.0
+combined,season,"Season label (2025 fall, 2026 spring, 2025-26 winter/full-year).",100.0,100.0
+combined,division,D1 / D2 / D3 per official NCAA sponsor list.,100.0,100.0
+combined,gender,Women / Men (team competition gender).,100.0,100.0
+combined,conference,"Athletic conference, 2025-26 vintage; fully populated.",100.0,100.0
+combined,school,Institution name (roster short name).,100.0,100.0
+combined,position_raw,Position / event / weight-class as listed; semantics vary by sport.,81.6,81.6
+combined,position_group,Sport-specific standardized position grouping (UNK where unlisted).,100.0,100.0
+combined,class_year_raw,"Class as listed (Fr., R-So., Gr.).",99.1,99.1
+combined,class_standing,Standardized class: Fr / So / Jr / Sr / Gr / UNK.,100.0,100.0
+combined,hometown_raw,Hometown as listed on the roster.,97.9,97.9
+combined,hometown_city,Parsed city.,97.9,97.9
+combined,hometown_state,"Parsed US state/territory, USPS 2-letter incl. PR/VI/GU/AS/MP.",89.4,89.4
+combined,origin,"domestic / international / unknown — roster-listed origin, NOT citizenship.",100.0,100.0
+combined,high_school,High school / prep / academy as listed (institution-published free text).,92.5,92.5
+combined,high_school_is_academy,Legacy prep/academy flag (0/1).,99.8,99.8
+combined,source_url,Roster page / API endpoint the row came from.,100.0,100.0
+bio_sidecar,athlete_id,"Stable surrogate key, sport-prefixed; globally unique; joins to per-sport stats files.",100.0,72.8
+bio_sidecar,major,Academic major as listed on roster/bio page; publication varies by school.,42.4,30.9
+bio_sidecar,previous_school,"Previous school as listed — source-labeled (college, junior club, or HS depending on school).",26.8,19.5
+bio_sidecar,height_raw,"Height as published (e.g. 6-2, 5'11"").",85.5,62.2
+bio_sidecar,height_in,Parsed height in inches.,85.4,62.2
+bio_sidecar,weight_raw,Weight as published.,41.4,30.1
+bio_sidecar,weight_lbs,Parsed weight in pounds.,41.3,30.0

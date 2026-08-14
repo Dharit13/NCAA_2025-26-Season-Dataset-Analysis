@@ -1,10 +1,28 @@
 # NCAA All-Sports Rosters 2025-26 — Release Notes
 
+## v2.1.1 — 2026-08-14 (bio-sidecar split; same day as v2.1.0)
+
+Structural change only — **no data values changed**. The six sparse bio
+columns (`major`, `previous_school`, `height_raw`, `height_in`, `weight_raw`,
+`weight_lbs`) moved out of the combined roster file into a compact sidecar:
+
+- **Roster file** `data/ncaa_all_sports_rosters_2025-26_enriched.{parquet,csv}`
+  — now **21 columns** (identity + team + hometown), 513,655 rows.
+- **Bio sidecar** `data/ncaa_athlete_bio_2025-26.{parquet,csv}` — `athlete_id`
+  + the six bio columns; **373,817 rows** (athletes with ≥1 published bio
+  field; 72.8%). Within the sidecar the fields are much denser than they were
+  in the wide file (height 85.5%, major 42.4%, weight 41.3%).
+- Join on `athlete_id`; per-sport `by_sport/` slices carry the 21-column
+  roster schema. Rationale: the bio fields are sparse by publication
+  convention — splitting them keeps the roster file lean and makes the
+  missingness structure explicit.
+
 ## v2.1.0 — 2026-08-14 (named + enriched)
 
 The dataset is now **named and enriched**. Schema change: **19 → 27 columns**
 (column order locked; the 19 v2.0.x columns are unchanged and keep their
-semantics). New per-sport **season-stats sidecar files** for 10 sports. The
+semantics; as of v2.1.1 the six bio columns live in the bio sidecar and the
+roster file carries 21). New per-sport **season-stats sidecar files** for 10 sports. The
 consolidated file path **changes** to
 `data/ncaa_all_sports_rosters_2025-26_enriched.parquet` (+ `.csv`); per-sport
 slices remain `by_sport/<sport>/all.parquet`.
@@ -116,8 +134,9 @@ Removals are committed to the data files and recorded here, per version.
 
 ### Files in this release
 
-298 files (299 including `MANIFEST.json` itself), ~611 MB. Full per-file row
-counts and sha256 checksums: `MANIFEST.json`.
+300 files (301 including `MANIFEST.json` itself), ~586 MB (v2.1.1 split trimmed
+the redundant bio columns out of every roster file). Full per-file row counts
+and sha256 checksums: `MANIFEST.json`.
 
 ### Citation
 

@@ -1,8 +1,9 @@
 {
- "dataset_version": "2.1.0",
+ "dataset_version": "2.1.1",
  "built": "2026-08-14",
  "athletic_year": "2025-26",
  "rows": 513655,
+ "bio_sidecar_rows": 373817,
  "rows_removed_from_v205": 1041,
  "fix_actions": {
   "fix_null_convention": 2142,

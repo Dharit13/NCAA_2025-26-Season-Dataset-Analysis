@@ -5,7 +5,7 @@ title: "NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All 
 authors:
   - family-names: "Shah"
     given-names: "Dharit"
-version: "2.1.0"
+version: "2.1.1"
 date-released: "2026-08-14"
 doi: "10.57967/hf/9512"
 license: CC0-1.0

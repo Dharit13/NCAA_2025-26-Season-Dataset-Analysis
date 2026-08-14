@@ -31,8 +31,9 @@ The questions this document must answer instead are:
   that de-identified rows structurally blocked.
 - **Eight new columns** over the 19 in v2.0.5: `first_name`, `last_name`,
   `major`, `previous_school`, `height_raw`, `height_in`, `weight_raw`,
-  `weight_lbs` — 27 public columns total. Every addition is a roster/bio-page
-  fact or a deterministic parse of one.
+  `weight_lbs` — 27 public columns total (as of v2.1.1 shipped as a 21-column
+  roster file + a 7-column bio sidecar joined on `athlete_id`). Every addition
+  is a roster/bio-page fact or a deterministic parse of one.
 - **Per-sport season-stats sidecars** for 10 sports (205,132 athletes, 39.9%
   of rows), joined on `athlete_id`. Stats are institution/NCAA-published
   season performance facts.
@@ -84,7 +85,7 @@ The following exist only in a research tier that is **never distributed**
 
 Non-reconstructability, demonstrated:
 
-1. **No released column is derived from any withheld field.** The 27 public
+1. **No released column is derived from any withheld field.** All 27 public
    columns and every sidecar column trace to a school-published string or a
    deterministic parse of one. There is no residue — no band, no flag, no
    ordering — computed from BISG, income, tract, or mobility data anywhere in
@@ -175,7 +176,7 @@ un-publishing the data; §6–§7 record what bounds it.
 |---|---|
 | Opt-out | Any listed athlete — or a parent/guardian, including for Team IMPACT honorees — can request row-level removal by `athlete_id` or name + school + sport. Removal covers the combined file **and** the stats sidecars and sample files, propagates to the next version on all three platforms (Hugging Face canonical, Kaggle mirror, GitHub), target turnaround 14 days. Full process: [OPT_OUT.md](OPT_OUT.md). |
 | Public removals ledger | [RELEASE_NOTES.md](RELEASE_NOTES.md) carries a Removals section recording version and count of removed rows — never requester identity. The ledger starts empty at v2.1.0. |
-| Excluded field classes | No photos, no bio text, no contact information, no birthdates or ages, no jersey numbers. These are absence-by-policy, enforced by the release battery's locked 27-column schema check plus the PII forbidden-column audit, not incidental gaps. |
+| Excluded field classes | No photos, no bio text, no contact information, no birthdates or ages, no jersey numbers. These are absence-by-policy, enforced by the release battery's locked schema checks (21-column roster file + 7-column bio sidecar) plus the PII forbidden-column audit, not incidental gaps. |
 | Research-tier firewall | BISG predictions, SES/income measures, tract identifiers, and mobility joins never leave the research tier (§3); the line is absolute and re-certified in [ETHICS_REVIEW.md](ETHICS_REVIEW.md). |
 | License note | CC0 1.0 covers the **database compilation only**; it grants no name/image/likeness or publicity rights, and downstream users remain responsible for lawful use of names ([LICENSE](LICENSE), [LEGAL_NOTES.md](LEGAL_NOTES.md) §2). |
 | Reassessment | This assessment is re-run at each annual release and out-of-cycle on any trigger: a new field, a new sidecar, multi-year concatenation, an opt-out dispute, or evidence of misuse. |

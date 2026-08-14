@@ -39,7 +39,7 @@
   ],
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "isAccessibleForFree": true,
-  "version": "2.1.0",
+  "version": "2.1.1",
   "datePublished": "2026-07-08",
   "dateModified": "2026-08-14",
   "creator": {
@@ -198,7 +198,13 @@
       "@type": "DataDownload",
       "encodingFormat": "application/parquet",
       "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/data/ncaa_all_sports_rosters_2025-26_enriched.parquet",
-      "name": "Master file, named + enriched (513,655 rows x 27 columns, Parquet)"
+      "name": "Roster file, named (513,655 rows x 21 columns, Parquet; v2.1.1 splits bio fields into a sidecar)"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/parquet",
+      "contentUrl": "https://huggingface.co/datasets/dharits3/ncaa-college-athlete-rosters-2025-26/resolve/main/data/ncaa_athlete_bio_2025-26.parquet",
+      "name": "Bio sidecar (373,817 rows x 7 columns: athlete_id + major, previous school, height, weight)"
     }
   ],
   "citation": "https://doi.org/10.57967/hf/9512",
@@ -245,7 +251,7 @@ institution-published roster fact validated against the NCAA's official sponsor 
 <h2>Access</h2>
 <table>
 <tr><th>Tier</th><th>Contents</th><th>Where</th></tr>
-<tr><td>Public (named)</td><td>27 columns (identity, bio, team, hometown, high school) + per-sport season-stats sidecars joined on <code>athlete_id</code></td><td>Hugging Face · Kaggle</td></tr>
+<tr><td>Public (named)</td><td>21-column roster file (identity, team, hometown, high school) + bio sidecar (major, previous school, height, weight) + per-sport season-stats sidecars — all joined on <code>athlete_id</code></td><td>Hugging Face · Kaggle</td></tr>
 <tr><td>Research (never distributed)</td><td>BISG race predictions, home-community income/SES, census tract, and mobility joins — research-only, not reconstructable from released fields</td><td>Not distributed on any platform</td></tr>
 </table>
 
@@ -260,12 +266,13 @@ institution-published roster fact validated against the NCAA's official sponsor 
 
 <h2>Citation</h2>
 <p>Shah, Dharit (2026). <i>NCAA All Sports Rosters 2025-26: An Individual-Level Dataset Across All
-Divisions</i> (Version 2.1.0) [Data set]. Hugging Face.
+Divisions</i> (Version 2.1.1) [Data set]. Hugging Face.
 <a href="https://doi.org/10.57967/hf/9512">https://doi.org/10.57967/hf/9512</a></p>
 
 
 <h2>Changelog</h2>
 <ul>
+<li><b>v2.1.1 (2026-08-14)</b> — Bio-sidecar split: the six sparse bio columns moved from the roster file into <code>data/ncaa_athlete_bio_2025-26</code> (373,817 rows; join on <code>athlete_id</code>). No data values changed; roster file now 21 columns.</li>
 <li><b>v2.1.0 (2026-08-14)</b> — Named + enriched release: first/last name public; height, weight, major, previous school added (8 new columns, 27 total); per-sport season-stats sidecars for 10 sports (205,132 athletes). 1,041 junk rows removed (dual-render duplicates + header artifacts) and 1,972 defective names repaired, every change ledgered. <b>513,655</b> athletes · <b>1,087</b> schools.</li>
 <li><b>v2.0.5 (2026-08-06)</b> — False-international origin fix: 6,969 US athletes at city-only-style rosters corrected from international to domestic (gazetteer-resolved states, sample web-verified). <b>514,696</b> athletes · schema unchanged.</li>
 <li><b>v2.0.4 (2026-07-18)</b> — US territory origin/state fix (150 rows: AS/GU/VI/MP/PR → domestic + USPS); CODEBOOK conference coverage corrected to 100%. <b>514,696</b> athletes · schema unchanged.</li>

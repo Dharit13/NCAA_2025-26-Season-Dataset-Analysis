@@ -15,8 +15,11 @@ All counts below are from the **build of 2026-08-14** (v2.1.0, `metadata.json`).
 are public columns. Six enrichment columns were added (`major`, `previous_school`,
 `height_raw`/`height_in`, `weight_raw`/`weight_lbs`), and **10 sports gained per-sport
 season-stats sidecar files** joined on `athlete_id`. Row count moved 514,696 → **513,655**
-(−1,041 junk rows removed; see §4). The schema is now **27 columns** (the 19 v2.0.5
-public columns + 8 new).
+(−1,041 junk rows removed; see §4). The public schema is **27 columns** (the 19
+v2.0.5 public columns + 8 new), shipped as of v2.1.1 in two joinable files: a
+**21-column roster file** (identity + team + hometown) and the **bio sidecar**
+`data/ncaa_athlete_bio_2025-26` carrying the six sparse bio columns for the
+373,817 athletes with at least one published.
 
 ---
 
@@ -79,7 +82,8 @@ counts include walk-ons and mid-season cuts never published on the website), and
 Selection skews: missing teams concentrate in small non-D1 programs; unpublished squad
 members (disproportionately walk-ons) are absent by construction.
 
-**What data does each instance consist of?** **27 columns**: the 19 v2.0.5 public
+**What data does each instance consist of?** **27 columns** across the roster
+file + bio sidecar (v2.1.1 split; join on `athlete_id`): the 19 v2.0.5 public
 columns (`athlete_id`, `sport`, `athletic_year`, `season`, `division`, `gender`,
 `conference`, `school`, `position_raw`, `position_group`, `class_year_raw`,
 `class_standing`, `hometown_raw`, `hometown_city`, `hometown_state`, `origin`,
@@ -367,8 +371,9 @@ conditions of use in the release documentation.
 
 ## 6. Distribution
 
-**Will the dataset be distributed to third parties?** Yes — the 27-column named public
-tier and the 10 per-sport stats sidecars, exactly as staged here. Research-tier
+**Will the dataset be distributed to third parties?** Yes — the named public
+tier (21-column roster file + bio sidecar) and the 10 per-sport stats
+sidecars, exactly as staged here. Research-tier
 variables (BISG race predictions, income/SES, tract, mobility joins) are **never
 distributed in any file** (locked policy). The PII audit of every staged file is clean.
 

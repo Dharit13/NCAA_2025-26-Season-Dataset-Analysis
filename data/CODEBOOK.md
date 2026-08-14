@@ -1,16 +1,19 @@
 # Codebook & Data Dictionary — NCAA All-Sports Rosters 2025-26
 
-**Version 2.1.0** (named + enriched build, 2026-08-14). One row per athlete per
+**Version 2.1.1** (named + enriched build, 2026-08-14). One row per athlete per
 sport-roster; 2025-26 athletic year; all 28 NCAA championship + emerging sports;
-D1/D2/D3; both genders. **513,655 rows, 27 columns.**
+D1/D2/D3; both genders. **513,655 rows.**
 
-The release has two parts:
+The release has three parts, all joined on `athlete_id`:
 
-- **Combined file** — `data/ncaa_all_sports_rosters_2025-26_enriched.{csv,parquet}`
-  (27 columns, all sports, **named**: `first_name`/`last_name` are public in v2.1).
+- **Roster file** — `data/ncaa_all_sports_rosters_2025-26_enriched.{csv,parquet}`
+  (**21 columns**: identity + team + hometown; **named**: `first_name`/`last_name`
+  are public in v2.1).
+- **Bio sidecar** — `data/ncaa_athlete_bio_2025-26.{csv,parquet}` (v2.1.1 split:
+  the six sparse bio columns live here, not in the roster file).
 - **Stats sidecars** — 10 sports carry a separate per-sport season-stats file
-  `by_sport/<sport>/stats.{parquet,csv}` with **sport-specific columns by design**,
-  joined on `athlete_id` (see "Stats-sidecar architecture" below).
+  `by_sport/<sport>/stats.{parquet,csv}` with **sport-specific columns by design**
+  (see "Stats-sidecar architecture" below).
 
 Each CSV has a Parquet twin with identical data (typed nulls instead of empty strings).
 Per-sport slices and per-gender/division CSV splits live under
@@ -38,19 +41,25 @@ Per-sport slices and per-gender/division CSV splits live under
 
 ---
 
-## Combined file — 27 columns
+## Roster file — 21 columns (bio columns moved to the sidecar in v2.1.1)
 
-Column order is locked: `athlete_id`, the 8 v2.1 identity/bio columns, then the 18
-remaining v2.0.5 roster columns unchanged. Coverage % = share of the 513,655 rows
+Column order is locked: `athlete_id`, `first_name`, `last_name`, then the 18
+remaining v2.0.5 roster columns unchanged. The six bio columns listed further
+down now ship only in the bio sidecar. Coverage % = share of the 513,655 rows
 non-null (authoritative values from `samples/data_dictionary.csv`).
 
-### Identity & bio (new in v2.1)
+### Identity (new in v2.1)
 
 | Column | Type | Cov% | Description |
 |---|---|---:|---|
-| `athlete_id` | string | 100.0 | Stable surrogate key, sport-prefixed. Globally unique; joins to the per-sport stats files. One deliberate collision-suffix survivor: `ih_1d6230318867`/`_2` at Beloit are two *different* athletes who share a name (goalie Jr / defense Sr) — an id collision, not a duplicate. |
+| `athlete_id` | string | 100.0 | Stable surrogate key, sport-prefixed. Globally unique; joins to the bio sidecar and the per-sport stats files. One deliberate collision-suffix survivor: `ih_1d6230318867`/`_2` at Beloit are two *different* athletes who share a name (goalie Jr / defense Sr) — an id collision, not a duplicate. |
 | `first_name` | string | 100.0 | First/given name as school-published (public in v2.1). May be a nickname or initials where that is what the school publishes. |
 | `last_name` | string | 99.5 | Last/family name as school-published. v2.1 repaired inherited scrape defects (1,562 comma-swaps, 407 jersey-number leaks, 2 trailing commas, 1 manual fix); all changes ledger-logged. |
+
+### Bio columns (v2.1.1: these ship in `data/ncaa_athlete_bio_2025-26`, NOT in the roster file; Cov% = share of ALL 513,655 athletes)
+
+| Column | Type | Cov% | Description |
+|---|---|---:|---|
 | `major` | string | 30.9 | Academic major as listed on the roster/bio page, free text as published. Publication varies by school and platform; null means the school's template does not carry the field, not "undeclared". |
 | `previous_school` | string | 19.5 | Previous school as listed — **source-labeled**: some schools list a college, some a junior/club team, some a high school. The value is reproduced as published; do not reinterpret it as a transfer flag or assume a level. |
 | `height_raw` | string | 62.2 | Height exactly as published (e.g. `6-2`, `5'11"`). |
@@ -141,3 +150,18 @@ per-sport codebooks and in [../DATASHEET.md](../DATASHEET.md).
   requested; no NIL/publicity grant). DOI 10.57967/hf/9512. Opt-out:
   dharits3@gmail.com.
 - **Per-sport semantics** live in each `by_sport/<sport>/CODEBOOK.md`.
+
+## Bio sidecar: `ncaa_athlete_bio_2025-26.{parquet,csv}`
+
+The **only** home of the six sparse enrichment columns as of v2.1.1:
+`athlete_id` + `major`, `previous_school`, `height_raw`, `height_in`,
+`weight_raw`, `weight_lbs` — **373,817 rows**, only athletes with at least one
+of those fields published (72.8% of the release). Within the sidecar the
+fields are much denser than they were in the wide file (height 85.5%, major
+42.4%, weight 41.3%); of ALL athletes the rates are height 62.2%, major 30.9%,
+weight 30.0%. Join it in when you need the bio fields:
+
+```python
+bio = pd.read_parquet("data/ncaa_athlete_bio_2025-26.parquet")
+df = roster.merge(bio, on="athlete_id", how="left")
+```
